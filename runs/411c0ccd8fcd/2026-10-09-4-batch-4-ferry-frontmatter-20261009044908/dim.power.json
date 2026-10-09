@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "carried under ten passengers a night",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides empirical ridership data to logically substantiate the timetable adjustment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Uses continued ridership demand on weekends as a logical justification for maintaining the schedule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
