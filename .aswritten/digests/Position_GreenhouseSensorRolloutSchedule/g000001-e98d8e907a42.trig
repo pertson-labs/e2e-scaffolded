@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_GreenhouseSensorRolloutSchedule> {
+  <https://aswritten.ai/narrative#Digest_Position_GreenhouseSensorRolloutSchedule> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_GreenhouseSensorRolloutSchedule> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "e98d8e907a42736df227a9ff7dc1a0732d43f786" ;
+    narr:narration """This position holds a single settled rollout plan for [humidity sensors across all four greenhouse bays](narr:Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_1), sequenced by a [pilot unit in the bay with the worst seedling losses](narr:Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_2), and [ratified by a second participant](narr:Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_3). All three member expressions carry decision-level conviction from the same date; no dissent or alternative sequencing appears here.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_3> ;
+    narr:keyPhrase [ narr:text "We install humidity sensors in all four greenhouse bays before the first frost." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_1> ] ;
+    narr:keyPhrase [ narr:text "Bay two gets the pilot unit first, because it lost the most seedlings last winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_2> ] ;
+    narr:keyPhrase [ narr:text "Agreed." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_1_Batch1Greenhouse20261009041528_h6c6c0b6f4101_3> ] ;
+    narr:run "88ff9c392cdd" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
