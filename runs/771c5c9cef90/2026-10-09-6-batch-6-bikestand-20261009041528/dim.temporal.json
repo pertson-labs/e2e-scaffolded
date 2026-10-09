@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The public repair stand goes by the river path entrance, not in the car park.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Specifies a planned future placement for a concrete physical artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts an ongoing factual state regarding a specific location.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Grounds the directive in an actual past event involving a specific previous pump.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
