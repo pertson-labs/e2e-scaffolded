@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : null,
+    "why" : "Establishes greenhouse sensing operations as an organizational category encompassing bay sensor rollout and telemetry cadence requirements.",
+    "verdict" : "mint",
+    "leaf" : "GreenhouseMonitoring",
+    "region" : [ "Observability", "InstrumentationPlan" ],
+    "kind" : "strata",
+    "title" : "Systematic telemetry deployment across facility infrastructure",
+    "frame" : "What operational and technical standards govern greenhouse environmental sensing and monitoring?",
+    "consulted" : [ ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_PreemptiveVulnerabilitySensorDeployment",
+    "title" : "Telemetry rollout targets historically vulnerable zones before seasonal environmental drops",
+    "frame" : "How should environmental sensor installations and reporting cadences be prioritized across facilities to mitigate seasonal losses?",
+    "under" : [ "GreenhouseMonitoring" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "Marchetti and Vasquez align on deploying humidity sensors across all four bays before first frost, piloting in bay two due to past winter seedling loss, with 15-minute reporting intervals to capture overnight drops.",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
