@@ -8,7 +8,7 @@
       "n:Narrative_PreemptiveVulnerabilitySensorDeployment" : 2
     }
   },
-  "generated_from" : "e98d8e907a42736df227a9ff7dc1a0732d43f786",
+  "generated_from" : "79f6579d0013c43331e9b6fafa3123829b9e768b",
   "hubs" : {
     "n:GreenhouseMonitoring" : 2
   },
@@ -25,7 +25,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "a8413af19eb5e0faa7aced26b488d9c1ace55c71",
+  "runs_sha" : "484694c90f7c4c53d89803445c7378180eb07ac7",
   "sittings" : 1,
   "spec" : "fidelity-bands/1"
 }

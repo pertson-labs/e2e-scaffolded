@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SynchronizedMiddayMarkdownExecution> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SynchronizedMiddayMarkdownExecution> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SynchronizedMiddayMarkdownExecution> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "79f6579d0013c43331e9b6fafa3123829b9e768b" ;
+    narr:narration """This narrative holds a two-part answer to [when markdowns should take effect](narr:Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_1) — mid-afternoon rather than at close — and [the matching signage change at the same hour](narr:Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_2) so the till never surprises the customer. Both children are dated the same day and voiced as settled decisions.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_2> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_1> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_2_Batch2Bakery20261009041528_hd461484810ba_2> ] ;
+    narr:run "737ace9773d6" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
