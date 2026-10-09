@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes the top-level organizational stratum for managing the physical placement, maintenance, and asset protection of public community infrastructure.",
+    "verdict" : "mint",
+    "leaf" : "PublicInfrastructure",
+    "region" : [ "ProductLadder", "RiskGuardrails" ],
+    "kind" : "strata",
+    "title" : "Deployment, placement, and safeguarding of shared public facilities and equipment",
+    "frame" : "How should public equipment and community repair amenities be sited, configured, and protected in shared spaces?",
+    "consulted" : [ ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SitingInfrastructureAtPointOfNeed",
+    "title" : "Public infrastructure placement prioritizes point-of-need incident geography over default convenience",
+    "frame" : "Where should public repair amenities be located to best address concentrated failure patterns?",
+    "under" : [ "PublicInfrastructure" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Articulates the directive and empirical rationale that repair stands must be positioned at the location where flats actually occur rather than at a generic parking area.",
+    "consulted" : [ ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SecuringSharedEquipmentAgainstTheft",
+    "title" : "Publicly accessible tools require physical tethering to mitigate demonstrated theft risk",
+    "frame" : "What physical safeguards are required to prevent loss and theft of shared public tools?",
+    "under" : [ "PublicInfrastructure" ],
+    "supporting_segments" : [ "src-3" ],
+    "why" : "Captures the loss prevention principle of chaining equipment to safeguard public resources against rapid theft.",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
