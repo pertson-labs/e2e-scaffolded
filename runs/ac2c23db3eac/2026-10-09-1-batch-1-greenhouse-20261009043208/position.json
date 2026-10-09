@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "GreenhouseSensorRolloutPlan",
+    "frame" : "what timeline and bay prioritization govern the greenhouse humidity sensor rollout?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Odile frames the full four-bay deployment target prior to frost and prioritizes Bay two due to past winter seedling mortality, which Pell explicitly ratifies."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-4" ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
