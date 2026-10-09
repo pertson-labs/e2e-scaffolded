@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "because it lost the most seedlings last winter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies prioritization by risk mitigation and loss prevention, appealing to security and preservation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
