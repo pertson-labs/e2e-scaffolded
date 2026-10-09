@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes an organizational strata category for branch library scheduling, operational workflows, and staffing constraints.",
+    "verdict" : "mint",
+    "leaf" : "BranchLibraryOperations",
+    "region" : [ "CoreWorkflows", "OperatingCadence" ],
+    "kind" : "strata",
+    "title" : "Branch library service schedules and staffing allocations",
+    "frame" : "what operational policies, patron access schedules, and resource constraints govern branch library management?",
+    "consulted" : [ "BakeryPricing", "GreenhouseSensorDeployment" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_CommuterTargetedEarlyHoursWithStaffingOffset",
+    "title" : "Balancing early commuter access with reciprocal early closing offsets to maintain flat staffing",
+    "frame" : "How should branch library operating hours adjust to capture commuter traffic while preserving flat staffing baselines?",
+    "under" : [ "BranchLibraryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Both expressions establish a coupled operational policy: opening early at 8 a.m. on Tuesdays and Thursdays specifically for commuters while offsetting the schedule with an hour-earlier closure to avoid staffing increases.",
+    "consulted" : [ "Narrative_MiddayMarkdownAndShelfCardSynchronization", "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence", "BakeryPricing", "GreenhouseSensorDeployment" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
