@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "walked off",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses colloquial idiom ('walked off') rather than formal phrasing to describe theft.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
