@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "GreenhouseHumiditySensorDeploymentAndTelemetry",
+    "frame" : "how should greenhouse humidity sensor rollout sequencing and telemetry reporting intervals be configured to protect vulnerable seedlings from seasonal frost damage?",
+    "members" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "The segments cohere around setting operational constraints for greenhouse climate monitoring: establishing a hard seasonal installation deadline across all bays, prioritizing rollout to high-risk zones based on historical loss, ratifying the plan, and specifying minimum telemetry frequency to capture critical overnight drops.",
+    "name_repaired_from" : "Position_GreenhouseHumiditySensorDeploymentAndTelemetry"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
