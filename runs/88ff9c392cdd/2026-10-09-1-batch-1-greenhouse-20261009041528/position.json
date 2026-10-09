@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "GreenhouseSensorRolloutSchedule",
+    "frame" : "how should humidity sensor deployment across greenhouse bays be prioritized and scheduled?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Marchetti establishes the full four-bay scope ahead of first frost and prioritizes bay two based on previous winter seedling losses, which Vasquez ratifies."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-4" ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
