@@ -1,0 +1,271 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T043424Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-3-batch-5-library-20261009043208.md" ;
+      dct:title "Multipass fragment: 20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6" ;
+      prov:generated narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2, narr:VecRelational_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2, narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2, narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2, narr:BranchLibraryOperations, narr:Narrative_CommuterTargetedEarlyHoursWithStaffingOffset, narr:Position_BranchLibraryCommuterHoursAndStaffingOffset .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T043424Z {
+    narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: We open at eight on Tuesdays and Thursdays" ;
+        narr:reported false ;
+        skos:note "States an established operational schedule as a settled institutional practice." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: we close an hour earlier those days to keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "States an active operational offset rule implemented to balance staffing." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "framing-move: keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "Frames schedule adjustment as a zero-sum balancing mechanism (opening earlier balanced by closing earlier to maintain an even staffing baseline)." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: We open at eight on Tuesdays and Thursdays" ;
+        narr:reported false ;
+        skos:note "Describes an established, recurring real-world schedule for specific days and patron groups." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: we close an hour earlier those days to keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "Asserts an actual operational practice tied to the current schedule to manage staffing." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "framing-move: so the commuter crowd can return books on the way in" ;
+        narr:reported false ;
+        skos:note "Adjusting operational hours explicitly to serve and accommodate the needs of commuters appeals to community benefit and consideration of others." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: to keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "Early closure is framed as a measure to maintain stability, resource preservation, and baseline operational limits." ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:BranchLibraryOperations a narr:Strata ;
+        dct:source narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        narr:frame "what operational policies, patron access schedules, and resource constraints govern branch library management?" ;
+        narr:region narr:CoreWorkflows ;
+        narr:region narr:OperatingCadence ;
+        skos:note "Branch library service schedules and staffing allocations" ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 narr:supports narr:BranchLibraryOperations .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 narr:supports narr:BranchLibraryOperations .
+
+    narr:Narrative_CommuterTargetedEarlyHoursWithStaffingOffset a narr:Narrative ;
+        dct:source narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        narr:frame "How should branch library operating hours adjust to capture commuter traffic while preserving flat staffing baselines?" ;
+        skos:broader narr:BranchLibraryOperations ;
+        skos:note "Balancing early commuter access with reciprocal early closing offsets to maintain flat staffing" ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 narr:supports narr:Narrative_CommuterTargetedEarlyHoursWithStaffingOffset .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 narr:supports narr:Narrative_CommuterTargetedEarlyHoursWithStaffingOffset .
+
+    narr:CoreWorkflows a narr:StrataRegion ;
+        skos:prefLabel "Core Workflows" ;
+        skos:definition "From discovery → delivery → enablement → measurement." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:OperatingCadence a narr:StrataRegion ;
+        skos:prefLabel "Operating Cadence" ;
+        skos:definition "Rituals (plannings, reviews, postmortems) that create momentum." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:Position_BranchLibraryCommuterHoursAndStaffingOffset a narr:Position ;
+        narr:frame "what schedule adjustments and staffing offsets govern branch library hours on commuter days?" ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1 narr:supports narr:Position_BranchLibraryCommuterHoursAndStaffingOffset .
+
+    narr:Expr_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 narr:supports narr:Position_BranchLibraryCommuterHoursAndStaffingOffset .
+
+    aswr:Miss_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_power_trip a aswr:Miss ;
+        aswr:missPass "power" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6 ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecConviction_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.power.json" ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecTemporal_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/dim.value.json" ;
+        prov:generated narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_1, narr:VecValue_20261009_3_Batch5Library20261009043208_hcfdc1ab0c2a6_2 ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/pass5.json" ;
+        prov:generated narr:BranchLibraryOperations, narr:Narrative_CommuterTargetedEarlyHoursWithStaffingOffset ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043424Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89e8dc7b0fc3/2026-10-09-3-batch-5-library-20261009043208/position.json" ;
+        prov:generated narr:Position_BranchLibraryCommuterHoursAndStaffingOffset ;
+        dct:isPartOf aswr:Tx_20261009T043424Z ;
+        prov:generatedAtTime "2026-10-09T04:34:24Z"^^xsd:dateTime .
+  }
+}
