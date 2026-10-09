@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "BranchLibraryCommuterHoursAndStaffingOffset",
+    "frame" : "what schedule adjustments and staffing offsets govern branch library hours on commuter days?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both expressions define the operational rule for Tuesday and Thursday schedule adjustments: an early opening targeted at commuter book returns coupled with an early closing to preserve flat staffing levels.",
+    "name_repaired_from" : "Position_BranchLibraryCommuterHoursAndStaffingOffset"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
