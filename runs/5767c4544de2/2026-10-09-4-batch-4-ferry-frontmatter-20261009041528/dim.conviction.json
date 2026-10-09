@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Announces an operational schedule change as a settled determination rather than an argument or float.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The weekend timetable stays as it is",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the preserved operational schedule as a settled rule alongside empirical rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
