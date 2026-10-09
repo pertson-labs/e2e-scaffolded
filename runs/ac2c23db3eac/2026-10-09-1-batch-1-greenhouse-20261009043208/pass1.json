@@ -1,0 +1,47 @@
+{
+  "doc" : {
+    "title" : "Greenhouse sensor rollout — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Odile Marchetti", "Pell Vasquez" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+    "actor" : "Odile Marchetti",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Greenhouse sensor rollout"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Bay two gets the pilot unit first, because it lost the most seedlings last winter.",
+    "actor" : "Odile Marchetti",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Greenhouse sensor rollout"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Agreed.",
+    "actor" : "Pell Vasquez",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Greenhouse sensor rollout"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The sensors report every fifteen minutes; anything slower misses the overnight drop.",
+    "actor" : "Pell Vasquez",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Greenhouse sensor rollout"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
