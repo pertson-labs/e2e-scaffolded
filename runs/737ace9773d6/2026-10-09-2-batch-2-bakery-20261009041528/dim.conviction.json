@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon, not at close.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a firm operational timing rule backed by an immediate operational rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then the shelf card changes at two as well, so the price is never a surprise at the till.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Sets an operational coordination rule with an absolute standard ('never a surprise').",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
