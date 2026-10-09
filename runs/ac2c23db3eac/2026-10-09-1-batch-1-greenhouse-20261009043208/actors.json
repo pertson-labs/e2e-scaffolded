@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Odile Marchetti",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Odile Marchetti",
+    "why" : "Young repo with no existing actors; minting full name.",
+    "ai" : false
+  }, {
+    "name" : "Pell Vasquez",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Pell Vasquez",
+    "why" : "Young repo with no existing actors; minting full name.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Young repo with no existing actors; minting full name from envelope submitter/participant.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email for Xena ExpertGH; minting with identical full label to converge aliases.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
