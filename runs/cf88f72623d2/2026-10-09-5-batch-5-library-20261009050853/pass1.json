@@ -1,0 +1,29 @@
+{
+  "doc" : {
+    "title" : "Branch library opening hours — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Moira Easterbrook", "Teo Lindahl" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in.",
+    "actor" : "Moira Easterbrook",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Branch library opening hours"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "And we close an hour earlier those days to keep the staffing flat.",
+    "actor" : "Teo Lindahl",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Branch library opening hours"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
