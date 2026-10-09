@@ -1,0 +1,300 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T051358Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-6-batch-3-rota-20261009050853.md" ;
+      dct:title "Multipass fragment: 20261009_6_Batch3Rota20261009050853_h8a4eacef57e3" ;
+      prov:generated narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1, narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3, narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3, narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3, narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1, narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3, narr:ToolLibraryOperations, narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation, narr:Position_ToolLibraryWinterOperatingSchedule .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T051358Z {
+    narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: The tool library opens Saturdays only through winter." ;
+        narr:reported false ;
+        skos:note "Stated as an operational rule / established schedule for winter operations." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Weekday evenings drew four borrowers in six weeks." ;
+        narr:reported false ;
+        skos:note "Factual assertion offered as supporting evidence for the operational stance." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Operational allocation rule stated as a settled operational consequence." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Weekday evenings drew four borrowers in six weeks." ;
+        narr:reported false ;
+        skos:note "Wren deploys specific utilization data as informational evidence to logically justify the seasonal schedule reduction." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Jun draws a logical operational consequence/stipulation ('Then...') following the schedule consolidation." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: Weekday evenings drew four borrowers in six weeks." ;
+        narr:reported false ;
+        skos:note "Frames schedule adjustment in terms of borrower throughput and efficiency metrics." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "plain-assertion: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Proposes staffing allocation as a balanced resource distribution (one shift gets a second volunteer) to match the workload." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The tool library opens Saturdays only through winter." ;
+        narr:reported false ;
+        skos:note "States an active recurring policy/schedule governing operations through winter." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Weekday evenings drew four borrowers in six weeks." ;
+        narr:reported false ;
+        skos:note "Recounts specific empirical metrics from a completed past period." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Proposes a subsequent operational adjustment for upcoming Saturday shifts." ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:ToolLibraryOperations a narr:Strata ;
+        dct:source narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        narr:frame "How are volunteer tool library operating schedules, lending workflows, and volunteer shift staffing managed?" ;
+        narr:region narr:CoreWorkflows ;
+        narr:see narr:LibraryOperations ;
+        skos:note "Volunteer tool library service schedules, lending workflows, and volunteer shift allocation" ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 narr:supports narr:ToolLibraryOperations .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 narr:supports narr:ToolLibraryOperations .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 narr:supports narr:ToolLibraryOperations .
+
+    narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation a narr:Narrative ;
+        dct:source narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        narr:frame "How should volunteer tool library winter operating schedules and shift staffing be adjusted in response to seasonal borrower demand?" ;
+        skos:broader narr:ToolLibraryOperations ;
+        skos:note "Consolidating seasonal tool library hours to peak weekend demand while bolstering shift return staffing" ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 narr:supports narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 narr:supports narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 narr:supports narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation .
+
+    narr:CoreWorkflows a narr:StrataRegion ;
+        skos:prefLabel "Core Workflows" ;
+        skos:definition "From discovery → delivery → enablement → measurement." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:Position_ToolLibraryWinterOperatingSchedule a narr:Position ;
+        narr:frame "how are volunteer tool library winter operating hours and shift staffing adjusted in response to seasonal borrower demand?" ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1 narr:supports narr:Position_ToolLibraryWinterOperatingSchedule .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2 narr:supports narr:Position_ToolLibraryWinterOperatingSchedule .
+
+    narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 narr:supports narr:Position_ToolLibraryWinterOperatingSchedule .
+
+    aswr:Miss_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3 ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1, narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecConviction_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.power.json" ;
+        prov:generated narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecPower_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecRelational_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1, narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2, narr:VecTemporal_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3 ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/pass5.json" ;
+        prov:generated narr:ToolLibraryOperations, narr:Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051358Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2605aaab27de/2026-10-09-6-batch-3-rota-20261009050853/position.json" ;
+        prov:generated narr:Position_ToolLibraryWinterOperatingSchedule ;
+        dct:isPartOf aswr:Tx_20261009T051358Z ;
+        prov:generatedAtTime "2026-10-09T05:13:58Z"^^xsd:dateTime .
+  }
+}
