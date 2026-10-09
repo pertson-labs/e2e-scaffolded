@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "goes by the river path entrance, not in the car park",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Specifies the intended future concrete placement of the public repair stand.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Grounds the directive in a concrete, past actual event of the previous pump being taken.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
