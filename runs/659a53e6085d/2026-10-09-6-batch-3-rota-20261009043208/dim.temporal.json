@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The tool library opens Saturdays only through winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an active operational rule and recurring schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports a specific historical turnout count over a completed period.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proposes a prospective staffing arrangement for upcoming Saturday shifts.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
