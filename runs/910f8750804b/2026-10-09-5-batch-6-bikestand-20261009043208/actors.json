@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Anouk Brennagh",
+    "verdict" : "mint",
+    "label" : "Anouk Brennagh",
+    "why" : "No existing actor matches Anouk Brennagh.",
+    "ai" : false
+  }, {
+    "name" : "Sami Okonkwo-Hart",
+    "verdict" : "mint",
+    "label" : "Sami Okonkwo-Hart",
+    "why" : "No existing actor matches Sami Okonkwo-Hart.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Exact match to existing actor Actor_XenaExpertgh.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Submitter account email corresponding directly to Xena ExpertGH.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
