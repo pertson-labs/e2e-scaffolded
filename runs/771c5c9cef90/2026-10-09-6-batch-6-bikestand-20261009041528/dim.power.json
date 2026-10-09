@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides empirical rationale and informational justification to support the preceding directive regarding placement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Backs a directive (putting the pump on a chain) using a factual explanation of past loss.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
