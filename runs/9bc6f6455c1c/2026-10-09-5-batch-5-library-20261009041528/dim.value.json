@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "so the commuter crowd can return books on the way in",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Adjusting operational hours explicitly to serve and accommodate the needs of commuters.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "to keep the staffing flat",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Offsetting the early opening with early closure to maintain resource stability and headcount constraints.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
