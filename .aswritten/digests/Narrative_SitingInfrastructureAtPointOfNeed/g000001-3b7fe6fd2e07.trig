@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SitingInfrastructureAtPointOfNeed> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SitingInfrastructureAtPointOfNeed> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SitingInfrastructureAtPointOfNeed> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "3b7fe6fd2e07c2de523e3bb8eafd4b4b80230953" ;
+    narr:narration """This narrative holds a siting decision for a public repair amenity: [the stand placed at the river path entrance rather than the car park](narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1), justified by [the claim that the river path is where the flats happen](narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2). The reasoning runs from observed failure location to placement, voiced with decision-level conviction and an antithesis-first framing that names what it is not.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2> ;
+    narr:keyPhrase [ narr:text "The public repair stand goes by the river path entrance, not in the car park." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1> ] ;
+    narr:keyPhrase [ narr:text "The river path is where the flats happen." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2> ] ;
+    narr:run "9d4cee2a6acb" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

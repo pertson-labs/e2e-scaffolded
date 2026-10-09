@@ -7,11 +7,19 @@
       "n:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_4" : 1,
       "n:Narrative_SensorDeploymentPrioritization" : 2,
       "n:Narrative_SensorReportingCadence" : 1
+    },
+    "n:PublicInfrastructure" : {
+      "n:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1" : 2,
+      "n:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2" : 1,
+      "n:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_3" : 1,
+      "n:Narrative_SecuringSharedEquipmentAgainstTheft" : 1,
+      "n:Narrative_SitingInfrastructureAtPointOfNeed" : 2
     }
   },
-  "generated_from" : "1bafa008d4df515b674b40ecc0e40c3fc48c240a",
+  "generated_from" : "3b7fe6fd2e07c2de523e3bb8eafd4b4b80230953",
   "hubs" : {
-    "n:GreenhouseMonitoring" : 2
+    "n:GreenhouseMonitoring" : 2,
+    "n:PublicInfrastructure" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -26,7 +34,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "811fba5ef0c2f947f6e6a40eaa71f4829c1e610d",
+  "runs_sha" : "43784e4a23fda2ea258964bc1b2348527d93c5d5",
   "sittings" : 24,
   "spec" : "fidelity-bands/1"
 }
