@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies placement based on maximizing utility and help for cyclists experiencing flat tires.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to security and asset protection against theft based on past loss.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
