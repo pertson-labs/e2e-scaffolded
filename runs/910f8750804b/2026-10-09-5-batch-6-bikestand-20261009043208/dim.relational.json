@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "goes by the river path entrance, not in the car park",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct prescriptive placement command specifying location hierarchy and exclusion without negotiation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Imperative instruction asserting operational command over equipment installation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
