@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "ToolLibraryWinterStaffingSchedule",
+    "frame" : "how should winter tool library operating hours and volunteer staffing be structured?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Consolidating open hours to Saturdays based on low weekday attendance is directly paired with allocating a second volunteer specifically to manage returns during the consolidated shift."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
