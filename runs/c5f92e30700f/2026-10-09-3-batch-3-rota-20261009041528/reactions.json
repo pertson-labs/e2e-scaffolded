@@ -1,0 +1,75 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-c7ff7db0",
+  "live_run_id" : "c5f92e30700f",
+  "stream" : "e2e-662-batch-20261009041528",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Firms up the tool library's winter schedule to Saturdays only, citing low weekday attendance. Mints a new staffing position to add a second volunteer for returns during these consolidated shifts.", "performed-act: The tool library opens Saturdays only through winter.", "commitment-marker: Then the Saturday shift gets a second volunteer to run returns.", "plain-assertion: Weekday evenings drew four borrowers in six weeks." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.00186,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0018604,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T04:19:11.592250490Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 20641,
+      "content_chars" : 795
+    } ]
+  }
+}
