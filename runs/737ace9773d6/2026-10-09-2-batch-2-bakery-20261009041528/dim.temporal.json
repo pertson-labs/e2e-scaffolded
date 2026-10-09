@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon, not at close.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a concrete, factual rule operating in ongoing routine present reality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then the shelf card changes at two as well, so the price is never a surprise at the till.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the factual present procedure and concrete items (shelf card, till) in realis routine operation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
