@@ -1,0 +1,14 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_GreenhouseHumiditySensorDeploymentAndTelemetry",
+    "title" : "Deploying Greenhouse Humidity Telemetry Prioritized by Historical Loss Before First Frost",
+    "frame" : "how should greenhouse humidity sensor deployment sequencing and telemetry intervals be configured to protect vulnerable crops from seasonal frost damage?",
+    "under" : null,
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "The dialogue establishes an operational commitment to install humidity monitoring across all four bays ahead of frost, sequence bay two first based on prior winter seedling mortality, and enforce fifteen-minute reporting intervals to capture rapid overnight drops. None of the existing retail, transit, or municipal narratives plausibly hold greenhouse environmental telemetry.",
+    "consulted" : [ "StoreOperations", "Narrative_CurtailingWeekdayLateSailingsWhilePreservingWeekendService", "Narrative_PublicRepairStandSitingAndToolSecurity", "Narrative_SeasonalScheduleConsolidationAndDedicatedReturnsStaffing", "Narrative_SynchronizingMarkdownTimingWithShelfSignage" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
