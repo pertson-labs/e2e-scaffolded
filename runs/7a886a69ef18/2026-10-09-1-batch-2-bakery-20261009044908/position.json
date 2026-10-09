@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "DayOldMarkdownTimingAndSignage",
+    "frame" : "how should day-old bread markdown timing and shelf-price updates be coordinated to maintain sales velocity and point-of-sale transparency?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements cohere around the operational scheduling of end-of-day discounts, synchronizing the 2 p.m. price cut with immediate shelf-tag adjustments to capture afternoon foot traffic and eliminate checkout discrepancy."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
