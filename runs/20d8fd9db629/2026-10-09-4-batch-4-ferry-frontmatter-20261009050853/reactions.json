@@ -1,0 +1,75 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-14ecf25f",
+  "live_run_id" : "20d8fd9db629",
+  "stream" : "e2e-662-batch-20261009050853",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "commitment-marker: The last ferry moves from 22:40 to 21:55 on weekdays from November.", "Stated as an operational, settled timetable change taking effect in November.", "commitment-marker: The weekend timetable stays as it is", "Firms up the operational narrative based on low weekday ridership." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.002041,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0020414,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T05:13:30.744250428Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 7573,
+      "content_chars" : 623
+    } ]
+  }
+}
