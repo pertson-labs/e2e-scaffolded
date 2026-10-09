@@ -1,0 +1,82 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T041952Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:19:52Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-5-batch-5-library-20261009041528.md" ;
+      dct:title "Multipass source extraction: Branch library opening hours — 2026-10-09" ;
+      prov:generated narr:Sample_20261009_5_Batch5Library20261009041528_h34aa0f76f126, narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_1, narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_2, narr:Actor_MoiraEasterbrook, narr:Actor_TeoLindahl .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T041952Z {
+    narr:Sample_20261009_5_Batch5Library20261009041528_h34aa0f76f126 a narr:Sample ;
+        dct:title "Branch library opening hours — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-09-5-batch-5-library-20261009041528.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_1 a narr:Expression ;
+        narr:actor narr:Actor_MoiraEasterbrook ;
+        narr:act "assertive" ;
+        narr:context "Branch library opening hours — 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_5_Batch5Library20261009041528_h34aa0f76f126 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ;
+                oa:prefix " Lindahl (Librarian)\n\nMoira: \"" ;
+                oa:suffix "\"\n\nTeo: \"And we close an hour " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "182"^^xsd:integer ;
+                oa:end "278"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:19:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_2 a narr:Expression ;
+        narr:actor narr:Actor_TeoLindahl ;
+        narr:act "assertive" ;
+        narr:context "Branch library opening hours — 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_5_Batch5Library20261009041528_h34aa0f76f126 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And we close an hour earlier those days to keep the staffing flat." ;
+                oa:prefix " books on the way in.\"\n\nTeo: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "287"^^xsd:integer ;
+                oa:end "353"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:19:52Z"^^xsd:dateTime .
+
+    narr:Actor_MoiraEasterbrook a narr:Actor ;
+        skos:prefLabel "Moira Easterbrook" .
+
+    narr:Actor_TeoLindahl a narr:Actor ;
+        skos:prefLabel "Teo Lindahl" .
+
+    aswr:Run_20261009T041952Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9bc6f6455c1c/2026-10-09-5-batch-5-library-20261009041528/actors.json" ;
+        prov:generated narr:Actor_MoiraEasterbrook, narr:Actor_TeoLindahl ;
+        dct:isPartOf aswr:Tx_20261009T041952Z ;
+        prov:generatedAtTime "2026-10-09T04:19:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T041952Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9bc6f6455c1c/2026-10-09-5-batch-5-library-20261009041528/pass1.json" ;
+        prov:generated narr:Sample_20261009_5_Batch5Library20261009041528_h34aa0f76f126, narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_1, narr:Expr_20261009_5_Batch5Library20261009041528_h34aa0f76f126_2 ;
+        dct:isPartOf aswr:Tx_20261009T041952Z ;
+        prov:generatedAtTime "2026-10-09T04:19:52Z"^^xsd:dateTime .
+  }
+}
