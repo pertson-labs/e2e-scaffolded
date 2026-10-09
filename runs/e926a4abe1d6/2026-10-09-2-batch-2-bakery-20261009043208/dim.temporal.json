@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an established recurring pricing routine concerning specific items and clock times.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "At close nobody is left to buy them.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the actual current state of customer presence at closing time.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then the shelf card changes at two as well, so the price is never a surprise at the till.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Outlines the concrete practical procedure and settled outcome at the register.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
