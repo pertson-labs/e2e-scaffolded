@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "The envelope introduces an operational domain around public bicycle repair stands, location selection, and tool loss prevention that is distinct from existing facility, library, and transit strata.",
+    "verdict" : "mint",
+    "leaf" : "BikeRepairStandOperations",
+    "region" : [ "ProcessPolicyUpdates", "RiskGuardrails" ],
+    "kind" : "strata",
+    "title" : "Public bicycle repair stand installation and equipment safeguarding",
+    "frame" : "How should public bicycle repair stands and shared tools be installed, located, and secured?",
+    "consulted" : [ "ToolLibraryOperations", "BranchLibraryOperations", "GreenhouseMonitoring", "FerryOperations" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_IncidentProximateRepairStandSitingAndTheftPrevention",
+    "title" : "Siting public repair amenities at incident hotspots and securing equipment against theft",
+    "frame" : "Where should public bicycle repair amenities be placed to address empirical failure points, and how should shared tools be physically secured?",
+    "under" : [ "BikeRepairStandOperations" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Captures the operational decision to place repair infrastructure directly where flats occur (river path entrance rather than car park) combined with physical tethering to preempt tool theft.",
+    "consulted" : [ "Narrative_PreemptiveVulnerabilitySensorDeployment", "Narrative_DemandResponsiveTransitScheduleAdjustment", "Narrative_WinterScheduleConsolidationReturnsStaffing", "Narrative_CommuterAdjustedBranchHoursNeutralStaffing" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
