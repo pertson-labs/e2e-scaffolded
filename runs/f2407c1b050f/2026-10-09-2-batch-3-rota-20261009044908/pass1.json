@@ -1,0 +1,31 @@
+{
+  "doc" : {
+    "title" : "Volunteer tool-library rota — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Wren Halloway", "Jun Arceneaux" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.",
+    "actor" : "Wren Halloway",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Volunteer tool-library rota planning"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Then the Saturday shift gets a second volunteer to run returns.",
+    "actor" : "Jun Arceneaux",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Volunteer tool-library rota planning"
+    },
+    "note" : null,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
