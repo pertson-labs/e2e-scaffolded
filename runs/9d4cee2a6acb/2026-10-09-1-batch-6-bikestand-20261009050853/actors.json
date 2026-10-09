@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Anouk Brennagh",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Anouk Brennagh",
+    "why" : "Young repo with no existing actors; minting full name witnessed in segment.",
+    "ai" : false
+  }, {
+    "name" : "Sami Okonkwo-Hart",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Sami Okonkwo-Hart",
+    "why" : "Young repo with no existing actors; minting full name witnessed in segment.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Young repo with no existing actors; minting submitter and participant name.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email for submitter Xena ExpertGH; minting with full name label to converge identities.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
