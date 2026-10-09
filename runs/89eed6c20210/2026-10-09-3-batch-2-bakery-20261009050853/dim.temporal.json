@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon, not at close.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a concrete, actual present operating rule for pricing loaves.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the shelf card changes at two as well",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the routine concrete physical action and settled store practice in realis present.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
