@@ -1,0 +1,14 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ShiftingWeekdayHoursForCommuterReturnsUnderFlatStaffing",
+    "title" : "Shifting Weekday Operating Hours for Commuter Returns While Keeping Staffing Flat",
+    "frame" : "how should weekday branch operating hours be adjusted to accommodate commuter return traffic without increasing total staffing hours?",
+    "under" : null,
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Moira and Teo outline a coordinated schedule shift on Tuesdays and Thursdays: opening early at eight to accommodate commuter book returns while closing an hour early to preserve flat staffing levels.",
+    "consulted" : [ "Narrative_SeasonalScheduleConsolidationAndDedicatedReturnsStaffing", "Narrative_CurtailingWeekdayLateSailingsWhilePreservingWeekendService", "StoreOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
