@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stated as an operational, settled timetable change taking effect in November.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The late sailing carried under ten passengers a night.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged factual assertion presented as historical data justifying the decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The weekend timetable stays as it is",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational rule affirming that weekend scheduling remains unchanged.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
