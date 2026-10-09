@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "BikeRepairStandSitingAndSecurity",
+    "frame" : "what siting criteria and loss-prevention measures govern the public bike repair stand installation?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Unifies the placement decision prioritizing the river path entrance based on puncture incidence with the directive to secure the pump against theft.",
+    "name_repaired_from" : "Position_BikeRepairStandSitingAndSecurity"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
