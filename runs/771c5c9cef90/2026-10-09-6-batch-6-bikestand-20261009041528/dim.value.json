@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "public repair stand",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Directing placement of infrastructure specifically framed around public utility and community benefit.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to security, loss prevention, and safeguarding shared equipment based on prior loss.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
