@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes an organizational stratum for ferry service timetables and transit operating policies.",
+    "verdict" : "mint",
+    "leaf" : "FerryOperations",
+    "region" : [ "ProcessPolicyUpdates", "OperatingCadence" ],
+    "kind" : "strata",
+    "title" : "Ferry service scheduling and transit operations",
+    "frame" : "How should ferry timetables, sailing frequencies, and vessel operations be structured and adapted?",
+    "consulted" : [ "BakeryPricing", "GreenhouseMonitoring", "ToolLibraryOperations" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_DemandResponsiveTransitScheduleAdjustment",
+    "title" : "Calibrating transit schedules to empirical passenger ridership",
+    "frame" : "How should transit sailing times be adjusted to reflect empirical ridership drops while maintaining high-demand weekend service?",
+    "under" : [ "FerryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Unifies the adjustment of low-ridership weekday late sailings with the preservation of high-utilization weekend schedules.",
+    "consulted" : [ "Narrative_WinterScheduleConsolidationReturnsStaffing", "Narrative_SynchronizedMiddayMarkdownExecution", "Narrative_PreemptiveVulnerabilitySensorDeployment" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
