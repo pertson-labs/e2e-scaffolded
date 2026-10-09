@@ -1,0 +1,15 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Both expressions establish operational requirements for public repair infrastructure, directing stand placement to where maintenance need actually arises (river path rather than the car park) while enforcing physical security measures (chaining the pump) in response to prior theft.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_PublicRepairStandSitingAndToolSecurity",
+    "title" : "Siting Public Repair Stands at Need Hotspots and Securing Equipment Against Theft",
+    "frame" : "how should public bike repair stands be located and secured to maximize cyclist utility and prevent equipment loss?",
+    "consulted" : [ "Narrative_SeasonalScheduleConsolidationAndDedicatedReturnsStaffing", "Narrative_SynchronizingMarkdownTimingWithShelfSignage", "StoreOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
