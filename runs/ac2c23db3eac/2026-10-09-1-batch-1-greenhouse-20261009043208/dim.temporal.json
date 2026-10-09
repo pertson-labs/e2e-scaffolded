@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Plans an upcoming concrete installation action before a future seasonal event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Bay two gets the pilot unit first",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Specifies the rollout sequence for a concrete pilot unit based on past events.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs immediate ratification in the present moment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes; anything slower misses the overnight drop.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a concrete operational reporting frequency and regular technical threshold as an established operational rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
