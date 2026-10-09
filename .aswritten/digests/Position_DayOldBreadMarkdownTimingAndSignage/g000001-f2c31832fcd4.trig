@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_DayOldBreadMarkdownTimingAndSignage> {
+  <https://aswritten.ai/narrative#Digest_Position_DayOldBreadMarkdownTimingAndSignage> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_DayOldBreadMarkdownTimingAndSignage> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "f2c31832fcd4477cb0842c0522fe3f4adcbaf12e" ;
+    narr:narration """This position holds that day-old bread markdowns are coordinated as a single two-o'clock move: [the half-price cut happens at two in the afternoon, not at close](narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1), and [the shelf card changes at the same hour so the price is never a surprise at the till](narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2). Both member expressions, voiced the same day, treat timing and signage as one decision rather than separate steps.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before landing the rule" ; narr:text "Day-old loaves go to half price at two in the afternoon, not at close." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1> ] ;
+    narr:run "20d8fd9db629" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

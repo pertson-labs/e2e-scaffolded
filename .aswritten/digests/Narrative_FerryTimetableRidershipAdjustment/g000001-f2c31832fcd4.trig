@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_FerryTimetableRidershipAdjustment> {
+  <https://aswritten.ai/narrative#Digest_Narrative_FerryTimetableRidershipAdjustment> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_FerryTimetableRidershipAdjustment> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "f2c31832fcd4477cb0842c0522fe3f4adcbaf12e" ;
+    narr:narration """The frame asks how ferry timetables should shift between weekday and weekend demand. The children record a concrete adjustment: [the weekday last ferry moves earlier to 21:55 from November](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4), justified by [the late sailing carrying under ten passengers a night](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5), while [the weekend timetable stays unchanged because Friday and Saturday late sailings still fill](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6> ;
+    narr:keyPhrase [ narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4> ] ;
+    narr:keyPhrase [ narr:text "The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5> ] ;
+    narr:keyPhrase [ narr:text "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6> ] ;
+    narr:variation [ narr:text "The two decisions pull in opposite directions — weekday service is cut for low demand while weekend late sailings are kept precisely because demand holds." ; narr:over <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4> ; narr:over <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6> ] ;
+    narr:run "20d8fd9db629" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

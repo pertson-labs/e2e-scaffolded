@@ -1,0 +1,16 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SensorReportingCadence> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SensorReportingCadence> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SensorReportingCadence> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "f2c31832fcd4477cb0842c0522fe3f4adcbaf12e" ;
+    narr:narration """This narrative gathers a single witness on reporting cadence: [the fifteen-minute reporting interval and the overnight drop it protects](narr:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_4), voiced as an expert claim grounded in present conditions. The frame — what cadence prevents missing critical microclimate fluctuations — is carried entirely by that one expression; nothing here yet establishes a baseline, a competing interval, or a counterposition.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_4> ;
+    narr:keyPhrase [ narr:text "The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_4> ] ;
+    narr:run "20d8fd9db629" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

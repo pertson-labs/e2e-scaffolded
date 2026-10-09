@@ -1,0 +1,32 @@
+{
+  "children" : {
+    "n:GreenhouseMonitoring" : {
+      "n:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_1" : 2,
+      "n:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_2" : 1,
+      "n:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_3" : 1,
+      "n:Expr_20261009_2_Batch1Greenhouse20261009050853_hf6ea0fc7e73d_4" : 1,
+      "n:Narrative_SensorDeploymentPrioritization" : 2,
+      "n:Narrative_SensorReportingCadence" : 1
+    }
+  },
+  "generated_from" : "f2c31832fcd4477cb0842c0522fe3f4adcbaf12e",
+  "hubs" : {
+    "n:GreenhouseMonitoring" : 2
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "dc7af470801a4ecfbc179fe06bd90d61eb4d5e17",
+  "sittings" : 22,
+  "spec" : "fidelity-bands/1"
+}
