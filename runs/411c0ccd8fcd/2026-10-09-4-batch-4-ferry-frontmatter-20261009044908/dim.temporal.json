@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Scheduled timetable shift taking effect in November, asserted as settled concrete timing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "carried under ten passengers a night",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports empirical past passenger count for the late sailing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "stays as it is; Friday and Saturday late sailings still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the current ongoing status of weekend sailings and their ridership.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
