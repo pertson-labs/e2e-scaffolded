@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes an organizational category for public bicycle maintenance facilities and physical asset protection.",
+    "verdict" : "mint",
+    "leaf" : "BikeRepairInfrastructure",
+    "region" : [ "ImplementationPath" ],
+    "kind" : "strata",
+    "title" : "Public bicycle repair stand deployment and equipment loss prevention",
+    "frame" : "What siting criteria and physical safeguards govern public bicycle repair infrastructure?",
+    "consulted" : [ "GreenhouseSensorDeployment", "FerryOperations", "BranchLibraryOperations", "BakeryPricing" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_PunctureGroundedRepairSitingAndToolChaining",
+    "title" : "Siting public repair stands at puncture hotspots while chaining shared tools against theft",
+    "frame" : "How should public bicycle repair installations balance proximity to flat-tire incidence against equipment theft risks?",
+    "under" : [ "BikeRepairInfrastructure" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Integrates the placement mandate targeting river path puncture incidence with the physical loss prevention rule to chain shared tools.",
+    "consulted" : [ "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence", "Narrative_DemandResponsiveLateFerrySchedules", "Narrative_CommuterTargetedEarlyHoursWithStaffingOffset", "Narrative_MiddayMarkdownAndShelfCardSynchronization" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
