@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes an organizational strata for branch library operating schedules, access accommodations, and staffing policies distinct from tool library and transit operations.",
+    "verdict" : "mint",
+    "leaf" : "BranchLibraryOperations",
+    "region" : [ "OperatingCadence", "ProcessPolicyUpdates" ],
+    "kind" : "strata",
+    "title" : "Branch library service hours and staffing management",
+    "frame" : "How should branch library service schedules and staff allocations be structured to serve community access needs?",
+    "consulted" : [ "ToolLibraryOperations", "FerryOperations" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_CommuterAdjustedBranchHoursNeutralStaffing",
+    "title" : "Shifting operating hours to capture commuter returns while preserving flat staffing",
+    "frame" : "How should branch library opening hours be shifted to accommodate commuter return traffic without expanding staffing requirements?",
+    "under" : [ "BranchLibraryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Moira and Teo explain the policy of opening early at 08:00 on Tuesdays and Thursdays to facilitate book returns for commuters while offsetting with an earlier closure to maintain flat staffing.",
+    "consulted" : [ "Narrative_WinterScheduleConsolidationReturnsStaffing", "Narrative_DemandResponsiveTransitScheduleAdjustment" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
