@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes a new organizational category for bakery pricing and markdown workflows, which does not exist in the current graph structure.",
+    "verdict" : "mint",
+    "leaf" : "BakeryPricing",
+    "region" : [ "PackagingPricing", "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Bakery discounting strategy and store-floor pricing execution",
+    "frame" : "How are bakery inventory pricing rules and markdown procedures structured and executed?",
+    "consulted" : [ "GreenhouseSensorDeployment", "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MiddayMarkdownAndShelfCardSynchronization",
+    "title" : "Timing markdowns during active afternoon traffic while synchronizing shelf cards to eliminate till surprises",
+    "frame" : "How should day-old markdowns and shelf-edge pricing be timed and synchronized to maximize sales before closing and ensure checkout transparency?",
+    "under" : [ "BakeryPricing" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Ines and Caleb establish an operational policy that shifts day-old loaf markdowns to 2 PM to capture customer foot traffic before closing, pairing the timing rule with immediate shelf-card updates to prevent till discrepancies.",
+    "consulted" : [ "GreenhouseSensorDeployment", "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
