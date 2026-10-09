@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "because it lost the most seedlings last winter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Prioritizing the rollout based on mitigating past vulnerability and preventing further loss appeals to conservation/security.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The reporting cadence is justified by the requirement for effective measurement and operational capability to capture critical drops.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
