@@ -1,0 +1,27 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes a new organizational category for managing ferry transit timetables, route adjustments, and schedule operations.",
+    "verdict" : "mint",
+    "leaf" : "FerryOperations",
+    "region" : [ "OperatingCadence", "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Ferry schedule adjustments and route operations management",
+    "frame" : "How should ferry timetables, sailing frequencies, and operational capacity adapt to passenger demand patterns?",
+    "consulted" : [ "BranchLibraryOperations", "BakeryPricing", "GreenhouseSensorDeployment" ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : [ "FerryOperations" ],
+    "why" : "Unifies the advance of the final weekday sailing due to sub-ten passenger counts with the decision to keep weekend late sailings intact because they continue to fill.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_DemandResponsiveLateFerrySchedules",
+    "region" : null,
+    "kind" : "narrative",
+    "title" : "Curtailing underutilized weekday late sailings while preserving full-capacity weekend service",
+    "frame" : "How should late-night ferry sailings balance weekday ridership retrenchment against sustained weekend demand?",
+    "consulted" : [ "Narrative_CommuterTargetedEarlyHoursWithStaffingOffset", "Narrative_MiddayMarkdownAndShelfCardSynchronization", "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
