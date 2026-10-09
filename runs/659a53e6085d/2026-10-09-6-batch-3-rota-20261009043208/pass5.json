@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes the operational category for tool library hours, volunteer shift staffing, and lending workflows in response to usage patterns.",
+    "verdict" : "mint",
+    "leaf" : "ToolLibraryOperations",
+    "region" : [ "OperatingCadence", "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Tool library service scheduling, volunteer staffing, and circulation workflows",
+    "frame" : "what operational policies, patron access schedules, and volunteer resource allocations govern tool library management?",
+    "consulted" : [ "BranchLibraryOperations", "BikeRepairInfrastructure", "FerryOperations" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_WinterSaturdayConsolidationWithDedicatedReturnsStaffing",
+    "title" : "Consolidating winter tool library hours to Saturdays while adding dedicated returns support",
+    "frame" : "How should tool library winter operating hours and volunteer staffing adjust to weekday borrowing retrenchment?",
+    "under" : [ "ToolLibraryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Mints the narrative capturing the consolidation of winter opening hours to Saturdays following low weekday evening borrowing, paired with assigning a second volunteer to manage returns.",
+    "consulted" : [ "Narrative_CommuterTargetedEarlyHoursWithStaffingOffset", "Narrative_DemandResponsiveLateFerrySchedules", "BranchLibraryOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
