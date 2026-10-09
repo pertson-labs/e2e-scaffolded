@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Odile Marchetti",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Odile Marchetti",
+    "why" : "No existing actor matches Odile Marchetti.",
+    "ai" : false
+  }, {
+    "name" : "Pell Vasquez",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Pell Vasquez",
+    "why" : "No existing actor matches Pell Vasquez.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_XenaExpertgh.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Account email for participant and submitter Xena ExpertGH.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
