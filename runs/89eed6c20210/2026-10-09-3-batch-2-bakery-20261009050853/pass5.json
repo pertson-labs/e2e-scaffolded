@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes an organizational strata domain for retail bakery management, scheduling, and floor execution distinct from existing greenhouse infrastructure.",
+    "verdict" : "mint",
+    "leaf" : "BakeryOperations",
+    "region" : [ "CoreWorkflows", "ValueExchange" ],
+    "kind" : "strata",
+    "title" : "Bakery store procedures, inventory management, and floor pricing workflows",
+    "frame" : "How are bakery retail floor workflows, perishable inventory cycles, and point-of-sale practices structured and governed?",
+    "consulted" : [ "GreenhouseMonitoring", "Narrative_SensorDeploymentPrioritization", "Narrative_SensorReportingCadence" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_DayOldBreadMarkdownSynchronization",
+    "title" : "Synchronizing mid-afternoon perishable markdowns with immediate shelf-tag updates",
+    "frame" : "How should day-old bread discount timing and shelf signage updates be coordinated to maximize sell-through while preventing point-of-sale confusion?",
+    "under" : [ "BakeryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Captures the operational policy of executing day-old bread markdowns at 2 p.m. while customer foot traffic remains active, combined with simultaneous shelf-card updates to maintain clear pricing at checkout.",
+    "consulted" : [ "GreenhouseMonitoring", "Narrative_SensorDeploymentPrioritization", "Narrative_SensorReportingCadence" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
