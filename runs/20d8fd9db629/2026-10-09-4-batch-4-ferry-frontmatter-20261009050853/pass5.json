@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-4", "src-5", "src-6" ],
+    "under" : null,
+    "why" : "Introduces a distinct operational domain for managing ferry transit schedules, sailing timetables, and passenger demand across routes.",
+    "verdict" : "mint",
+    "leaf" : "FerryOperations",
+    "region" : [ "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Ferry transit schedules, sailing operations, and ridership management",
+    "frame" : "How are ferry service schedules, fleet dispatching, and sailing timetables managed to serve passenger demand?",
+    "consulted" : [ "BakeryOperations", "GreenhouseMonitoring" ]
+  }, {
+    "supporting_segments" : [ "src-4", "src-5", "src-6" ],
+    "under" : [ "FerryOperations" ],
+    "why" : "Establishes the policy of shifting weekday late sailings earlier due to low passenger load while preserving weekend late runs where ridership remains sustained.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_FerryTimetableRidershipAdjustment",
+    "kind" : "narrative",
+    "title" : "Adjusting ferry timetable schedules and late sailing runs against ridership demand",
+    "frame" : "How should ferry timetable schedules be adjusted in response to weekday versus weekend ridership volume?",
+    "consulted" : [ "BakeryOperations", "GreenhouseMonitoring", "Narrative_DayOldBreadMarkdownSynchronization", "Narrative_SensorDeploymentPrioritization", "Narrative_SensorReportingCadence" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
