@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "BikeRepairStandPlacementAndSecurity",
+    "frame" : "where should the public bike repair stand be sited and how should its equipment be secured?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The group pairs an empirical location choice prioritizing trail incident frequency over parking lot placement with an equipment-securing directive responding to prior theft."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
