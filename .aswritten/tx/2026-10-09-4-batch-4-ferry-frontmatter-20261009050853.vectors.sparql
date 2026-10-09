@@ -1,0 +1,284 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T051156Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853.md" ;
+      dct:title "Multipass fragment: 20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20" ;
+      prov:generated narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4, narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5, narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6, narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4, narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5, narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6, narr:FerryOperations, narr:Narrative_FerryTimetableRidershipAdjustment, narr:Position_FerryLateSailingTimetableAdjustments .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T051156Z {
+    narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: The last ferry moves from 22:40 to 21:55 on weekdays from November." ;
+        narr:reported false ;
+        skos:note "Stated as an operational, settled timetable change taking effect in November." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The late sailing carried under ten passengers a night." ;
+        narr:reported false ;
+        skos:note "Unhedged factual assertion presented as historical data justifying the decision." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: The weekend timetable stays as it is" ;
+        narr:reported false ;
+        skos:note "Operational rule affirming that weekend scheduling remains unchanged." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The last ferry moves from 22:40 to 21:55 on weekdays from November." ;
+        narr:reported false ;
+        skos:note "Describes a scheduled concrete timetable change occurring in the future as a settled fact." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The late sailing carried under ten passengers a night." ;
+        narr:reported false ;
+        skos:note "Reports actual historical passenger counts for specific sailings." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ;
+        narr:reported false ;
+        skos:note "Focuses on the ongoing current status and passenger habits of weekend sailings." ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:FerryOperations a narr:Strata ;
+        dct:source narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        narr:frame "How are ferry service schedules, fleet dispatching, and sailing timetables managed to serve passenger demand?" ;
+        narr:region narr:CoreWorkflows ;
+        skos:note "Ferry transit schedules, sailing operations, and ridership management" ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 narr:supports narr:FerryOperations .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 narr:supports narr:FerryOperations .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 narr:supports narr:FerryOperations .
+
+    narr:Narrative_FerryTimetableRidershipAdjustment a narr:Narrative ;
+        dct:source narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        narr:frame "How should ferry timetable schedules be adjusted in response to weekday versus weekend ridership volume?" ;
+        skos:broader narr:FerryOperations ;
+        skos:note "Adjusting ferry timetable schedules and late sailing runs against ridership demand" ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 narr:supports narr:Narrative_FerryTimetableRidershipAdjustment .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 narr:supports narr:Narrative_FerryTimetableRidershipAdjustment .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 narr:supports narr:Narrative_FerryTimetableRidershipAdjustment .
+
+    narr:CoreWorkflows a narr:StrataRegion ;
+        skos:prefLabel "Core Workflows" ;
+        skos:definition "From discovery → delivery → enablement → measurement." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:Position_FerryLateSailingTimetableAdjustments a narr:Position ;
+        narr:frame "how are late-night ferry sailing schedules adjusted against weekday and weekend passenger demand?" ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4 narr:supports narr:Position_FerryLateSailingTimetableAdjustments .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5 narr:supports narr:Position_FerryLateSailingTimetableAdjustments .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 narr:supports narr:Position_FerryLateSailingTimetableAdjustments .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_power_trip a aswr:Miss ;
+        aswr:missPass "power" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_relational_trip a aswr:Miss ;
+        aswr:missPass "relational" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20 ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4, narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5, narr:VecConviction_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.power.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.relational.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_4, narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_5, narr:VecTemporal_20261009_4_Batch4FerryFrontmatter20261009050853_h1594dcdb4a20_6 ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/pass5.json" ;
+        prov:generated narr:FerryOperations, narr:Narrative_FerryTimetableRidershipAdjustment ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051156Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/20d8fd9db629/2026-10-09-4-batch-4-ferry-frontmatter-20261009050853/position.json" ;
+        prov:generated narr:Position_FerryLateSailingTimetableAdjustments ;
+        dct:isPartOf aswr:Tx_20261009T051156Z ;
+        prov:generatedAtTime "2026-10-09T05:11:56Z"^^xsd:dateTime .
+  }
+}
