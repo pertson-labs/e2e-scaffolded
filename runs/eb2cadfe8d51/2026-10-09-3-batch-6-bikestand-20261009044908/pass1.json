@@ -1,0 +1,33 @@
+{
+  "doc" : {
+    "title" : "Bike repair stand placement — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Anouk Brennagh", "Sami Okonkwo-Hart" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The public repair stand goes by the river path entrance, not in the car park. The river path is where the flats happen.",
+    "actor" : "Anouk Brennagh",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Bike repair stand placement"
+    },
+    "note" : "Directive on stand placement combined with explanatory rationale.",
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Put the pump on a chain; the last one walked off in a week.",
+    "actor" : "Sami Okonkwo-Hart",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Bike repair stand placement"
+    },
+    "note" : "Directive regarding securing the pump with rationale.",
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "footing_cases" : [ ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
