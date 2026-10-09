@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : null,
+    "why" : "Establishes the operational category for sensor installation, prioritization, and telemetry configuration across greenhouse bays.",
+    "verdict" : "mint",
+    "leaf" : "GreenhouseSensorDeployment",
+    "region" : [ "ImplementationPath", "Observability" ],
+    "kind" : "strata",
+    "title" : "Establishing greenhouse environmental telemetry and prioritized hardware rollout",
+    "frame" : "How are environmental sensors sequenced and calibrated across greenhouse infrastructure to prevent crop loss?",
+    "consulted" : [ ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : [ "GreenhouseSensorDeployment" ],
+    "why" : "Captures the strategic approach of pre-frost deployment, targeted piloting in vulnerable bays, and high-frequency telemetry intervals required to detect critical overnight humidity drops.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence",
+    "kind" : "narrative",
+    "title" : "Prioritizing sensor installation by past seedling loss and enforcing high-frequency reporting to capture overnight microclimate shifts",
+    "frame" : "What deployment deadlines, bay prioritization criteria, and measurement cadences govern greenhouse microclimate protection?",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
