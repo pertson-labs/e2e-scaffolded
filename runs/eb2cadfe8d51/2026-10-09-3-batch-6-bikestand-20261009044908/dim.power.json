@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Justifies the directional placement via factual explanation of where the problem occurs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Grounds the directive to chain the pump in historical precedent and empirical evidence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
