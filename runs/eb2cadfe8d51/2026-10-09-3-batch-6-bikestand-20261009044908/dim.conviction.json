@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The public repair stand goes by the river path entrance, not in the car park.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stated as an operational directive settling the location rather than a speculative preference.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct operational instruction with immediate historical justification, functioning as a settled rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
