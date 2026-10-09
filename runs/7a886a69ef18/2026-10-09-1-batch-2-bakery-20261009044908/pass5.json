@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes the organization's operational stratum for in-store routines, price updates, and customer-facing workflow timing.",
+    "verdict" : "mint",
+    "leaf" : "StoreOperations",
+    "region" : [ "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Coordination of in-store retail workflows and price execution",
+    "frame" : "How do day-to-day store procedures and operational schedules align to support customer purchasing and transaction clarity?",
+    "consulted" : [ ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : [ "StoreOperations" ],
+    "why" : "Both segments articulate a shared operational policy: advancing markdown timing to 2 p.m. while immediately updating shelf cards to capture afternoon shoppers without till surprises.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_SynchronizingMarkdownTimingWithShelfSignage",
+    "kind" : "narrative",
+    "title" : "Synchronizing Midday Markdown Timing With Visible Shelf Signage",
+    "frame" : "How should price markdowns and shelf-tag updates be timed together to clear perishable inventory and eliminate checkout friction?",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
