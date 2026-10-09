@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "DayOldBreadPricingAndShelfTaggingSchedule",
+    "frame" : "what timing and shelf-tagging procedures govern day-old bread markdowns?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Ines and Caleb coordinate the commercial schedule and store-floor execution for discounting day-old bread, establishing an afternoon timing threshold to capture remaining customer traffic alongside immediate shelf-card synchronization to ensure transparent till pricing."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
