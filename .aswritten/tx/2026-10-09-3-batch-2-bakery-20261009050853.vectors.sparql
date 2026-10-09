@@ -1,0 +1,276 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T051057Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-3-batch-2-bakery-20261009050853.md" ;
+      dct:title "Multipass fragment: 20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e" ;
+      prov:generated narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:VecStyle_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:VecValue_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:BakeryOperations, narr:Narrative_DayOldBreadMarkdownSynchronization, narr:Position_DayOldBreadMarkdownTimingAndSignage .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T051057Z {
+    narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: go to half price at two in the afternoon, not at close" ;
+        narr:reported false ;
+        skos:note "Establishes a concrete operational rule and timing schedule." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: shelf card changes at two as well, so the price is never a surprise" ;
+        narr:reported false ;
+        skos:note "Specifies a synchronized operational protocol with zero-tolerance condition ('never a surprise')." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: At close nobody is left to buy them." ;
+        narr:reported false ;
+        skos:note "Ines justifies the timing rule by giving a practical, logical rationale based on customer presence." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: so the price is never a surprise at the till." ;
+        narr:reported false ;
+        skos:note "Caleb reinforces the procedure by linking the shelf-card change to the logical outcome of avoiding customer surprises at checkout." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: Day-old loaves go to half price at two in the afternoon, not at close." ;
+        narr:reported false ;
+        skos:note "Establishes a dynamic discounting rule based on customer traffic timing and demand incentives." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: so the price is never a surprise at the till" ;
+        narr:reported false ;
+        skos:note "Focuses on explicit pricing transparency for transactions at point of sale." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: at two in the afternoon, not at close" ;
+        narr:reported false ;
+        skos:note "Direct contrastive framing setting the specific afternoon timing against the conventional closing time." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Day-old loaves go to half price at two in the afternoon, not at close." ;
+        narr:reported false ;
+        skos:note "Establishes a concrete, actual present operating rule for pricing loaves." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the shelf card changes at two as well" ;
+        narr:reported false ;
+        skos:note "Describes the routine concrete physical action and settled store practice in realis present." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: never a surprise at the till" ;
+        narr:reported false ;
+        skos:note "Appeals to predictability, clarity, and avoiding friction or negative surprises for customers at checkout (stability and security)." ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:BakeryOperations a narr:Strata ;
+        dct:source narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        narr:frame "How are bakery retail floor workflows, perishable inventory cycles, and point-of-sale practices structured and governed?" ;
+        narr:region narr:CoreWorkflows ;
+        narr:region narr:ValueExchange ;
+        skos:note "Bakery store procedures, inventory management, and floor pricing workflows" ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 narr:supports narr:BakeryOperations .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 narr:supports narr:BakeryOperations .
+
+    narr:Narrative_DayOldBreadMarkdownSynchronization a narr:Narrative ;
+        dct:source narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        narr:frame "How should day-old bread discount timing and shelf signage updates be coordinated to maximize sell-through while preventing point-of-sale confusion?" ;
+        skos:broader narr:BakeryOperations ;
+        skos:note "Synchronizing mid-afternoon perishable markdowns with immediate shelf-tag updates" ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 narr:supports narr:Narrative_DayOldBreadMarkdownSynchronization .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 narr:supports narr:Narrative_DayOldBreadMarkdownSynchronization .
+
+    narr:CoreWorkflows a narr:StrataRegion ;
+        skos:prefLabel "Core Workflows" ;
+        skos:definition "From discovery → delivery → enablement → measurement." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:ValueExchange a narr:StrataRegion ;
+        skos:prefLabel "Value Exchange Model" ;
+        skos:definition "States what each actor gives/gets so pricing and packaging fit incentives." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:Position_DayOldBreadMarkdownTimingAndSignage a narr:Position ;
+        narr:frame "how should the timing and shelf signage for day-old bread price reductions be coordinated?" ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 narr:supports narr:Position_DayOldBreadMarkdownTimingAndSignage .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 narr:supports narr:Position_DayOldBreadMarkdownTimingAndSignage .
+
+    aswr:Miss_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecConviction_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.power.json" ;
+        prov:generated narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecPower_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecRelational_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.style.json" ;
+        prov:generated narr:VecStyle_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:VecTemporal_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/dim.value.json" ;
+        prov:generated narr:VecValue_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/pass5.json" ;
+        prov:generated narr:BakeryOperations, narr:Narrative_DayOldBreadMarkdownSynchronization ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051057Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/position.json" ;
+        prov:generated narr:Position_DayOldBreadMarkdownTimingAndSignage ;
+        dct:isPartOf aswr:Tx_20261009T051057Z ;
+        prov:generatedAtTime "2026-10-09T05:10:57Z"^^xsd:dateTime .
+  }
+}
