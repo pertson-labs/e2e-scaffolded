@@ -1,0 +1,100 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T051721Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-1-batch-6-bikestand-20261009050853.md" ;
+      dct:title "Multipass source extraction: Bike repair stand placement — 2026-10-09" ;
+      prov:generated narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_3, narr:Actor_AnoukBrennagh, narr:Actor_SamiOkonkwoHart, narr:Actor_XenaExpertgh .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T051721Z {
+    narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf a narr:Sample ;
+        dct:title "Bike repair stand placement — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-09-1-batch-6-bikestand-20261009050853.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1 a narr:Expression ;
+        narr:actor narr:Actor_AnoukBrennagh ;
+        narr:act "directive" ;
+        narr:context "Bike repair stand placement" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The public repair stand goes by the river path entrance, not in the car park." ;
+                oa:prefix "-Hart (Cycling Club)\n\nAnouk: \"" ;
+                oa:suffix " The river path is where the f" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "186"^^xsd:integer ;
+                oa:end "263"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2 a narr:Expression ;
+        narr:actor narr:Actor_AnoukBrennagh ;
+        narr:act "assertive" ;
+        narr:context "Bike repair stand placement" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The river path is where the flats happen." ;
+                oa:prefix "ntrance, not in the car park. " ;
+                oa:suffix "\"\n\nSami: \"Put the pump on a ch" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "264"^^xsd:integer ;
+                oa:end "305"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_3 a narr:Expression ;
+        narr:actor narr:Actor_SamiOkonkwoHart ;
+        narr:act "directive" ;
+        narr:context "Bike repair stand placement" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Put the pump on a chain; the last one walked off in a week." ;
+                oa:prefix "re the flats happen.\"\n\nSami: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "315"^^xsd:integer ;
+                oa:end "374"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime .
+
+    narr:Actor_AnoukBrennagh a narr:Actor ;
+        skos:prefLabel "Anouk Brennagh" .
+
+    narr:Actor_SamiOkonkwoHart a narr:Actor ;
+        skos:prefLabel "Sami Okonkwo-Hart" .
+
+    narr:Actor_XenaExpertgh a narr:Actor ;
+        skos:prefLabel "Xena ExpertGH" .
+
+    aswr:Run_20261009T051721Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9d4cee2a6acb/2026-10-09-1-batch-6-bikestand-20261009050853/actors.json" ;
+        prov:generated narr:Actor_AnoukBrennagh, narr:Actor_SamiOkonkwoHart, narr:Actor_XenaExpertgh ;
+        dct:isPartOf aswr:Tx_20261009T051721Z ;
+        prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051721Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9d4cee2a6acb/2026-10-09-1-batch-6-bikestand-20261009050853/pass1.json" ;
+        prov:generated narr:Sample_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_1, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_2, narr:Expr_20261009_1_Batch6Bikestand20261009050853_hb33a5df833bf_3 ;
+        dct:isPartOf aswr:Tx_20261009T051721Z ;
+        prov:generatedAtTime "2026-10-09T05:17:21Z"^^xsd:dateTime .
+  }
+}
