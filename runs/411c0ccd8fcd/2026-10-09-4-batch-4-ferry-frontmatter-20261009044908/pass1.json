@@ -1,0 +1,38 @@
+{
+  "doc" : {
+    "title" : "Ferry timetable change — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Tamsin Oduya", "Rolf Benedek" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "The late sailing carried under ten passengers a night.",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "The weekend timetable stays as it is; Friday and Saturday late sailings still fill.",
+    "actor" : "Rolf Benedek",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change discussion"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
