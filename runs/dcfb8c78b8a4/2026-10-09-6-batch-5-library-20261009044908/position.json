@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "BranchLibraryWeekdayOperatingHoursAndStaffing",
+    "frame" : "how should branch library weekday operating hours be adjusted to accommodate commuter book return patterns while maintaining flat staffing levels?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Moira and Teo describe a balanced schedule shift on Tuesdays and Thursdays: advancing opening hours to capture morning commuter returns while closing an hour early to maintain overall staffing equilibrium.",
+    "name_repaired_from" : "Position_BranchLibraryWeekdayOperatingHoursAndStaffing"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
