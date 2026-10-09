@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames schedule adjustment in terms of borrower throughput and efficiency metrics.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proposes staffing allocation as a balanced resource distribution (one shift gets a second volunteer) to match the workload.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
