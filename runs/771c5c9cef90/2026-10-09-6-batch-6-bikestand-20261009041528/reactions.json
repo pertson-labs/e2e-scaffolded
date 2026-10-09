@@ -1,0 +1,49 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-2d340699",
+  "live_run_id" : "771c5c9cef90",
+  "stream" : "e2e-662-batch-20261009041528",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.001869,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0018687,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T06:23:21.240527103Z",
+  "reconciliation" : [ {
+    "source" : "event log",
+    "claim_token" : null,
+    "sent" : [ ],
+    "uncertain" : [ ],
+    "claimed_at" : "2026-10-09T04:23:00.949Z"
+  } ],
+  "healed" : {
+    "healed" : true,
+    "window_h" : 2.0,
+    "never_covered" : true
+  },
+  "reason" : "recorded from the run's log: an earlier dispatch finished and its record never landed",
+  "reason_class" : "final"
+}
