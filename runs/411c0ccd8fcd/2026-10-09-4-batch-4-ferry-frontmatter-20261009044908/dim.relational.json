@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "carried under ten passengers a night",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames the schedule change via low passenger volume and cost/demand justification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies keeping weekend sailings based on demand and capacity utilization.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
