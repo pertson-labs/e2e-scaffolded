@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "so the commuter crowd can return books on the way in",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Accommodating public schedule needs directly aligns operational hours with patron routine reciprocity/coordination.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "to keep the staffing flat",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Offsetting earlier opening by closing an hour earlier creates a direct one-for-one balance to preserve exact staffing hours.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
