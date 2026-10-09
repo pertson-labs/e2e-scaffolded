@@ -1,0 +1,32 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "lineage" : {
+      "relation" : "see",
+      "target" : "LibraryOperations"
+    },
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes the operational category for tool library facilities, seasonal schedule governance, and volunteer rota coordination.",
+    "verdict" : "mint",
+    "leaf" : "ToolLibraryOperations",
+    "region" : [ "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Volunteer tool library service schedules, lending workflows, and volunteer shift allocation",
+    "frame" : "How are volunteer tool library operating schedules, lending workflows, and volunteer shift staffing managed?",
+    "consulted" : [ "LibraryOperations", "FerryOperations", "BakeryOperations", "GreenhouseMonitoring" ]
+  }, {
+    "adopted_positions" : null,
+    "lineage" : null,
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : [ "ToolLibraryOperations" ],
+    "why" : "Wren and Jun consolidate winter opening hours strictly to Saturdays following low weekday evening borrower counts, while pairing the compressed schedule with an added volunteer on the Saturday shift to manage returns.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation",
+    "title" : "Consolidating seasonal tool library hours to peak weekend demand while bolstering shift return staffing",
+    "frame" : "How should volunteer tool library winter operating schedules and shift staffing be adjusted in response to seasonal borrower demand?",
+    "consulted" : [ "Narrative_BranchLibraryHoursStaffingOffset", "Narrative_FerryTimetableRidershipAdjustment", "LibraryOperations", "FerryOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
