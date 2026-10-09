@@ -9,7 +9,7 @@
       "n:Narrative_SensorReportingCadence" : 1
     }
   },
-  "generated_from" : "f2c31832fcd4477cb0842c0522fe3f4adcbaf12e",
+  "generated_from" : "854d1641dde961f9dd68f31d763f3337242e7b26",
   "hubs" : {
     "n:GreenhouseMonitoring" : 2
   },
@@ -26,7 +26,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "dc7af470801a4ecfbc179fe06bd90d61eb4d5e17",
-  "sittings" : 22,
+  "runs_sha" : "ae9f84b9ca3550de2a77d0e887f4c8940ab92cb7",
+  "sittings" : 23,
   "spec" : "fidelity-bands/1"
 }

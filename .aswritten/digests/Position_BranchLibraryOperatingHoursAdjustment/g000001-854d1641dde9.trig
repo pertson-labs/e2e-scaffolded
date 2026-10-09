@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_BranchLibraryOperatingHoursAdjustment> {
+  <https://aswritten.ai/narrative#Digest_Position_BranchLibraryOperatingHoursAdjustment> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_BranchLibraryOperatingHoursAdjustment> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "854d1641dde961f9dd68f31d763f3337242e7b26" ;
+    narr:narration """This position holds a two-part schedule adjustment voiced the same day: [early Tuesday/Thursday opening for commuter returns](narr:Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_1), paired with [an earlier close on those days to keep staffing flat](narr:Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_2). Both speakers state it as settled practice, not proposal.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_2> ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_1> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_5_Batch5Library20261009050853_h252b78a084e1_2> ] ;
+    narr:run "cf88f72623d2" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
