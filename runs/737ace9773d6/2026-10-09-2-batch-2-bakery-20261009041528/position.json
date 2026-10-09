@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "BakeryDayOldPricingCoordination",
+    "frame" : "how should day-old bread markdowns and shelf card updates be timed and coordinated?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both expressions establish operational rules for day-old loaf discounts, linking the timing of the price cut to active customer presence and immediately synchronizing shelf card signage to avoid checkout discrepancies.",
+    "name_repaired_from" : "Position_BakeryDayOldPricingCoordination"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
