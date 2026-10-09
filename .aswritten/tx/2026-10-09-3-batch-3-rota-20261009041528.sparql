@@ -1,0 +1,83 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T041750Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:17:50Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-3-batch-3-rota-20261009041528.md" ;
+      dct:title "Multipass source extraction: Volunteer tool-library rota — 2026-10-09" ;
+      prov:generated narr:Sample_20261009_3_Batch3Rota20261009041528_h24ff99af2344, narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_1, narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_2, narr:Actor_JunArceneaux, narr:Actor_WrenHalloway .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T041750Z {
+    narr:Sample_20261009_3_Batch3Rota20261009041528_h24ff99af2344 a narr:Sample ;
+        dct:title "Volunteer tool-library rota — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-09-3-batch-3-rota-20261009041528.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_1 a narr:Expression ;
+        narr:actor narr:Actor_WrenHalloway ;
+        narr:act "assertive" ;
+        narr:context "Volunteer tool-library rota — 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_3_Batch3Rota20261009041528_h24ff99af2344 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks." ;
+                oa:prefix "Arceneaux (Volunteer)\n\nWren: \"" ;
+                oa:suffix "\"\n\nJun: \"Then the Saturday shi" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "175"^^xsd:integer ;
+                oa:end "279"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:17:50Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_2 a narr:Expression ;
+        narr:actor narr:Actor_JunArceneaux ;
+        narr:act "directive" ;
+        narr:context "Volunteer tool-library rota — 2026-10-09" ;
+        skos:note "Directive requirement/proposal following schedule adjustment" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_3_Batch3Rota20261009041528_h24ff99af2344 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then the Saturday shift gets a second volunteer to run returns." ;
+                oa:prefix "rrowers in six weeks.\"\n\nJun: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "288"^^xsd:integer ;
+                oa:end "351"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:17:50Z"^^xsd:dateTime .
+
+    narr:Actor_JunArceneaux a narr:Actor ;
+        skos:prefLabel "Jun Arceneaux" .
+
+    narr:Actor_WrenHalloway a narr:Actor ;
+        skos:prefLabel "Wren Halloway" .
+
+    aswr:Run_20261009T041750Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/c5f92e30700f/2026-10-09-3-batch-3-rota-20261009041528/actors.json" ;
+        prov:generated narr:Actor_JunArceneaux, narr:Actor_WrenHalloway ;
+        dct:isPartOf aswr:Tx_20261009T041750Z ;
+        prov:generatedAtTime "2026-10-09T04:17:50Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T041750Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/c5f92e30700f/2026-10-09-3-batch-3-rota-20261009041528/pass1.json" ;
+        prov:generated narr:Sample_20261009_3_Batch3Rota20261009041528_h24ff99af2344, narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_1, narr:Expr_20261009_3_Batch3Rota20261009041528_h24ff99af2344_2 ;
+        dct:isPartOf aswr:Tx_20261009T041750Z ;
+        prov:generatedAtTime "2026-10-09T04:17:50Z"^^xsd:dateTime .
+  }
+}
