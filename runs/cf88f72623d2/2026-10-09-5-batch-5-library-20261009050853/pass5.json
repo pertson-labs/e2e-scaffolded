@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes a top-level category for branch library operational procedures, scheduling, and staffing management.",
+    "verdict" : "mint",
+    "leaf" : "LibraryOperations",
+    "region" : [ "CoreWorkflows" ],
+    "kind" : "strata",
+    "title" : "Branch library service schedules, facility workflows, and staffing models",
+    "frame" : "How are branch library service schedules and operating constraints coordinated?",
+    "consulted" : [ "BakeryOperations", "FerryOperations", "GreenhouseMonitoring" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_BranchLibraryHoursStaffingOffset",
+    "title" : "Balancing early branch library opening hours against earlier closing times to preserve flat staffing",
+    "frame" : "How should branch library operating schedules be adjusted to serve commuter patrons while maintaining staffing neutrality?",
+    "under" : [ "LibraryOperations" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Moira and Teo describe establishing early 8 a.m. openings on Tuesdays and Thursdays for commuter returns paired with an hour earlier closure to keep overall staffing flat.",
+    "consulted" : [ "Narrative_FerryTimetableRidershipAdjustment", "Narrative_DayOldBreadMarkdownSynchronization", "Narrative_SensorDeploymentPrioritization" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
