@@ -1,0 +1,15 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "src-1 establishes the weekday late-sailing curtailment from November, src-2 provides empirical passenger demand data justifying the reduction, and src-3 contrasts this with strong weekend ridership to maintain Friday and Saturday sailings.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_CurtailingWeekdayLateSailingsWhilePreservingWeekendService",
+    "title" : "Curtailing Weekday Late Sailings to Match Low Ridership While Preserving Weekend Service",
+    "frame" : "how should ferry sailing timetables be adjusted across weekdays and weekends in response to passenger ridership patterns?",
+    "consulted" : [ "Narrative_SeasonalScheduleConsolidationAndDedicatedReturnsStaffing", "Narrative_PublicRepairStandSitingAndToolSecurity", "Narrative_SynchronizingMarkdownTimingWithShelfSignage", "StoreOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
