@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "The envelope introduces an operational domain around tool library seasonal hours, volunteer rota management, and shift staffing rules.",
+    "verdict" : "mint",
+    "leaf" : "ToolLibraryOperations",
+    "region" : [ "OperatingCadence", "ProcessPolicyUpdates" ],
+    "kind" : "strata",
+    "title" : "Volunteer tool library operating schedules and staffing allocation",
+    "frame" : "How should tool library operating schedules, volunteer rotas, and shift responsibilities be structured?",
+    "consulted" : [ "BakeryPricing", "GreenhouseMonitoring" ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : [ "ToolLibraryOperations" ],
+    "why" : "src-1 establishes the decision to close weekday evenings and open Saturdays only for winter based on low borrower counts, while src-2 adds a second volunteer to Saturday shifts specifically dedicated to handling returns under the consolidated schedule.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_WinterScheduleConsolidationReturnsStaffing",
+    "kind" : "narrative",
+    "title" : "Consolidating winter operating hours to peak days and reinforcing returns staffing",
+    "frame" : "How should low-attendance seasonal operating hours be consolidated, and how should volunteer capacity be reinforced during active shifts?",
+    "consulted" : [ "Narrative_PreemptiveVulnerabilitySensorDeployment", "Narrative_SynchronizedMiddayMarkdownExecution", "BakeryPricing", "GreenhouseMonitoring" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
