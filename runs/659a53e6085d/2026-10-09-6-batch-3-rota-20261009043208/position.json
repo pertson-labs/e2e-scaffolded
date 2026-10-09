@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ToolLibraryWinterOperatingScheduleAndStaffing",
+    "frame" : "what schedule adjustments and volunteer staffing allocations govern tool library winter operations?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Establishes a winter operational schedule restricting opening hours to Saturdays in response to low weekday evening borrowing, while augmenting Saturday staffing with a second volunteer dedicated to handling returns.",
+    "name_repaired_from" : "Position_ToolLibraryWinterOperatingScheduleAndStaffing"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
