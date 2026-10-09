@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "public repair stand",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames placement around public utility and community benefit beyond the immediate facility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals directly to security, loss prevention, and asset preservation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
