@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "GreenhouseSensorDeploymentSequencing",
+    "frame" : "what determines the rollout schedule and bay sequencing for greenhouse sensors?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Odile establishes a hard deadline before first frost and prioritizes Bay Two based on historical seedling loss data, with Pell directly confirming and ratifying the deployment plan."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-4" ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
