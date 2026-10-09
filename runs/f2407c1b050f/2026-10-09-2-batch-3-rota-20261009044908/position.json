@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ToolLibraryWinterOperatingScheduleAndStaffing",
+    "frame" : "how should tool-library operating schedules and volunteer shift allocations be adjusted in response to seasonal borrower demand?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Wren establishes the reduction of winter hours to Saturdays only based on sparse weekday attendance, while Jun couples this schedule consolidation with staffing a second volunteer specifically dedicated to returns during the concentrated Saturday opening.",
+    "name_repaired_from" : "Position_ToolLibraryWinterOperatingScheduleAndStaffing"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
