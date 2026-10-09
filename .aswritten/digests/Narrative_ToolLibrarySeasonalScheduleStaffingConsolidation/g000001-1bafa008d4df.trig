@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation> {
+  <https://aswritten.ai/narrative#Digest_Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_ToolLibrarySeasonalScheduleStaffingConsolidation> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "1bafa008d4df515b674b40ecc0e40c3fc48c240a" ;
+    narr:narration """The thread runs from [evidence that weekday evenings drew almost no winter use](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2) to [a decision to open Saturdays only through winter](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1), and then to [a proposal to add a second volunteer on the Saturday shift to run returns](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3). All three are dated the same day, voiced by two different people, and the staffing proposal remains forward-looking rather than settled.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ;
+    narr:keyPhrase [ narr:text "The tool library opens Saturdays only through winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ] ;
+    narr:keyPhrase [ narr:text "Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ] ;
+    narr:keyPhrase [ narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:variation [ narr:text "The schedule narrows on thin weekday demand, yet the same thread adds staffing to the remaining shift — a cost the usage data does not itself justify." ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:variation [ narr:text "The Saturday-only decision is stated as settled while the second-volunteer staffing stays irrealis and unconfirmed." ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:run "2605aaab27de" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ToolLibraryWinterOperatingSchedule> {
+  <https://aswritten.ai/narrative#Digest_Position_ToolLibraryWinterOperatingSchedule> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ToolLibraryWinterOperatingSchedule> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "1bafa008d4df515b674b40ecc0e40c3fc48c240a" ;
+    narr:narration """This position holds that [the tool library runs Saturdays only through winter](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1), grounded in [thin weekday-evening turnout](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2), with [a second volunteer added to the Saturday shift for returns](narr:Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3). The arc runs from observed demand to a staffing decision, voiced across two speakers on the same date.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ;
+    narr:keyPhrase [ narr:text "The tool library opens Saturdays only through winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ] ;
+    narr:keyPhrase [ narr:text "Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ] ;
+    narr:keyPhrase [ narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:variation [ narr:text "The staffing addition is stated as future irrealis — a decision not yet witnessed in operation, unlike the past-tense demand evidence behind the schedule cut." ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ; narr:over <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "decisions stated flatly as settled calls, with the supporting case carried as plain claim" ; narr:text "The tool library opens Saturdays only through winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_1> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "moves from concrete past evidence to concrete future planning within a single turn" ; narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "persuasion by numbers — the case is made with attendance figures rather than appeal" ; narr:text "Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_2> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "shifts from market-style accounting of demand to equality-matching fairness in sharing the shift load" ; narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_6_Batch3Rota20261009050853_h8a4eacef57e3_3> ] ;
+    narr:run "2605aaab27de" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
