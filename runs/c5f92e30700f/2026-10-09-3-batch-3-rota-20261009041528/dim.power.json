@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides specific empirical data and operational facts to justify schedule changes via informational backing and rational argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Establishes an operational staffing rule/assignment as a direct procedural mandate.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
