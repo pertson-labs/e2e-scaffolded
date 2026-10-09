@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports actual settled attendance figures over a past six-week period with specific counts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directs a prospective operational adjustment for upcoming Saturday shifts.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
