@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "FerryLateSailingTimetableAdjustment",
+    "frame" : "what schedule adjustments and ridership thresholds govern weekday and weekend late-night ferry sailings?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Aligns weekday late sailing retrenchment due to low patronage with the preservation of weekend late sailings driven by sustained passenger demand.",
+    "name_repaired_from" : "Position_FerryLateSailingTimetableAdjustment"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
