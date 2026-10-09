@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The statement outlines a concrete planned future action before a specific seasonal event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Bay two gets the pilot unit first, because it lost the most seedlings last winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on a specific scheduled rollout step grounded in a past concrete occurrence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A direct performative act ratifying the proposal in the present moment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes; anything slower misses the overnight drop.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States actual technical configuration and concrete functional operating parameters.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
