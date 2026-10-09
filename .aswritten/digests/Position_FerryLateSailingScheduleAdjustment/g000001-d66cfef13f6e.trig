@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_FerryLateSailingScheduleAdjustment> {
+  <https://aswritten.ai/narrative#Digest_Position_FerryLateSailingScheduleAdjustment> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_FerryLateSailingScheduleAdjustment> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "d66cfef13f6e73c95485c6b7be5a44faa412446f" ;
+    narr:narration """This position holds two decisions on the late-sailing timetable: [the weekday last ferry pulls back from 22:40 to 21:55 from November, on ridership under ten a night](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1), while [the weekend timetable stays untouched, with Friday and Saturday late sailings still filling](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2). Both members are voiced as settled decisions argued on demand numbers.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ;
+    narr:keyPhrase [ narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ] ;
+    narr:keyPhrase [ narr:text "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "settled-decision register — stated as done, not argued" ; narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "rational-persuasion — the case rests on ridership figures, not authority" ; narr:text "The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "market-pricing — demand and fill rates carry the argument" ; narr:text "Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and realis — dated effective changes beside present-tense status" ; narr:text "The weekend timetable stays as it is" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ] ;
+    narr:run "5767c4544de2" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

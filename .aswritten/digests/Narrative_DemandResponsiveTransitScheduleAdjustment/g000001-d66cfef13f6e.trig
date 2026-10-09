@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DemandResponsiveTransitScheduleAdjustment> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DemandResponsiveTransitScheduleAdjustment> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DemandResponsiveTransitScheduleAdjustment> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "d66cfef13f6e73c95485c6b7be5a44faa412446f" ;
+    narr:narration """The narrative turns on a demand-based split of the ferry timetable: [the weekday last ferry moves earlier to 21:55 from November, after late sailings carried under ten passengers a night](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1), while [the weekend timetable stays untouched because Friday and Saturday late sailings still fill](narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2). Both children are framed as decisions grounded in ridership evidence rather than preference.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ;
+    narr:keyPhrase [ narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ] ;
+    narr:keyPhrase [ narr:text "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ] ;
+    narr:variation [ narr:text "The two children pull in opposite temporal directions: one cuts service on observed weekday demand, the other preserves weekend service against the same empirical logic." ; narr:over <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1> ; narr:over <https://aswritten.ai/narrative#Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2> ] ;
+    narr:run "5767c4544de2" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
