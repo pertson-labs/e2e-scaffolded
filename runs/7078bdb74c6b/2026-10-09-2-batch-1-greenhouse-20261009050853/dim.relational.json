@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts communal sharing via inclusive first-person plural framing of collective installation action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Signals peer alignment and mutual ratification in a peer dialogue.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
