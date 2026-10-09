@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We open at eight on Tuesdays and Thursdays",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Stated as an established operational rule and settled schedule rather than an exploratory notion or contested claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we close an hour earlier those days",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an agreed operational policy balancing staffing hours, functioning as an established operational decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
