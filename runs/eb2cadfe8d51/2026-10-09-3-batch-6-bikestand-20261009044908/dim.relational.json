@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "The public repair stand goes by the river path entrance, not in the car park.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enacts direct directive authority over spatial placement without negotiation or hedging.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Issues an imperative instruction directing action.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
