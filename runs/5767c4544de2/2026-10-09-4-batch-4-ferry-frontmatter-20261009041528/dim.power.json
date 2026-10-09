@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The late sailing carried under ten passengers a night.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies the timetable shift using ridership data as rational justification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Grounds keeping the weekend timetable unchanged in the empirical fact of high ridership.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
