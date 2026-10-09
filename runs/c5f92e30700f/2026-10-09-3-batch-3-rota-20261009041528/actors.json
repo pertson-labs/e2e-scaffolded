@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Wren Halloway",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Wren Halloway",
+    "why" : "No existing actor matches Wren Halloway.",
+    "ai" : false
+  }, {
+    "name" : "Jun Arceneaux",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Jun Arceneaux",
+    "why" : "No existing actor matches Jun Arceneaux.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_XenaExpertgh and envelope participant/submitter.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Account email corresponding directly to envelope submitter Xena ExpertGH.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
