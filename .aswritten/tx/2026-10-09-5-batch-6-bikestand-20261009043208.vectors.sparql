@@ -1,0 +1,311 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T043601Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-5-batch-6-bikestand-20261009043208.md" ;
+      dct:title "Multipass fragment: 20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b" ;
+      prov:generated narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecRegister_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3, narr:BikeRepairInfrastructure, narr:Narrative_PunctureGroundedRepairSitingAndToolChaining, narr:Position_BikeRepairStandSitingAndSecurity .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T043601Z {
+    narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: The public repair stand goes by the river path entrance, not in the car park." ;
+        narr:reported false ;
+        skos:note "Stated as an operational settlement and placement decision, ruling out the alternative." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "Direct, unhedged factual assertion backing the placement decision." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Put the pump on a chain" ;
+        narr:reported false ;
+        skos:note "Imperative operational directive setting a concrete implementation rule based on prior experience." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "Offers factual rationale to justify and influence the placement decision." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: the last one walked off in a week." ;
+        narr:reported false ;
+        skos:note "Backs a directive with empirical precedent to logically persuade." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: walked off" ;
+        narr:reported false ;
+        skos:note "Idiomatic colloquial phrasing ('walked off' for stolen) shifts register into casual tenor." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: goes by the river path entrance, not in the car park" ;
+        narr:reported false ;
+        skos:note "Direct prescriptive placement command specifying location hierarchy and exclusion without negotiation." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Put the pump on a chain" ;
+        narr:reported false ;
+        skos:note "Imperative instruction asserting operational command over equipment installation." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: by the river path entrance, not in the car park" ;
+        narr:reported false ;
+        skos:note "Contrasts the approved placement against the rejected alternative using an explicit negative paired clause." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: walked off" ;
+        narr:reported false ;
+        skos:note "Uses the colloquial personification of an inanimate object walking off to express theft." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The public repair stand goes by the river path entrance, not in the car park." ;
+        narr:reported false ;
+        skos:note "Specifies a planned future placement for a concrete physical installation." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "States an ongoing, actual factual condition regarding a concrete location." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the last one walked off in a week." ;
+        narr:reported false ;
+        skos:note "Grounds the directive in an actual past event involving a specific previous pump." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "lexical-marker: public repair stand" ;
+        narr:reported false ;
+        skos:note "Frames placement around public utility and community benefit beyond the immediate facility." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-assertion: the last one walked off in a week" ;
+        narr:reported false ;
+        skos:note "Appeals directly to security, loss prevention, and asset preservation." ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:BikeRepairInfrastructure a narr:Strata ;
+        dct:source narr:Sample_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b ;
+        narr:frame "What siting criteria and physical safeguards govern public bicycle repair infrastructure?" ;
+        narr:region narr:ImplementationPath ;
+        skos:note "Public bicycle repair stand deployment and equipment loss prevention" ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 narr:supports narr:BikeRepairInfrastructure .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 narr:supports narr:BikeRepairInfrastructure .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 narr:supports narr:BikeRepairInfrastructure .
+
+    narr:Narrative_PunctureGroundedRepairSitingAndToolChaining a narr:Narrative ;
+        dct:source narr:Sample_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b ;
+        narr:frame "How should public bicycle repair installations balance proximity to flat-tire incidence against equipment theft risks?" ;
+        skos:broader narr:BikeRepairInfrastructure ;
+        skos:note "Siting public repair stands at puncture hotspots while chaining shared tools against theft" ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 narr:supports narr:Narrative_PunctureGroundedRepairSitingAndToolChaining .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 narr:supports narr:Narrative_PunctureGroundedRepairSitingAndToolChaining .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 narr:supports narr:Narrative_PunctureGroundedRepairSitingAndToolChaining .
+
+    narr:ImplementationPath a narr:StrataRegion ;
+        skos:prefLabel "Implementation Path" ;
+        skos:definition "Phases, owners, and acceptance criteria to reach first value." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:Position_BikeRepairStandSitingAndSecurity a narr:Position ;
+        narr:frame "what siting criteria and loss-prevention measures govern the public bike repair stand installation?" ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1 narr:supports narr:Position_BikeRepairStandSitingAndSecurity .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2 narr:supports narr:Position_BikeRepairStandSitingAndSecurity .
+
+    narr:Expr_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 narr:supports narr:Position_BikeRepairStandSitingAndSecurity .
+
+    aswr:Miss_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecConviction_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.power.json" ;
+        prov:generated narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecPower_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.register.json" ;
+        prov:generated narr:VecRegister_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecRelational_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.style.json" ;
+        prov:generated narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecStyle_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_2, narr:VecTemporal_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/dim.value.json" ;
+        prov:generated narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_1, narr:VecValue_20261009_5_Batch6Bikestand20261009043208_he85e1fc46d4b_3 ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/pass5.json" ;
+        prov:generated narr:BikeRepairInfrastructure, narr:Narrative_PunctureGroundedRepairSitingAndToolChaining ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043601Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/910f8750804b/2026-10-09-5-batch-6-bikestand-20261009043208/position.json" ;
+        prov:generated narr:Position_BikeRepairStandSitingAndSecurity ;
+        dct:isPartOf aswr:Tx_20261009T043601Z ;
+        prov:generatedAtTime "2026-10-09T04:36:01Z"^^xsd:dateTime .
+  }
+}
