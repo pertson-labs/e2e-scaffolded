@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational directive setting an agreed roll-out plan with an explicit operational deadline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Bay two gets the pilot unit first, because it lost the most seedlings last winter.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes sequencing for the pilot rollout as a settled operational decision based on prior data.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Direct ratification of the proposed rollout plan and sequence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a technical requirement regarding reporting cadence backed by a cause-and-effect claim.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
