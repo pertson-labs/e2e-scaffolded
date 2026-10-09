@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "The late sailing carried under ten passengers a night.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Operational adjustments are justified via quantitative utilization thresholds and economic proportionality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Service retention is rationalized by demand volume and market capacity utilization.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
