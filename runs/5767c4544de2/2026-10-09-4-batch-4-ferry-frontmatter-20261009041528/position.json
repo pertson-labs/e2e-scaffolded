@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "FerryLateSailingScheduleAdjustment",
+    "frame" : "how should late-night ferry sailings be adjusted across weekday and weekend timetables based on passenger ridership?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Balances adjusting low-ridership weekday late sailings earlier against preserving high-capacity weekend late sailings.",
+    "name_repaired_from" : "Position_FerryLateSailingScheduleAdjustment"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
