@@ -1,0 +1,41 @@
+{
+  "doc" : {
+    "title" : "Bakery day-old pricing — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Ines Thorvald", "Caleb Ruiz" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Day-old loaves go to half price at two in the afternoon, not at close.",
+    "actor" : "Ines Thorvald",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Bakery day-old pricing"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "At close nobody is left to buy them.",
+    "actor" : "Ines Thorvald",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Bakery day-old pricing"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Then the shelf card changes at two as well, so the price is never a surprise at the till.",
+    "actor" : "Caleb Ruiz",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Bakery day-old pricing"
+    },
+    "note" : null,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
