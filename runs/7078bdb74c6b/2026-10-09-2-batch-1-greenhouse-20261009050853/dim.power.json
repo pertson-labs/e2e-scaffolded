@@ -1,0 +1,35 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate", "pressure" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Odile issues a directive rollout mandate with an explicit deadline constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "because it lost the most seedlings last winter.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies sequencing priority using historical loss data and logical rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Pell asserts technical sampling requirements grounded in domain expertise on temperature and humidity drops.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
