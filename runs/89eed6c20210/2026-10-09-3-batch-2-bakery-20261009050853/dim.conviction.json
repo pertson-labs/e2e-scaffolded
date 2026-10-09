@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "go to half price at two in the afternoon, not at close",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes a concrete operational rule and timing schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "shelf card changes at two as well, so the price is never a surprise",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Specifies a synchronized operational protocol with zero-tolerance condition ('never a surprise').",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
