@@ -1,0 +1,334 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T043222Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-1-batch-1-greenhouse-20261009043208.md" ;
+      dct:title "Multipass fragment: 20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854" ;
+      prov:generated narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4, narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4, narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4, narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4, narr:GreenhouseSensorDeployment, narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence, narr:Position_GreenhouseSensorRolloutPlan .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T043222Z {
+    narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: We install" ;
+        narr:reported false ;
+        skos:note "Operational directive setting an agreed action plan before frost." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: Bay two gets the pilot unit first" ;
+        narr:reported false ;
+        skos:note "Settled sequencing directive establishing implementation order." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Agreed." ;
+        narr:reported false ;
+        skos:note "Direct ratification of the operational plan." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: anything slower misses the overnight drop" ;
+        narr:reported false ;
+        skos:note "Factual assertion regarding reporting cadence necessity, asserted firmly as an empirical rationale." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: We install humidity sensors in all four greenhouse bays before the first frost." ;
+        narr:reported false ;
+        skos:note "Sets operational operational directive and deadline based on organizational/planning authority." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: because it lost the most seedlings last winter." ;
+        narr:reported false ;
+        skos:note "Justifies prioritization sequence using empirical rationale and past loss data." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: anything slower misses the overnight drop." ;
+        narr:reported false ;
+        skos:note "Establishes technical reporting constraints based on domain knowledge of overnight temperature/humidity dynamics." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "lexical-marker: We" ;
+        narr:reported false ;
+        skos:note "Enacts collective action and undifferentiated shared pooling across the group." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "performed-act: Agreed." ;
+        narr:reported false ;
+        skos:note "Explicit consensus ratification signaling horizontal alignment and shared assent." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "framing-move: We install humidity sensors in all four greenhouse bays before the first frost." ;
+        narr:reported false ;
+        skos:note "Plans an upcoming concrete installation action before a future seasonal event." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "framing-move: Bay two gets the pilot unit first" ;
+        narr:reported false ;
+        skos:note "Specifies the rollout sequence for a concrete pilot unit based on past events." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: Agreed." ;
+        narr:reported false ;
+        skos:note "Performs immediate ratification in the present moment." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The sensors report every fifteen minutes; anything slower misses the overnight drop." ;
+        narr:reported false ;
+        skos:note "Asserts a concrete operational reporting frequency and regular technical threshold as an established operational rule." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: because it lost the most seedlings last winter" ;
+        narr:reported false ;
+        skos:note "Prioritizing the rollout based on mitigating past vulnerability and preventing further loss appeals to conservation/security." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: anything slower misses the overnight drop" ;
+        narr:reported false ;
+        skos:note "The reporting cadence is justified by the requirement for effective measurement and operational capability to capture critical drops." ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:GreenhouseSensorDeployment a narr:Strata ;
+        dct:source narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        narr:frame "How are environmental sensors sequenced and calibrated across greenhouse infrastructure to prevent crop loss?" ;
+        narr:region narr:ImplementationPath ;
+        narr:region narr:Observability ;
+        skos:note "Establishing greenhouse environmental telemetry and prioritized hardware rollout" ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 narr:supports narr:GreenhouseSensorDeployment .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 narr:supports narr:GreenhouseSensorDeployment .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 narr:supports narr:GreenhouseSensorDeployment .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 narr:supports narr:GreenhouseSensorDeployment .
+
+    narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence a narr:Narrative ;
+        dct:source narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        narr:frame "What deployment deadlines, bay prioritization criteria, and measurement cadences govern greenhouse microclimate protection?" ;
+        skos:broader narr:GreenhouseSensorDeployment ;
+        skos:note "Prioritizing sensor installation by past seedling loss and enforcing high-frequency reporting to capture overnight microclimate shifts" ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 narr:supports narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 narr:supports narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 narr:supports narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 narr:supports narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence .
+
+    narr:ImplementationPath a narr:StrataRegion ;
+        skos:prefLabel "Implementation Path" ;
+        skos:definition "Phases, owners, and acceptance criteria to reach first value." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:Observability a narr:StrataRegion ;
+        skos:prefLabel "Observability" ;
+        skos:definition "Telemetry, tracing, and alerting that make the system operable." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:Position_GreenhouseSensorRolloutPlan a narr:Position ;
+        narr:frame "what timeline and bay prioritization govern the greenhouse humidity sensor rollout?" ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1 narr:supports narr:Position_GreenhouseSensorRolloutPlan .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2 narr:supports narr:Position_GreenhouseSensorRolloutPlan .
+
+    narr:Expr_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 narr:supports narr:Position_GreenhouseSensorRolloutPlan .
+
+    aswr:Miss_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 4 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 4 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Miss_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 4 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854 ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3, narr:VecConviction_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.power.json" ;
+        prov:generated narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecPower_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecRelational_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3 ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_1, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_3, narr:VecTemporal_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/dim.value.json" ;
+        prov:generated narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_2, narr:VecValue_20261009_1_Batch1Greenhouse20261009043208_h887d2e3c8854_4 ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/pass5.json" ;
+        prov:generated narr:GreenhouseSensorDeployment, narr:Narrative_VulnerabilityDrivenSensorRolloutAndTelemetryCadence ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T043222Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/ac2c23db3eac/2026-10-09-1-batch-1-greenhouse-20261009043208/position.json" ;
+        prov:generated narr:Position_GreenhouseSensorRolloutPlan ;
+        dct:isPartOf aswr:Tx_20261009T043222Z ;
+        prov:generatedAtTime "2026-10-09T04:32:22Z"^^xsd:dateTime .
+  }
+}
