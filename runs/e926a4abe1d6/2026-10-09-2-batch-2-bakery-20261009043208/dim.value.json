@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "self-transcendence", "competence" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to fairness/transparency for the customer (self-transcendence) and procedural clarity/craft (competence) as the justification for updating shelf cards.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
