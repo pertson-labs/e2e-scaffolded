@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Ines Thorvald",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Ines Thorvald",
+    "why" : "Young repo with no existing actors; minting new actor.",
+    "ai" : false
+  }, {
+    "name" : "Caleb Ruiz",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Caleb Ruiz",
+    "why" : "Young repo with no existing actors; minting new actor.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Young repo with no existing actors; minting submitter as new actor.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Submitter account email corresponding to Xena ExpertGH; minting with fullest label.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
