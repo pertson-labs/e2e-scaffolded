@@ -1,0 +1,56 @@
+{
+  "doc" : {
+    "title" : "Ferry timetable change — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Xena ExpertGH", "Tamsin Oduya", "Rolf Benedek" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-4",
+    "exact" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change"
+    },
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The late sailing carried under ten passengers a night.",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change"
+    },
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "The weekend timetable stays as it is; Friday and Saturday late sailings still fill.",
+    "actor" : "Rolf Benedek",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change"
+    },
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "segment src-1 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "contact_email: ",
+    "local_id" : "src-1",
+    "drop_reason" : "unverifiable"
+  }, {
+    "reason" : "segment src-2 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "contact_phone: ",
+    "local_id" : "src-2",
+    "drop_reason" : "unverifiable"
+  }, {
+    "reason" : "segment src-3 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "reviewers:\n  - ",
+    "local_id" : "src-3",
+    "drop_reason" : "unverifiable"
+  } ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
