@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "BikeRepairStandPlacementCriteria",
+    "frame" : "Where should public bike repair infrastructure be sited relative to point-of-need incident patterns?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Couples the operational directive to place the repair stand at the river path entrance instead of the car park with the empirical rationale that flat tires occur along the river path."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-3" ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
