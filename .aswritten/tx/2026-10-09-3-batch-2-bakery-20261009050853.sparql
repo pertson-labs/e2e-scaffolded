@@ -1,0 +1,82 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T051056Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T05:10:56Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-3-batch-2-bakery-20261009050853.md" ;
+      dct:title "Multipass source extraction: Bakery day-old pricing — 2026-10-09" ;
+      prov:generated narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e, narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2, narr:Actor_CalebRuiz, narr:Actor_InesThorvald .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T051056Z {
+    narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e a narr:Sample ;
+        dct:title "Bakery day-old pricing — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-09-3-batch-2-bakery-20261009050853.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1 a narr:Expression ;
+        narr:actor narr:Actor_InesThorvald ;
+        narr:act "assertive" ;
+        narr:context "Bakery day-old pricing policy" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ;
+                oa:prefix "leb Ruiz (Shift Lead)\n\nInes: \"" ;
+                oa:suffix "\"\n\nCaleb: \"Then the shelf card" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "162"^^xsd:integer ;
+                oa:end "269"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T05:10:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 a narr:Expression ;
+        narr:actor narr:Actor_CalebRuiz ;
+        narr:act "assertive" ;
+        narr:context "Bakery day-old pricing policy" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then the shelf card changes at two as well, so the price is never a surprise at the till." ;
+                oa:prefix "s left to buy them.\"\n\nCaleb: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "280"^^xsd:integer ;
+                oa:end "369"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T05:10:56Z"^^xsd:dateTime .
+
+    narr:Actor_CalebRuiz a narr:Actor ;
+        skos:prefLabel "Caleb Ruiz" .
+
+    narr:Actor_InesThorvald a narr:Actor ;
+        skos:prefLabel "Ines Thorvald" .
+
+    aswr:Run_20261009T051056Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/actors.json" ;
+        prov:generated narr:Actor_CalebRuiz, narr:Actor_InesThorvald ;
+        dct:isPartOf aswr:Tx_20261009T051056Z ;
+        prov:generatedAtTime "2026-10-09T05:10:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T051056Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/89eed6c20210/2026-10-09-3-batch-2-bakery-20261009050853/pass1.json" ;
+        prov:generated narr:Sample_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e, narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_1, narr:Expr_20261009_3_Batch2Bakery20261009050853_hff9ef5f7293e_2 ;
+        dct:isPartOf aswr:Tx_20261009T051056Z ;
+        prov:generatedAtTime "2026-10-09T05:10:56Z"^^xsd:dateTime .
+  }
+}
