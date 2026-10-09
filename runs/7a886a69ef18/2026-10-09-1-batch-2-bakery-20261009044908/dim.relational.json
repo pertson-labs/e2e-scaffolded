@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "half price at two in the afternoon, not at close",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enacts market-pricing logic by discounting goods based on customer purchasing timing and demand.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames operational timing around transparent price signaling for point-of-sale market transactions.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
