@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We open at eight on Tuesdays and Thursdays",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an established, recurring operating schedule (present, realis) with specific times and days (concrete).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "we close an hour earlier those days",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the routine closing schedule adjustment (present, realis) tied to specific operational staffing needs (concrete).",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
