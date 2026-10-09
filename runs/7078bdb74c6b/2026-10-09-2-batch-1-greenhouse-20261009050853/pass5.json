@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : null,
+    "why" : "Mints the organizational strata category covering greenhouse sensor installation, deployment sequencing, and telemetry reporting requirements.",
+    "verdict" : "mint",
+    "leaf" : "GreenhouseMonitoring",
+    "region" : [ "Observability", "FocusSequencing" ],
+    "kind" : "strata",
+    "title" : "Systematic microclimate tracking and sensor infrastructure across greenhouse bays",
+    "frame" : "How are greenhouse environments monitored and safeguarded against seasonal risks?",
+    "consulted" : [ ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SensorDeploymentPrioritization",
+    "title" : "Prioritizing sensor deployment by seasonal frost deadlines and historical crop vulnerability",
+    "frame" : "How should greenhouse sensor installations be sequenced against seasonal deadlines and past loss patterns?",
+    "under" : [ "GreenhouseMonitoring" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Odile and Pell establish a mandatory deadline to install humidity sensors across all bays before first frost, prioritizing Bay Two due to prior seedling losses.",
+    "consulted" : [ ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SensorReportingCadence",
+    "title" : "Tuning sensor reporting intervals to capture rapid overnight microclimate shifts",
+    "frame" : "What telemetry reporting cadence is required to prevent missing critical microclimate fluctuations?",
+    "under" : [ "GreenhouseMonitoring" ],
+    "supporting_segments" : [ "src-4" ],
+    "why" : "Pell asserts the technical requirement of fifteen-minute reporting intervals to ensure rapid overnight drops are reliably detected.",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
