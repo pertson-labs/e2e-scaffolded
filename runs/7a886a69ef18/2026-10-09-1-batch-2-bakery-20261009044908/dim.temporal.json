@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an established recurring operational rule and pricing schedule for physical bakery items.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the shelf card changes at two as well",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the routine mechanical update of physical shelf cards and till pricing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
