@@ -1,0 +1,35 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Sets operational operational directive and deadline based on organizational/planning authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "because it lost the most seedlings last winter.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies prioritization sequence using empirical rationale and past loss data.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes technical reporting constraints based on domain knowledge of overnight temperature/humidity dynamics.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
