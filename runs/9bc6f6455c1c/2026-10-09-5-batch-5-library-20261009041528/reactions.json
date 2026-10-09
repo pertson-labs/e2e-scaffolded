@@ -1,0 +1,70 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-2376aaa7",
+  "live_run_id" : "9bc6f6455c1c",
+  "stream" : "e2e-662-batch-20261009041528",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.002172,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00217235,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T04:47:32.345434948Z",
+  "reconciliation" : [ {
+    "source" : "event log",
+    "claim_token" : null,
+    "sent" : [ ],
+    "uncertain" : [ ],
+    "claimed_at" : "2026-10-09T04:21:48.282Z"
+  } ],
+  "healed" : {
+    "healed" : true,
+    "attempt" : 1,
+    "sources" : {
+      "owner" : "the live run",
+      "document-text" : "the committed memory document at the terminal's commit 78f8fb50d",
+      "participants" : "events.jsonl (the engine's accepted event)",
+      "delta-line" : "the terminal commit event (tx_summary)",
+      "origin-path" : "the terminal commit event",
+      "source-sparql" : "the committed source TX at the terminal's commit 78f8fb50d",
+      "miss-passes" : "the terminal commit event",
+      "run-id" : "events.jsonl (the committing attempt's run_id)",
+      "repo" : "the live run",
+      "live-run-id" : "the live run",
+      "ref" : "the terminal commit event",
+      "miss-count" : "the terminal commit event",
+      "submitter" : "events.jsonl (the engine's accepted event)",
+      "cid" : "the live run id (engine run-cid)",
+      "openrouter-key" : "the account store (the run owner's key)",
+      "recon-sparql" : "absent: the terminal commit named no recon TX",
+      "regen" : "the run's own digest regen cf26a88f3",
+      "doc-stem" : "the memory path",
+      "pr" : "the terminal commit event",
+      "tx-sparql" : "the committed vectors TX at the terminal's commit 78f8fb50d"
+    }
+  },
+  "reason" : "recorded from the run's log: an earlier dispatch finished and its record never landed",
+  "reason_class" : "final"
+}
