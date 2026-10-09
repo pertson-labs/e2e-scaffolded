@@ -1,0 +1,15 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Wren Halloway establishes the operational policy of restricting tool library hours to Saturdays during winter due to minimal weekday attendance, while Jun Arceneaux directs staffing an additional volunteer for returns during the consolidated shift.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_SeasonalScheduleConsolidationAndDedicatedReturnsStaffing",
+    "title" : "Consolidating Seasonal Operating Hours to Peak Windows and Staffing Returns Dedicated Shifts",
+    "frame" : "how should operating schedules and shift staffing be structured to match volunteer capacity with seasonal borrower demand?",
+    "consulted" : [ "Narrative_SynchronizingMarkdownTimingWithShelfSignage", "StoreOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
