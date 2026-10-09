@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "by the river path entrance, not in the car park",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrasts the approved placement against the rejected alternative using an explicit negative paired clause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "walked off",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses the colloquial personification of an inanimate object walking off to express theft.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
