@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "At close nobody is left to buy them.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Ines justifies the procedural timing rule by offering a logical explanation/evidence based on customer behavior.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Caleb explains the practical operational rationale behind aligning the shelf card change with the price change time.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
