@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Establishes a dedicated organizational stratum for retail pricing policies and operational execution workflows within the bakery domain.",
+    "verdict" : "mint",
+    "leaf" : "BakeryPricing",
+    "region" : [ "ValueExchange", "ProcessPolicyUpdates" ],
+    "kind" : "strata",
+    "title" : "Operational pricing schedules and point-of-sale display coordination for bakery inventory",
+    "frame" : "How are bakery retail pricing adjustments and shelf signage synchronized to clear inventory and maintain customer trust?",
+    "consulted" : [ "GreenhouseMonitoring", "Narrative_PreemptiveVulnerabilitySensorDeployment" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SynchronizedMiddayMarkdownExecution",
+    "title" : "Executing perishable markdowns midday with synchronized shelf cards captures active demand and eliminates checkout friction",
+    "frame" : "When should perishable markdowns take effect, and how must point-of-sale signage be synchronized to prevent checkout discrepancies?",
+    "under" : [ "BakeryPricing" ],
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Ines and Caleb establish a coherent operational policy: moving day-old bread markdowns to 2 p.m. while customer foot traffic remains active, and immediately updating shelf cards to guarantee clear pricing at the till.",
+    "consulted" : [ "GreenhouseMonitoring", "Narrative_PreemptiveVulnerabilitySensorDeployment" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
