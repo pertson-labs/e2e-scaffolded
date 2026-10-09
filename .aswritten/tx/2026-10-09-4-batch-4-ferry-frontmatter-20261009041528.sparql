@@ -1,0 +1,82 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261009T041843Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-09T04:18:43Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "c68d0ad99daf" ;
+      aswr:originPath ".aswritten/memories/2026-10-09-4-batch-4-ferry-frontmatter-20261009041528.md" ;
+      dct:title "Multipass source extraction: Ferry timetable change — 2026-10-09" ;
+      prov:generated narr:Sample_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2, narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1, narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2, narr:Actor_RolfBenedek, narr:Actor_TamsinOduya .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261009T041843Z {
+    narr:Sample_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2 a narr:Sample ;
+        dct:title "Ferry timetable change — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-09-4-batch-4-ferry-frontmatter-20261009041528.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1 a narr:Expression ;
+        narr:actor narr:Actor_TamsinOduya ;
+        narr:act "assertive" ;
+        narr:context "Ferry timetable change — 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night." ;
+                oa:prefix "enedek (Dispatcher)\n\nTamsin: \"" ;
+                oa:suffix "\"\n\nRolf: \"The weekend timetabl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "243"^^xsd:integer ;
+                oa:end "365"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:18:43Z"^^xsd:dateTime .
+
+    narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2 a narr:Expression ;
+        narr:actor narr:Actor_RolfBenedek ;
+        narr:act "assertive" ;
+        narr:context "Ferry timetable change — 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ;
+                oa:prefix " passengers a night.\"\n\nRolf: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "375"^^xsd:integer ;
+                oa:end "458"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-09T04:18:43Z"^^xsd:dateTime .
+
+    narr:Actor_RolfBenedek a narr:Actor ;
+        skos:prefLabel "Rolf Benedek" .
+
+    narr:Actor_TamsinOduya a narr:Actor ;
+        skos:prefLabel "Tamsin Oduya" .
+
+    aswr:Run_20261009T041843Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/5767c4544de2/2026-10-09-4-batch-4-ferry-frontmatter-20261009041528/actors.json" ;
+        prov:generated narr:Actor_RolfBenedek, narr:Actor_TamsinOduya ;
+        dct:isPartOf aswr:Tx_20261009T041843Z ;
+        prov:generatedAtTime "2026-10-09T04:18:43Z"^^xsd:dateTime .
+
+    aswr:Run_20261009T041843Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/5767c4544de2/2026-10-09-4-batch-4-ferry-frontmatter-20261009041528/pass1.json" ;
+        prov:generated narr:Sample_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2, narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_1, narr:Expr_20261009_4_Batch4FerryFrontmatter20261009041528_hf592dd2b25e2_2 ;
+        dct:isPartOf aswr:Tx_20261009T041843Z ;
+        prov:generatedAtTime "2026-10-09T04:18:43Z"^^xsd:dateTime .
+  }
+}
