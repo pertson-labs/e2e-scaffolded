@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "goes by the river path entrance, not in the car park",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Constructs location rule via explicit contrast between target placement and excluded alternative.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
