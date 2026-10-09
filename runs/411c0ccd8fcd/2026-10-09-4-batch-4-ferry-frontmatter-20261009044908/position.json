@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "FerryLateSailingTimetableAndRidershipDemand",
+    "frame" : "how should late-night ferry sailing schedules be adjusted in response to weekday ridership demand versus weekend capacity utilization?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "src-1 announces the weekday timetable curtailment from November, src-2 grounds the change in low ridership on late weekday sailings, and src-3 justifies preserving the existing weekend timetable based on full capacity utilization on Friday and Saturday nights.",
+    "name_repaired_from" : "Position_FerryLateSailingTimetableAndRidershipDemand"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
