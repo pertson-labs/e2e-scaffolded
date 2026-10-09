@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ToolLibraryWinterOperatingSchedule",
+    "frame" : "how are volunteer tool library winter operating hours and shift staffing adjusted in response to seasonal borrower demand?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The group pairs the seasonal restriction of operating hours to Saturdays (justified by minimal weekday evening borrower traffic) with a compensatory staffing increase of a second volunteer on the consolidated Saturday shift.",
+    "name_repaired_from" : "Position_ToolLibraryWinterOperatingSchedule"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
