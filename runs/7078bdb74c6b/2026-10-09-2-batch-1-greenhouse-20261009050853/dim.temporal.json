@@ -1,0 +1,36 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sets a planned concrete action to occur before an upcoming event (first frost).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Bay two gets the pilot unit first",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "because it lost the most seedlings last winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Assigns a specific upcoming rollout step based on a settled past fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the concrete reporting frequency and operational requirement of the sensors as an active rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
