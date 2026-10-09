@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "PublicRepairStandLocationAndToolSecurity",
+    "frame" : "where should public bike repair stands be installed and how should tools be secured against theft?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both expressions establish operational rules for deploying the public bike repair facility by pairing high-utility placement (siting where flats occur rather than the car park) with loss-prevention measures (securing the pump with a chain following prior theft).",
+    "name_repaired_from" : "Position_PublicRepairStandLocationAndToolSecurity"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
