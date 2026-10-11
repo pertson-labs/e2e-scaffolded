@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "why" : "'memo author' is a role descriptor, not a person's name; no person named in the envelope author/context declaration to bind.",
+    "ai" : false
+  }, {
+    "name" : "Scarlet Dame",
+    "verdict" : "mint",
+    "label" : "Scarlet Dame",
+    "why" : "Witnessed name with no existing actors in the graph; mint under the full name.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "label" : "Xena ExpertGH",
+    "why" : "Submitter named in envelope; graph is empty so no existing actor to bind to; mint under the full name.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Xena ExpertGH",
+    "why" : "Account email is the same person as submitted_by 'Xena ExpertGH'; emit the email verdict under that person's label, never an email-labeled actor. Graph empty, so mint.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
