@@ -1,0 +1,31 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_RecallTargetAndPool> {
+  <https://aswritten.ai/narrative#Digest_Position_RecallTargetAndPool> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_RecallTargetAndPool> ;
+    narr:childCount "9"^^xsd:integer ;
+    narr:generatedFrom "d47e17f24a950a0d71348dc45b695a3faf9b06c6" ;
+    narr:narration """This position holds that a recall test's target cannot be [production's own placements, rejected as circular given the stance that production is what's wrong](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_25), and that the candidate pool must be [built exhaustively, then refined by a precision pass with picks, noted ambiguities, and closely-rejected items kept visible, big models first with small-model judgments overlaid](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_27). The design rests on [small-model trust earned by confirmation, not faith](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_29). Exhaustiveness was [challenged with a demand for the mechanism guaranteeing nothing relevant is excluded](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_31), answered by [a complement pass over every unpicked frame](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_32), and [partial recall numbers were pressed as a gap needing explanation](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_33). [Measured findings report recovery rates across configurations, weak call-transcript reading, a runaway model, and a judged set showing the old floor was a poor reference](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39> ;
+    narr:keyPhrase [ narr:text "that seems like a pretty questionable metric to be running against, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_26> ] ;
+    narr:keyPhrase [ narr:text "trusting the small models there is something we want to do by confirmation, not faith." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_29> ] ;
+    narr:keyPhrase [ narr:text "are you sure that everything that might be relevant is being included? And what's the mechanism for that?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_31> ] ;
+    narr:keyPhrase [ narr:text "It was not; a complement pass over every unpicked frame, judged whole, was added." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_32> ] ;
+    narr:keyPhrase [ narr:text "that to me is pretty bad. What are you actually missing and how do we understand what the gap between that number is and full recall?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_33> ] ;
+    narr:keyPhrase [ narr:text "the floor was a poor reference" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39> ] ;
+    narr:variation [ narr:text "The measured findings undercut the rejected baseline from the other direction: the judged set showed production's targets recovered only a small fraction of what judges agreed was relevant, confirming the objection empirically." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_25> ] ;
+    narr:variation [ narr:text "Recall performance is uneven across document shapes — memos and a voice memo read well, a two-person call transcript read weakly — so the design's success is not uniform." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39> ] ;
+    narr:run "4e43ac1885e7" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

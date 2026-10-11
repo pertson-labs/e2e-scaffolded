@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_CrossSessionBuildGate> {
+  <https://aswritten.ai/narrative#Digest_Narrative_CrossSessionBuildGate> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_CrossSessionBuildGate> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "d47e17f24a950a0d71348dc45b695a3faf9b06c6" ;
+    narr:narration """[A standing rule attributed to Scarlet](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4) holds that nothing clears for export as a build input until the design is tested. [A framing line](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5) leads into [a directive to finish the full design and test it before implementing in ad hoc places around the codebase](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ;
+    narr:keyPhrase [ narr:text "Nothing here is exported to other sessions as a build input until the design is tested" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4> ] ;
+    narr:keyPhrase [ narr:text "This is a new conversation, so previous things I said, like this ruling on 766, I don't think are something that we should be passing off to other sessions yet." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5> ] ;
+    narr:keyPhrase [ narr:text "we need to slow down" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ] ;
+    narr:keyPhrase [ narr:text "it needs to do the full design and then test it before we start implementing it in ad hoc places around the codebase." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ] ;
+    narr:variation [ narr:text "The composer's summary and framing carry the rule as relayed authority, while only the direct quote is witnessed as Scarlet's own words in the moment." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ] ;
+    narr:run "4e43ac1885e7" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}

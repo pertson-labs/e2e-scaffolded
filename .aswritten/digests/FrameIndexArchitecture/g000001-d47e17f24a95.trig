@@ -1,0 +1,58 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_FrameIndexArchitecture> {
+  <https://aswritten.ai/narrative#Digest_FrameIndexArchitecture> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#FrameIndexArchitecture> ;
+    narr:childCount "32"^^xsd:integer ;
+    narr:generatedFrom "d47e17f24a950a0d71348dc45b695a3faf9b06c6" ;
+    narr:narration """This stratum asks what an index page must carry so a reader gets context, not a bare position. The governing move is [the unit of expand must return the context around a position, never a single position](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_9), with [calls and narratives listed by IRI and everything beneath them as frames without one](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_10) and [an actor hub as one level down, linking to calls, narratives and positions](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_8). A [document page should show the full package and its edges at navigational fidelity](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_11), while [the MCP page stays at its size cap and root dumps to file are refused](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_12) — with the consequence that [a long call is one expand result with no split](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_13). The ordering principle holds that [steering comes first, then recall of the full set, then precision](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_19), grounded in [statements as support for a direction, never ends in themselves](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21). On frame-only reading, [a frame alone is not the carrier of meaning, and frame-only relevance location answers only maybe](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23), so [a judge sees a position whole, never a sample of three](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_24). The measurement arc runs from [rejecting production's own placements as the test target](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_25) through [a judged-set design with big models picking and small models overlaid](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_27) and [a complement pass added when the pool proved non-exhaustive](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_32), to [measured recall and token-cost findings across document shapes and models](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39). It lands in [the ruled split: steering stays ours, recall and precision come from engine primitives](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_44), after [the concession that the hand-rolled read layer was the weak link](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_42). Four broader narratives frame it: [the unit of expand carries context](narr:Narrative_ExpandUnitContext), [steering precedes recall](narr:Narrative_ReadPathOrder), [recall is judged against an oracle](narr:Narrative_RecallOracleFirst), and [steering is ours while recall belongs to an engine](narr:Narrative_SteeringRecallSeparation).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_9> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ExpandUnitContext> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ReadPathOrder> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_RecallOracleFirst> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SteeringRecallSeparation> ;
+    narr:keyPhrase [ narr:text "You want to tightly control the unit of expand." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_9> ] ;
+    narr:keyPhrase [ narr:text "A statement is always support for a direction, not an end in itself." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21> ] ;
+    narr:keyPhrase [ narr:text "I don't think frame plus a selection of statements is ever a good design or was ever a good design." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ] ;
+    narr:keyPhrase [ narr:text "trusting the small models there is something we want to do by confirmation, not faith." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_29> ] ;
+    narr:keyPhrase [ narr:text "that seems like a pretty questionable metric to be running against, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_26> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ] ;
+    narr:keyPhrase [ narr:text "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_37> ] ;
+    narr:variation [ narr:text "The engine split is contested from inside: rolling a query engine by accident is called out as a known mistake, pushing against the ruled separation." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_44> ] ;
+    narr:variation [ narr:text "Frame-only relevance location stays unresolved — the honest answer is 'maybe', not a settled yes." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ] ;
+    narr:variation [ narr:text "The unit-of-expand ruling carries its own danger: transaction-sibling expansion may return too much data." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_36> ] ;
+    narr:variation [ narr:text "The tentative framing — calls as the unit of expansion with frames beneath — is marked provisional, not firm." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_15> ] ;
+    narr:variation [ narr:text "Recall quality itself was judged bad, with the gap to full recall demanded as an open question." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_33> ] ;
+    narr:run "4e43ac1885e7" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

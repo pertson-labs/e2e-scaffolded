@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_FrameAsReadingDirection> {
+  <https://aswritten.ai/narrative#Digest_Position_FrameAsReadingDirection> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_FrameAsReadingDirection> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "d47e17f24a950a0d71348dc45b695a3faf9b06c6" ;
+    narr:narration """This position holds that [a statement is always support for a direction, never an end in itself](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21), and that [a frame is not the carrier of meaning — meaning comes from reading its statements through it](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23). The ordering runs [steering first, then recall of the full set, then precision](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_19), with a [derived consequence: a judge sees a position whole, never a sample of three](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_24).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_24> ;
+    narr:keyPhrase [ narr:text "A statement is always support for a direction, not an end in itself." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21> ] ;
+    narr:keyPhrase [ narr:text "I don't think frame plus a selection of statements is ever a good design or was ever a good design." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ] ;
+    narr:keyPhrase [ narr:text "And our answer is maybe." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ] ;
+    narr:keyPhrase [ narr:text "a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_24> ] ;
+    narr:variation [ narr:text "The speaker's own verdict on frame-only relevance is left open — 'maybe' — even while asserting frame-only design loses something; the position's support carries an unresolved question, not a settled answer." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_23> ] ;
+    narr:variation [ narr:text "One support self-qualifies: the cite prompt may not actually say what is being claimed, flagged for ticketing under the read pass epic rather than treated as confirmed." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_21> ] ;
+    narr:run "4e43ac1885e7" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

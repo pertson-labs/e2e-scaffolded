@@ -1,0 +1,36 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_EngineeringDiscipline> {
+  <https://aswritten.ai/narrative#Digest_EngineeringDiscipline> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#EngineeringDiscipline> ;
+    narr:childCount "12"^^xsd:integer ;
+    narr:generatedFrom "d47e17f24a950a0d71348dc45b695a3faf9b06c6" ;
+    narr:narration """A standing rule anchors this strata: [a composer's note records that nothing here exports to other sessions until the design is tested](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4), and the framing for that rule sits in [an editorial lead-in to the quoted slowdown](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5), spelled out directly in [the multi-sentence directive to slow down and finish the full design before ad hoc implementation](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6). That gate is captured at the narrative level too, in [the cross-session build gate](narr:Narrative_CrossSessionBuildGate). A parallel thread presses toward reusing what already exists: [the shoulders-of-giants directive against rolling new components inside given constraints](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_43), generalized in [the extend-before-rolling-new narrative](narr:Narrative_ExtendExistingWork) and written down in [the extend-first rule record](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_45). A third concern narrows to output limits: [the circuit-breaker standard for caps, tripping only on runaway behavior rather than ordinary length](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_34), echoed in [the output-cap circuit-breaker narrative](narr:Narrative_OutputCapCircuitBreaker) and codified in [the llm-calls rule record](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_35). Underneath these rules sits a retrospective: [the assessment that reimplementing a database was a known mistake entered into by accident](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41), and [the session's own accounting of which hand-rolled pieces were the weak link](narr:Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_42).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_35> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_CrossSessionBuildGate> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ExtendExistingWork> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_OutputCapCircuitBreaker> ;
+    narr:keyPhrase [ narr:text "Nothing here is exported to other sessions as a build input until the design is tested; Scarlet's 2026-10-09 rule." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_4> ] ;
+    narr:keyPhrase [ narr:text "we need to slow down. This is a new conversation, so previous things I said, like this ruling on 766, I don't think are something that we should be passing off to other sessions yet." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ] ;
+    narr:keyPhrase [ narr:text "If you want a shorter reply, put it in the prompt, but an output cap, if anything, should be solely for runaway behavior and it should be like a circuit breaker." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_34> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ] ;
+    narr:keyPhrase [ narr:text "I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_43> ] ;
+    narr:keyPhrase [ narr:text "Now a rule in `.claude/rules/llm-calls.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_35> ] ;
+    narr:keyPhrase [ narr:text "The rule is written into `.claude/rules/extend-first.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_45> ] ;
+    narr:variation [ narr:text "The slowdown directive explicitly retracts an earlier ruling rather than extending it, flagging that prior guidance isn't yet safe to export to other sessions." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_5> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_6> ] ;
+    narr:variation [ narr:text "The database retrospective concedes the extend-first principle was violated here first, before the shoulders-of-giants directive generalizes it as the rule going forward." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_41> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_42> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_43> ] ;
+    narr:variation [ narr:text "The output-cap circuit-breaker rule narrows the discipline to one specific guard against runaway behavior, distinct from the broader extend-and-test gate." ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_34> ; narr:over <https://aswritten.ai/narrative#Expr_20261011_1_VerifyPr1031WrappingQuotesRepairOnDev_h2e601120d6cc_35> ] ;
+    narr:run "4e43ac1885e7" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}
