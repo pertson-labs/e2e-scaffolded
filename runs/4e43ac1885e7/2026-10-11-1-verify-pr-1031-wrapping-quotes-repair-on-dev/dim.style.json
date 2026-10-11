@@ -1,0 +1,149 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "anaphora" ],
+    "evidence" : [ {
+      "quote" : "You want it always",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "You don't want to get a single position",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeated 'You want' / 'You don't want' openings across successive clauses set the directive as anaphora.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "If you list the call with its IRI",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "you list the narratives with IRI",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two matched 'you list X with IRI' clauses for call and narrative, a parallel structure across the pair.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "narratives, positions, the whole graph inside that document",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A deliberate triad of items naming what a page must carry.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "dumping a large document to file doesn't",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Mirrors 'Dumping the root to file' with a contrasting 'dumping a large document to file', matched clauses carrying a contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "and then you need the recall of the full set of things to consider, and then applying",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Sequenced three beats (steering, recall, applying) marked by repeated 'and then'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed roles set in deliberate contrast within one sentence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "The frame is designed to be the frame through which its statements are read",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A negated clause is followed by a matched affirmative, a deliberate reversal of the frame's role.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "never a sample of three.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Whole-versus-sample contrast closes the sentence as a deliberate opposition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "Because isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A question posed for effect, its answer presumed by the asker.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "by confirmation, not faith.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two opposed methods set against each other in a compact contrastive phrase.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "it should be like a circuit breaker",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "framing-move"
+    } ],
+    "why" : "An extended electrical comparison carries the argument about output caps.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "stock-phrase", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "instead of taking the constraints that are proposed to a design task",
+      "kind" : "framing-move"
+    } ],
+    "why" : "'Shoulders of giants' recurs as the speaker's signature formula; 'instead of taking' sets reuse against rolling new work.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "never recall from steering",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A chiastic rule ('steering from ours, recall from the engine, never recall from steering') states the division by reversal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-48",
+    "regions" : [ "short-punchy-cadence" ],
+    "evidence" : [ {
+      "quote" : "Whether a real store is needed.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A run of clipped fragments closes the section as a list of open items.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-20", "src-22", "src-25", "src-27", "src-28", "src-30", "src-31", "src-32", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-45", "src-46", "src-47" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
