@@ -1,0 +1,107 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Nothing here is exported to other sessions as a build input until the design is tested",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Gating rule on other sessions, attributed to Scarlet's ruling; reports a governance act.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Scarlet's directive to a session, rendered by the memo author; witnessed through reporting.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Direct command to another session to design and test before implementing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand",
+      "kind" : "address-form"
+    } ],
+    "why" : "Directive to the designing session about how the unit of expand must be controlled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "you list the narratives with IRI",
+      "kind" : "address-form"
+    } ],
+    "why" : "Prescriptive instruction on how listings must be structured.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directive setting what a page must carry.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing",
+      "kind" : "address-form"
+    } ],
+    "why" : "Joint naming framed as shared decision, with openness to alternatives.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Proportional cost analogy for output caps; limit as circuit breaker scaled to normal use.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Re-implementing or creating a new database is a generally known stupid thing to do",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Build-versus-buy cost judgment on rolling a query engine.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach",
+      "kind" : "address-form"
+    } ],
+    "why" : "Directive enforcing a reuse-first standard; claims authority over design practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal ruling establishing binding consequences for steering and recall.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-7", "src-8", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-42", "src-45", "src-46", "src-47", "src-48" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
