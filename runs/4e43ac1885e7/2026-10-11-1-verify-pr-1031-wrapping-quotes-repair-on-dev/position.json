@@ -1,0 +1,37 @@
+{
+  "positions" : [ {
+    "name" : "ShouldersOfGiantsStanding",
+    "frame" : "When a build could extend existing work, does it start from that work and adapt its specification, or does it roll something new inside the constraints as given?",
+    "members" : [ "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+    "why" : "The group reads the build-or-extend question across the session. Scarlet's standing rule (src-43) and the ruled consequences (src-44, src-45) state the reuse-first answer. src-41 gives the build-versus-buy reasoning for not re-implementing a database, src-40 separates steering from the engine's recall, and src-42 is the session's concession that the hand-rolled read layer was the weak link. The read holds the answer in the members rather than in the frame. Tension: the steering layer is kept as ours (src-40, src-44), so the standing is to reuse primitives, not to adopt everything."
+  }, {
+    "name" : "FrameAsReadingDirection",
+    "frame" : "Can a frame alone locate relevance, or must its statements be read through the frame so that meaning is not lost?",
+    "members" : [ "src-19", "src-21", "src-23", "src-24" ],
+    "why" : "The group reads what a frame is for. src-23 treats the frame as the lens through which statements are read, and src-21 holds that a statement is support for a direction and loses its context when taken alone. src-24 turns that into the rule that a judge sees a whole position, and src-19 gives the order of steering, recall, and precision. Scarlet's hedged answer in src-23 ('our answer is maybe') is kept as an open edge, not resolved."
+  }, {
+    "name" : "UnitOfExpandForContext",
+    "frame" : "What should a single expand return so that a reader gets the context around a position rather than the position alone?",
+    "members" : [ "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-15", "src-36", "src-37" ],
+    "why" : "The group reads the navigation shape: the hub-and-tier layout (src-8), the expand unit as call or narrative with frames beneath (src-9, src-10, src-15), the page contents (src-11), and the size and spill constraints (src-12, src-13). src-36 asks whether the transaction is the unit and warns of too much data. src-37 records the measured weight of pages at that unit. The tension is between full context and page size, which the memo keeps and does not resolve."
+  }, {
+    "name" : "RecallTargetAndPool",
+    "frame" : "What should count as the target of a recall test, and how do we know the candidate pool is exhaustive?",
+    "members" : [ "src-25", "src-26", "src-27", "src-28", "src-29", "src-31", "src-32", "src-33", "src-39" ],
+    "why" : "The group reads how recall is judged. src-25 and src-26 reject replicating production's placements as the target. src-27 and src-28 set out the judged set with big models and an overlay of small ones. src-29 demands confirmation over faith for the small models. src-31 and src-32 question and then complete exhaustiveness through a complement pass. src-33 judges the 82 to 88 percent gap as pretty bad, and src-39 reports the measured results, including the weak floor. The read is about the oracle, and its figures are held as reported rather than settled."
+  }, {
+    "name" : "OutputCapScope",
+    "frame" : "Should an output cap bound ordinary output, or only act as a safeguard against runaway behavior?",
+    "members" : [ "src-34", "src-35" ],
+    "why" : "src-34 argues that caps are for runaway behavior and should behave like a circuit breaker that stays dormant in normal use, and src-35 records the resulting rule in the repo. The position rests on the argument plus its ruled consequence."
+  }, {
+    "name" : "SessionBuildInputGate",
+    "frame" : "When may session-scoped design be passed to other sessions as build input?",
+    "members" : [ "src-4", "src-5", "src-6" ],
+    "why" : "The group reads the gating of cross-session handoff. src-4 holds export until the design is tested, and src-5 and src-6 carry Scarlet's pause, in which the earlier ruling is not to be passed on and the session must design and test before implementing. The reading is reported through the memo author, so the authority of the directive is held as reported."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-7", "src-14", "src-16", "src-17", "src-18", "src-20", "src-22", "src-30", "src-38", "src-46", "src-47", "src-48" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
