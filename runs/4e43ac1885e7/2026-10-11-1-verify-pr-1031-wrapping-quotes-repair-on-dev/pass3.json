@@ -1,0 +1,84 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-2",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-3",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-4",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-5",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-7",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-13",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-17",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-18",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-20",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-22",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-24",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-25",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-27",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-30",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-32",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-35",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-37",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-38",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-39",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-42",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-44",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-45",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-46",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-47",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  }, {
+    "segment_id" : "src-48",
+    "why" : "no pass-2 binding; no confirmed referent or target"
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
