@@ -1,0 +1,90 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-15", "src-19", "src-20", "src-21", "src-23", "src-24", "src-36", "src-14", "src-25", "src-26", "src-27", "src-28", "src-29", "src-31", "src-32", "src-33", "src-37", "src-39", "src-40", "src-41", "src-42", "src-44" ],
+    "under" : null,
+    "why" : "Several standalone leaves on this document (read order, expand unit, recall oracle, steering/recall separation) concern the design of the frame index as a retrieval architecture, so the org's tier for that design forms here. The name follows the org's own term 'frame index'.",
+    "verdict" : "mint",
+    "leaf" : "FrameIndexArchitecture",
+    "region" : [ "TechnicalExplainers" ],
+    "kind" : "strata",
+    "title" : "From retrieving positions to returning their context",
+    "frame" : "What must the index carry so that a reader receives the context around a position, not the position alone?",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)", "existing strata: none", "existing graph structure: none", "strata reference: TechnicalExplainers (DesignTradeoffs, ComparativeAnalyses)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReadPathOrder",
+    "title" : "Steering precedes recall and precision",
+    "frame" : "In what order must steering, recall, and precision be applied so that each step's output is read in the context the prior step set?",
+    "under" : [ "FrameIndexArchitecture" ],
+    "supporting_segments" : [ "src-18", "src-19", "src-20", "src-21", "src-23", "src-24" ],
+    "why" : "Scarlet's ordering of the read path and the rule that a statement is support for a direction, with a judge seeing a whole position. This is a subject future reads will keep feeding.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExpandUnitContext",
+    "title" : "The unit of expand carries context, not a single position",
+    "frame" : "What must a single expand return so that a reader sees a position within its call or narrative?",
+    "under" : [ "FrameIndexArchitecture" ],
+    "supporting_segments" : [ "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-15", "src-36" ],
+    "why" : "The navigation shape, the unit of expand, page contents, and the size and spill constraints. The theme recurs as the design is built.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_RecallOracleFirst",
+    "title" : "Recall is judged against an oracle, not production's placements",
+    "frame" : "What should the judged set say the candidate pool contains, and how is exhaustiveness shown?",
+    "under" : [ "FrameIndexArchitecture" ],
+    "supporting_segments" : [ "src-14", "src-25", "src-26", "src-27", "src-28", "src-29", "src-31", "src-32", "src-33", "src-37", "src-39" ],
+    "why" : "The method for judging recall, its rejection of production as target, and the measured results as evidence. The measurements support the theme and are not leaves themselves.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SteeringRecallSeparation",
+    "title" : "Steering is ours; recall belongs to an engine",
+    "frame" : "Which parts of this layer are domain judgment the project must own, and which are recall primitives to compose from an existing engine?",
+    "under" : [ "FrameIndexArchitecture" ],
+    "supporting_segments" : [ "src-40", "src-41", "src-42", "src-44" ],
+    "why" : "The ruled split between steering and recall, and the concession that the hand-rolled read layer was the weak link.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "supporting_segments" : [ "src-4", "src-5", "src-6", "src-34", "src-35", "src-41", "src-42", "src-43", "src-45" ],
+    "under" : null,
+    "why" : "Two or more standalone leaves here (reuse of existing work and caps as circuit breakers) concern how the engineering is practised. The org's tier forms for that practice.",
+    "verdict" : "mint",
+    "leaf" : "EngineeringDiscipline",
+    "region" : [ "TechnicalExplainers" ],
+    "kind" : "strata",
+    "title" : "Build from standing work, and bound the work with tested rules",
+    "frame" : "When a task could be met by extending an existing component, does the work start from that component, and is each new rule tested before it spreads?",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing strata: none", "strata reference: TechnicalExplainers (ReusabilityPatterns, DesignTradeoffs)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExtendExistingWork",
+    "title" : "Adapt the existing component before rolling a new one",
+    "frame" : "Is this build starting from existing work and adapting its specification, or rolling something new inside the constraints as given?",
+    "under" : [ "EngineeringDiscipline" ],
+    "supporting_segments" : [ "src-41", "src-42", "src-43", "src-45" ],
+    "why" : "The standing rule to take the shoulders-of-giants approach and the ruled rule file, with the build-versus-buy reasoning as support.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OutputCapCircuitBreaker",
+    "title" : "Output caps guard against runaway output, not ordinary length",
+    "frame" : "Does this cap sit where normal use never reaches it, so that it trips only on runaway output?",
+    "under" : [ "EngineeringDiscipline" ],
+    "supporting_segments" : [ "src-34", "src-35" ],
+    "why" : "The argument that caps are safeguards and the ruled rule recording it.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_CrossSessionBuildGate",
+    "title" : "Design is tested before it crosses to other sessions",
+    "frame" : "What must a design clear before another session may take it as a build input?",
+    "under" : [ "EngineeringDiscipline" ],
+    "supporting_segments" : [ "src-4", "src-5", "src-6" ],
+    "why" : "The gating of session-scoped design as build input until it is designed and tested.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "existing graph structure: none", "existing strata: none" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-3", "src-7", "src-16", "src-17", "src-22", "src-30", "src-38", "src-46", "src-47", "src-48" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
