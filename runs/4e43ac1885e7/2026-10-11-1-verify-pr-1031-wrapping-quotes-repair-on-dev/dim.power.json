@@ -1,0 +1,126 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Memo author invokes a prior ruling by Scarlet as the authority for a hold on exporting material.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design and then test it before we start implementing it in ad hoc places around the codebase",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Scarlet sets a process requirement by modal 'needs to', grounded in agreed process rather than knowledge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "You want it always to be under a narrative or call or another door",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Scarlet dictates a design constraint on the unit of expand through directive modal phrasing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "You got a better name for it than that.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Scarlet invites the other party to propose a better name rather than imposing one.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Scarlet grounds her design judgment in her own stated understanding of what a frame is for.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "are you sure that everything that might be relevant is being included?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Scarlet puts a probing question to the team, inviting them to account for the pool's exhaustiveness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "pressure" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Scarlet presses on an unacceptable result and demands explanation of the gap.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Scarlet asserts a practice is wrong from her own engineering judgment, with intensified framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "separating the two could give us continued steering that we do and a query engine that does recall and precision",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Scarlet argues from the diagnosed cause to a separation that would fix it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Re-implementing or creating a new database is a generally known stupid thing to do",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Scarlet argues against hand-rolling a query engine by appeal to a general principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "pressure", "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Scarlet repeats and intensifies a demand to reuse existing work, backed by her standing as the directing voice.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Memo author records a ruling as binding consequences by formal designation.",
+    "reported" : false
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ShouldersOfGiantsStanding",
+    "title" : "take a standing on the shoulders of giants",
+    "frame" : "Is this build starting from existing work and adapting its specification, or rolling something new inside the constraints as given?",
+    "regions" : [ "pressure", "legitimate" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-32", "src-35", "src-36", "src-37", "src-38", "src-39", "src-42", "src-45", "src-46", "src-47", "src-48" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
