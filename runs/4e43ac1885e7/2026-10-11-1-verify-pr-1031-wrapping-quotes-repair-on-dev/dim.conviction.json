@@ -1,0 +1,367 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain record of lineage, asserted without hedge; no settling performed here.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Nothing here is exported to other sessions as a build input until the design is tested",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational never-style rule with a stated condition; the memo acts on it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think are something that we should be passing off to other sessions yet",
+      "kind" : "hedge"
+    } ],
+    "why" : "Scarlet's directive is firm, but the 'I don't think' hedge keeps it a claim; lower of the claim/decision tear.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think are something that we should be passing off to other sessions yet",
+      "kind" : "hedge"
+    } ],
+    "why" : "Same utterance as src-5 in her own segment; hedged core keeps it at claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered",
+      "kind" : "hedge"
+    } ],
+    "why" : "Expectation voiced as a tentative shape, open to revision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I might even go so far",
+      "kind" : "hedge"
+    } ],
+    "why" : "Firm directive core with a hedge at the edge ('I might even go so far').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The same with narrative",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain operational explanation of the navigation shape, asserted without hedge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Stated requirement in plain first-person; not framed as settled ratification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Emphatic 'really' on a firm position still argued for; claim, not ratified decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Memo records a settled operational ruling in declarative form.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Tentative",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly labeled tentative by the speaker.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I don't know",
+      "kind" : "hedge"
+    } ],
+    "why" : "Naming is floated with open invitation to alternatives.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Still open",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Memo marks the matter as unsettled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion of ordering; defended but not performed as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Firm 'always' core, with a hedge later ('might not be quite'); lower of tear.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed filing act; the memo acts on the outcome.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think that the frame only is unquestionably losing something",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "And our answer is maybe",
+      "kind" : "hedge"
+    } ],
+    "why" : "Strong negation core with a closing hedge; the question stays open, so claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "never a sample of three",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Operational 'never' consequence the design is built to honor.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "She rejected that as the target",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrated rejection, plain report of her position.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm evaluative assertion with a 'right?' tag, still argued for.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "a big model must also take an arm in the exhaustive pool",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "'Must' stated as a method requirement the judged set is built on.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "do this set with the big models",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Method instruction, firm but still a proposal in an open design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "confirmation, not faith",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Crisp epistemic contrast, asserted and defended rather than ratified.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain evaluative judgment with first-person framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "should be solely for runaway behavior",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Strong rule-like framing, but argued rather than ratified; lower of tear.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed act of writing a rule into the repo.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "probably too much data",
+      "kind" : "hedge"
+    } ],
+    "why" : "Danger voiced as a probable concern, open to revision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "call pages are 90 percent of the weight",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain measured statement from the memo.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "so the floor was a poor reference",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain conclusion from reported results, defended with numbers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I think part of our issue",
+      "kind" : "hedge"
+    } ],
+    "why" : "Committed core with an epistemic hedge at the edge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I feel like we've come to do that a bit by accident",
+      "kind" : "hedge"
+    } ],
+    "why" : "Firm judgment core, hedged where it extends to the team's history.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the weak link",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concession stated plainly in the memo.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "at every step",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Repetition as creed and permanence phrasing; the values-level stance is held across the whole statement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit ruling with dated ratification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into `.claude/rules/extend-first.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed declarative recording the rule's adoption.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Settled sequencing plan the memo commits to.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Open",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Open status marker; nothing settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-48",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Whether a real store is needed",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Unresolved question listed as open.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-7", "src-14", "src-18", "src-20", "src-30", "src-31", "src-32", "src-38" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
