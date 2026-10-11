@@ -1,0 +1,630 @@
+{
+  "doc" : {
+    "title" : "Steering is ours, recall is an engine's job: the frame-index recall tests and the shoulders-of-giants rule",
+    "date_stated" : "2026-10-11",
+    "actors_present" : [ "Scarlet Dame", "Xena ExpertGH" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Date: 2026-10-11, the narration-context session, epic parent for task-766 (The Frame Index).",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "document header"
+    },
+    "note" : "Header metadata stated by the composer; editorial scaffolding carried as a segment since it is a dated assertion.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Present: Scarlet Dame and the session.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "document header"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-3",
+    "exact" : "This memory extends the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1).",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "document header"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Nothing here is exported to other sessions as a build input until the design is tested; Scarlet's 2026-10-09 rule.",
+    "actor" : "memo author",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "document header"
+    },
+    "note" : "Records a standing rule attributed to Scarlet; the restriction is the composer's statement of it.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Scarlet stopped that: \"we need to slow down. This is a new conversation, so previous things I said, like this ruling on 766, I don't think are something that we should be passing off to other sessions yet. If this session is going to do the core, it needs to do the full design and then test it before we start implementing it in ad hoc places around the codebase.\"",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "the 10/08 ruling had been passed to other sessions as rulings"
+    },
+    "note" : "Framing sentence for the quoted slowdown; quoted speech follows as src-6.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-6",
+    "exact" : "we need to slow down. This is a new conversation, so previous things I said, like this ruling on 766, I don't think are something that we should be passing off to other sessions yet. If this session is going to do the core, it needs to do the full design and then test it before we start implementing it in ad hoc places around the codebase.",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "the 10/08 ruling had been passed to other sessions as rulings"
+    },
+    "note" : "Direct quote spanning several sentences forming one directive move; exact span taken from the quoted text.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "She then set the format of the index in her own terms:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "index format discussion"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-8",
+    "exact" : "I would expect it to be multi-tiered, right? An actor hub wouldn't include everything that that actor said. The actor hub would include a link to all of the calls that they were in, all of the narratives, and all of the positions, right? It is one level down, and you'd see the frame.",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "index format discussion"
+    },
+    "note" : "Blockquote; the trailing 'right?' tags are rhetorical and do not change the assertive force.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "You want to tightly control the unit of expand. What I don't want is, if you're trying to get a call, the unit of expand is the call, right, or the memory. You don't want to get a single position. I might even go so far as to say that you don't want to let a single position be expanded. You want it always to be under a narrative or call or another door, because, to the point of steering, not retrieval, we don't want to just return a single position. We want to return the context around it.",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "index format discussion"
+    },
+    "note" : "Blockquote; the governing move is an instruction about the unit of expand, carried as one segment.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "If you list the call with its IRI, then you would list all of the positions underneath it as frames with no IRI, right? It can just expand the call. The same with narrative: you list the narratives with IRI, and then everything underneath it as just frames.",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "index format discussion"
+    },
+    "note" : "Blockquote; instructs how calls and narratives are listed.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "And on what a page must carry: \"if I'm looking at a document, I should see everything, fully expanded: narratives, positions, the whole graph inside that document, and the edges that would lead me elsewhere and how to get to them. Actors, narratives, the strata up, and other positions outside the document that do not include the statements. … I want to see the full package and its edges at the navigational fidelity.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "page content requirements"
+    },
+    "note" : "Framing 'on what a page must carry' is editorial; quoted requirement is Scarlet's.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "On size: the MCP page stays 15K; \"what you really don't want to have is dump navigation to file, because that breaks the ability for the agent to understand the whole. Dumping the root to file breaks the structure of the navigator, but I think dumping a large document to file doesn't.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "page size discussion"
+    },
+    "note" : "Editorial lead-in 'On size:' plus quoted assertion; the quote is the segment's content.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-13",
+    "exact" : "A long call is one expand result and may spill whole past the bell curve; there is no split.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "page size discussion"
+    },
+    "note" : "Composer's restatement of the sizing consequence; no speaker marker in the sentence itself.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-14",
+    "exact" : "On the dead tier the sizing found (561 empty narratives, 952 unframed, 29% of statements in no position): \"most of the weirdness in that breakdown sounds like a 355 re-extraction would fix almost all of it. If we fix strata and then do a full re-extraction, wouldn't that change very substantially?\"",
+    "actor" : "Scarlet Dame",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "dead-tier sizing discussion"
+    },
+    "note" : "Lead-in reports the sizing findings in editorial voice; the quoted speech is Scarlet's and carries the question force.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-15",
+    "exact" : "Tentative: \"narrative then shows calls as the unit of expansion, with frames under them.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "dead-tier sizing discussion"
+    },
+    "note" : "Quoted tentative position; 'Tentative:' is editorial framing.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "On a name: \"Let's call it frame-based indexing or something. I don't know. You got a better name for it than that.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "naming discussion"
+    },
+    "note" : "Quoted request to name the index; 'On a name:' is editorial lead-in.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-17",
+    "exact" : "Still open.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "naming discussion"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-18",
+    "exact" : "The order every reader follows",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reader order section"
+    },
+    "note" : "Section heading-like phrase used as a lead-in; retained as a short assertive header-sentence for the order that follows.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-19",
+    "exact" : "You need steering first, and then you need the recall of the full set of things to consider, and then applying the result of steering, the navigated context, to the recalled choices becomes precision.",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reader order section"
+    },
+    "note" : "Blockquote stating the ordering principle.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "Applied to every consumer, including the room agent, the judgment passes (\"the decision on how to frame, how to interpret a frame, is highly context dependent\") and cite:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reader order section"
+    },
+    "note" : "Editorial lead-in applying the ordering to consumers; embedded quote is Scarlet's.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-21",
+    "exact" : "The graph contextualizes meaning through strata, narrative, position. And so statements out of that context lose their context and the ability for the agent to infer or to read their direction. A statement is always support for a direction, not an end in itself. Taking a statement out of context is exactly that, as opposed to using a statement as support for the position, narrative, strata direction that it is underneath and applying that to the document. That actually might not be quite what the cite prompt says and should probably get ticketed and looked at as part of the read pass epic.",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reader order section, cite prompt"
+    },
+    "note" : "Blockquote containing an embedded directive about ticketing the cite prompt; the assertive content is the governing move.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "Filed as task-767 under the read-path epic.",
+    "actor" : "memo author",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "reader order section, cite prompt"
+    },
+    "note" : "Composer records the filing action.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-23",
+    "exact" : "I don't think frame plus a selection of statements is ever a good design or was ever a good design. A frame is not designed to be the carrier of meaning. The frame is designed to be the frame through which its statements are read and that combination produces meaning, which is why the narration is arguably the result of that. I think that the frame only is unquestionably losing something. The question we're trying to answer is exactly that: can you use the frame only to locate whether something is relevant? And our answer is maybe.",
+    "actor" : "Scarlet Dame",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "frame as lens discussion"
+    },
+    "note" : "Blockquote; evaluative stance on frame design with a question and answer, carried as one move.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-24",
+    "exact" : "Consequence: a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "frame as lens discussion"
+    },
+    "note" : "Composer's derived consequence of the preceding quote.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-25",
+    "exact" : "The first tests scored against the 41 positions production's own runs had placed. She rejected that as the target: \"that seems like a pretty questionable metric to be running against, right? Because isn't our entire stance here that production isn't doing it right? So saying that we're trying to replicate production doesn't make any sense to me.\"",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Editorial narration of the rejection; quoted objection follows as src-26.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-26",
+    "exact" : "that seems like a pretty questionable metric to be running against, right? Because isn't our entire stance here that production isn't doing it right? So saying that we're trying to replicate production doesn't make any sense to me.",
+    "actor" : "Scarlet Dame",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Quoted objection; evaluative force on the metric.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-27",
+    "exact" : "The judged set that replaced it, in her words: produce exhaustive recall, \"then do a precision pass over it and throw out all the things that are obviously not relevant and make picks and say why and have some ambiguous ones noted and have other ones that are closely rejected still in the list so that they can be looked at, and have this done by a couple different models … do this set with the big models and then have the small models' judgments overlaid\"; a big model must also take an arm in the exhaustive pool, because \"trusting the small models there is something we want to do by confirmation, not faith.\"",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Composer's description of the replacement design, containing Scarlet's quoted directives; the narration is the segment, quoted directives attributed to her in the same sentence.",
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-28",
+    "exact" : "then do a precision pass over it and throw out all the things that are obviously not relevant and make picks and say why and have some ambiguous ones noted and have other ones that are closely rejected still in the list so that they can be looked at, and have this done by a couple different models … do this set with the big models and then have the small models' judgments overlaid",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Quoted directive for the judged-set design.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "trusting the small models there is something we want to do by confirmation, not faith.",
+    "actor" : "Scarlet Dame",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Quoted evaluative principle on small-model trust.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-30",
+    "exact" : "She reviews \"a list of dozens of rows\" and agrees or disagrees with placements.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "reference and tests discussion"
+    },
+    "note" : "Editorial narration of the review process; the quoted phrase is Scarlet's description.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-31",
+    "exact" : "On whether the pool was exhaustive: \"are you sure that everything that might be relevant is being included? And what's the mechanism for that?\"",
+    "actor" : "Scarlet Dame",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "exhaustiveness check"
+    },
+    "note" : "Lead-in is editorial; the quoted questions are Scarlet's.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-32",
+    "exact" : "It was not; a complement pass over every unpicked frame, judged whole, was added.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "exhaustiveness check"
+    },
+    "note" : "Composer reports the answer and the remedy adopted.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-33",
+    "exact" : "On 82 to 88 percent: \"that to me is pretty bad. What are you actually missing and how do we understand what the gap between that number is and full recall?\"",
+    "actor" : "Scarlet Dame",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "recall percentage discussion"
+    },
+    "note" : "Lead-in is editorial; quoted evaluation and question are Scarlet's.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-34",
+    "exact" : "On output caps: \"I do not understand why builders are constantly setting output caps on really anything. If you want a shorter reply, put it in the prompt, but an output cap, if anything, should be solely for runaway behavior and it should be like a circuit breaker. If you're using one amp of electricity, the circuit breaker is at 15 amps. It's designed to never flip unless something bad happens.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "output cap discussion"
+    },
+    "note" : "Lead-in is editorial; the quoted position is Scarlet's evaluation of output caps, carried as one move.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-35",
+    "exact" : "Now a rule in `.claude/rules/llm-calls.md`.",
+    "actor" : "memo author",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "output cap discussion"
+    },
+    "note" : "Composer records the rule's codification.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-36",
+    "exact" : "On supersession and the unit of expand: \"isn't our approach in the frame index that the unit of expand is the transaction? Which means that if you find any transaction sibling, you would always end up with the full set, right? The danger there is probably too much data.\"",
+    "actor" : "Scarlet Dame",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "supersession discussion"
+    },
+    "note" : "Lead-in is editorial; quoted questions and caveat are Scarlet's.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-37",
+    "exact" : "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "supersession discussion"
+    },
+    "note" : "Composer's measured result of the re-scoring.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-38",
+    "exact" : "Session findings (measured on our own graph, scored first against production's floor, then against the judged set)",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "session findings section"
+    },
+    "note" : "Section lead-in stating the measurement basis.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-39",
+    "exact" : "Frames alone, read by a cheap model in one call over the whole frame index (about 49K tokens), recovered 26 to 27 of the 41 positions production had placed; the navigator after full expansion recovered 23; with today's navigator's picks handed in as direction, Haiku reached 34, and three of its eight gains were not on the direction list. By unit of expand, 33 to 37 of 41. On other document shapes, memos and a voice memo read well and a two-person call transcript read weakly. GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit. The judged set on three documents found production's targets recover only 5 of 17, 1 of 34 and 2 of 16 of what two judges agreed was relevant, so the floor was a poor reference. Program spend $1.41 for the recall tests and $3.00 for the judged set.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "session findings section"
+    },
+    "note" : "Composer's measured findings, one reporting paragraph; not a quote.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-40",
+    "exact" : "Rolling our own perspective load, the steering portion, makes sense because that's novel. But I think part of our issue is that that same engine got used for recall inside all of the consumers that we listed out above. And separating the two could give us continued steering that we do and a query engine that does recall and precision.",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "governing split section"
+    },
+    "note" : "Blockquote stating the governing split between steering and recall.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-41",
+    "exact" : "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database. And I feel like we've come to do that a bit by accident. Storing RDF in the repo was never meant to implement a new query and recall engine, right? It was just a store that we were gonna run an in-memory database over, i.e. Apache Jena or something related. And I feel like now we're running into this recall problem because we're trying to roll our own query engine.",
+    "actor" : "Scarlet Dame",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "governing split section"
+    },
+    "note" : "Blockquote; evaluative assertion about reimplementing a database.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-42",
+    "exact" : "The session's concession: the hand-rolled read layer, a token-rarity lexical ranker with no BM25, a vector index that embedded a frame plus three excerpts, a fusion rule chosen on five specimens, and a navigator doing recall by reading pages, was the weak link, each built as a feature without an oracle. What a mature engine adds is complete, benchmark-tuned primitives and a declarative query; what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "governing split section"
+    },
+    "note" : "Composer's account of the session's concession; the concession is attributed to the session generally.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-43",
+    "exact" : "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components. It's something that we've been seeing in both the option zero idea, but also in getting sessions to consider the extension of existing features and their slight modification and adaptation as the right way to build something new, instead of taking the constraints that are proposed to a design task and rolling something new within it because that was the only way to perfectly fit what was specified, when in fact a better system would be to slightly change what is specified and leverage the previous work that exists. I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again. And if we're not doing that, ask why and really what's different and what we're actually adding. We're taking a lot of cowboyism.",
+    "actor" : "Scarlet Dame",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "shoulders-of-giants rule"
+    },
+    "note" : "Blockquote; combines assessment with directive ('ask why', 'I'd really like us to'); the governing move is the directive to take a shoulders-of-giants approach.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-44",
+    "exact" : "Ruled consequences, 2026-10-11: steering stays ours (the perspective load, the frame index pages, the fuzzy edges, the navigator as orientation); recall and precision come from engine primitives, in process first (Lucene BM25 and HNSW over whole positions with parent context, reciprocal rank fusion, SPARQL traversal by unit of expand) and a real RDF store if in-process is not enough; every consumer composes steering from ours and recall from the engine, never recall from steering; the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle.",
+    "actor" : "memo author",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "ruled consequences"
+    },
+    "note" : "Composer records the ruled consequences; the ruling is stated as settled.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-45",
+    "exact" : "The rule is written into `.claude/rules/extend-first.md`.",
+    "actor" : "memo author",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "ruled consequences"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-46",
+    "exact" : "The prompt inventory across all surfaces is parked until the design is solid and implemented, then done as one rewrite.",
+    "actor" : "memo author",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "ruled consequences"
+    },
+    "note" : "Records a commitment to defer the prompt inventory.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-47",
+    "exact" : "Open",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "open items section"
+    },
+    "note" : "Section heading.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-48",
+    "exact" : "The name of the index. The complement pass, the dense whole-position arm and the Lucene stack arm, all in flight against the judged oracle. Whether a real store is needed. The metaphor for review versus interpretation.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "open items section"
+    },
+    "note" : "Composer's list of open items; a single enumerated status statement.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "The envelope names Xena ExpertGH as submitter and the document is a co-authored session memo; the composer is not named, and the envelope does not state whose position the editorial narration is, so principal is left null.",
+    "when" : "editorial narration of the memo's own prose, outside quoted speech and not carrying an explicit in-text endorsement marker"
+  }, {
+    "id" : "fc-2",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "Editorial narration describing a judged-set design attributed to Scarlet in embedded quotes; no in-text ratification marker naming her in the narration itself, so principal is left null.",
+    "when" : "editorial narration that embeds a named actor's quoted directives, where the narration itself carries no endorsement marker"
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
