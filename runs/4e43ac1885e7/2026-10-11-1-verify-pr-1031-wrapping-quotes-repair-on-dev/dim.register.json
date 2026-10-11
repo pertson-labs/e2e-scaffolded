@@ -1,0 +1,68 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-8",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I would expect",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "right?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Thinking-out-loud hedge and tag question in a spoken register, departing from the memo's assertive ground.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "sounds like",
+      "kind" : "hedge"
+    } ],
+    "why" : "Loose, hedged spoken estimate ('sounds like') rather than a technical assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "or something",
+      "kind" : "hedge"
+    }, {
+      "quote" : "You got a better name for it than that.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial naming request with fillers and an open shrug, kept in the spoken register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "playful" ],
+    "evidence" : [ {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Extended electrical analogy used to deliver the output-cap point; delight in the phrasing itself.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "irreverent" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberately deflating a practice with blunt pejorative, puncturing the formal technical register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "irreverent" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial jab at prevailing AI-development habits; deliberate puncturing of the memo's formal tone.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
