@@ -1,0 +1,85 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "task-766 (The Frame Index)",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The loaded perspective exposes no nodes at any grain (map, coverage, and all doors are empty, with no witness-depth match), so no prior plausibly matches task-766; this is provisional because the bounded perspective could not be expanded.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1)",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective surfaces no ruling or memory on frames-as-index or narrated-digest retirement at any grain, so no prior plausibly matches; the memory and ruling were not confirmed absent from the graph, only from this perspective.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "Scarlet's 2026-10-09 rule",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective shows no 2026-10-09 rule on withholding session-scoped design from export as build input; nothing at any grain plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-20",
+    "phrase" : "Applied to every consumer, including the room agent, the judgment passes",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective holds no node on the room agent, judgment passes, or the cite prompt's role across consumers, so no prior plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-22",
+    "phrase" : "task-767 under the read-path epic",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective contains no task-767 or read-path epic node at any grain, so no prior plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-25",
+    "phrase" : "the 41 positions production's own runs had placed",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective holds no production placement set or run-level node matching the 41 positions, so no prior plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-35",
+    "phrase" : ".claude/rules/llm-calls.md",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective surfaces no node for the llm-calls rule or the output-cap rule; the reference is to a repository file the perspective does not index.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-39",
+    "phrase" : "production's targets",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective holds no node on production's recall targets or the judged-set results on the three documents, so no prior plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-42",
+    "phrase" : "the hand-rolled read layer",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective contains no node describing the hand-rolled ranker, index, or fusion layer, so no prior plausibly matches.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  }, {
+    "commentary_local_id" : "src-45",
+    "phrase" : ".claude/rules/extend-first.md",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective surfaces no node for the extend-first rule or the shoulders-of-giants standing; the reference is to a repository file the perspective does not index.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "perspective: doors Thematic, People, Dimensions, Documents, Unplaced (0 each)" ]
+  } ],
+  "unreferenced_commentary" : [ "src-2", "src-7", "src-13", "src-17", "src-18", "src-24", "src-30", "src-32", "src-37", "src-38", "src-44", "src-46", "src-47", "src-48" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
