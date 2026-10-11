@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-34",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Exasperated delivery of a grievance about builders' output caps; the negative arousal is carried by the incredulous opener and the repeated 'constantly'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sharp contempt for re-implementing a database, with 'stupid' carrying high-arousal negative valence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Insistent, escalating frustration at AI sessions' distrust of pre-made components; the triple repetition and 'cowboyism' mark urgency-as-complaint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled, unhurried acceptance of the steering portion as a reasonable novel choice; no marked arousal.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-42", "src-44", "src-45", "src-46", "src-47", "src-48" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
