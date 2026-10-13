@@ -1,0 +1,30 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MonitoringCatchesTheLoss",
+    "title" : "Monitoring is judged by whether it catches the loss it was installed to prevent, not by whether it is installed",
+    "frame" : "When a monitoring rollout is configured, in what order it is installed and at what reporting interval, does it catch the loss it was meant to prevent?",
+    "under" : null,
+    "supporting_positions" : [ "MonitoringRolloutDesign" ],
+    "why" : "MonitoringRolloutDesign reads a rollout as a design question: installation order (pilot in bay two, chosen for its seedling loss) and reporting cadence (fifteen minutes, because slower reports miss the overnight humidity drop). Both members are about shaping monitoring so that it catches the failure it targets. Neither existing leaf holds this. Narrative_BuyerReachablePricing is about price timing for buyers. Narrative_InfrastructureWhereRidersNeedIt is about public cycling infrastructure. The bay-two priority shares a 'place where the need is' echo with the infrastructure leaf, but the greenhouse content supports no thematic claim about infrastructure, so it is too weak to reuse or to set as lineage. The leaf is a standalone mint, not a fact or measurement, and it names a subject future monitoring envelopes can keep feeding.",
+    "consulted" : [ "Narrative_BuyerReachablePricing", "Narrative_InfrastructureWhereRidersNeedIt" ]
+  } ],
+  "unplaced" : [ "src-2" ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_MonitoringCatchesTheLoss",
+      "why" : "No existing stratum (Pricing, PublicCycleInfrastructure) holds monitoring or greenhouse rollout content. A new thematic stratum would have only this one member and this document's single position, so none is minted yet. The leaf waits for a second envelope on the same subject before a grouping is warranted."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_MonitoringCatchesTheLoss",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
