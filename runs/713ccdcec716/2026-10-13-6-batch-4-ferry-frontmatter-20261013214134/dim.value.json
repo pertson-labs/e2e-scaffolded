@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "stays as it is",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "still fill",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Appeals to keeping a working arrangement unchanged: the timetable stays because the late sailings still fill. Stability is plainly appealed to, but no value is named outright.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
