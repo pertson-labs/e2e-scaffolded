@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_ServiceHoursFollowRidership> {
+  <https://aswritten.ai/narrative#Digest_Narrative_ServiceHoursFollowRidership> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_ServiceHoursFollowRidership> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "8373b46a6c26027b476f4fc906b5275b93ff9d24" ;
+    narr:narration """Two positions support this narrative. [Cutting the underfilled late weekday sailing while keeping weekend late sailings that still fill](narr:Position_LateSailingsFollowRidership) applies the ridership measure directly to the timetable. [Trading earlier opening hours for a later close to hold staffing flat](narr:Position_BranchHoursAccessVersusStaffing) applies a similar weighing to branch access, where the trade runs through staffing rather than passenger counts.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ;
+    narr:covers <https://aswritten.ai/narrative#Position_LateSailingsFollowRidership> ;
+    narr:keyPhrase [ narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Position_LateSailingsFollowRidership> ] ;
+    narr:keyPhrase [ narr:text "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Position_LateSailingsFollowRidership> ] ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:variation [ narr:text "One position gives hours up on the ridership measure; the other preserves access by shifting hours rather than cutting them, with staffing as the binding constraint." ; narr:over <https://aswritten.ai/narrative#Position_LateSailingsFollowRidership> ; narr:over <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:run "713ccdcec716" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
