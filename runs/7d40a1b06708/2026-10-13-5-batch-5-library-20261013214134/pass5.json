@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_BuyerReachablePricing"
+    },
+    "under" : null,
+    "supporting_positions" : [ "BranchHoursAccessVersusStaffing" ],
+    "why" : "The position holds one schedule change on the same two days: an 8am opening so commuters can return books, paired with an hour-earlier close to keep staffing flat. Both statements frame opening hours as a trade-off between access and staffing cost, a subject future envelopes about public service hours would keep feeding. No existing leaf holds opening hours. Narrative_BuyerReachablePricing shares a timing-for-access thread but concerns price changes, so it is recorded as a see-relation rather than a reuse. Narrative_InfrastructureWhereRidersNeedIt concerns where public infrastructure is placed, not when a service runs, so it does not hold this content. The leaf is standalone because nothing existing is close enough to be its parent.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_OpeningHoursAccessVersusStaffing",
+    "title" : "Opening hours are set by weighing earlier access for one group against the staffing a schedule can hold",
+    "frame" : "When an access gain for one group of users is paid for by hours taken from staffing elsewhere in the week, what does the schedule give up, and who bears the cost?",
+    "consulted" : [ "Narrative_BuyerReachablePricing (inspired: timing a change so users can still act; price-specific, so see-relation only)", "Narrative_InfrastructureWhereRidersNeedIt (declined: placement of infrastructure, not service hours)", "Narrative_MonitoringCatchesTheLoss (declined: monitoring coverage, unrelated)", "Pricing stratum (declined: categorical pricing, the statements set no price)", "PublicCycleInfrastructure stratum (declined: cycling infrastructure, unrelated to opening hours)" ]
+  } ],
+  "unplaced" : [ ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OpeningHoursAccessVersusStaffing",
+      "why" : "No existing stratum groups public service scheduling or access-versus-staffing trade-offs, and one position alone does not yet support a new grouping. Connect it when further envelopes add to this theme."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OpeningHoursAccessVersusStaffing",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
