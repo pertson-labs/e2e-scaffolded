@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Wren Halloway",
+    "verdict" : "mint",
+    "label" : "Wren Halloway",
+    "why" : "No existing actor matches the name Wren Halloway; minting a new actor under the full name.",
+    "ai" : false
+  }, {
+    "name" : "Jun Arceneaux",
+    "verdict" : "mint",
+    "label" : "Jun Arceneaux",
+    "why" : "No existing actor matches the name Jun Arceneaux; minting a new actor under the full name.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Name matches the existing actor Xena ExpertGH exactly, and the envelope submitter and participant are the same person.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "The account email belongs to the submitter Xena ExpertGH, who is already bound to Actor_XenaExpertgh; same person, so bound to that actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
