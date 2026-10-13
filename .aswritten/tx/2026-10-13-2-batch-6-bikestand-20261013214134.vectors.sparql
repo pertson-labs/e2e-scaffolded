@@ -1,0 +1,253 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T214223Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-2-batch-6-bikestand-20261013214134.md" ;
+      dct:title "Multipass fragment: 20261013_2_Batch6Bikestand20261013214134_h2e661493c44e" ;
+      prov:generated narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2, narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2, narr:VecRegister_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2, narr:VecRelational_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2, narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2, narr:Narrative_InfrastructureWhereRidersNeedIt, narr:PublicCycleInfrastructure, narr:Position_PublicRepairStandSiting .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T214223Z {
+    narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "Flat, unhedged placement assertion with no ratification or operational settling language; firm but still being argued for, so the lower claim reading holds over decision." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the last one walked off in a week" ;
+        narr:reported false ;
+        skos:note "Directive carried by a plain factual justification with no hedges and no explicit settling; no ratification language, so claim rather than decision." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "Speaker asserts placement as fact about where the flats happen, supplying the factual basis for the stand location rather than an explicit influence attempt." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "performed-act: Put the pump on a chain" ;
+        narr:evidence "plain-assertion: the last one walked off in a week" ;
+        narr:reported false ;
+        skos:note "Directive is backed by an evidential claim about the previous pump's loss, arguing for the chain from outcome rather than from authority or pressure." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Playful ;
+        narr:evidence "lexical-marker: the last one walked off in a week" ;
+        narr:reported false ;
+        skos:note "Dry understatement ('walked off') departs from the document's otherwise matter-of-fact instructional voice." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Put the pump on a chain" ;
+        narr:reported false ;
+        skos:note "Bare imperative issues an instruction without hedge or request framing, enacting command. The trailing rationale about loss is a justification, not a relational move." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: goes by the river path entrance" ;
+        narr:evidence "plain-assertion: The river path is where the flats happen." ;
+        narr:reported false ;
+        skos:note "Present-tense assertion about the actual, settled placement of a named location; concrete throughout, with no hedging or hypothetical framing." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: Put the pump on a chain" ;
+        narr:evidence "plain-assertion: the last one walked off in a week" ;
+        narr:reported false ;
+        skos:note "Imperative directive aims attention at a future, planned action; the past event cited as its rationale is realis but supports the directive rather than setting its temporal focus, so future/irrealis is the stronger read." ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:Narrative_InfrastructureWhereRidersNeedIt a narr:Narrative ;
+        dct:source narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        narr:frame "Where do riders actually need public support, and how is that equipment protected from loss once it is placed there?" ;
+        skos:note "Public infrastructure goes where riders need it" ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:Position_PublicRepairStandSiting narr:supports narr:Narrative_InfrastructureWhereRidersNeedIt .
+
+    narr:PublicCycleInfrastructure a narr:Strata ;
+        narr:stratumType "thematic" ;
+        skos:note "Public cycling infrastructure placed where riders need it and secured against loss" ;
+        dct:source narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:Position_PublicRepairStandSiting narr:inStratum narr:PublicCycleInfrastructure .
+
+    narr:Narrative_InfrastructureWhereRidersNeedIt narr:inStratum narr:PublicCycleInfrastructure .
+
+    narr:Position_PublicRepairStandSiting a narr:Position ;
+        narr:frame "Where should a public bike repair stand go, and how should it be secured, given where cyclists actually need repairs?" ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1 narr:supports narr:Position_PublicRepairStandSiting .
+
+    narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 narr:supports narr:Position_PublicRepairStandSiting .
+
+    aswr:Miss_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecConviction_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.power.json" ;
+        prov:generated narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecPower_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.register.json" ;
+        prov:generated narr:VecRegister_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1, narr:VecTemporal_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2 ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/pass5.json" ;
+        prov:generated narr:Narrative_InfrastructureWhereRidersNeedIt, narr:PublicCycleInfrastructure ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214223Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/e6d1c87e1057/2026-10-13-2-batch-6-bikestand-20261013214134/position.json" ;
+        prov:generated narr:Position_PublicRepairStandSiting ;
+        dct:isPartOf aswr:Tx_20261013T214223Z ;
+        prov:generatedAtTime "2026-10-13T21:42:23Z"^^xsd:dateTime .
+  }
+}
