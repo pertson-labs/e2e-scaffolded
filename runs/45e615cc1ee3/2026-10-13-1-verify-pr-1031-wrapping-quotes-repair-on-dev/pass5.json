@@ -1,0 +1,158 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SteeringOwnedRecallBorrowed",
+    "title" : "Steering is ours, and recall is borrowed from the engine",
+    "frame" : "Does this step keep steering in-house while taking recall and precision from existing engine primitives, or is steering being rolled into a hand-built recall layer?",
+    "under" : null,
+    "supporting_positions" : [ "EngineVsInHouseRecall" ],
+    "why" : "The position holds the split between steering, which is novel and stays ours, and recall, which an engine should supply. It names the hand-rolled read layer as the weak link. The leaf is a standing theme about where the boundary between owned steering and borrowed recall sits, and future envelopes will keep feeding it.",
+    "consulted" : [ "perspective focus (frame index design; steering in-house, recall from engine primitives)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_UnitOfExpandSetsContext",
+    "title" : "The unit of expand must return context around a position, never the lone position",
+    "frame" : "What context does this expansion return around the position, and is its unit a call, a narrative, or another door rather than a single position?",
+    "under" : null,
+    "supporting_positions" : [ "UnitOfExpandBoundary", "IndexPageContents" ],
+    "why" : "The unit-of-expand position holds that a lone position is never expanded, so steering keeps its context. The index-page position holds that each page carries the whole structure, with edges, at navigational fidelity. Together they describe how the index is read, which will keep accumulating.",
+    "consulted" : [ "perspective focus (unit of expand; index page contents)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_JudgmentReadsWholePositions",
+    "title" : "A judge reads a position whole, not a sampled frame or a lifted statement",
+    "frame" : "Is the reader shown the whole position with every member statement, or a fragment whose direction has been lost when it was read out of its narrative and strata?",
+    "under" : null,
+    "supporting_positions" : [ "FrameOnlyRelevance", "StatementOutOfContext" ],
+    "why" : "The frame-only position holds that a frame is the lens for reading its statements, and that a judge should see the position whole. The statement-out-of-context position holds that a statement supports a direction and loses meaning when lifted. Both bear on how judgment passes read positions, which future work will keep returning to.",
+    "consulted" : [ "perspective focus (statement-out-of-context problem in cite and judgment passes)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExhaustiveJudgedOracle",
+    "title" : "Recall is measured against a judged exhaustive set, not against production's placements",
+    "frame" : "Does this measurement test recall against judged relevance across an exhaustive pool, and how large is the remaining gap to full recall?",
+    "under" : null,
+    "supporting_positions" : [ "RecallTargetChoice", "PoolExhaustivenessAndGap" ],
+    "why" : "The recall-target position rejects production's 41 placements as the target and replaces them with a judged set. The pool position records that the pool was not exhaustive, that a complement pass was added, and that recall sits at 82 to 88 percent. Together they describe the oracle that every recall claim is measured against.",
+    "consulted" : [ "perspective focus (recall test oracle: judged set, complement pass, production's 41 placed positions)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_RulingsHeldUntilTested",
+    "title" : "A ruling is held back from other sessions until its design has been tested",
+    "frame" : "Has this ruling been through full design and testing before it is passed on as a build input to other sessions?",
+    "under" : null,
+    "supporting_positions" : [ "RulingPropagation" ],
+    "why" : "The ruling-propagation position holds that the 10/08 ruling was passed on too early and sets the order of design, then test, then implementation. Whether rulings are held until tested will recur across sessions, so the leaf is a standing theme and not a one-time event.",
+    "consulted" : [ "perspective focus (rulings passed to other sessions; design then test)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OutputCapsAsCircuitBreakers",
+    "title" : "An output cap is a circuit breaker for runaway behavior, not a way to shorten replies",
+    "frame" : "Is this output cap set to stay dormant as a guard against runaway behavior, or is it being used to shorten replies that the prompt should control?",
+    "under" : null,
+    "supporting_positions" : [ "OutputCapsAsCircuitBreaker" ],
+    "why" : "The output-cap position holds that caps should trip only on something bad, with GLM's runaway and Haiku's clean run as cases, and the rule is recorded in the llm-calls rules file. The practice of setting caps is one that future LLM calls will repeat, so the leaf is a standing theme.",
+    "consulted" : [ "perspective focus (output caps as circuit breakers)", "Thematic door (0 areas)", "existing graph structure (none yet)", "POSITIONS block (none surfaced)" ]
+  } ],
+  "unplaced" : [ "src-1", "src-6", "src-10", "src-15", "src-16", "src-17", "src-19", "src-20", "src-21", "src-31", "src-37", "src-40", "src-43", "src-46", "src-54", "src-63" ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "FrameIndex",
+      "type" : "thematic",
+      "title" : "The frame index: what it is, what each page carries, and how it is expanded",
+      "why" : "No existing stratum holds the frame index. The unit-of-expand and index-page positions both describe this one subject across the document, which is what a thematic stratum groups.",
+      "nests_in" : null
+    }, {
+      "name" : "RecallFromEngines",
+      "type" : "thematic",
+      "title" : "Recall from mature engines, with steering kept in-house",
+      "why" : "The engine-versus-in-house position and the steering-owned leaf are about one subject: where recall should come from. The team's own words for it are the shoulders-of-giants rule.",
+      "nests_in" : null
+    }, {
+      "name" : "FrameOnlyVersusWholePosition",
+      "type" : "contested",
+      "title" : "A frame alone can locate relevance, or a judge must see the whole position; the answer is maybe, still open",
+      "why" : "The frame-only position and the statement-out-of-context position pull against each other on how much of a position a reader needs. The source leaves the question unsettled, so the tension is held open and not resolved.",
+      "nests_in" : null
+    }, {
+      "name" : "RecallOracle",
+      "type" : "thematic",
+      "title" : "Recall judged against an exhaustive set, not against production's placements",
+      "why" : "The recall-target and pool-exhaustiveness positions both concern what recall is measured against. This is the oracle subject that will keep returning across envelopes.",
+      "nests_in" : null
+    }, {
+      "name" : "DesignTestThenImplement",
+      "type" : "sequential",
+      "title" : "A ruling is designed, then tested, then implemented, and only then passed to other sessions",
+      "coordinate" : [ "PhaseSequence" ],
+      "why" : "The ruling-propagation position states an explicit order of steps, and the place of each step in that order is what it means. It fits the sequential type's PhaseSequence coordinate.",
+      "nests_in" : null
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_SteeringOwnedRecallBorrowed",
+      "strata" : [ "RecallFromEngines" ],
+      "why" : "The leaf states where steering stays ours and where recall comes from an engine."
+    }, {
+      "member" : "Position_EngineVsInHouseRecall",
+      "strata" : [ "RecallFromEngines" ],
+      "why" : "The position is the supporting argument for the engine-borrowed recall grouping."
+    }, {
+      "member" : "Narrative_UnitOfExpandSetsContext",
+      "strata" : [ "FrameIndex" ],
+      "why" : "The leaf describes how index pages and expansion units are built."
+    }, {
+      "member" : "Position_UnitOfExpandBoundary",
+      "strata" : [ "FrameIndex" ],
+      "why" : "The position is about the unit of expand, which is part of the frame index."
+    }, {
+      "member" : "Position_IndexPageContents",
+      "strata" : [ "FrameIndex" ],
+      "why" : "The position is about what each index page must carry."
+    }, {
+      "member" : "Narrative_JudgmentReadsWholePositions",
+      "strata" : [ "FrameOnlyVersusWholePosition" ],
+      "why" : "The leaf is the position-level reading of how much of a position a judge sees, which is the tension the stratum names."
+    }, {
+      "member" : "Position_FrameOnlyRelevance",
+      "strata" : [ "FrameOnlyVersusWholePosition" ],
+      "why" : "The position is one side of the tension, and it ends at 'maybe'."
+    }, {
+      "member" : "Position_StatementOutOfContext",
+      "strata" : [ "FrameOnlyVersusWholePosition" ],
+      "why" : "The position is the other side of the tension, arguing that statements lose direction when lifted out."
+    }, {
+      "member" : "Narrative_ExhaustiveJudgedOracle",
+      "strata" : [ "RecallOracle" ],
+      "why" : "The leaf states that recall is measured against a judged exhaustive set."
+    }, {
+      "member" : "Position_RecallTargetChoice",
+      "strata" : [ "RecallOracle" ],
+      "why" : "The position rejects production's placements as the recall target."
+    }, {
+      "member" : "Position_PoolExhaustivenessAndGap",
+      "strata" : [ "RecallOracle" ],
+      "why" : "The position covers pool exhaustiveness and the gap to full recall, which are oracle questions."
+    }, {
+      "member" : "Narrative_RulingsHeldUntilTested",
+      "strata" : [ "DesignTestThenImplement" ],
+      "why" : "The leaf is the standing theme that a ruling is held until design and test are done, which follows the sequence."
+    }, {
+      "member" : "Position_RulingPropagation",
+      "strata" : [ "DesignTestThenImplement" ],
+      "why" : "The position states the design, test, implement order and the hold on propagation."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OutputCapsAsCircuitBreakers",
+      "why" : "The output-cap grouping is a standalone practice rule. No existing or minted stratum holds it, and the content does not draw a relationship to the other strata here."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OutputCapsAsCircuitBreakers",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
