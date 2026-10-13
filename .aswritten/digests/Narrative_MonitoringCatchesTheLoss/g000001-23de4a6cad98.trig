@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_MonitoringCatchesTheLoss> {
+  <https://aswritten.ai/narrative#Digest_Narrative_MonitoringCatchesTheLoss> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_MonitoringCatchesTheLoss> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "23de4a6cad98533fe44531155e3058a28adb5188" ;
+    narr:narration """This narrative holds a single position: [a rollout design that installs humidity sensors across all four bays before the first frost, piloting in the bay with the worst prior losses, and sets a reporting cadence tight enough to catch overnight drops](narr:Position_MonitoringRolloutDesign). The frame asks whether order and interval of installation determine whether the loss is caught; the position answers with a concrete configuration rather than a general principle.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_MonitoringRolloutDesign> ;
+    narr:keyPhrase [ narr:text "We install humidity sensors in all four greenhouse bays before the first frost." ; narr:phraseSource <https://aswritten.ai/narrative#Position_MonitoringRolloutDesign> ] ;
+    narr:keyPhrase [ narr:text "The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Position_MonitoringRolloutDesign> ] ;
+    narr:run "21fa7fd79f6a" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
