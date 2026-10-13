@@ -1,0 +1,1015 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T220056Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-1-verify-pr-1031-wrapping-quotes-repair-on-dev.md" ;
+      dct:title "Multipass source extraction: Steering is ours, recall is an engine's job: the frame-index recall tests and the shoulders-of-giants rule" ;
+      prov:generated narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_1, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_2, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_3, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_4, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_5, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_6, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_8, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_9, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_10, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_12, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_13, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_14, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_15, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_17, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_19, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_21, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_22, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_23, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_24, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_25, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_26, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_27, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_28, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_29, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_30, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_31, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_33, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_35, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_36, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_37, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_39, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_40, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_42, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_43, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_45, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_46, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_48, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_49, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_50, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_51, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_52, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_53, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_54, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_55, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_56, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_57, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_58, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_59, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_60, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_61, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_62, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_63, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44_0, narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47_0, narr:Actor_ScarletDame, narr:Actor_XenaExpertgh .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T220056Z {
+    narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 a narr:Sample ;
+        dct:title "Steering is ours, recall is an engine's job: the frame-index recall tests and the shoulders-of-giants rule" ;
+        dct:created "2026-10-11"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-13-1-verify-pr-1031-wrapping-quotes-repair-on-dev.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh ;
+        aswr:context "verification of PR #1031 on dev, 2026-10-11" .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_1 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:context "Document header: session date, epic parent, attendees" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Date: 2026-10-11, the narration-context session, epic parent for task-766 (The Frame Index). Present: Scarlet Dame and the session." ;
+                oa:prefix "the shoulders-of-giants rule\n\n" ;
+                oa:suffix " This memory extends the 2026-" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "160"^^xsd:integer ;
+                oa:end "291"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_2 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This memory extends the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1)." ;
+                oa:prefix "Scarlet Dame and the session. " ;
+                oa:suffix " Nothing here is exported to o" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "292"^^xsd:integer ;
+                oa:end "410"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_3 a narr:Expression ;
+        narr:act "directive" ;
+        skos:note "Constraint on use of the memory; attributes a rule to Scarlet by possessive reference only, no speech verb or embedded quote, so principal stays null." ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Nothing here is exported to other sessions as a build input until the design is tested; Scarlet's 2026-10-09 rule." ;
+                oa:prefix "retire (memory 2026-10-09-1). " ;
+                oa:suffix "\n\n## The question the day star" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "411"^^xsd:integer ;
+                oa:end "525"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_4 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:context "The question the day started on, and her slowing-down" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The 10/08 ruling had been passed to other sessions as rulings." ;
+                oa:prefix "ted on, and her slowing-down\n\n" ;
+                oa:suffix " Scarlet stopped that: \"we nee" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "585"^^xsd:integer ;
+                oa:end "647"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_5 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        skos:note "Assertion of judgment with directive force on how to proceed." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "we need to slow down. This is a new conversation, so previous things I said, like this ruling on 766, I don't think are something that we should be passing off to other sessions yet. If this session is going to do the core, it needs to do the full design and then test it before we start implementing it in ad hoc places around the codebase." ;
+                oa:prefix "lings. Scarlet stopped that: \"" ;
+                oa:suffix "\"\n\nShe then set the format of " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "671"^^xsd:integer ;
+                oa:end "1012"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_6 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She then set the format of the index in her own terms:" ;
+                oa:prefix "places around the codebase.\"\n\n" ;
+                oa:suffix "\n\n> I would expect it to be mu" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1015"^^xsd:integer ;
+                oa:end "1069"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I would expect it to be multi-tiered, right? An actor hub wouldn't include everything that that actor said. The actor hub would include a link to all of the calls that they were in, all of the narratives, and all of the positions, right? It is one level down, and you'd see the frame." ;
+                oa:prefix "he index in her own terms:\n\n> " ;
+                oa:suffix "\n\n> You want to tightly contro" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1073"^^xsd:integer ;
+                oa:end "1357"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_8 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "directive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "You want to tightly control the unit of expand. What I don't want is, if you're trying to get a call, the unit of expand is the call, right, or the memory. You don't want to get a single position. I might even go so far as to say that you don't want to let a single position be expanded. You want it always to be under a narrative or call or another door, because, to the point of steering, not retrieval, we don't want to just return a single position. We want to return the context around it." ;
+                oa:prefix ", and you'd see the frame.\n\n> " ;
+                oa:suffix "\n\n> If you list the call with " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1361"^^xsd:integer ;
+                oa:end "1855"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_9 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "If you list the call with its IRI, then you would list all of the positions underneath it as frames with no IRI, right? It can just expand the call. The same with narrative: you list the narratives with IRI, and then everything underneath it as just frames." ;
+                oa:prefix "urn the context around it.\n\n> " ;
+                oa:suffix "\n\nAnd on what a page must carr" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1859"^^xsd:integer ;
+                oa:end "2116"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_10 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And on what a page must carry:" ;
+                oa:prefix "nderneath it as just frames.\n\n" ;
+                oa:suffix " \"if I'm looking at a document" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2118"^^xsd:integer ;
+                oa:end "2148"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "directive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "if I'm looking at a document, I should see everything, fully expanded: narratives, positions, the whole graph inside that document, and the edges that would lead me elsewhere and how to get to them. Actors, narratives, the strata up, and other positions outside the document that do not include the statements. … I want to see the full package and its edges at the navigational fidelity." ;
+                oa:prefix "d on what a page must carry: \"" ;
+                oa:suffix "\" On size: the MCP page stays " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2150"^^xsd:integer ;
+                oa:end "2537"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_12 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On size: the MCP page stays 15K;" ;
+                oa:prefix "t the navigational fidelity.\" " ;
+                oa:suffix " \"what you really don't want t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2539"^^xsd:integer ;
+                oa:end "2571"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_13 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "repair:near:punct" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "what you really don't want to have is dump navigation to file, because that breaks the ability for the agent to understand the whole. Dumping the root to file breaks the structure of the navigator, but I think dumping a large document to file doesn" ;
+                oa:prefix "ize: the MCP page stays 15K; \"" ;
+                oa:suffix "'t.\" A long call is one expand" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2573"^^xsd:integer ;
+                oa:end "2821"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_14 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A long call is one expand result and may spill whole past the bell curve; there is no split." ;
+                oa:prefix "ge document to file doesn't.\" " ;
+                oa:suffix "\n\nOn the dead tier the sizing " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2826"^^xsd:integer ;
+                oa:end "2918"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_15 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On the dead tier the sizing found (561 empty narratives, 952 unframed, 29% of statements in no position):" ;
+                oa:prefix "ll curve; there is no split.\n\n" ;
+                oa:suffix " \"most of the weirdness in tha" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2920"^^xsd:integer ;
+                oa:end "3025"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "question" ;
+        skos:note "Assertion plus a closing question; kept whole as one tentative-proposal move." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "most of the weirdness in that breakdown sounds like a 355 re-extraction would fix almost all of it. If we fix strata and then do a full re-extraction, wouldn't that change very substantially?" ;
+                oa:prefix " statements in no position): \"" ;
+                oa:suffix "\" Tentative: \"narrative then s" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3027"^^xsd:integer ;
+                oa:end "3218"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_17 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tentative:" ;
+                oa:prefix "t change very substantially?\" " ;
+                oa:suffix " \"narrative then shows calls a" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3220"^^xsd:integer ;
+                oa:end "3230"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "narrative then shows calls as the unit of expansion, with frames under them." ;
+                oa:prefix "y substantially?\" Tentative: \"" ;
+                oa:suffix "\" On a name: \"Let's call it fr" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3232"^^xsd:integer ;
+                oa:end "3308"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_19 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On a name:" ;
+                oa:prefix "ion, with frames under them.\" " ;
+                oa:suffix " \"Let's call it frame-based in" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3310"^^xsd:integer ;
+                oa:end "3320"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "directive" ;
+        skos:note "Proposal to name plus an open question to the room; kept as one move." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Let's call it frame-based indexing or something. I don't know. You got a better name for it than that." ;
+                oa:prefix "ames under them.\" On a name: \"" ;
+                oa:suffix "\" Still open.\n\n## The order ev" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3322"^^xsd:integer ;
+                oa:end "3424"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_21 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Still open." ;
+                oa:prefix "etter name for it than that.\" " ;
+                oa:suffix "\n\n## The order every reader fo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3426"^^xsd:integer ;
+                oa:end "3437"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_22 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        narr:context "The order every reader follows" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "You need steering first, and then you need the recall of the full set of things to consider, and then applying the result of steering, the navigated context, to the recalled choices becomes precision." ;
+                oa:prefix "order every reader follows\n\n> " ;
+                oa:suffix "\n\nApplied to every consumer, i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3476"^^xsd:integer ;
+                oa:end "3676"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_23 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:principal narr:Actor_ScarletDame ;
+        skos:note "Embeds Scarlet Dame's verbatim words in the sentence." ;
+        aswr:qualityFlag "footing:unmarked-principal" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Applied to every consumer, including the room agent, the judgment passes (\"the decision on how to frame, how to interpret a frame, is highly context dependent\") and cite:" ;
+                oa:prefix "d choices becomes precision.\n\n" ;
+                oa:suffix "\n\n> The graph contextualizes m" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3678"^^xsd:integer ;
+                oa:end "3848"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_24 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The graph contextualizes meaning through strata, narrative, position. And so statements out of that context lose their context and the ability for the agent to infer or to read their direction. A statement is always support for a direction, not an end in itself. Taking a statement out of context is exactly that, as opposed to using a statement as support for the position, narrative, strata direction that it is underneath and applying that to the document." ;
+                oa:prefix "text dependent\") and cite:\n\n> " ;
+                oa:suffix " That actually might not be qu" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3852"^^xsd:integer ;
+                oa:end "4311"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_25 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        skos:note "Continuation of the same blockquote, so attributed to the quoted speaker." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That actually might not be quite what the cite prompt says and should probably get ticketed and looked at as part of the read pass epic." ;
+                oa:prefix "pplying that to the document. " ;
+                oa:suffix "\n\nFiled as task-767 under the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4312"^^xsd:integer ;
+                oa:end "4448"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_26 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Filed as task-767 under the read-path epic." ;
+                oa:prefix " part of the read pass epic.\n\n" ;
+                oa:suffix "\n\n## The frame is the lens, no" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4450"^^xsd:integer ;
+                oa:end "4493"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_27 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        narr:context "The frame is the lens, not the carrier" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I don't think frame plus a selection of statements is ever a good design or was ever a good design. A frame is not designed to be the carrier of meaning. The frame is designed to be the frame through which its statements are read and that combination produces meaning, which is why the narration is arguably the result of that." ;
+                oa:prefix " the lens, not the carrier\n\n> " ;
+                oa:suffix " I think that the frame only i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4540"^^xsd:integer ;
+                oa:end "4867"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_28 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        skos:note "Contains a rhetorical question answered in the same move." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I think that the frame only is unquestionably losing something. The question we're trying to answer is exactly that: can you use the frame only to locate whether something is relevant? And our answer is maybe." ;
+                oa:prefix " arguably the result of that. " ;
+                oa:suffix "\n\nConsequence: a judge, or any" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4868"^^xsd:integer ;
+                oa:end "5077"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_29 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Consequence: a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three." ;
+                oa:prefix "nt? And our answer is maybe.\n\n" ;
+                oa:suffix "\n\n## On the reference and the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5079"^^xsd:integer ;
+                oa:end "5216"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_30 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:context "On the reference and the tests" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The first tests scored against the 41 positions production's own runs had placed." ;
+                oa:prefix " the reference and the tests\n\n" ;
+                oa:suffix " She rejected that as the targ" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5253"^^xsd:integer ;
+                oa:end "5334"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_31 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She rejected that as the target:" ;
+                oa:prefix "uction's own runs had placed. " ;
+                oa:suffix " \"that seems like a pretty que" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5335"^^xsd:integer ;
+                oa:end "5367"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "that seems like a pretty questionable metric to be running against, right? Because isn't our entire stance here that production isn't doing it right? So saying that we're trying to replicate production doesn't make any sense to me." ;
+                oa:prefix "rejected that as the target: \"" ;
+                oa:suffix "\" The judged set that replaced" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5369"^^xsd:integer ;
+                oa:end "5600"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_33 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The judged set that replaced it, in her words: produce exhaustive recall," ;
+                oa:prefix "oesn't make any sense to me.\" " ;
+                oa:suffix " \"then do a precision pass ove" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5602"^^xsd:integer ;
+                oa:end "5675"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "directive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "then do a precision pass over it and throw out all the things that are obviously not relevant and make picks and say why and have some ambiguous ones noted and have other ones that are closely rejected still in the list so that they can be looked at, and have this done by a couple different models … do this set with the big models and then have the small models' judgments overlaid" ;
+                oa:prefix ": produce exhaustive recall, \"" ;
+                oa:suffix "\"; a big model must also take " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5677"^^xsd:integer ;
+                oa:end "6060"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_35 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:principal narr:Actor_ScarletDame ;
+        skos:note "Embeds Scarlet Dame's verbatim words in the sentence." ;
+        aswr:qualityFlag "footing:unmarked-principal" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "a big model must also take an arm in the exhaustive pool, because \"trusting the small models there is something we want to do by confirmation, not faith.\"" ;
+                oa:prefix " models' judgments overlaid\"; " ;
+                oa:suffix " She reviews \"a list of dozens" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6063"^^xsd:integer ;
+                oa:end "6217"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_36 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:principal narr:Actor_ScarletDame ;
+        skos:note "Embeds Scarlet Dame's verbatim words in the sentence." ;
+        aswr:qualityFlag "footing:unmarked-principal" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She reviews \"a list of dozens of rows\" and agrees or disagrees with placements." ;
+                oa:prefix " by confirmation, not faith.\" " ;
+                oa:suffix " On whether the pool was exhau" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6218"^^xsd:integer ;
+                oa:end "6297"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_37 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On whether the pool was exhaustive:" ;
+                oa:prefix "or disagrees with placements. " ;
+                oa:suffix " \"are you sure that everything" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6298"^^xsd:integer ;
+                oa:end "6333"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "question" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "are you sure that everything that might be relevant is being included? And what's the mechanism for that?" ;
+                oa:prefix "her the pool was exhaustive: \"" ;
+                oa:suffix "\" It was not; a complement pas" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6335"^^xsd:integer ;
+                oa:end "6440"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_39 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It was not; a complement pass over every unpicked frame, judged whole, was added." ;
+                oa:prefix "at's the mechanism for that?\" " ;
+                oa:suffix " On 82 to 88 percent: \"that to" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6442"^^xsd:integer ;
+                oa:end "6523"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_40 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On 82 to 88 percent:" ;
+                oa:prefix "ame, judged whole, was added. " ;
+                oa:suffix " \"that to me is pretty bad. Wh" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6524"^^xsd:integer ;
+                oa:end "6544"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "expressive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "that to me is pretty bad." ;
+                oa:prefix " added. On 82 to 88 percent: \"" ;
+                oa:suffix " What are you actually missing" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6546"^^xsd:integer ;
+                oa:end "6571"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_42 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "question" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What are you actually missing and how do we understand what the gap between that number is and full recall?" ;
+                oa:prefix "t: \"that to me is pretty bad. " ;
+                oa:suffix "\"\n\nOn output caps: \"I do not u" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6572"^^xsd:integer ;
+                oa:end "6679"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_43 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On output caps:" ;
+                oa:prefix " number is and full recall?\"\n\n" ;
+                oa:suffix " \"I do not understand why buil" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6682"^^xsd:integer ;
+                oa:end "6697"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        skos:note "Critique with directive force on how caps should be used." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I do not understand why builders are constantly setting output caps on really anything. If you want a shorter reply, put it in the prompt, but an output cap, if anything, should be solely for runaway behavior and it should be like a circuit breaker. If you're using one amp of electricity, the circuit breaker is at 15 amps. It's designed to never flip unless something bad happens." ;
+                oa:prefix "ll recall?\"\n\nOn output caps: \"" ;
+                oa:suffix "\" Now a rule in `.claude/rules" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6699"^^xsd:integer ;
+                oa:end "7081"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_45 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Now a rule in `.claude/rules/llm-calls.md`." ;
+                oa:prefix "nless something bad happens.\" " ;
+                oa:suffix "\n\nOn supersession and the unit" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7083"^^xsd:integer ;
+                oa:end "7126"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_46 a narr:Expression ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On supersession and the unit of expand:" ;
+                oa:prefix ".claude/rules/llm-calls.md`.\n\n" ;
+                oa:suffix " \"isn't our approach in the fr" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7128"^^xsd:integer ;
+                oa:end "7167"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "question" ;
+        skos:note "Rhetorical questions carrying an assertion about the design." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "isn't our approach in the frame index that the unit of expand is the transaction? Which means that if you find any transaction sibling, you would always end up with the full set, right? The danger there is probably too much data." ;
+                oa:prefix "sion and the unit of expand: \"" ;
+                oa:suffix "\" Recall was re-scored at the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7169"^^xsd:integer ;
+                oa:end "7398"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_48 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight." ;
+                oa:prefix "e is probably too much data.\" " ;
+                oa:suffix "\n\n## Session findings (measure" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7400"^^xsd:integer ;
+                oa:end "7574"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_49 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:context "Session findings (measured on our own graph, scored first against production's floor, then against the judged set)" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Frames alone, read by a cheap model in one call over the whole frame index (about 49K tokens), recovered 26 to 27 of the 41 positions production had placed; the navigator after full expansion recovered 23; with today's navigator's picks handed in as direction, Haiku reached 34, and three of its eight gains were not on the direction list." ;
+                oa:prefix "then against the judged set)\n\n" ;
+                oa:suffix " By unit of expand, 33 to 37 o" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7695"^^xsd:integer ;
+                oa:end "8034"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_50 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "By unit of expand, 33 to 37 of 41." ;
+                oa:prefix "re not on the direction list. " ;
+                oa:suffix " On other document shapes, mem" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8035"^^xsd:integer ;
+                oa:end "8069"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_51 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On other document shapes, memos and a voice memo read well and a two-person call transcript read weakly." ;
+                oa:prefix "it of expand, 33 to 37 of 41. " ;
+                oa:suffix " GLM 5.3 flash ran away when u" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8070"^^xsd:integer ;
+                oa:end "8174"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_52 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit." ;
+                oa:prefix " call transcript read weakly. " ;
+                oa:suffix " The judged set on three docum" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8175"^^xsd:integer ;
+                oa:end "8256"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_53 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The judged set on three documents found production's targets recover only 5 of 17, 1 of 34 and 2 of 16 of what two judges agreed was relevant, so the floor was a poor reference." ;
+                oa:prefix " Haiku 5.5 never hit a limit. " ;
+                oa:suffix " Program spend $1.41 for the r" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8257"^^xsd:integer ;
+                oa:end "8434"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_54 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Program spend $1.41 for the recall tests and $3.00 for the judged set." ;
+                oa:prefix "e floor was a poor reference. " ;
+                oa:suffix "\n\n## The governing split and t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8435"^^xsd:integer ;
+                oa:end "8505"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_55 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        narr:context "The governing split and the rule" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Rolling our own perspective load, the steering portion, makes sense because that's novel. But I think part of our issue is that that same engine got used for recall inside all of the consumers that we listed out above. And separating the two could give us continued steering that we do and a query engine that does recall and precision." ;
+                oa:prefix "verning split and the rule\n\n> " ;
+                oa:suffix "\n\n> Re-implementing or creatin" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8546"^^xsd:integer ;
+                oa:end "8882"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_56 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database. And I feel like we've come to do that a bit by accident. Storing RDF in the repo was never meant to implement a new query and recall engine, right? It was just a store that we were gonna run an in-memory database over, i.e. Apache Jena or something related. And I feel like now we're running into this recall problem because we're trying to roll our own query engine." ;
+                oa:prefix "does recall and precision.\n\n> " ;
+                oa:suffix "\n\nThe session's concession: th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8886"^^xsd:integer ;
+                oa:end "9389"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_57 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The session's concession: the hand-rolled read layer, a token-rarity lexical ranker with no BM25, a vector index that embedded a frame plus three excerpts, a fusion rule chosen on five specimens, and a navigator doing recall by reading pages, was the weak link, each built as a feature without an oracle." ;
+                oa:prefix "o roll our own query engine.\n\n" ;
+                oa:suffix " What a mature engine adds is " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9391"^^xsd:integer ;
+                oa:end "9695"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_58 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What a mature engine adds is complete, benchmark-tuned primitives and a declarative query; what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle." ;
+                oa:prefix " a feature without an oracle. " ;
+                oa:suffix "\n\n> One of the big shortcoming" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9696"^^xsd:integer ;
+                oa:end "9912"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_59 a narr:Expression ;
+        narr:actor narr:Actor_ScarletDame ;
+        narr:act "assertive" ;
+        skos:note "Evaluation with an embedded directive (\"ask why\"); kept as one move." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components. It's something that we've been seeing in both the option zero idea, but also in getting sessions to consider the extension of existing features and their slight modification and adaptation as the right way to build something new, instead of taking the constraints that are proposed to a design task and rolling something new within it because that was the only way to perfectly fit what was specified, when in fact a better system would be to slightly change what is specified and leverage the previous work that exists. I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again. And if we're not doing that, ask why and really what's different and what we're actually adding. We're taking a lot of cowboyism." ;
+                oa:prefix "me is for) and the oracle.\n\n> " ;
+                oa:suffix "\n\nRuled consequences, 2026-10-" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9916"^^xsd:integer ;
+                oa:end "10805"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_60 a narr:Expression ;
+        narr:act "declarative" ;
+        skos:note "Records the ruling performed on 2026-10-11; enumeration serves the one ruling act." ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Ruled consequences, 2026-10-11: steering stays ours (the perspective load, the frame index pages, the fuzzy edges, the navigator as orientation); recall and precision come from engine primitives, in process first (Lucene BM25 and HNSW over whole positions with parent context, reciprocal rank fusion, SPARQL traversal by unit of expand) and a real RDF store if in-process is not enough; every consumer composes steering from ours and recall from the engine, never recall from steering; the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle." ;
+                oa:prefix "e taking a lot of cowboyism.\n\n" ;
+                oa:suffix " The rule is written into `.cl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10807"^^xsd:integer ;
+                oa:end "11397"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_61 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The rule is written into `.claude/rules/extend-first.md`." ;
+                oa:prefix "or wins on the judged oracle. " ;
+                oa:suffix " The prompt inventory across a" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11398"^^xsd:integer ;
+                oa:end "11455"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_62 a narr:Expression ;
+        narr:act "assertive" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The prompt inventory across all surfaces is parked until the design is solid and implemented, then done as one rewrite." ;
+                oa:prefix "laude/rules/extend-first.md`. " ;
+                oa:suffix "\n\n## Open\n\nThe name of the ind" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11456"^^xsd:integer ;
+                oa:end "11575"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_63 a narr:Expression ;
+        narr:act "assertive" ;
+        narr:context "Open items list" ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The name of the index. The complement pass, the dense whole-position arm and the Lucene stack arm, all in flight against the judged oracle. Whether a real store is needed. The metaphor for review versus interpretation." ;
+                oa:prefix "one as one rewrite.\n\n## Open\n\n" ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11586"^^xsd:integer ;
+                oa:end "11804"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7 ;
+        narr:how "She then set the format of the index in her own terms:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11 ;
+        narr:how "And on what a page must carry:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16 ;
+        narr:how "On the dead tier the sizing found (561 empty narratives, 952 unframed, 29% of statements in no position):" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18 ;
+        narr:how "Tentative:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20 ;
+        narr:how "On a name:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32 ;
+        narr:how "She rejected that as the target:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34 ;
+        narr:how "The judged set that replaced it, in her words: produce exhaustive recall," ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38 ;
+        narr:how "On whether the pool was exhaustive:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41 ;
+        narr:how "On 82 to 88 percent:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44 ;
+        narr:how "On output caps:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:How_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47 ;
+        narr:how "On supersession and the unit of expand:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    narr:Actor_ScarletDame a narr:Actor ;
+        skos:prefLabel "Scarlet Dame" .
+
+    narr:Actor_XenaExpertgh a narr:Actor ;
+        skos:prefLabel "Xena ExpertGH" .
+
+    aswr:Run_20261013T220056Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/45e615cc1ee3/2026-10-13-1-verify-pr-1031-wrapping-quotes-repair-on-dev/actors.json" ;
+        prov:generated narr:Actor_ScarletDame, narr:Actor_XenaExpertgh ;
+        dct:isPartOf aswr:Tx_20261013T220056Z ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T220056Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "z-ai/glm-5.3-flash" ;
+        aswr:artifact "aswritten/runs:runs/45e615cc1ee3/2026-10-13-1-verify-pr-1031-wrapping-quotes-repair-on-dev/pass1.json" ;
+        prov:generated narr:Sample_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_1, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_2, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_3, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_4, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_5, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_6, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_7, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_8, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_9, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_10, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_11, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_12, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_13, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_14, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_15, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_16, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_17, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_18, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_19, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_20, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_21, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_22, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_23, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_24, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_25, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_26, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_27, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_28, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_29, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_30, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_31, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_32, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_33, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_34, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_35, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_36, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_37, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_38, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_39, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_40, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_41, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_42, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_43, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_44, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_45, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_46, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_47, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_48, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_49, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_50, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_51, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_52, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_53, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_54, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_55, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_56, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_57, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_58, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_59, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_60, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_61, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_62, narr:Expr_20261013_1_VerifyPr1031WrappingQuotesRepairOnDev_h523d0f100a95_63 ;
+        dct:isPartOf aswr:Tx_20261013T220056Z ;
+        prov:generatedAtTime "2026-10-13T22:00:56Z"^^xsd:dateTime .
+  }
+}
