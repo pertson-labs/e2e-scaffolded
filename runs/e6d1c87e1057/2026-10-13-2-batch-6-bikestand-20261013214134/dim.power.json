@@ -1,0 +1,29 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Speaker asserts placement as fact about where the flats happen, supplying the factual basis for the stand location rather than an explicit influence attempt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the last one walked off in a week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive is backed by an evidential claim about the previous pump's loss, arguing for the chain from outcome rather than from authority or pressure.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
