@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "MonitoringRolloutDesign",
+    "frame" : "How should a monitoring rollout be configured, in order and in reporting cadence, so that it catches the loss it was installed to prevent?",
+    "members" : [ "src-1", "src-3" ],
+    "why" : "Both statements read the rollout as a design question. src-1 sets the order of installation (pilot in bay two, chosen because it lost the most seedlings), which is a sequencing choice tied to where loss occurred. src-3 sets the reporting interval (fifteen minutes), justified by an evidential consequence: slower reporting misses the overnight humidity drop. Together they answer how the rollout should be shaped to catch the failure it targets. No tension is held between the two members."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-2" ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
