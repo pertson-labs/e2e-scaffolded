@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "moves from 22:40 to 21:55 on weekdays from November",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled, scheduled change stated in present-tense grammar with future attention (from November) and specific times and days; the realis anchor is the fixed timetable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "stays as it is",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the current, actual state of the weekend timetable and sailing loads with particular named days, not a future or hypothetical.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
