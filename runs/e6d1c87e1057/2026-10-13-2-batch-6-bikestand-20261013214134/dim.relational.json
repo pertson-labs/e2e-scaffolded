@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Bare imperative issues an instruction without hedge or request framing, enacting command. The trailing rationale about loss is a justification, not a relational move.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
