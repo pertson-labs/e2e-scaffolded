@@ -1,0 +1,245 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records an existing rule as operative; the settling is performed by reference.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "I don't think",
+      "kind" : "hedge"
+    } ],
+    "why" : "Firm directive core softened by a hedged first-person clause; not performed as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I might even go so far as to say",
+      "kind" : "hedge"
+    }, {
+      "quote" : "You want to tightly control the unit of expand",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion with an explicit hedge on the stronger claim; torn claim/decision, lower taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Firm assertion carried by an intensifier, still argued rather than ratified.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged assertion, defensible but moveable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "always",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Firm general claim argued by explanation; no settling performed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Filing a ticket is a performed act that settles the work item.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think",
+      "kind" : "hedge"
+    }, {
+      "quote" : "is ever a good design",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong negative stance wrapped in a first-person hedge; argued, not ratified.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "unquestionably losing something",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "And our answer is maybe.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Confident core undercut by an explicit maybe; lower of the two readings taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "sees a position whole",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain consequence statement, asserted without hedging or settling language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "pretty questionable metric",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct objection voiced with plain assertion; firm but argued.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "must also take an arm in the exhaustive pool",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Commitment modal voiced through the memo author's rendering of Scarlet; reported.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was not; a complement pass over every unpicked frame, judged whole, was added.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain factual admission of a change; no settling language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain evaluative judgment with mild intensity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Firm normative critique argued with a circuit-breaker analogy; not performed as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a rule written into the repo; a performed settling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think part of our issue",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Hedged diagnosis; the speaker holds it but offers it as a reading.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong judgment carried by intensifiers; argued with reasons.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion of a boundary claim, defended by enumeration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach at every step",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "The same standing commitment is restated as a creed across the document, with repetition as the conviction marker.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "never recall from steering",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Ruling record with operational never-rule; settled and load-bearing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed act writing a rule into the repository.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-62",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "then done as one rewrite",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational sequencing decision stated as the plan of record.",
+    "reported" : false
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "RepeatedInsistenceAsCreed",
+    "title" : "a standing position restated across the document until it reads as creed",
+    "frame" : "Is this position being returned to and insisted on as a standing identity commitment rather than argued case by case?",
+    "regions" : [ "principle" ]
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-4", "src-6", "src-7", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-23", "src-25", "src-30", "src-31", "src-33", "src-34", "src-36", "src-37", "src-38", "src-40", "src-42", "src-43", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-57", "src-63" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
