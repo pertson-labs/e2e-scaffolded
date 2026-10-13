@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The tool library opens Saturdays only through winter.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Settled, actual schedule and a counted past outcome, anchored to specific numbers and days; the past-tense clause is a secondary focus, so present is kept as the dominant one.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "gets a second volunteer to run returns",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A planned next step (directive) that has not yet happened, sequenced with 'Then' and tied to a specific shift and task.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
