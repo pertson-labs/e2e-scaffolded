@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Odile Marchetti",
+    "verdict" : "mint",
+    "label" : "Odile Marchetti",
+    "why" : "No existing actor matches the name Odile Marchetti; no confident identity in the graph.",
+    "ai" : false
+  }, {
+    "name" : "Pell Vasquez",
+    "verdict" : "mint",
+    "label" : "Pell Vasquez",
+    "why" : "No existing actor matches the name Pell Vasquez; no confident identity in the graph.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Exact name match to existing actor Xena ExpertGH, who is also the sole envelope participant and submitter.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Account email belongs to the submitter Xena ExpertGH per envelope submitted_by; bound to their existing actor, no email-labelled actor minted.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
