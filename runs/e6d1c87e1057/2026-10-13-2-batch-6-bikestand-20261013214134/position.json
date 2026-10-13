@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "PublicRepairStandSiting",
+    "frame" : "Where should a public bike repair stand go, and how should it be secured, given where cyclists actually need repairs?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both segments decide the same stand. src-1 places it by the river path entrance on the grounds of where punctures (flats) occur. src-2 directs that the pump be chained against theft, based on the previous pump walking off within a week. Read together, both are choices about the stand's location and protection, justified by the cyclists' need and by what has happened to the equipment. No existing position or stratum holds this read, and no narrative leaf in the supplied structure is a home for it, so the position is minted without an under proposal. There is no tension between the two members."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
