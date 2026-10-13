@@ -1,0 +1,90 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Caution and staged design before implementation appeal to stability over speed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to correct design of the frame as a matter of craft quality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "by confirmation, not faith.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reliability through verification over trust is the stated good; the principal's stance is rendered through the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "it should be like a circuit breaker",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Output caps framed as protective safeguards that stay dormant, keeping stability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "openness-to-change" ],
+    "evidence" : [ {
+      "quote" : "because that's novel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Justifies the hand-rolled steering layer by its novelty as the appealed-to good.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Rejects building a new engine by appeal to established practice and existing components.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Names reuse of prior proven work as the preferred good over rolling new components.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "autonomy" ],
+    "evidence" : [ {
+      "quote" : "steering stays ours",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Ownership of steering is claimed as a self-origination good, separated from borrowed recall.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ShouldersOfGiantsReuse",
+    "title" : "standing on the shoulders of giants",
+    "frame" : "Is this step leveraging an existing proven component, or rolling something new where an existing one would fit?",
+    "regions" : [ "conservation" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
