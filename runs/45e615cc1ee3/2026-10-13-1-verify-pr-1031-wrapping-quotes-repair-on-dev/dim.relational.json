@@ -1,0 +1,62 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a governance rule issued by Scarlet withholding exports to other sessions; hierarchy enacted by reference to her rule.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design and then test it before we start implementing it",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Commands the session's procedure ('it needs to'), a rank-based directive rather than a shared or reciprocal move.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "have the small models' judgments overlaid",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Allocates the judging work across models by directive; tension with equality-matching noted but the command form is primary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Shared 'us' framing of a collective practice; the pattern is we-ness rather than command.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a formal ruling establishing binding consequences for every consumer; governance act reported by the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports the codification of a rule into the repo's rules file, a governance act.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-4", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-62", "src-63" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
