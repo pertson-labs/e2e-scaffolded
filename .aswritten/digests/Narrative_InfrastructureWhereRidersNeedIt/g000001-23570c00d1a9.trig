@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_InfrastructureWhereRidersNeedIt> {
+  <https://aswritten.ai/narrative#Digest_Narrative_InfrastructureWhereRidersNeedIt> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_InfrastructureWhereRidersNeedIt> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "23570c00d1a9d07916404e7c9dab40f68f41887f" ;
+    narr:narration """This narrative holds a single position: [siting the public repair stand at the river path entrance rather than the car park, because that is where flats actually happen, and chaining the pump since the last one was stolen within a week](narr:Position_PublicRepairStandSiting). The frame pairs placement with protection from loss.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_PublicRepairStandSiting> ;
+    narr:keyPhrase [ narr:text "The public repair stand goes by the river path entrance, not in the car park. The river path is where the flats happen." ; narr:phraseSource <https://aswritten.ai/narrative#Position_PublicRepairStandSiting> ] ;
+    narr:keyPhrase [ narr:text "Put the pump on a chain; the last one walked off in a week." ; narr:phraseSource <https://aswritten.ai/narrative#Position_PublicRepairStandSiting> ] ;
+    narr:run "e6d1c87e1057" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_PublicRepairStandSiting> {
+  <https://aswritten.ai/narrative#Digest_Position_PublicRepairStandSiting> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_PublicRepairStandSiting> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "23570c00d1a9d07916404e7c9dab40f68f41887f" ;
+    narr:narration """This position gathers two moves on where a repair stand goes and how it is kept. It opens with [the stand's placement at the river path entrance](narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1), then adds [a directive to chain the pump](narr:Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2) so it stays put.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2> ;
+    narr:keyPhrase [ narr:text "The public repair stand goes by the river path entrance, not in the car park." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_1> ] ;
+    narr:keyPhrase [ narr:text "Put the pump on a chain; the last one walked off in a week." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_2_Batch6Bikestand20261013214134_h2e661493c44e_2> ] ;
+    narr:run "e6d1c87e1057" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "anthropic/claude-haiku-5.5" .
+}
