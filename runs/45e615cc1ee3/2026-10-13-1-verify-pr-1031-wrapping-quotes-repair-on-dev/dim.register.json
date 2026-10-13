@@ -1,0 +1,158 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I don't think are something that we should be passing off to other sessions yet.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Thinking-out-loud hedge in an otherwise plain memo ground; spoken, self-correcting clause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered, right?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tag question seeks confirmation in conversational spoken register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I might even go so far as to say",
+      "kind" : "hedge"
+    } ],
+    "why" : "Conversational hedge framing a strong claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Loose spoken syntax with an intensifier kept in; unpolished delivery.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "wouldn't that change very substantially?",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Colloquial question with intensified hedge against the memo's flat ground.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I don't know. You got a better name for it than that.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Informal, self-deprecating directive inviting collaboration in loose syntax.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Aphoristic maxim stated in native domain vocabulary; precise and compressed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged opinion in spoken register, softer than the surrounding assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric to be running against, right?",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Colloquial evaluative phrasing with a tag question.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Blunt, informal evaluation with a softened intensifier.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "irreverent", "casual" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "on really anything",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Puncturing the convention of output caps with a colloquial analogy; the sweep of 'really anything' is loose and deliberate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "The danger there is probably too much data.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tentative, conversational question-and-hedge framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I think part of our issue is that",
+      "kind" : "hedge"
+    } ],
+    "why" : "Spoken hedge opening a loosely reasoned diagnosis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "irreverent" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberately deflating self-critique of the team's practice; puncturing formality on purpose.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "irreverent", "enthusiastic" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "I'd really like us to far more take a standing",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Mocks the practice as cowboyism while urging the audience with emphatic energy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Lucene BM25 and HNSW over whole positions with parent context",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Dense native engine vocabulary used without gloss; precision over accessibility.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-6", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-17", "src-18", "src-19", "src-21", "src-22", "src-23", "src-25", "src-26", "src-28", "src-29", "src-30", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-42", "src-43", "src-45", "src-46", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-57", "src-58", "src-61", "src-62", "src-63" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
