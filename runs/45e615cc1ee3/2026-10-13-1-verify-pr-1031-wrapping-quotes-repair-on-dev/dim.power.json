@@ -1,0 +1,282 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority asserted by lineage to a prior ruling, as the memo author's own process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive grounded in a named ruling by another party; authority of agreed process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down.",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "it needs to do the full design and then test it before we start implementing it",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Sets a required process order for the session; authority by agreed process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered, right?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tag question invites the other to confirm the proposed format.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand.",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "to the point of steering, not retrieval",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directive stated as design requirement, justified by the steering-versus-retrieval distinction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive on what a page must carry, stated as a stated requirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "that breaks the ability for the agent to understand the whole",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues against file dumps from the consequence for agent comprehension.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "wouldn't that change very substantially?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Question inviting the other to weigh the consequence of re-extraction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "You got a better name for it than that.",
+      "kind" : "address-form"
+    } ],
+    "why" : "Asks the other to supply a better name; invites contribution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "You need steering first, and then you need the recall of the full set of things to consider",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Authoritative statement of how the layers must be sequenced.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Conceptual claim presented as settled knowledge of how statements carry meaning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Design judgment grounded in domain understanding of what a frame is for.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues from the team's own premise to reject production as a benchmark.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "do this set with the big models and then have the small models' judgments overlaid",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive setting the judging procedure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "trusting the small models there is something we want to do by confirmation, not faith.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Principal's argument, rendered by memo author; argues for verification over trust.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "are you sure that everything that might be relevant is being included?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Question probing the pool's completeness and inviting an account of the mechanism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "What are you actually missing",
+      "kind" : "address-form"
+    } ],
+    "why" : "Question asks the other to account for the gap.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps on really anything.",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "it should be like a circuit breaker",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Expert critique of a practice, argued through the circuit-breaker analogy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Question checking a shared premise with the other.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "so the floor was a poor reference",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues from the judged-set numbers to discard the baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies building the steering layer by its novelty, arguing for separation of concerns.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Domain-knowledge claim used to argue against hand-rolled query engines.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Authoritative account of what an engine can and cannot supply.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "inspirational-appeal", "pressure" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach at every step",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Appeals to a shared standard and repeats the demand to press the norm.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declares binding rules as agreed process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into `.claude/rules/extend-first.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formalizes the ruling as an enforceable rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formalizes a rule as agreed process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "recovered 26 to 27 of the 41 positions production had placed",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues from measured recovery figures.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ShouldersOfGiantsInsistence",
+    "title" : "take a standing on the shoulders of giants approach",
+    "frame" : "Is this asking the other to adopt existing components as the default, with departures required to justify themselves?",
+    "regions" : [ "inspirational-appeal", "pressure" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
