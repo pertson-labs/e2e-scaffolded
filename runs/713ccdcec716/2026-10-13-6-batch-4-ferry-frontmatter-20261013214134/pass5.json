@@ -1,0 +1,47 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_OpeningHoursAccessVersusStaffing"
+    },
+    "under" : null,
+    "supporting_positions" : [ "LateSailingsFollowRidership", "Position_BranchHoursAccessVersusStaffing" ],
+    "why" : "The position LateSailingsFollowRidership holds two statements that read the late-sailing timetable by demand: the last weekday ferry moves earlier because it carried under ten passengers a night, and the weekend late sailings stay because Friday and Saturday still fill. Both apply one proportional test to scheduled service and reach opposite outcomes. No existing leaf holds this. Narrative_OpeningHoursAccessVersusStaffing is the nearest, since it also weighs when a service runs against what it costs to staff, but its frame concerns an access gain for one group, not ridership per sailing, so this is an inspired mint related to it by 'see'. Narrative_InfrastructureWhereRidersNeedIt concerns where fixed infrastructure is placed, not when a sailing runs, so it does not hold. The subject is one future envelopes about service timetables will keep feeding, so it passes the grain test as a theme rather than a measurement.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ServiceHoursFollowRidership",
+    "title" : "Service hours are cut where the passengers have stopped coming and kept where they still fill",
+    "frame" : "Against how many passengers each sailing or service hour actually carries, which hours should stay on the timetable and which should be given up?",
+    "consulted" : [ "Narrative_BuyerReachablePricing (declined: concerns when a price change takes effect, not service hours)", "Narrative_InfrastructureWhereRidersNeedIt (declined: concerns where fixed infrastructure is placed, not when a service runs)", "Narrative_MonitoringCatchesTheLoss (declined: concerns whether monitoring catches losses)", "Narrative_OpeningHoursAccessVersusStaffing (nearest; inspired lineage 'see', not an exact fit)", "Position_BranchHoursAccessVersusStaffing (existing position; adopted here)", "LateSailingsFollowRidership (this document's position)" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ {
+    "position" : "Position_BranchHoursAccessVersusStaffing",
+    "verdict" : "adopt",
+    "leaves" : [ "Narrative_ServiceHoursFollowRidership" ],
+    "why" : "Under Narrative_ServiceHoursFollowRidership: its statements weigh a service's hours against the staffing needed to run them, which is the same trade-off the new leaf states for ferry sailings, so the leaf now reads its cost-against-use logic as one case of a general pattern."
+  } ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ServiceHoursAgainstRidership",
+      "type" : "thematic",
+      "title" : "Service hours set against the riders each one carries and the staffing it costs",
+      "why" : "Opening hours and the late ferry sailing are both about when a public service runs, judged against who uses it and what it costs to staff. No existing stratum holds that grouping, and the two narratives belong together across the graph."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_ServiceHoursFollowRidership",
+      "strata" : [ "ServiceHoursAgainstRidership" ],
+      "why" : "The new leaf's subject is service hours judged against ridership and cost."
+    }, {
+      "member" : "Narrative_OpeningHoursAccessVersusStaffing",
+      "strata" : [ "ServiceHoursAgainstRidership" ],
+      "why" : "Its frame weighs when a service runs against the staffing it needs, the same subject as the new leaf."
+    }, {
+      "member" : "Position_LateSailingsFollowRidership",
+      "strata" : [ "ServiceHoursAgainstRidership" ],
+      "why" : "The minted position reads a service timetable against the passengers each service carries."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
