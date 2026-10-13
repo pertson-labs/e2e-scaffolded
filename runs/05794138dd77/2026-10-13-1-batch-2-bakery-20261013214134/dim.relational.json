@@ -1,0 +1,29 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "half price at two in the afternoon",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "At close nobody is left to buy them.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Price is set by time-of-day and sell-through consequence (no buyers left at close), a proportional cost/choice framing rather than rank, pooling, or reciprocity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Shelf-card change is justified as making price known before the purchase choice, a consequence-for-choice framing of pricing.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
