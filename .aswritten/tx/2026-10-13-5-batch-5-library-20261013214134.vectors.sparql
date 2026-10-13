@@ -1,0 +1,249 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T214432Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-5-batch-5-library-20261013214134.md" ;
+      dct:title "Multipass fragment: 20261013_5_Batch5Library20261013214134_hf3f492eb83b5" ;
+      prov:generated narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2, narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2, narr:VecRelational_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2, narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2, narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2, narr:Narrative_OpeningHoursAccessVersusStaffing, narr:Position_BranchHoursAccessVersusStaffing .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T214432Z {
+    narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: We open at eight on Tuesdays and Thursdays" ;
+        narr:reported false ;
+        skos:note "Flat, unhedged statement of an operational schedule with a stated reason; no ratification or settling is performed in the text, so the lower region applies." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: we close an hour earlier those days" ;
+        narr:reported false ;
+        skos:note "Plain assertive statement of a practice with a causal justification; it is firm but not framed as a ratified or recorded decision, so claim rather than decision." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: We open at eight on Tuesdays and Thursdays" ;
+        narr:reported false ;
+        skos:note "Announces the opening schedule as fact; the 'so the commuter crowd can return books' clause gives a reason but no argument or appeal, so the power read stays at supplying the facts." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: we close an hour earlier those days" ;
+        narr:reported false ;
+        skos:note "States the closing schedule as fact with a staffing rationale; no request, threat, or argument is performed, so the read is informational only." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: to keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "Closing an hour earlier is framed as a cost-control trade-off against staffing, a proportionality move; torn with equality-matching (flat as even balance), but the cost-for-hours framing supports market-pricing most directly." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: We open at eight on Tuesdays and Thursdays" ;
+        narr:reported false ;
+        skos:note "Present-tense habitual schedule anchored to specific days and hours; 'can' is an explicit modal, so the modality sub-axis is omitted." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: we close an hour earlier those days" ;
+        narr:reported false ;
+        skos:note "Settled present-tense practice about particular days and a specific hour shift, stated as actual." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "plain-assertion: so the commuter crowd can return books on the way in" ;
+        narr:reported false ;
+        skos:note "The stated purpose of the early opening is benefit to commuters, an appeal to good for others." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-assertion: to keep the staffing flat" ;
+        narr:reported false ;
+        skos:note "The closing change is justified by keeping staffing stable, an appeal to stability as the good." ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:Narrative_OpeningHoursAccessVersusStaffing a narr:Narrative ;
+        dct:source narr:Sample_20261013_5_Batch5Library20261013214134_hf3f492eb83b5 ;
+        narr:frame "When an access gain for one group of users is paid for by hours taken from staffing elsewhere in the week, what does the schedule give up, and who bears the cost?" ;
+        narr:see narr:Narrative_BuyerReachablePricing ;
+        skos:note "Opening hours are set by weighing earlier access for one group against the staffing a schedule can hold" ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:Position_BranchHoursAccessVersusStaffing narr:supports narr:Narrative_OpeningHoursAccessVersusStaffing .
+
+    narr:Position_BranchHoursAccessVersusStaffing a narr:Position ;
+        narr:frame "How are opening hours weighed when earlier access for one group of users is set against keeping staffing flat?" ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1 narr:supports narr:Position_BranchHoursAccessVersusStaffing .
+
+    narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 narr:supports narr:Position_BranchHoursAccessVersusStaffing .
+
+    aswr:Miss_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_5_Batch5Library20261013214134_hf3f492eb83b5 ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_5_Batch5Library20261013214134_hf3f492eb83b5 ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_5_Batch5Library20261013214134_hf3f492eb83b5 ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_5_Batch5Library20261013214134_hf3f492eb83b5 ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecConviction_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.power.json" ;
+        prov:generated narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecPower_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecTemporal_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/dim.value.json" ;
+        prov:generated narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1, narr:VecValue_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/pass5.json" ;
+        prov:generated narr:Narrative_OpeningHoursAccessVersusStaffing ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214432Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/7d40a1b06708/2026-10-13-5-batch-5-library-20261013214134/position.json" ;
+        prov:generated narr:Position_BranchHoursAccessVersusStaffing ;
+        dct:isPartOf aswr:Tx_20261013T214432Z ;
+        prov:generatedAtTime "2026-10-13T21:44:32Z"^^xsd:dateTime .
+  }
+}
