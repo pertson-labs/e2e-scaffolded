@@ -1,0 +1,35 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_InfrastructureWhereRidersNeedIt",
+    "title" : "Public infrastructure goes where riders need it",
+    "frame" : "Where do riders actually need public support, and how is that equipment protected from loss once it is placed there?",
+    "under" : null,
+    "supporting_positions" : [ "PublicRepairStandSiting" ],
+    "why" : "The minted position holds a siting choice for a public bike repair stand. Its members place the stand at the river path entrance because that is where punctures occur, and direct that the pump be chained because an earlier pump was taken within a week. The leaf is a recurring subject: public cycling equipment is sited by where riders need it and secured against the losses that follow. Nothing existing covers public equipment siting. The nearest structure, Narrative_BuyerReachablePricing, concerns price-change timing for buyers and does not hold this theme, so the leaf is minted standalone.",
+    "consulted" : [ "Narrative_BuyerReachablePricing (declined: price-change timing for buyers, not public equipment siting)", "Pricing stratum (declined as a connection: pricing does not hold this content)" ]
+  } ],
+  "unplaced" : [ ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "PublicCycleInfrastructure",
+      "type" : "thematic",
+      "title" : "Public cycling infrastructure placed where riders need it and secured against loss",
+      "why" : "The position and the leaf both group around one subject, the siting and protection of public cycling equipment. No existing stratum holds it. Pricing is categorical and does not apply."
+    } ],
+    "connections" : [ {
+      "member" : "Position_PublicRepairStandSiting",
+      "strata" : [ "PublicCycleInfrastructure" ],
+      "why" : "The position is about where a public repair stand goes and how it is secured, which is the stratum's subject."
+    }, {
+      "member" : "Narrative_InfrastructureWhereRidersNeedIt",
+      "strata" : [ "PublicCycleInfrastructure" ],
+      "why" : "The minted leaf is the thematic narrative for public cycling equipment siting and protection."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
