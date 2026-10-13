@@ -1,0 +1,29 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "because it lost the most seedlings last winter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Opens with we-framing for the shared rollout; bay two's priority is allocated by proportional loss (consequence-based), a tension between shared pooling and proportional allocation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Bare assent returns a turn of reciprocal agreement to the prior proposal; low-signal, one-word exchange.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
