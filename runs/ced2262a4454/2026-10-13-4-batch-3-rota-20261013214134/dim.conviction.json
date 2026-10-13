@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The tool library opens Saturdays only through winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged factual assertion, stated as a committed core without ratification or permanence language; claim-level.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive planning a staffing change, but the text does not perform or record a settling (no ratification or commitment marker); torn with decision, lower region taken.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
