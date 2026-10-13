@@ -1,0 +1,35 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_BuyerReachablePricing",
+    "title" : "Price changes land at the hour buyers can still act on them",
+    "frame" : "When a price changes, does the buyer still have stock to buy and a visible price before the purchase choice, and whose sell-through or predictability is the timing serving?",
+    "under" : null,
+    "supporting_positions" : [ "MarkdownTimingVisibility" ],
+    "why" : "No existing narrative leaves were supplied, so nothing exact, inspired, or close can be reused. MarkdownTimingVisibility holds both statements as one timing decision: the half-price markdown moves to two in the afternoon so buyers can still find day-old loaves, and the shelf card changes at the same hour so the price is known before the till. The theme is a subject future envelopes about price timing and buyer visibility are likely to keep feeding, not a single event, so it passes the grain test.",
+    "consulted" : [ "Graph structure: none supplied (no narrative leaves exist yet)", "EXISTING STRATA: none supplied", "POSITIONS block: none surfaced", "POSITION VERDICTS: MarkdownTimingVisibility (members src-1, src-2)" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "Pricing",
+      "type" : "categorical",
+      "title" : "Pricing",
+      "coordinate" : [ "PackagingPricing" ],
+      "why" : "The members do pricing work: they set when a markdown takes effect and when the shelf card shows the price. The organization's own word for this kind of thinking is 'price', and no existing stratum holds it. The coordinate is near the scheme's PackagingPricing entry, though the content concerns timing rather than packaging."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_BuyerReachablePricing",
+      "strata" : [ "Pricing" ],
+      "why" : "The narrative is about the timing of price changes, which is the pricing kind of thinking."
+    }, {
+      "member" : "Position_MarkdownTimingVisibility",
+      "strata" : [ "Pricing" ],
+      "why" : "The position holds a pricing decision about when the markdown and the shelf card change."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
