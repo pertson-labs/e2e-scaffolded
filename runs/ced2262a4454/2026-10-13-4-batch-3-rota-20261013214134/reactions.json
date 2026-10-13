@@ -1,0 +1,171 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-b0ea1f59",
+  "live_run_id" : "ced2262a4454",
+  "stream" : "e2e-662-batch-20261013214134",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "delta predicate false: new_positions >= 1 or reconciliations >= 1 or on_behalf >= 1 or unresolved >= 1"
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "ced2262a4454:aswritten/review-message:u17592186058512",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160512",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Wren Halloway said in the volunteer tool-library rota dated October 9: \"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\" Jun Arceneaux answered: \"Then the Saturday shift gets a second volunteer to run returns.\"",
+        "that_changes" : "",
+        "so_now" : "The winter schedule is now Saturday-only, and the reason on the table is weak weekday evening use: four borrowers across six weeks. The Saturday session is to have two volunteers, with the second one running returns.",
+        "which_means" : "My read is that the Saturday cover now carries returns as well as lending, so it needs two people rather than one. If that holds, the weekday evenings stop needing a volunteer on the rota at all, which is the part that gets cheaper. It also suggests the hand-off between the two Saturday volunteers needs agreeing before the winter hours start.",
+        "where_does_it_end" : [ "Who is the second volunteer going to be, and do they know the winter hours start?", "Does the four-borrower count cover the evenings only, or does it include Saturday visits too?" ]
+      },
+      "email" : {
+        "subject" : "Re: Tool-library winter rota, from October 9",
+        "body" : "Wren Halloway said in the volunteer tool-library rota dated October 9: \"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\" Jun Arceneaux answered: \"Then the Saturday shift gets a second volunteer to run returns.\"\n\nThe winter schedule is now Saturday-only, and the reason on the table is weak weekday evening use: four borrowers across six weeks. The Saturday session is to have two volunteers, with the second one running returns.\n\nMy read is that the Saturday cover now carries returns as well as lending, so it needs two people rather than one. If that holds, the weekday evenings stop needing a volunteer on the rota at all, which is the part that gets cheaper. It also suggests the hand-off between the two Saturday volunteers needs agreeing before the winter hours start.\n\nTwo questions are still open. Who is the second volunteer going to be, and do they know the winter hours start? Does the four-borrower count cover the evenings only, or does it include Saturday visits too?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-4-batch-3-rota-20261013214134"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:ced2262a4454:review-message:8d424653b476",
+    "pass" : "reaction:review-message",
+    "ms" : 246603,
+    "cite" : {
+      "email" : {
+        "claims" : 5,
+        "citations" : 2
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.040664,
+    "passes" : [ {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 4,
+      "cost_usd" : 0.012724150000000002,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 11,
+      "cost_usd" : 0.02794025,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "xena+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Xena ExpertGH",
+      "h" : "e099da2f28:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T21:48:41.230580509Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 0,
+      "touches" : 0,
+      "threads" : 0,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 3039
+    }
+  }
+}
