@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "LateSailingsFollowRidership",
+    "frame" : "How should a ferry's late sailings be scheduled against the passengers each one actually carries?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements read the late-sailing timetable by demand. src-1 moves the last weekday ferry earlier because that sailing carried under ten passengers a night. src-2 keeps the weekend late sailings because Friday and Saturday still fill. The same proportional reasoning gives opposite schedule outcomes, so the frame holds both: a cut where a sailing is empty and a kept timetable where it is full. No tension is resolved here. Neither statement is an existing position's member, and no existing narrative or stratum offers a clear home for ferry scheduling, so `under` is omitted for the narrative pass to place."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
