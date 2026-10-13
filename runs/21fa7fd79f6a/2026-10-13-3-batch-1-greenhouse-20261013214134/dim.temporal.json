@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "before the first frost",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Planned future installation, with named particular artifacts and bays; the plan is possible rather than settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Habitual present stated as settled fact, framed as a general principle about reporting intervals rather than a particular event.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
