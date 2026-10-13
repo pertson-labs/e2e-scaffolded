@@ -1,0 +1,47 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-2",
+    "phrase" : "the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1)",
+    "verdict" : "new",
+    "why" : "The perspective holds no position on frame-index design at witness depth. Thematic, People, Documents, and Unplaced doors all show 0 entries, so no prior ruling or memory 2026-10-09-1 is present to bind to.",
+    "consulted" : [ "perspective focus (frame index design)", "Thematic door (0 areas)", "People door (0)", "Documents door (0)", "Unplaced door (0)" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "Scarlet's 2026-10-09 rule",
+    "verdict" : "new",
+    "why" : "No Scarlet Dame ruling dated 2026-10-09 is reachable through the perspective. The People door shows 0 entries and the Documents door shows 0, so the rule has no graph node to bind to.",
+    "consulted" : [ "perspective focus (frame index design)", "People door (0)", "Documents door (0)" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "The 10/08 ruling had been passed to other sessions as rulings.",
+    "verdict" : "new",
+    "why" : "The 10/08 ruling is not present in the perspective. The Documents and Unplaced doors show 0 entries, so there is no prior node for it to bind to.",
+    "consulted" : [ "perspective focus (frame index design)", "Documents door (0)", "Unplaced door (0)" ]
+  }, {
+    "commentary_local_id" : "src-5",
+    "phrase" : "this ruling on 766",
+    "verdict" : "new",
+    "why" : "No node for a ruling on task-766 is reachable. The Thematic door (0 areas) and Documents door (0) show nothing, and the focus has no witness-depth match.",
+    "consulted" : [ "perspective focus (frame index design)", "Thematic door (0 areas)", "Documents door (0)" ]
+  }, {
+    "commentary_local_id" : "src-16",
+    "phrase" : "a 355 re-extraction",
+    "verdict" : "new",
+    "why" : "No prior extraction run labeled 355 is reachable through the perspective. The Thematic and Documents doors show 0 entries.",
+    "consulted" : [ "perspective focus (frame index design)", "Thematic door (0 areas)", "Documents door (0)" ]
+  }, {
+    "commentary_local_id" : "src-25",
+    "phrase" : "the cite prompt; the read pass epic",
+    "verdict" : "new",
+    "why" : "The cite prompt is a repository artifact outside the graph, and the read-path epic has no node in the perspective. Thematic and Unplaced show 0 entries.",
+    "consulted" : [ "perspective focus (read-path epic task-767)", "Thematic door (0 areas)", "Unplaced door (0)" ]
+  }, {
+    "commentary_local_id" : "src-59",
+    "phrase" : "the option zero idea",
+    "verdict" : "new",
+    "why" : "No prior option-zero idea is reachable. The Thematic and Unplaced doors show 0 entries, and the focus has no witness-depth match.",
+    "consulted" : [ "perspective focus (frame index design)", "Thematic door (0 areas)", "Unplaced door (0)" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-60", "src-61", "src-62", "src-63" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
