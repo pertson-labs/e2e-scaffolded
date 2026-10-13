@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon, not at close.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, unhedged assertion with a reasoned justification ('At close nobody is left to buy them'); no ratification or settling language, so decision is not performed and the lower region holds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the price is never a surprise at the till",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "Then the shelf card changes at two as well",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm 'never' and plain assertion, but framed as an explanatory consequence ('so ...') rather than recorded settling; torn with decision, the lower region is taken.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
