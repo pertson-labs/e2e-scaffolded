@@ -1,0 +1,143 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "all of the calls that they were in, all of the narratives, and all of the positions",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Three matched 'all of the' items form a deliberate triad enumerating what the actor hub links to.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "not retrieval, we don't want to just return a single position",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposes retrieval to steering and sets 'a single position' against 'the context around it' in deliberate contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "If you list the call with its IRI",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "you list the narratives with IRI",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two sentences share matched grammatical structure ('you list X with IRI, then everything underneath as frames').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "You need steering first, and then you need the recall",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched 'you need X' clauses in sequence produce a parallel ordering of steering then recall.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "support for a direction, not an end in itself",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed phrasing 'support for a direction, not an end in itself' sets the statement's role in deliberate contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "The frame is designed to be the frame through which its statements are read",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Negated 'not designed to be the carrier' is answered by a matched 'is designed to be the frame' clause, a parallel antithesis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "sees a position whole, frame and every member statement, never a sample of three",
+      "kind" : "framing-move"
+    } ],
+    "why" : "'whole' is set against 'never a sample of three' in a deliberate contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A question posed for effect whose answer is presumed (the stance is that production is wrong).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "framing-move"
+    } ],
+    "why" : "An extended electrical circuit-breaker comparison carries the argument that output caps should be runaway-only.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two clauses share a matched model-subject, action, outcome structure contrasting the two models.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "framing-move"
+    } ],
+    "why" : "'What a mature engine adds is...' is matched by 'what it does not add is...', an antithetical parallel.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The 'shoulders of giants' formula is a recurring signature phrase of this speaker's standing rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "every consumer composes steering from ours and recall from the engine, never recall from steering",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Chiastic-style contrast: recall comes from the engine, never from steering, set in one matched clause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "short-punchy-cadence" ],
+    "evidence" : [ {
+      "quote" : "The name of the index. The complement pass",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "Whether a real store is needed.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A run of clipped fragments listing open items gives the list emphasis through brevity.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-23", "src-25", "src-26", "src-28", "src-30", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-53", "src-54", "src-55", "src-56", "src-57", "src-61", "src-62" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
