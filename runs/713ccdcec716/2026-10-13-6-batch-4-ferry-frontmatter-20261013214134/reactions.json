@@ -1,0 +1,185 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-90a7acc4",
+  "live_run_id" : "713ccdcec716",
+  "stream" : "e2e-662-batch-20261013214134",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.", "The weekend timetable stays as it is; Friday and Saturday late sailings still fill.", "Two sentences serving one reporting move (the change and its stated ridership rationale); kept as one segment.", "the schedule change is reported, not performed as a settled operational decision, so the lower region holds" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "713ccdcec716:aswritten/review-message:u17592186058512",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160570",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Tamsin Oduya said on 9 October, in the ferry timetable change conversation: \"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\" Rolf Benedek answered the same day, in the same conversation: \"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"",
+        "that_changes" : "Omitted: no earlier statements of yours were touched by this run.",
+        "so_now" : "Weekday service ends at 21:55 from November, not 22:40. The weekend late sailings stay as they are, because they still fill. The cut rests on passenger counts for the weekday late sailing, not on staffing.",
+        "which_means" : "I read that as the late weekday sailing being the one thing given up here, with the weekend kept on the same measure: sailings that still fill stay. If that holds, the ridership test is now how late sailings get decided, and a late run that fills on a Friday does not need the same argument. That suggests to me the same test could be asked of other timetable hours, which bears on the branch library's hours discussion, where earlier access was weighed against staffing rather than passengers.",
+        "where_does_it_end" : [ "Does the under-ten figure hold across more than one month, or is it a single run?", "Is the branch library's hours trade the same kind of decision, or does staffing make it different?" ]
+      },
+      "email" : {
+        "subject" : "Re: Ferry late sailings, from 9 October",
+        "body" : "Tamsin Oduya said on 9 October, in the ferry timetable change conversation: \"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\" Rolf Benedek answered the same day, in the same conversation: \"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"\n\nWeekday service ends at 21:55 from November, not 22:40. The weekend late sailings stay as they are, because they still fill. The cut rests on passenger counts for the weekday late sailing, not on staffing.\n\nI read that as the late weekday sailing being the one thing given up here, with the weekend kept on the same measure: sailings that still fill stay. If that holds, the ridership test is now how late sailings get decided, and a late run that fills on a Friday does not need the same argument. That suggests to me the same test could be asked of other timetable hours, which bears on the branch library's hours discussion, where earlier access was weighed against staffing rather than passengers.\n\nDoes the under-ten figure hold across more than one month, or is it a single run? Is the branch library's hours trade the same kind of decision, or does staffing make it different?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-6-batch-4-ferry-frontmatter-20261013214134"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:713ccdcec716:review-message:0c0f248197bb",
+    "pass" : "reaction:review-message",
+    "ms" : 98581,
+    "cite" : {
+      "email" : {
+        "claims" : 7,
+        "citations" : 3
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.024253,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0026339,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.00914273,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.012476450000000002,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "xena+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Xena ExpertGH",
+      "h" : "e099da2f28:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T21:48:23.748173104Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 2
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 10361
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 19150,
+      "content_chars" : 961
+    } ]
+  }
+}
