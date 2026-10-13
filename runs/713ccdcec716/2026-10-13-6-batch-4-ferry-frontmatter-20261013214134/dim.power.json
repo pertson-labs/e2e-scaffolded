@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "carried under ten passengers a night",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The change is justified by a ridership figure offered as evidence for the cut; no direct influence attempt beyond the argument itself.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The decision to keep the weekend timetable is supported by a stated demand fact, presented as reasoning rather than pressure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
