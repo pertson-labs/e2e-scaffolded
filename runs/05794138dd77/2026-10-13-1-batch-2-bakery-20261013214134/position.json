@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "MarkdownTimingVisibility",
+    "frame" : "When should a price change take effect, so that buyers can still reach the discounted goods and can see the price before they choose to buy?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements settle one pricing practice: the half-price markdown moves to two in the afternoon, and the shelf card changes at the same time. src-1 times the markdown so buyers still have stock to purchase, and src-2 times the card so the price is known before the till. The two justifications rest on different goods, sell-through for buyers and predictability at the till, but both hold the same timing decision in one frame. No existing position was supplied to consult."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
