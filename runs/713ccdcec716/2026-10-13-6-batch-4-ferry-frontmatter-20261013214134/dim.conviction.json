@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The late sailing carried under ten passengers a night.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat factual statements with no hedges or ratification language; the schedule change is reported, not performed as a settled operational decision, so the lower region holds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged assertion supporting a position; 'stays as it is' is not framed as ratification, so claim rather than decision.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
