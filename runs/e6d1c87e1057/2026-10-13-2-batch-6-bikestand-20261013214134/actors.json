@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Anouk Brennagh",
+    "verdict" : "mint",
+    "label" : "Anouk Brennagh",
+    "why" : "No existing actor matches Anouk Brennagh; not a participant in this envelope, so no confident bind.",
+    "ai" : false
+  }, {
+    "name" : "Sami Okonkwo-Hart",
+    "verdict" : "mint",
+    "label" : "Sami Okonkwo-Hart",
+    "why" : "No existing actor matches Sami Okonkwo-Hart; not a participant in this envelope, so no confident bind.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Name matches the existing actor Xena ExpertGH exactly and is the sole listed participant and submitter.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Account email belongs to the submitter Xena ExpertGH, who is the same person; binds to her existing actor rather than minting an email-labeled actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
