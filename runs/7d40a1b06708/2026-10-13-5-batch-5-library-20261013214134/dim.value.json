@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "so the commuter crowd can return books on the way in",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The stated purpose of the early opening is benefit to commuters, an appeal to good for others.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "to keep the staffing flat",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The closing change is justified by keeping staffing stable, an appeal to stability as the good.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
