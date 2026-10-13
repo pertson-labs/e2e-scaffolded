@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "goes by the river path entrance",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense assertion about the actual, settled placement of a named location; concrete throughout, with no hedging or hypothetical framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the last one walked off in a week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Imperative directive aims attention at a future, planned action; the past event cited as its rationale is realis but supports the directive rather than setting its temporal focus, so future/irrealis is the stronger read.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
