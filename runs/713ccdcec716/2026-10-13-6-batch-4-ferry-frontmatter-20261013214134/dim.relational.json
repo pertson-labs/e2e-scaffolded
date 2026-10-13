@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "carried under ten passengers a night",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Cost/benefit proportionality: the timetable cut is justified by per-sailing ridership, a consequence-for-choice frame rather than shared-identity or rank.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Friday and Saturday late sailings still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Keeps the weekend timetable on demand-proportionality grounds (sailings fill), the same proportional logic as src-1; no existing or clearly recurring directional pattern, so region-only.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
