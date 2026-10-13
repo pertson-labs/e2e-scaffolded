@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "We open at eight on Tuesdays and Thursdays",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Announces the opening schedule as fact; the 'so the commuter crowd can return books' clause gives a reason but no argument or appeal, so the power read stays at supplying the facts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "we close an hour earlier those days",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the closing schedule as fact with a staffing rationale; no request, threat, or argument is performed, so the read is informational only.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
