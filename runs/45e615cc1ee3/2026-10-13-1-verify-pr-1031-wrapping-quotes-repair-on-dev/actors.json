@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "target" : null,
+    "label" : null,
+    "why" : "Not a person's name; this is a role placeholder with no identity in the envelope, so no actor can be bound or minted.",
+    "ai" : false
+  }, {
+    "name" : "Scarlet Dame",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Scarlet Dame",
+    "why" : "Witnessed name with no existing actors in the graph; mint under the full name.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Envelope submitter and sole participant; no existing actors in the graph, so mint under the full name.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email is the same person as submitted_by Xena ExpertGH; emit under her name rather than minting an email-labeled actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
