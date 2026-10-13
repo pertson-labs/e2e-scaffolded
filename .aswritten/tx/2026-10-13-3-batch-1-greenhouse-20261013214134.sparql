@@ -1,0 +1,100 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T214303Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-3-batch-1-greenhouse-20261013214134.md" ;
+      dct:title "Multipass source extraction: Greenhouse sensor rollout — 2026-10-09" ;
+      prov:generated narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3, narr:Actor_OdileMarchetti, narr:Actor_PellVasquez .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T214303Z {
+    narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 a narr:Sample ;
+        dct:title "Greenhouse sensor rollout — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-13-3-batch-1-greenhouse-20261013214134.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 a narr:Expression ;
+        narr:actor narr:Actor_OdileMarchetti ;
+        narr:act "assertive" ;
+        narr:context "Greenhouse sensor rollout discussion, 2026-10-09" ;
+        skos:note "States the rollout plan and pilot-bay rationale; reads as a settled plan statement rather than a directive." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We install humidity sensors in all four greenhouse bays before the first frost. Bay two gets the pilot unit first, because it lost the most seedlings last winter." ;
+                oa:prefix "l Vasquez (Engineer)\n\nOdile: \"" ;
+                oa:suffix "\"\n\nPell: \"Agreed. The sensors " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "178"^^xsd:integer ;
+                oa:end "340"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 a narr:Expression ;
+        narr:actor narr:Actor_PellVasquez ;
+        narr:act "expressive" ;
+        narr:context "Greenhouse sensor rollout discussion, 2026-10-09" ;
+        skos:note "Expresses agreement with Odile's plan." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed." ;
+                oa:prefix "edlings last winter.\"\n\nPell: \"" ;
+                oa:suffix " The sensors report every fift" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "350"^^xsd:integer ;
+                oa:end "357"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 a narr:Expression ;
+        narr:actor narr:Actor_PellVasquez ;
+        narr:act "assertive" ;
+        narr:context "Greenhouse sensor rollout discussion, 2026-10-09" ;
+        skos:note "Technical requirement rationale following the agreement." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The sensors report every fifteen minutes; anything slower misses the overnight drop." ;
+                oa:prefix "last winter.\"\n\nPell: \"Agreed. " ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "358"^^xsd:integer ;
+                oa:end "442"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime .
+
+    narr:Actor_OdileMarchetti a narr:Actor ;
+        skos:prefLabel "Odile Marchetti" .
+
+    narr:Actor_PellVasquez a narr:Actor ;
+        skos:prefLabel "Pell Vasquez" .
+
+    aswr:Run_20261013T214303Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/actors.json" ;
+        prov:generated narr:Actor_OdileMarchetti, narr:Actor_PellVasquez ;
+        dct:isPartOf aswr:Tx_20261013T214303Z ;
+        prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214303Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "z-ai/glm-5.3-flash" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/pass1.json" ;
+        prov:generated narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2, narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        dct:isPartOf aswr:Tx_20261013T214303Z ;
+        prov:generatedAtTime "2026-10-13T21:43:03Z"^^xsd:dateTime .
+  }
+}
