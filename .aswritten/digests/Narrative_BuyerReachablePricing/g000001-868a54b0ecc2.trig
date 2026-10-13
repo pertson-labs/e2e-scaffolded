@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_BuyerReachablePricing> {
+  <https://aswritten.ai/narrative#Digest_Narrative_BuyerReachablePricing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_BuyerReachablePricing> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "868a54b0ecc26f5e564c352948abd27916addbfb" ;
+    narr:narration """This narrative holds a single position: [markdown timing that keeps discounted goods reachable and priced visibly before purchase](narr:Position_MarkdownTimingVisibility). Its witness examples — [day-old loaves at half price from two in the afternoon rather than at close](narr:Position_MarkdownTimingVisibility), with [the shelf card changing at the same hour](narr:Position_MarkdownTimingVisibility) — frame the question of whom a price-change schedule serves.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_MarkdownTimingVisibility> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Position_MarkdownTimingVisibility> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Position_MarkdownTimingVisibility> ] ;
+    narr:run "05794138dd77" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

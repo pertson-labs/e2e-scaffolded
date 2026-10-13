@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_MarkdownTimingVisibility> {
+  <https://aswritten.ai/narrative#Digest_Position_MarkdownTimingVisibility> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_MarkdownTimingVisibility> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "868a54b0ecc26f5e564c352948abd27916addbfb" ;
+    narr:narration """This position holds that a price change should take effect while buyers can still act on it and see it before paying. [Half-price day-old loaves at two in the afternoon rather than at close, so someone is left to buy them](narr:Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_1) sets the timing; [the shelf card changing at two as well, so the price is never a surprise at the till](narr:Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_2) adds the visibility side.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_2> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_1> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_2> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat declarative claim — the rule is stated as fact, not argued" ; narr:text "Day-old loaves go to half price at two in the afternoon, not at close." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_1> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names the wrong way before the right one" ; narr:text "At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_1> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "splits between care for others and keeping the transaction clean" ; narr:text "so the price is never a surprise at the till" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_1_Batch2Bakery20261013214134_h503a9390982c_2> ] ;
+    narr:run "05794138dd77" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
