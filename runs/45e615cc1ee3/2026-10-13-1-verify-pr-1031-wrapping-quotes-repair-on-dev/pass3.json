@@ -1,0 +1,195 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Verdict new: no prior ruling or memory is reachable to bind to."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Verdict new: no Scarlet Dame ruling dated 2026-10-09 is reachable to bind to."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Verdict new: the 10/08 ruling is not present in the perspective."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Verdict new: no node for a ruling on task-766 is reachable."
+  }, {
+    "segment_id" : "src-6",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-7",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-8",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-9",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-10",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-11",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-13",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-14",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-15",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "Verdict new: no prior extraction run labeled 355 is reachable."
+  }, {
+    "segment_id" : "src-17",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-18",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-19",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-20",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-21",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-22",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-23",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-24",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-25",
+    "why" : "Verdict new: the cite prompt is outside the graph and the read-path epic has no reachable node."
+  }, {
+    "segment_id" : "src-26",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-27",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-28",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-29",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-30",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-31",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-32",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-33",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-34",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-35",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-36",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-37",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-38",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-39",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-40",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-41",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-42",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-43",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-44",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-45",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-46",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-47",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-48",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-49",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-50",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-51",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-52",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-53",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-54",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-55",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-56",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-57",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-58",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-59",
+    "why" : "Verdict new: no prior option-zero idea is reachable."
+  }, {
+    "segment_id" : "src-60",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-61",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-62",
+    "why" : "No settled referent; no prior node to reconcile against."
+  }, {
+    "segment_id" : "src-63",
+    "why" : "No settled referent; no prior node to reconcile against."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
