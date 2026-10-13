@@ -1,0 +1,77 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-32",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Dismissive disagreement stated flatly with a tag question; weary rejection rather than heat.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Short evaluative verdict on the result, delivered as a strong negative judgment; arousal is inferred from the bluntness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Exasperation at a repeated practice, amplified by 'constantly' and 'really anything', then an analogy that argues the point hard.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sharp pejorative aimed at a practice the speaker sees as a known error.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repeated emphasis and a pejorative close register frustration with a recurring habit; the aspiration is carried by the same urgency, so the region is held firmly here.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ExasperatedNormCorrection",
+    "title" : "exasperation registered at a practice others keep repeating",
+    "frame" : "Is the frustration aimed at a practice that recurs across actors, and does the speaker treat that practice as a known error to be corrected?",
+    "regions" : [ "activated-negative" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-57", "src-58", "src-60", "src-61", "src-62", "src-63" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
