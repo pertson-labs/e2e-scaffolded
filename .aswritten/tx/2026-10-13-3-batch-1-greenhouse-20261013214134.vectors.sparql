@@ -1,0 +1,253 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T214304Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-3-batch-1-greenhouse-20261013214134.md" ;
+      dct:title "Multipass fragment: 20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62" ;
+      prov:generated narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2, narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3, narr:VecPower_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3, narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2, narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3, narr:VecValue_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:Narrative_MonitoringCatchesTheLoss, narr:Position_MonitoringRolloutDesign .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T214304Z {
+    narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: We install humidity sensors in all four greenhouse bays before the first frost." ;
+        narr:reported false ;
+        skos:note "Operational 'we're doing X' plan stated as settled with a dated commitment and no hedging; no explicit ratification in this segment." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Agreed." ;
+        narr:reported false ;
+        skos:note "Bare ratification of the preceding plan; performed settling is decision-grade by its act." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The sensors report every fifteen minutes; anything slower misses the overnight drop." ;
+        narr:reported false ;
+        skos:note "Unhedged factual assertion defended by a stated reason, but it records no settling or action, so it stays at claim." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: anything slower misses the overnight drop" ;
+        narr:reported false ;
+        skos:note "Justifies the fifteen-minute reporting interval by an evidential consequence (slower reports miss the overnight drop), an argument from evidence rather than rank or request." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "lexical-marker: We install humidity sensors in all four greenhouse bays" ;
+        narr:evidence "plain-assertion: because it lost the most seedlings last winter" ;
+        narr:reported false ;
+        skos:note "Opens with we-framing for the shared rollout; bay two's priority is allocated by proportional loss (consequence-based), a tension between shared pooling and proportional allocation." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "performed-act: Agreed." ;
+        narr:reported false ;
+        skos:note "Bare assent returns a turn of reciprocal agreement to the prior proposal; low-signal, one-word exchange." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: We install humidity sensors in all four greenhouse bays" ;
+        narr:evidence "lexical-marker: before the first frost" ;
+        narr:reported false ;
+        skos:note "Planned future installation, with named particular artifacts and bays; the plan is possible rather than settled." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: The sensors report every fifteen minutes" ;
+        narr:evidence "plain-assertion: anything slower misses the overnight drop" ;
+        narr:reported false ;
+        skos:note "Habitual present stated as settled fact, framed as a general principle about reporting intervals rather than a particular event." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:VecValue_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "commitment-marker: because it lost the most seedlings last winter" ;
+        narr:reported false ;
+        skos:note "The pilot is prioritized to protect bay two from repeated seedling loss, an appeal to security and avoiding known harm." ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:Narrative_MonitoringCatchesTheLoss a narr:Narrative ;
+        dct:source narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+        narr:frame "When a monitoring rollout is configured, in what order it is installed and at what reporting interval, does it catch the loss it was meant to prevent?" ;
+        skos:note "Monitoring is judged by whether it catches the loss it was installed to prevent, not by whether it is installed" ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:Position_MonitoringRolloutDesign narr:supports narr:Narrative_MonitoringCatchesTheLoss .
+
+    narr:Position_MonitoringRolloutDesign a narr:Position ;
+        narr:frame "How should a monitoring rollout be configured, in order and in reporting cadence, so that it catches the loss it was installed to prevent?" ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 narr:supports narr:Position_MonitoringRolloutDesign .
+
+    narr:Expr_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 narr:supports narr:Position_MonitoringRolloutDesign .
+
+    aswr:Miss_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62 ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2, narr:VecConviction_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.power.json" ;
+        prov:generated narr:VecPower_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecRelational_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_2 ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1, narr:VecTemporal_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_3 ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/dim.value.json" ;
+        prov:generated narr:VecValue_20261013_3_Batch1Greenhouse20261013214134_h283ca213ee62_1 ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/pass5.json" ;
+        prov:generated narr:Narrative_MonitoringCatchesTheLoss ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214304Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/21fa7fd79f6a/2026-10-13-3-batch-1-greenhouse-20261013214134/position.json" ;
+        prov:generated narr:Position_MonitoringRolloutDesign ;
+        dct:isPartOf aswr:Tx_20261013T214304Z ;
+        prov:generatedAtTime "2026-10-13T21:43:04Z"^^xsd:dateTime .
+  }
+}
