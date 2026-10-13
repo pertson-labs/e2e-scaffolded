@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "playful" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Dry understatement ('walked off') departs from the document's otherwise matter-of-fact instructional voice.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
