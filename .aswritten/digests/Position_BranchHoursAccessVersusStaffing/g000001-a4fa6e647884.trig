@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_BranchHoursAccessVersusStaffing> {
+  <https://aswritten.ai/narrative#Digest_Position_BranchHoursAccessVersusStaffing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "a4fa6e6478849ec522e6954cf74895f3b0b539b6" ;
+    narr:narration """This position holds the trade-off between earlier access and flat staffing through two supporting statements: [the early Tuesday/Thursday opening for commuters returning books](narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1) and [the matching earlier close that keeps staffing flat](narr:Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2). Both were voiced the same day, one granting the access, the other naming its cost.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2> ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2> ] ;
+    narr:variation [ narr:text "The two supports pull in different value directions — one serves commuter access, the other conserves staffing — so the position is a bargain, not a single motive." ; narr:over <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_1> ; narr:over <https://aswritten.ai/narrative#Expr_20261013_5_Batch5Library20261013214134_hf3f492eb83b5_2> ] ;
+    narr:run "7d40a1b06708" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

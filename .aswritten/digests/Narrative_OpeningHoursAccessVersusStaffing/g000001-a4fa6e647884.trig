@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_OpeningHoursAccessVersusStaffing> {
+  <https://aswritten.ai/narrative#Digest_Narrative_OpeningHoursAccessVersusStaffing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_OpeningHoursAccessVersusStaffing> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "a4fa6e6478849ec522e6954cf74895f3b0b539b6" ;
+    narr:narration """This narrative holds a single position: [the branch's Tuesday/Thursday trade](narr:Position_BranchHoursAccessVersusStaffing), where earlier opening for commuters is offset by an earlier close to keep staffing flat. The frame asks what the schedule gives up and who bears the cost, and the position answers with the concrete arrangement rather than a verdict.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:variation [ narr:text "The access gain and its cost sit inside one position — the same days that open earlier close earlier — so the question of who bears the cost (midday users, evening users) is raised by the frame but not yet answered by any child." ; narr:over <https://aswritten.ai/narrative#Position_BranchHoursAccessVersusStaffing> ] ;
+    narr:run "7d40a1b06708" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
