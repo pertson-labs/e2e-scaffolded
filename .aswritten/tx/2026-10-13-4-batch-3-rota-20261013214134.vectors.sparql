@@ -1,0 +1,241 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261013T214355Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-13-4-batch-3-rota-20261013214134.md" ;
+      dct:title "Multipass fragment: 20261013_4_Batch3Rota20261013214134_hb7de452e29f5" ;
+      prov:generated narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1, narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2, narr:VecPower_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2, narr:VecRelational_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2, narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1, narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261013T214355Z {
+    narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The tool library opens Saturdays only through winter." ;
+        narr:reported false ;
+        skos:note "Flat unhedged factual assertion, stated as a committed core without ratification or permanence language; claim-level." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Directive planning a staffing change, but the text does not perform or record a settling (no ratification or commitment marker); torn with decision, lower region taken." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    narr:VecPower_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: gets a second volunteer to run returns" ;
+        narr:reported false ;
+        skos:note "Directive assignment of staffing for the Saturday shift, issued by the speaker in a rota-setting role; authority rests on the position, not on persuasion or insistence." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Then the Saturday shift gets a second volunteer to run returns." ;
+        narr:reported false ;
+        skos:note "Directive command assigning a second volunteer to the Saturday shift; the rank-based allocation is enacted by the directive itself rather than reported." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The tool library opens Saturdays only through winter." ;
+        narr:evidence "lexical-marker: Weekday evenings drew four borrowers in six weeks." ;
+        narr:reported false ;
+        skos:note "Settled, actual schedule and a counted past outcome, anchored to specific numbers and days; the past-tense clause is a secondary focus, so present is kept as the dominant one." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Then" ;
+        narr:evidence "plain-assertion: gets a second volunteer to run returns" ;
+        narr:reported false ;
+        skos:note "A planned next step (directive) that has not yet happened, sequenced with 'Then' and tied to a specific shift and task." ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced segments 2/2 exceeds 0.7" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "1.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_position_trip a aswr:Miss ;
+        aswr:missPass "position" ;
+        aswr:missClass "floor" ;
+        aswr:missError "ungrouped 2/2 exceeds 0.9" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "ungrouped_ratio" ;
+        aswr:tripRatio "1.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Miss_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261013_4_Batch3Rota20261013214134_hb7de452e29f5 ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1, narr:VecConviction_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.power.json" ;
+        prov:generated narr:VecPower_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_1, narr:VecTemporal_20261013_4_Batch3Rota20261013214134_hb7de452e29f5_2 ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/pass5.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261013T214355Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/ced2262a4454/2026-10-13-4-batch-3-rota-20261013214134/position.json" ;
+        dct:isPartOf aswr:Tx_20261013T214355Z ;
+        prov:generatedAtTime "2026-10-13T21:43:55Z"^^xsd:dateTime .
+  }
+}
