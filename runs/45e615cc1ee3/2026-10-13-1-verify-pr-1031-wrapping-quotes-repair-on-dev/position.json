@@ -1,0 +1,62 @@
+{
+  "positions" : [ {
+    "name" : "UnitOfExpandBoundary",
+    "frame" : "What should a single expand return so that the reader gets the context around a position rather than an isolated position?",
+    "members" : [ "src-8", "src-9", "src-14", "src-18", "src-47" ],
+    "why" : "The set argues that the unit of expand must be a call, narrative, or other door, never a lone position, so steering keeps its context. Src-47 tests the same boundary through transaction siblings and names the cost of too much data. Src-14 and src-18 apply it to long calls and narratives. The cost of wide expansion is held open as a tension."
+  }, {
+    "name" : "IndexPageContents",
+    "frame" : "What must each index page carry so the agent can read the whole structure without losing it to a file dump?",
+    "members" : [ "src-7", "src-11", "src-12", "src-13", "src-51" ],
+    "why" : "The set describes a multi-tiered actor hub, a document page that shows the full package and its edges, and a fixed page size. It argues against dumping navigation to file because that breaks the agent's grasp of the whole. Src-51 reports how different document shapes fare against this page design."
+  }, {
+    "name" : "FrameOnlyRelevance",
+    "frame" : "Can a frame alone locate whether a position is relevant, or does a reader need every member statement to judge it?",
+    "members" : [ "src-27", "src-28", "src-29" ],
+    "why" : "The set holds that a frame is the lens through which statements are read, not a carrier of meaning. It concludes that the frame alone loses something and that a judge should see a position whole. Src-28 leaves the answer open at 'maybe', so the tension is kept."
+  }, {
+    "name" : "StatementOutOfContext",
+    "frame" : "When a statement is read apart from its narrative and strata, what happens to its direction, and what should the cite and judgment passes do about it?",
+    "members" : [ "src-23", "src-24", "src-25", "src-26" ],
+    "why" : "The set holds that a statement supports a direction and loses meaning when lifted out of its context. It notes that the cite prompt may not match this and should be ticketed under the read-path epic, which was filed as task-767. Src-23 is reported through the memo author as a description of current judgment passes."
+  }, {
+    "name" : "EngineVsInHouseRecall",
+    "frame" : "Should recall and precision be composed from existing engine primitives, with steering kept in-house?",
+    "members" : [ "src-22", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61" ],
+    "why" : "The set separates steering, which is novel and stays ours, from recall, which an engine should supply. It names the hand-rolled read layer as the weak link and argues from the shoulders-of-giants standard that a mature engine adds primitives while the domain decisions and oracle stay ours. The ruling in src-60 and the rule write-up in src-61 are the settling acts. The consequence that any hand-rolled part retires if the textbook stack ties or wins is included as a conditional."
+  }, {
+    "name" : "OutputCapsAsCircuitBreaker",
+    "frame" : "Should an output cap exist only as a guard against runaway behavior, rather than as a way to shorten replies?",
+    "members" : [ "src-44", "src-45", "src-52" ],
+    "why" : "The set argues that output caps should behave like a circuit breaker that stays dormant unless something goes wrong. It supports this with the GLM runaway and the Haiku result. The rule is recorded in the llm-calls rules file."
+  }, {
+    "name" : "RecallTargetChoice",
+    "frame" : "What should a recall test be scored against: the placements production already made, or a judged exhaustive set?",
+    "members" : [ "src-30", "src-32", "src-33", "src-34", "src-53" ],
+    "why" : "The set rejects production's 41 placements as the target because the team's stance is that production is wrong. It replaces that target with a judged exhaustive set, reviewed by several models with big models taking the pool. Src-53 gives the figures that made the floor a poor reference."
+  }, {
+    "name" : "PoolExhaustivenessAndGap",
+    "frame" : "Is the candidate pool exhaustive, and what separates the measured recall from full recall?",
+    "members" : [ "src-35", "src-36", "src-38", "src-39", "src-41", "src-42", "src-48", "src-49", "src-50" ],
+    "why" : "The set first asks whether the pool was exhaustive, then answers that it was not and that a complement pass was added. It records recall at each unit of expand and treats the 82 to 88 percent figure as bad, asking what the gap to full recall is. Src-35 and src-36 report the principal's requirement and review practice through the memo author."
+  }, {
+    "name" : "RulingPropagation",
+    "frame" : "Should a ruling be passed to other sessions as a build input before its design has been tested?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5", "src-62" ],
+    "why" : "The set holds that the 10/08 ruling on frames was passed to other sessions too early. It sets the sequence of full design, then test, then implementation, and holds the prompt inventory until the design is solid. Src-2 extends that ruling through the memo author, so the lineage is recorded as the memo's own."
+  }, {
+    "name" : "DeadTierReextraction",
+    "frame" : "Would a full re-extraction after strata repair change the graph substantially, given the dead-tier sizing?",
+    "members" : [ "src-15", "src-16" ],
+    "why" : "The sizing reports empty narratives, unframed statements, and statements in no position. The question asks whether a 355 re-extraction would fix most of this and how much it would change. It is posed as an open question, not a conclusion."
+  }, {
+    "name" : "IndexNaming",
+    "frame" : "What should the index be called?",
+    "members" : [ "src-20", "src-21" ],
+    "why" : "The name is still open. Scarlet proposes frame-based indexing and asks for a better name. The memo marks the item as still open."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-6", "src-10", "src-17", "src-19", "src-31", "src-37", "src-40", "src-43", "src-46", "src-54", "src-63" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
