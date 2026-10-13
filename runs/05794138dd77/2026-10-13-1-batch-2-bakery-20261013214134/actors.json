@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Ines Thorvald",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Ines Thorvald",
+    "why" : "No existing actors in graph; witnessed full name, minted under fullest label.",
+    "ai" : false
+  }, {
+    "name" : "Caleb Ruiz",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Caleb Ruiz",
+    "why" : "No existing actors in graph; witnessed full name, minted under fullest label.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "No existing actors in graph; submitter's person name, minted as the person behind the account.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email is the same person as submitted_by Xena ExpertGH; labeled with her name, never the email address, and no existing actor to bind to.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
