@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens",
+    "title" : "Monitoring goes first where losses were worst and samples at the pace the damage unfolds",
+    "frame" : "Where did losses actually concentrate, and does the rollout order and sampling interval match when and where the damage happens?",
+    "under" : null,
+    "supporting_positions" : [ "GreenhouseSensorRolloutSequenceAndReporting" ],
+    "why" : "The position says the pilot starts in bay two because it lost the most seedlings, and that reporting must be every fifteen minutes so the overnight drop is caught. Both parts tie the monitoring rollout to observed loss, in place and in time. No existing leaf covers greenhouse or growing monitoring. The nearest leaves (ferry, bakery, tool library, bike stand) share a follow-observed-use shape but concern different subjects. Minting standalone, with no forced hub, keeps this separate from them.",
+    "consulted" : [ "Narrative_LateSailingsFollowRidership", "Narrative_MarkdownsFollowWhenBuyersAreInTheShop", "Narrative_OpeningHoursFollowBorrowerDemand", "Narrative_PublicInfrastructureFollowsObservedUse" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "GreenhouseHumidityMonitoring",
+      "type" : "thematic",
+      "title" : "Everything said about greenhouse humidity monitoring: where the sensors go first, when they are installed, and how often they report",
+      "why" : "No existing stratum covers greenhouse monitoring. Future envelopes on the sensor rollout, bay conditions or seedling loss will keep feeding this subject."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens",
+      "strata" : [ "GreenhouseHumidityMonitoring" ],
+      "why" : "The leaf is about the greenhouse sensor rollout and its reporting interval."
+    }, {
+      "member" : "Position_GreenhouseSensorRolloutSequenceAndReporting",
+      "strata" : [ "GreenhouseHumidityMonitoring" ],
+      "why" : "The position carries the bay-two pilot sequence and the fifteen-minute interval, which is the stratum's subject."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
