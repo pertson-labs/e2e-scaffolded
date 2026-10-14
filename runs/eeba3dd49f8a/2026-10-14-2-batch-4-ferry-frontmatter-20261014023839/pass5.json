@@ -1,0 +1,42 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_OpeningHoursFollowBorrowerDemand"
+    },
+    "under" : null,
+    "supporting_positions" : [ "FerryLateSailingsFollowRidership" ],
+    "why" : "Both statements read the late ferry timetable against observed ridership: the weekday last sailing moves earlier because it carries under ten passengers, while the weekend timetable stays because Friday and Saturday late sailings still fill. This is a subject that future ferry-timetable decisions will keep feeding. The existing leaf holds tool-library opening hours, a different service and domain, so it is not reused. It is cited as a loosely parallel shape through the lineage link.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_LateSailingsFollowRidership",
+    "title" : "Late ferry sailings run where passengers actually ride",
+    "frame" : "What does the evidence of how many passengers each late sailing carries say about which sailings the ferry timetable should keep, move, or leave alone?",
+    "consulted" : [ "Narrative_OpeningHoursFollowBorrowerDemand", "Position_WinterRotaHoursAndSaturdayStaffing" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ {
+    "position" : "Position_WinterRotaHoursAndSaturdayStaffing",
+    "verdict" : "decline",
+    "why" : "The nearest placed leaf is Narrative_LateSailingsFollowRidership. The position's statements concern tool-library Saturday opening and volunteer staffing, which says nothing about ferry sailings or passenger counts, so it does not support that leaf."
+  } ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "FerryTimetable",
+      "type" : "thematic",
+      "title" : "Everything said about the ferry timetable: which sailings run, when the last ferry leaves, and how many passengers each carries",
+      "why" : "The ferry timetable is a new subject with no existing stratum. Weekday and weekend sailing decisions will keep returning to it."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_LateSailingsFollowRidership",
+      "strata" : [ "FerryTimetable" ],
+      "why" : "The leaf is about which late ferry sailings run, which is the stratum's subject."
+    }, {
+      "member" : "Position_FerryLateSailingsFollowRidership",
+      "strata" : [ "FerryTimetable" ],
+      "why" : "The position holds the weekday last-ferry change and the unchanged weekend timetable."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
