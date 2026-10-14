@@ -1,0 +1,122 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261014T024653Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      dct:title "Multipass reconciliations: 20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14" ;
+      prov:generated narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261014T024653Z {
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "Still open." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_ScarletDame ;
+        aswr:footing "on-behalf" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "Consequence: a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "It was not; a complement pass over every unpicked frame, judged whole, was added." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "Now a rule in `.claude/rules/llm-calls.md`." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "The session's concession: the hand-rolled read layer, a token-rarity lexical ranker with no BM25, a vector index that embedded a frame plus three excerpts, a fusion rule chosen on five specimens, and a navigator doing recall by reading pages, was the weak link, each built as a feature without an oracle. What a mature engine adds is complete, benchmark-tuned primitives and a declarative query; what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "Ruled consequences, 2026-10-11: steering stays ours (the perspective load, the frame index pages, the fuzzy edges, the navigator as orientation); recall and precision come from engine primitives, in process first (Lucene BM25 and HNSW over whole positions with parent context, reciprocal rank fusion, SPARQL traversal by unit of expand) and a real RDF store if in-process is not enough; every consumer composes steering from ours and recall from the engine, never recall from steering; the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 a narr:Reconciliation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:principal narr:Actor_Session ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:qualityFlag "principal:unresolved" ;
+        skos:note "The rule is written into `.claude/rules/extend-first.md`." ;
+        narr:extends narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        dct:source narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024653Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/pass2.json" ;
+        dct:isPartOf aswr:Tx_20261014T024653Z ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024653Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/pass3.json" ;
+        prov:generated narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:Recon_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 ;
+        dct:isPartOf aswr:Tx_20261014T024653Z ;
+        prov:generatedAtTime "2026-10-14T02:46:53Z"^^xsd:dateTime .
+  }
+}

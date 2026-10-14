@@ -1,0 +1,1858 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261014T024652Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev.md" ;
+      dct:title "Multipass fragment: 20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14" ;
+      prov:generated narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53, narr:DirPower_ExistingPrecedentAsWarrant, narr:DirPower_RulingAsStanding, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:DirRelational_ExtendBeforeRollingOwn, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_14, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_16, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54, narr:DirValue_ShouldersOfGiantsReuse, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:Narrative_IndexPagesCarryContextNotLoneStatements, narr:Narrative_ExtendExistingWorkBeforeRollingOwn, narr:Narrative_SteeringStaysOursRecallComesFromAnEngine, narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads, narr:Narrative_OutputCapsAreRunawayBreakersNotLengthControl, narr:FrameIndexAndReadPathDesign, narr:BuildDisciplineRules, narr:Position_IndexPageUnitOfExpand, narr:Position_FrameAsLensNotCarrier, narr:Position_DesignBeforeExport, narr:Position_RightReferenceForRecall, narr:Position_FrameRecallTestResults, narr:Position_SteeringOursRecallFromEngine, narr:Position_ExtendBeforeBuildingNew, narr:Position_OutputCapPolicy .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261014T024652Z {
+    narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "intensifier: constantly setting output caps" ;
+        narr:reported false ;
+        skos:note "Exasperated incredulity at a recurring practice; the 'I do not understand why' frame and 'constantly' carry the heat." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: a generally known stupid thing to do" ;
+        narr:reported false ;
+        skos:note "Sharp contempt for a practice, with 'stupid' as the marked evaluative word." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: We're taking a lot of cowboyism." ;
+        narr:reported false ;
+        skos:note "Pointed frustration at unconsidered rebuilding, carried by the pejorative 'cowboyism'." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "plain-assertion: that to me is pretty bad." ;
+        narr:reported false ;
+        skos:note "Low-key negative judgment, measured rather than heated; the register is restrained." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: This memory extends the 2026-10-08 ruling that frames are the index and narrated digests retire" ;
+        narr:reported false ;
+        skos:note "Records the ruling as an extension of a prior ruling; the settling is performed in the text." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Scarlet's 2026-10-09 rule" ;
+        narr:reported false ;
+        skos:note "Records an existing rule as operative; the settlement is recorded, not argued." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: we need to slow down" ;
+        narr:evidence "hedge: I don't think are something that we should be passing off to other sessions yet" ;
+        narr:reported false ;
+        skos:note "Firm directive, but the rationale is hedged with 'I don't think'; torn with decision, lower taken." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I would expect it to be multi-tiered" ;
+        narr:reported false ;
+        skos:note "Floated design expectation, explicitly tentative and invited for check." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: You want it always to be under a narrative" ;
+        narr:evidence "plain-assertion: You don't want to get a single position" ;
+        narr:reported false ;
+        skos:note "Firm assertive core with operational 'always', but the 'might even go so far' edge keeps it below decision." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I want to see the full package" ;
+        narr:reported false ;
+        skos:note "Plain first-person requirement, moveable, not recorded as settled." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the MCP page stays 15K" ;
+        narr:reported false ;
+        skos:note "Flat operational statement without ratification language; lower of claim and decision taken." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: what you really don't want to have" ;
+        narr:reported false ;
+        skos:note "Emphatic plain assertion of a design preference; not performed as settled." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: there is no split" ;
+        narr:reported false ;
+        skos:note "Operational no-exception rule stated as settled design." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "delivery: Tentative:" ;
+        narr:reported false ;
+        skos:note "Delivery explicitly marks the proposal as tentative." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I don't know" ;
+        narr:reported false ;
+        skos:note "Open naming suggestion, explicitly uncertain and invites alternatives." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: You need steering first" ;
+        narr:reported false ;
+        skos:note "Firm sequencing assertion, argued rather than recorded as settled." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: A statement is always support for a direction" ;
+        narr:reported false ;
+        skos:note "Strong principled assertion with 'always', argued through rather than ratified; lower taken." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Filed as task-767 under the read-path epic" ;
+        narr:reported false ;
+        skos:note "Performed filing that acts on the matter." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: I don't think frame plus a selection of statements is ever a good design" ;
+        narr:evidence "intensifier: the frame only is unquestionably losing something" ;
+        narr:reported false ;
+        skos:note "Committed core with hedged edges ('maybe'); torn with decision, lower taken." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: never a sample of three" ;
+        narr:reported false ;
+        skos:note "Firm consequence stated as assertion; 'never' is intensifier, not a recorded settlement." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: that seems like a pretty questionable metric" ;
+        narr:reported false ;
+        skos:note "Objection voiced with a hedge but firm reasoning." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: something we want to do by confirmation, not faith" ;
+        narr:reported false ;
+        skos:note "Method preference with commitment language but argued and conditional on the design process." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: a complement pass over every unpicked frame, judged whole, was added" ;
+        narr:reported false ;
+        skos:note "Records a change to the procedure as done." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: that to me is pretty bad" ;
+        narr:reported false ;
+        skos:note "Plain evaluative judgment with epistemic framing 'to me'." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: builders are constantly setting output caps" ;
+        narr:reported false ;
+        skos:note "Strong, repeated-analogy critique held as argument; not a settled rule in this text." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Now a rule in `.claude/rules/llm-calls.md`" ;
+        narr:reported false ;
+        skos:note "Performed act of writing a rule into the repo." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: The danger there is probably too much data" ;
+        narr:reported false ;
+        skos:note "Question-framed exploration with hedge on the risk." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: makes sense because that's novel" ;
+        narr:reported false ;
+        skos:note "Assertive support for a position with reasons, moveable." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: is a generally known stupid thing to do" ;
+        narr:evidence "hedge: I feel like" ;
+        narr:reported false ;
+        skos:note "Firm critique softened by 'I feel like'." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: was the weak link" ;
+        narr:reported false ;
+        skos:note "Concession stated plainly, defensible and moveable." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: What a mature engine adds is complete" ;
+        narr:reported false ;
+        skos:note "Plain analytical assertion without settlement language." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "lexical-marker: over and over and over again" ;
+        narr:evidence "plain-assertion: We're taking a lot of cowboyism." ;
+        narr:reported false ;
+        skos:note "Repetition signals strong conviction but is not explicit permanence language; lower taken over principle." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Ruled consequences, 2026-10-11" ;
+        narr:reported false ;
+        skos:note "Explicit ruling that performs the settling of the design." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: The rule is written into `.claude/rules/extend-first.md`" ;
+        narr:reported false ;
+        skos:note "Performed act of recording a rule as operative." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: is parked until the design is solid and implemented" ;
+        narr:reported false ;
+        skos:note "Operational sequencing stated as a settled deferral." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:DirPower_ExistingPrecedentAsWarrant a narr:DirectionalNode ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Referent ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:frame "Does the case for this choice rest on existing work the system already has, or on what is being newly built?" ;
+        skos:note "standing on the shoulders of giants" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:DirPower_RulingAsStanding a narr:DirectionalNode ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:frame "Does the speaker close the question by ruling, or leave it open to be tested?" ;
+        skos:note "ruling consequences as standing, pending test" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:direction narr:DirPower_RulingAsStanding ;
+        narr:evidence "performed-act: This memory extends the 2026-10-08 ruling" ;
+        narr:reported false ;
+        skos:note "Authority rests on an earlier ruling on record, extended by this entry." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:direction narr:DirPower_RulingAsStanding ;
+        narr:evidence "performed-act: Nothing here is exported to other sessions as a build input until the design is tested" ;
+        narr:reported false ;
+        skos:note "Binding process rule set on the speaker's own authority, pending a test." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: we need to slow down" ;
+        narr:evidence "modal-marker: it needs to do the full design and then test it" ;
+        narr:reported false ;
+        skos:note "Stops propagation of rulings by invoking the agreed design-then-test process." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "lexical-marker: I would expect it to be multi-tiered, right?" ;
+        narr:reported false ;
+        skos:note "Tag question invites the other to confirm the proposed format." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: You want to tightly control the unit of expand." ;
+        narr:reported false ;
+        skos:note "Directive stated as a design requirement." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "plain-assertion: then you would list all of the positions underneath it as frames with no IRI" ;
+        narr:reported false ;
+        skos:note "Prescribes the listing structure as settled format." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: I want to see the full package and its edges at the navigational fidelity." ;
+        narr:reported false ;
+        skos:note "Directive stating what the speaker requires of the page." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: On size: the MCP page stays 15K;" ;
+        narr:reported false ;
+        skos:note "Settles the size constraint by stated decision." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: what you really don't want to have is dump navigation to file" ;
+        narr:reported false ;
+        skos:note "Argues against file dumps by their effect on the agent's understanding." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "plain-assertion: there is no split" ;
+        narr:reported false ;
+        skos:note "Flat ruling closing an option." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "plain-signal: wouldn't that change very substantially?" ;
+        narr:reported false ;
+        skos:note "Question opens the consequence to the other for weighing." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "hedge: Tentative:" ;
+        narr:reported false ;
+        skos:note "Offers the proposal tentatively, leaving room for response." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "address-form: You got a better name for it than that." ;
+        narr:reported false ;
+        skos:note "Asks the other to supply a better name." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: You need steering first" ;
+        narr:reported false ;
+        skos:note "Argues an ordering from the logic of the pipeline." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: should probably get ticketed and looked at as part of the read pass epic" ;
+        narr:reported false ;
+        skos:note "Directs routing of the issue into the process." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Filed as task-767 under the read-path epic." ;
+        narr:reported false ;
+        skos:note "Records a process action within the epic structure." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "epistemic-verb: I don't think frame plus a selection of statements is ever a good design" ;
+        narr:reported false ;
+        skos:note "Argues from reasoning about what a frame can carry." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: Because isn't our entire stance here that production isn't doing it right?" ;
+        narr:reported false ;
+        skos:note "Argues the metric is incoherent by pointing to the stance itself." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: a big model must also take an arm in the exhaustive pool" ;
+        narr:reported true ;
+        skos:note "Directive setting the judged-set procedure, as the principal's stated process." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: agrees or disagrees with placements" ;
+        narr:reported true ;
+        skos:note "Reviewer role grounds authority over placements in judgment." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: are you sure that everything that might be relevant is being included?" ;
+        narr:reported false ;
+        skos:note "Questions the pool and asks for the mechanism, inviting an account." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: a complement pass over every unpicked frame, judged whole, was added." ;
+        narr:reported false ;
+        skos:note "Supplies the fact of the corrective pass to settle the question." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "intensifier: What are you actually missing" ;
+        narr:reported false ;
+        skos:note "Presses for the specific gap rather than the number." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "intensifier: I do not understand why builders are constantly setting output caps" ;
+        narr:evidence "plain-assertion: the circuit breaker is at 15 amps" ;
+        narr:reported false ;
+        skos:note "Argues against output caps through an analogy to circuit breakers." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Now a rule in `.claude/rules/llm-calls.md`." ;
+        narr:reported false ;
+        skos:note "Establishes a written rule by stated action." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: isn't our approach in the frame index that the unit of expand is the transaction?" ;
+        narr:reported false ;
+        skos:note "Asks the other to confirm the shared approach." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: recovered 26 to 27 of the 41 positions production had placed" ;
+        narr:reported false ;
+        skos:note "Controls the reference by supplying recall figures as the facts." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: production's targets recover only 5 of 17" ;
+        narr:reported false ;
+        skos:note "Supplies figures that reframe production's floor as a poor reference." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: separating the two could give us continued steering" ;
+        narr:reported false ;
+        skos:note "Argues for separating steering from recall on stated benefit." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:direction narr:DirPower_ExistingPrecedentAsWarrant ;
+        narr:evidence "intensifier: is a generally known stupid thing to do" ;
+        narr:reported false ;
+        skos:note "Claims authority from general knowledge about building databases." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: what it does not add is the domain decisions" ;
+        narr:reported false ;
+        skos:note "Authority from knowing what engines do and do not supply." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Referent ;
+        narr:region narr:Power_Pressure ;
+        narr:direction narr:DirPower_ExistingPrecedentAsWarrant ;
+        narr:evidence "commitment-marker: I'd really like us to far more take a standing on the shoulders of giants approach at every step" ;
+        narr:evidence "intensifier: over and over and over again" ;
+        narr:reported false ;
+        skos:note "Repeated demand to build on existing work, with pull toward the shoulders-of-giants standard." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:direction narr:DirPower_RulingAsStanding ;
+        narr:evidence "performed-act: Ruled consequences, 2026-10-11:" ;
+        narr:reported false ;
+        skos:note "Declares binding consequences by ruling." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: The rule is written into `.claude/rules/extend-first.md`." ;
+        narr:reported false ;
+        skos:note "Records the ruling as a written rule." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "plain-assertion: is parked until the design is solid and implemented" ;
+        narr:reported false ;
+        skos:note "Sets sequencing by process decision." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "commitment-marker: we need to slow down" ;
+        narr:evidence "hedge: I don't think" ;
+        narr:reported false ;
+        skos:note "Loose conversational directive with a hedged clause; the speaker's voice drops into everyday phrasing against the terse technical baseline of the envelope." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "plain-signal: right?" ;
+        narr:reported false ;
+        skos:note "Spoken tag question keeps conversational fillers in the rendering." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "intensifier: what you really don't want to have is dump navigation to file" ;
+        narr:reported false ;
+        skos:note "Colloquial emphasis ('really', loose syntax) in an otherwise technical instruction." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "hedge: That actually might not be quite what the cite prompt says" ;
+        narr:reported false ;
+        skos:note "Self-corrective hedge in a loose spoken register while discussing a prompt." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: frame plus a selection of statements is ever a good design" ;
+        narr:evidence "plain-assertion: And our answer is maybe." ;
+        narr:reported false ;
+        skos:note "Native design vocabulary used with precision; the terse final verdict stays flat against it." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "intensifier: pretty questionable metric" ;
+        narr:evidence "plain-assertion: doesn't make any sense to me" ;
+        narr:reported false ;
+        skos:note "Conversational pushback ('right?', 'doesn't make any sense to me') in a loose spoken register." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: throw out all the things that are obviously not relevant" ;
+        narr:reported true ;
+        skos:note "Principal's colloquial phrasing preserved through Xena's rendering; the rendering is reported, not first-hand." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "intensifier: that to me is pretty bad." ;
+        narr:reported false ;
+        skos:note "Understated colloquial evaluation with an informal 'pretty' intensifier." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "framing-move: the circuit breaker is at 15 amps" ;
+        narr:evidence "lexical-marker: builders are constantly setting output caps" ;
+        narr:reported false ;
+        skos:note "Deliberately jargon-free electrical analogy renders the rate-limit principle plainly, with an irritated edge." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "modal-marker: isn't our approach in the frame index that the unit of expand is the transaction?" ;
+        narr:evidence "hedge: probably too much data" ;
+        narr:reported false ;
+        skos:note "Thinking-aloud question with a loose hedge, against the document's terse technical ground." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "hedge: I think part of our issue is that" ;
+        narr:reported false ;
+        skos:note "Conversational opinion framing ('I think part of our issue') in a loose spoken register." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Irreverent ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: stupid thing to do" ;
+        narr:evidence "hedge: And I feel like we've come to do that a bit by accident." ;
+        narr:reported false ;
+        skos:note "Deliberately puncturing a practice with blunt colloquial judgment, softened by a loose 'I feel like'." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Irreverent ;
+        narr:region narr:Register_Enthusiastic ;
+        narr:evidence "lexical-marker: We're taking a lot of cowboyism." ;
+        narr:evidence "intensifier: over and over and over again" ;
+        narr:reported false ;
+        skos:note "Irreverent puncture of the field's habits paired with energetic, repeated exhortation directed at the audience." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:DirRelational_ExtendBeforeRollingOwn a narr:DirectionalNode ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:frame "Is this step standing on prior work, and if it rolls something new, what is actually being added?" ;
+        skos:note "shoulders of giants: extend the existing work before building a new one" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "modal-marker: we need to slow down" ;
+        narr:evidence "modal-marker: it needs to do the full design" ;
+        narr:reported false ;
+        skos:note "Scarlet issues a binding instruction to hold the ruling back and require design and testing before implementation; rank-based command." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-assertion: You want to tightly control the unit of expand." ;
+        narr:reported false ;
+        skos:note "Directive setting the boundary on expansion units; the speaker prescribes the design constraint from position." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "lexical-marker: Let's call it frame-based indexing" ;
+        narr:reported false ;
+        skos:note "Inclusive 'Let's' invites joint naming; the directive is softened into shared ownership of the label." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "modal-marker: You need steering first" ;
+        narr:reported false ;
+        skos:note "Sequencing command issued as a required order of operations." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "lexical-marker: isn't our entire stance here that production isn't doing it right?" ;
+        narr:reported false ;
+        skos:note "Possessive 'our stance' and tag-question seek shared agreement on the position; we-ness carries the challenge." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "modal-marker: do this set with the big models" ;
+        narr:reported true ;
+        skos:note "Principal's directive assigning which models judge the set; rank-based allocation of the task, witnessed through the session's rendering." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: If you're using one amp of electricity, the circuit breaker is at 15 amps." ;
+        narr:reported false ;
+        skos:note "Proportional analogy: caps should sit far above normal use and trip only on abnormal consumption; cost-proportion framing." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: Program spend $1.41 for the recall tests and $3.00 for the judged set." ;
+        narr:reported false ;
+        skos:note "Cost figures stated for the two test phases, proportioning spend against output." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "intensifier: is a generally known stupid thing to do" ;
+        narr:reported false ;
+        skos:note "Cost-benefit judgment against building a database: the cost of building one outweighs the value unless that is the goal." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:direction narr:DirRelational_ExtendBeforeRollingOwn ;
+        narr:evidence "commitment-marker: I'd really like us to far more take a standing" ;
+        narr:reported false ;
+        skos:note "Collective standard framed as a shared practice; the 'us' carries the reuse norm as a joint commitment." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Ruled consequences, 2026-10-11" ;
+        narr:reported false ;
+        skos:note "Formal ruling act issuing binding consequences; rank-based decision enacted by declaration." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: to the point of steering, not retrieval" ;
+        narr:reported false ;
+        skos:note "Opposed terms set in deliberate contrast ('steering, not retrieval') within one frame." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: Dumping the root to file breaks the structure of the navigator, but I think dumping a large document to file doesn't." ;
+        narr:reported false ;
+        skos:note "Matched clauses with inverted outcomes (breaks / doesn't) set in contrast." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: You need steering first, and then you need the recall" ;
+        narr:reported false ;
+        skos:note "Three sequential beats (steering, recall, precision) in matched 'you need ... and then' clauses." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: A statement is always support for a direction, not an end in itself." ;
+        narr:reported false ;
+        skos:note "Contrast between 'support for a direction' and 'an end in itself' within one sentence." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: A frame is not designed to be the carrier of meaning." ;
+        narr:evidence "framing-move: The frame is designed to be the frame through which its statements are read" ;
+        narr:reported false ;
+        skos:note "Negated and affirmed clauses share the 'frame is designed' structure, opposing carrier to conduit." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RhetoricalQuestion ;
+        narr:evidence "framing-move: isn't our entire stance here that production isn't doing it right?" ;
+        narr:reported false ;
+        skos:note "A question posed for effect, its answer presumed by the asker." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Analogy ;
+        narr:evidence "framing-move: it should be like a circuit breaker" ;
+        narr:reported false ;
+        skos:note "Extended electrical comparison (output cap as circuit breaker) doing argumentative work." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: What a mature engine adds is complete" ;
+        narr:evidence "framing-move: what it does not add is the domain decisions" ;
+        narr:reported false ;
+        skos:note "Two 'what ... adds / does not add' clauses matched in structure and opposed in content." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_StockPhrase ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:evidence "lexical-marker: take a standing on the shoulders of giants approach" ;
+        narr:evidence "intensifier: over and over and over again" ;
+        narr:reported false ;
+        skos:note "'Shoulders of giants' recurs as a signature formula; the triple 'over and over and over again' is a deliberate triad." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: every consumer composes steering from ours and recall from the engine, never recall from steering" ;
+        narr:reported false ;
+        skos:note "Opposed sourcing of steering and recall, closed by a negated reversal ('never recall from steering')." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: the 2026-10-08 ruling" ;
+        narr:reported false ;
+        skos:note "Anchors the memory to a dated prior ruling." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: until the design is tested" ;
+        narr:reported false ;
+        skos:note "Conditional gate on a future state of the design." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "lexical-marker: had been passed to other sessions as rulings" ;
+        narr:reported false ;
+        skos:note "Past-perfect account of settled prior events." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: before we start implementing it in ad hoc places around the codebase" ;
+        narr:reported false ;
+        skos:note "Prescribes a sequence of future steps; attention on what should come before implementation." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: She then set the format of the index in her own terms" ;
+        narr:reported false ;
+        skos:note "Narrates a completed act by a named person." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: An actor hub wouldn't include everything that that actor said." ;
+        narr:reported false ;
+        skos:note "General structural principle; explicit modal suspends the modality axis." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: You want to tightly control the unit of expand." ;
+        narr:reported false ;
+        skos:note "Expresses a desired design principle about the unit of expansion." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: If you list the call with its IRI" ;
+        narr:reported false ;
+        skos:note "Walks through a particular listing scenario with specific artifacts." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: I want to see the full package and its edges at the navigational fidelity." ;
+        narr:reported false ;
+        skos:note "States a desired standard for what a page should show." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the MCP page stays 15K" ;
+        narr:reported false ;
+        skos:note "States the current constraint on a named artifact." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Dumping the root to file breaks the structure of the navigator" ;
+        narr:reported false ;
+        skos:note "Present-tense general claim about how the structure works." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: there is no split" ;
+        narr:reported false ;
+        skos:note "Settled present state; the modal 'may' suspends modality only for the spill clause." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: the sizing found" ;
+        narr:reported false ;
+        skos:note "Reports completed measurement results with specific counts." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: If we fix strata and then do a full re-extraction" ;
+        narr:reported false ;
+        skos:note "Conditional speculation about a future re-extraction." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_16 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "hedge: Tentative:" ;
+        narr:reported false ;
+        skos:note "Explicitly marks what follows as possible rather than settled." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: narrative then shows calls as the unit of expansion" ;
+        narr:evidence "hedge: Tentative:" ;
+        narr:reported false ;
+        skos:note "Tentative proposal about the general structure of the index." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "hedge: Let's call it frame-based indexing or something." ;
+        narr:reported false ;
+        skos:note "Tentative naming suggestion, explicitly open." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Still open." ;
+        narr:reported false ;
+        skos:note "Current status of an unresolved question." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: You need steering first, and then you need the recall of the full set of things to consider" ;
+        narr:reported false ;
+        skos:note "Sequenced planned approach stated as general principle." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the decision on how to frame, how to interpret a frame, is highly context dependent" ;
+        narr:reported true ;
+        skos:note "Quoted present-tense principle about judgment, relayed under principal footing." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The graph contextualizes meaning through strata, narrative, position." ;
+        narr:reported false ;
+        skos:note "Present general principle about how meaning is structured." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: Filed as task-767" ;
+        narr:reported false ;
+        skos:note "Records a completed filing action with a specific artifact." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "intensifier: unquestionably losing something" ;
+        narr:reported false ;
+        skos:note "Present assertion about what the frame-only design loses, stated emphatically." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: sees a position whole, frame and every member statement, never a sample of three." ;
+        narr:reported false ;
+        skos:note "General present-tense consequence stated as principle." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: The first tests scored against the 41 positions" ;
+        narr:reported false ;
+        skos:note "Narrates completed test runs with specific counts." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "epistemic-verb: that seems like a pretty questionable metric to be running against" ;
+        narr:reported false ;
+        skos:note "Present evaluative stance on the metric's general validity." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: then do a precision pass over it" ;
+        narr:reported true ;
+        skos:note "Directs a planned future process; relayed as principal's words." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: She reviews" ;
+        narr:evidence "plain-assertion: a list of dozens of rows" ;
+        narr:reported true ;
+        skos:note "Describes an ongoing review activity on a specific artifact." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: are you sure that everything that might be relevant is being included?" ;
+        narr:reported false ;
+        skos:note "Present-tense probing question about the general completeness of the pool; 'might' suspends modality." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: a complement pass over every unpicked frame, judged whole, was added." ;
+        narr:reported false ;
+        skos:note "Reports a completed addition to the pipeline." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "intensifier: that to me is pretty bad." ;
+        narr:reported false ;
+        skos:note "Present evaluative verdict on the reported numbers." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: What are you actually missing" ;
+        narr:reported false ;
+        skos:note "Present-tense question about the general gap to full recall." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "intensifier: I do not understand why builders are constantly setting output caps" ;
+        narr:evidence "lexical-marker: It's designed to never flip unless something bad happens." ;
+        narr:reported false ;
+        skos:note "Present critique of a general practice, with a conditional design principle for the circuit-breaker case." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Now a rule in" ;
+        narr:reported false ;
+        skos:note "Present action pointing to a specific rules file." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: isn't our approach in the frame index that the unit of expand is the transaction?" ;
+        narr:evidence "hedge: The danger there is probably too much data." ;
+        narr:reported false ;
+        skos:note "Present-tense question about the design, with a hedged possible danger." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Recall was re-scored at the unit of expand" ;
+        narr:reported false ;
+        skos:note "Reports a completed re-scoring with concrete cost figures." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: recovered 26 to 27 of the 41 positions production had placed" ;
+        narr:reported false ;
+        skos:note "Reports completed test results with specific counts." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: GLM 5.3 flash ran away when uncapped and lost calls" ;
+        narr:reported false ;
+        skos:note "Reports completed model behavior on a specific run." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: The judged set on three documents found production's targets recover only 5 of 17" ;
+        narr:reported false ;
+        skos:note "Reports completed judged-set results and spend." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "plain-assertion: makes sense because that's novel" ;
+        narr:evidence "lexical-marker: that same engine got used for recall" ;
+        narr:reported false ;
+        skos:note "Present judgment about the steering portion and a past account of how the engine was used." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Past ;
+        narr:evidence "plain-assertion: Re-implementing or creating a new database is a generally known stupid thing to do" ;
+        narr:evidence "lexical-marker: Storing RDF in the repo was never meant to implement" ;
+        narr:reported false ;
+        skos:note "General present principle contrasted with the past intent of the RDF store." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: was the weak link, each built as a feature without an oracle" ;
+        narr:reported false ;
+        skos:note "Concedes a completed state of the hand-rolled layers." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: What a mature engine adds is complete, benchmark-tuned primitives" ;
+        narr:reported false ;
+        skos:note "General present principle about what engines do and do not supply." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "plain-assertion: One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components." ;
+        narr:evidence "lexical-marker: I'd really like us to far more take a standing" ;
+        narr:reported false ;
+        skos:note "Present abstract diagnosis paired with a desired future practice." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "performed-act: Ruled consequences, 2026-10-11:" ;
+        narr:evidence "plain-assertion: steering stays ours" ;
+        narr:reported false ;
+        skos:note "Ratifies a present settled ruling stated in abstract terms." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The rule is written into" ;
+        narr:reported false ;
+        skos:note "Settled present state of a specific artifact." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "lexical-marker: is parked until the design is solid and implemented, then done as one rewrite." ;
+        narr:reported false ;
+        skos:note "Sequenced future plan conditioned on design completion." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "plain-assertion: all in flight against the judged oracle" ;
+        narr:evidence "hedge: Whether a real store is needed." ;
+        narr:reported false ;
+        skos:note "Present status of work in flight alongside open possibilities." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:DirValue_ShouldersOfGiantsReuse a narr:DirectionalNode ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:frame "Does this move reuse what prior work already built before adding a new construction?" ;
+        skos:note "take a standing on the shoulders of giants" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:direction narr:DirValue_ShouldersOfGiantsReuse ;
+        narr:evidence "commitment-marker: take a standing on the shoulders of giants approach" ;
+        narr:evidence "lexical-marker: leverage the previous work that exists" ;
+        narr:reported false ;
+        skos:note "Appeals to reusing existing work as the good, framed against rolling new constructions; the value is keeping what works rather than novelty." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-signal: we need to slow down" ;
+        narr:reported false ;
+        skos:note "Appeals to caution and stability before building, valuing a full design and test over ad hoc implementation." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: It's designed to never flip unless something bad happens." ;
+        narr:reported false ;
+        skos:note "Values stability and security: an output cap should only act as a rarely triggered safeguard." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: A frame is not designed to be the carrier of meaning." ;
+        narr:reported false ;
+        skos:note "Appeals to quality of design craft: meaning is read through the frame and statements together, not carried by the frame alone." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: What a mature engine adds is complete, benchmark-tuned primitives" ;
+        narr:reported false ;
+        skos:note "Appeals to mastery of established tooling as the mark of quality, separating what mature engines supply from domain decisions." ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Narrative_IndexPagesCarryContextNotLoneStatements a narr:Narrative ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:frame "Does this expression keep a frame, its statements and the call or narrative around them together as the unit a reader sees, or does it cut a statement or frame loose from its context?" ;
+        skos:note "The index hands a reader the whole context around a statement, never a lone statement" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Position_IndexPageUnitOfExpand narr:supports narr:Narrative_IndexPagesCarryContextNotLoneStatements .
+
+    narr:Position_FrameAsLensNotCarrier narr:supports narr:Narrative_IndexPagesCarryContextNotLoneStatements .
+
+    narr:Position_FrameRecallTestResults narr:supports narr:Narrative_IndexPagesCarryContextNotLoneStatements .
+
+    narr:Narrative_ExtendExistingWorkBeforeRollingOwn a narr:Narrative ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:frame "Does this expression build on a mature existing component or earlier work, and if it rolls something new, what is it actually adding?" ;
+        skos:note "Stand on prior work and say what is actually new before building something of our own" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Position_ExtendBeforeBuildingNew narr:supports narr:Narrative_ExtendExistingWorkBeforeRollingOwn .
+
+    narr:Position_SteeringOursRecallFromEngine narr:supports narr:Narrative_ExtendExistingWorkBeforeRollingOwn .
+
+    narr:Narrative_SteeringStaysOursRecallComesFromAnEngine a narr:Narrative ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:frame "Does this expression keep steering separate from recall, and does it take recall and precision from engine primitives rather than from the steering machinery?" ;
+        skos:broader narr:Narrative_ExtendExistingWorkBeforeRollingOwn ;
+        skos:note "Steering is novel and ours; recall and precision belong to a mature engine" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Position_SteeringOursRecallFromEngine narr:supports narr:Narrative_SteeringStaysOursRecallComesFromAnEngine .
+
+    narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads a narr:Narrative ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:frame "Does this expression hold a design back until it has been tested, and against what reference is it scored: production's own output or an independently judged set?" ;
+        skos:note "A design is tested against a judged oracle before it is exported or built in" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Position_DesignBeforeExport narr:supports narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads .
+
+    narr:Position_RightReferenceForRecall narr:supports narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads .
+
+    narr:Position_FrameRecallTestResults narr:supports narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads .
+
+    narr:Position_SteeringOursRecallFromEngine narr:supports narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads .
+
+    narr:Narrative_OutputCapsAreRunawayBreakersNotLengthControl a narr:Narrative ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        narr:frame "Does this expression use an output cap only as a rarely tripped safeguard, or as a stand-in for asking for a shorter reply in the prompt?" ;
+        skos:note "An output cap is a circuit breaker for runaway behaviour, never a way to shorten replies" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Position_OutputCapPolicy narr:supports narr:Narrative_OutputCapsAreRunawayBreakersNotLengthControl .
+
+    narr:FrameIndexAndReadPathDesign a narr:Strata ;
+        narr:stratumType "thematic" ;
+        skos:note "How the frame index is shaped and how its steering and recall are split" ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:BuildDisciplineRules a narr:Strata ;
+        narr:stratumType "thematic" ;
+        skos:note "The rules that hold builders to extend first, test before export, and cap output only as a breaker" ;
+        dct:source narr:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14 ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Narrative_IndexPagesCarryContextNotLoneStatements narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Narrative_SteeringStaysOursRecallComesFromAnEngine narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Narrative_ExtendExistingWorkBeforeRollingOwn narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Narrative_OutputCapsAreRunawayBreakersNotLengthControl narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Position_IndexPageUnitOfExpand narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Position_FrameAsLensNotCarrier narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Position_SteeringOursRecallFromEngine narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Position_RightReferenceForRecall narr:inStratum narr:FrameIndexAndReadPathDesign .
+
+    narr:Position_ExtendBeforeBuildingNew narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Position_DesignBeforeExport narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Position_OutputCapPolicy narr:inStratum narr:BuildDisciplineRules .
+
+    narr:Position_IndexPageUnitOfExpand a narr:Position ;
+        narr:frame "What is the unit of expand in the frame index, and what must a page carry and weigh?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41 narr:supports narr:Position_IndexPageUnitOfExpand .
+
+    narr:Position_FrameAsLensNotCarrier a narr:Position ;
+        narr:frame "How does a statement or frame carry meaning, and what must a reader see to judge relevance?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22 narr:supports narr:Position_FrameAsLensNotCarrier .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23 narr:supports narr:Position_FrameAsLensNotCarrier .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24 narr:supports narr:Position_FrameAsLensNotCarrier .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25 narr:supports narr:Position_FrameAsLensNotCarrier .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26 narr:supports narr:Position_FrameAsLensNotCarrier .
+
+    narr:Position_DesignBeforeExport a narr:Position ;
+        narr:frame "When may a design ruling be handed to other sessions as a build input?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1 narr:supports narr:Position_DesignBeforeExport .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2 narr:supports narr:Position_DesignBeforeExport .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3 narr:supports narr:Position_DesignBeforeExport .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4 narr:supports narr:Position_DesignBeforeExport .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 narr:supports narr:Position_DesignBeforeExport .
+
+    narr:Position_RightReferenceForRecall a narr:Position ;
+        narr:frame "What is the right reference to score index recall and relevance against?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45 narr:supports narr:Position_RightReferenceForRecall .
+
+    narr:Position_FrameRecallTestResults a narr:Position ;
+        narr:frame "How well does frame-only reading recall relevant positions, and how does that vary by arm, unit and document shape?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42 narr:supports narr:Position_FrameRecallTestResults .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43 narr:supports narr:Position_FrameRecallTestResults .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44 narr:supports narr:Position_FrameRecallTestResults .
+
+    narr:Position_SteeringOursRecallFromEngine a narr:Position ;
+        narr:frame "Which parts of retrieval do we build ourselves, and which come from a mature engine?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 narr:supports narr:Position_SteeringOursRecallFromEngine .
+
+    narr:Position_ExtendBeforeBuildingNew a narr:Position ;
+        narr:frame "Is a step standing on existing work, and if it rolls something new, what is actually being added?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 narr:supports narr:Position_ExtendBeforeBuildingNew .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52 narr:supports narr:Position_ExtendBeforeBuildingNew .
+
+    narr:Position_OutputCapPolicy a narr:Position ;
+        narr:frame "When is an output cap on an LLM call warranted?" ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38 narr:supports narr:Position_OutputCapPolicy .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39 narr:supports narr:Position_OutputCapPolicy .
+
+    narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44 narr:supports narr:Position_OutputCapPolicy .
+
+    aswr:Run_20261014T024652Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.affect.json" ;
+        prov:generated narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecAffect_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecConviction_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.power.json" ;
+        prov:generated narr:DirPower_ExistingPrecedentAsWarrant, narr:DirPower_RulingAsStanding, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecPower_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.register.json" ;
+        prov:generated narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecRegister_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.relational.json" ;
+        prov:generated narr:DirRelational_ExtendBeforeRollingOwn, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecRelational_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.style.json" ;
+        prov:generated narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecStyle_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_14, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_15, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_16, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_19, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53, narr:VecTemporal_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/dim.value.json" ;
+        prov:generated narr:DirValue_ShouldersOfGiantsReuse, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25, narr:VecValue_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49 ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/pass5.json" ;
+        prov:generated narr:Narrative_IndexPagesCarryContextNotLoneStatements, narr:Narrative_ExtendExistingWorkBeforeRollingOwn, narr:Narrative_SteeringStaysOursRecallComesFromAnEngine, narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads, narr:Narrative_OutputCapsAreRunawayBreakersNotLengthControl, narr:FrameIndexAndReadPathDesign, narr:BuildDisciplineRules ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024652Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/789d53ecf878/2026-10-14-1-verify-pr-1031-wrapping-quotes-repair-on-dev/position.json" ;
+        prov:generated narr:Position_IndexPageUnitOfExpand, narr:Position_FrameAsLensNotCarrier, narr:Position_DesignBeforeExport, narr:Position_RightReferenceForRecall, narr:Position_FrameRecallTestResults, narr:Position_SteeringOursRecallFromEngine, narr:Position_ExtendBeforeBuildingNew, narr:Position_OutputCapPolicy ;
+        dct:isPartOf aswr:Tx_20261014T024652Z ;
+        prov:generatedAtTime "2026-10-14T02:46:52Z"^^xsd:dateTime .
+  }
+}
