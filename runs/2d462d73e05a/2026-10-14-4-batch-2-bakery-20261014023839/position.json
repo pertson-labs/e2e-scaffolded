@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "DayOldMarkdownTimingAndShelfCard",
+    "frame" : "When should day-old loaves be marked down, and what should the shelf card show so the price holds up at the till?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Ines proposes the half-price markdown time with a reason tied to when buyers are still in the shop. Caleb extends it by tying the shelf card change to the same moment, so the posted price matches the till price. Both statements read in the direction of one in-store pricing question. No tension is held: Caleb builds on Ines's timing rather than contesting it. No existing position or narrative leaf covers bakery pricing, and the existing strata are about ferries, cycling and the tool library, so no `under` is proposed."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
