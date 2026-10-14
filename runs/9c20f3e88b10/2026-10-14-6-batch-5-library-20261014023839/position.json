@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "BranchLibraryTuesdayThursdayHoursAndStaffing",
+    "frame" : "Given when commuters bring books back and what the staffing can cover, how should the branch library's Tuesday and Thursday hours be set?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements describe one Tuesday/Thursday schedule: an eight o'clock opening aimed at commuter returns, and an hour-earlier close to keep staffing flat. The opening serves borrowers, and the closing is a staffing trade-off. The two sit together as a cost-and-benefit pairing under a single question about setting the hours. The existing winter-rota position concerns a volunteer tool library's Saturday-only opening and a second Saturday volunteer, which is a different venue and a different decision, so I mint rather than attach.",
+    "under" : [ "Narrative_OpeningHoursFollowBorrowerDemand" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
