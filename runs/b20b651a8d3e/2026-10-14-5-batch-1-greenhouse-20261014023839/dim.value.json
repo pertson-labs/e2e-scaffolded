@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to measurement precision and quality of the monitoring craft (fifteen-minute reporting so the overnight drop is not missed); no social or self-direction value is named.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
