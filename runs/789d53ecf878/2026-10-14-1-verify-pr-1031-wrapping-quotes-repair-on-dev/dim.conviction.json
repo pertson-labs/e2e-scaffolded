@@ -1,0 +1,301 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling that frames are the index and narrated digests retire",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records the ruling as an extension of a prior ruling; the settling is performed in the text.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records an existing rule as operative; the settlement is recorded, not argued.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "I don't think are something that we should be passing off to other sessions yet",
+      "kind" : "hedge"
+    } ],
+    "why" : "Firm directive, but the rationale is hedged with 'I don't think'; torn with decision, lower taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered",
+      "kind" : "hedge"
+    } ],
+    "why" : "Floated design expectation, explicitly tentative and invited for check.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You want it always to be under a narrative",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "You don't want to get a single position",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm assertive core with operational 'always', but the 'might even go so far' edge keeps it below decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain first-person requirement, moveable, not recorded as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the MCP page stays 15K",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat operational statement without ratification language; lower of claim and decision taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Emphatic plain assertion of a design preference; not performed as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational no-exception rule stated as settled design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Delivery explicitly marks the proposal as tentative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I don't know",
+      "kind" : "hedge"
+    } ],
+    "why" : "Open naming suggestion, explicitly uncertain and invites alternatives.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm sequencing assertion, argued rather than recorded as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong principled assertion with 'always', argued through rather than ratified; lower taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed filing that acts on the matter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "hedge"
+    }, {
+      "quote" : "the frame only is unquestionably losing something",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Committed core with hedged edges ('maybe'); torn with decision, lower taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "never a sample of three",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Firm consequence stated as assertion; 'never' is intensifier, not a recorded settlement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric",
+      "kind" : "hedge"
+    } ],
+    "why" : "Objection voiced with a hedge but firm reasoning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "something we want to do by confirmation, not faith",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Method preference with commitment language but argued and conditional on the design process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "a complement pass over every unpicked frame, judged whole, was added",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a change to the procedure as done.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain evaluative judgment with epistemic framing 'to me'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "builders are constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong, repeated-analogy critique held as argument; not a settled rule in this text.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed act of writing a rule into the repo.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "The danger there is probably too much data",
+      "kind" : "hedge"
+    } ],
+    "why" : "Question-framed exploration with hedge on the risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Assertive support for a position with reasons, moveable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I feel like",
+      "kind" : "hedge"
+    } ],
+    "why" : "Firm critique softened by 'I feel like'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-48",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the weak link",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concession stated plainly, defensible and moveable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain analytical assertion without settlement language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Repetition signals strong conviction but is not explicit permanence language; lower taken over principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit ruling that performs the settling of the design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into `.claude/rules/extend-first.md`",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed act of recording a rule as operative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational sequencing stated as a settled deferral.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
