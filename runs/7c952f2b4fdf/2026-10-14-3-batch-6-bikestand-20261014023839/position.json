@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "RepairStandSiteAndPumpSecurity",
+    "frame" : "Where should the public bike repair stand go, and what does it take to keep its equipment in place, given where riders actually break down and where kit has gone missing before?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements read the same public repair-stand installation from the standpoint of evidence about use and loss. Anouk places the stand where the flats happen, at the river path entrance and not the car park. Sami asks for the pump to be chained because the last one walked off in a week. One argues from where need arises and the other from where theft arises, so both treat the stand's design as following observed local behaviour. The set holds no real tension, though the siting and the securing are separate decisions. Nothing in the graph covers this topic, so the position stands alone with no existing structure to attach to.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
