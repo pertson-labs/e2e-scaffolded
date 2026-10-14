@@ -1,0 +1,121 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_IndexPagesCarryContextNotLoneStatements",
+    "title" : "The index hands a reader the whole context around a statement, never a lone statement",
+    "frame" : "Does this expression keep a frame, its statements and the call or narrative around them together as the unit a reader sees, or does it cut a statement or frame loose from its context?",
+    "under" : null,
+    "supporting_positions" : [ "IndexPageUnitOfExpand", "FrameAsLensNotCarrier", "FrameRecallTestResults" ],
+    "why" : "The unit-of-expand rules, the claim that a frame is a lens and not a carrier of meaning, and the recall results measured at the unit of expand all say that meaning and relevance are judged on whole context. The recall results are evidence for that theme, not a leaf of their own.",
+    "consulted" : [ "graph structure: empty, no existing leaf to reuse", "POSITIONS block: none surfaced" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExtendExistingWorkBeforeRollingOwn",
+    "title" : "Stand on prior work and say what is actually new before building something of our own",
+    "frame" : "Does this expression build on a mature existing component or earlier work, and if it rolls something new, what is it actually adding?",
+    "under" : null,
+    "supporting_positions" : [ "ExtendBeforeBuildingNew", "SteeringOursRecallFromEngine" ],
+    "why" : "The shoulders-of-giants rule and the extend-first rules file are the general posture. The retrieval ruling, with a hand-rolled engine retiring if the textbook stack ties, applies that posture.",
+    "consulted" : [ "graph structure: empty, no existing leaf to reuse", "POSITIONS block: none surfaced" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SteeringStaysOursRecallComesFromAnEngine",
+    "title" : "Steering is novel and ours; recall and precision belong to a mature engine",
+    "frame" : "Does this expression keep steering separate from recall, and does it take recall and precision from engine primitives rather than from the steering machinery?",
+    "under" : [ "Narrative_ExtendExistingWorkBeforeRollingOwn" ],
+    "supporting_positions" : [ "SteeringOursRecallFromEngine" ],
+    "why" : "The split of steering from recall, with the hand-rolled layer conceded as the weak link and engines supplying primitives but not domain decisions, is a subject future retrieval work will keep feeding. It is a specific case of the extend-first posture, so it sits under it.",
+    "consulted" : [ "graph structure: empty", "Narrative_ExtendExistingWorkBeforeRollingOwn: minted in this response as the hub" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ProveDesignOnAnOracleBeforeItSpreads",
+    "title" : "A design is tested against a judged oracle before it is exported or built in",
+    "frame" : "Does this expression hold a design back until it has been tested, and against what reference is it scored: production's own output or an independently judged set?",
+    "under" : null,
+    "supporting_positions" : [ "DesignBeforeExport", "RightReferenceForRecall", "FrameRecallTestResults", "SteeringOursRecallFromEngine" ],
+    "why" : "The export gate (nothing passed on as a build input until tested), the rejection of production as the scoring target in favour of a judged set, the test results read against it, and the concession that the hand-rolled layers were built without an oracle all say a design must be proven on an oracle first.",
+    "consulted" : [ "graph structure: empty", "POSITIONS block: none surfaced" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OutputCapsAreRunawayBreakersNotLengthControl",
+    "title" : "An output cap is a circuit breaker for runaway behaviour, never a way to shorten replies",
+    "frame" : "Does this expression use an output cap only as a rarely tripped safeguard, or as a stand-in for asking for a shorter reply in the prompt?",
+    "under" : null,
+    "supporting_positions" : [ "OutputCapPolicy" ],
+    "why" : "The circuit-breaker rule, written into llm-calls.md and illustrated by one model running away uncapped while another never hit a limit, is a standing subject for how LLM calls are built.",
+    "consulted" : [ "graph structure: empty", "POSITIONS block: none surfaced" ]
+  } ],
+  "unplaced" : [ "src-5", "src-9", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-31", "src-34", "src-37", "src-40", "src-54" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "FrameIndexAndReadPathDesign",
+      "type" : "thematic",
+      "title" : "How the frame index is shaped and how its steering and recall are split",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "The index format, the frame-as-lens rule, the steering and recall split and the oracle tests all concern one read-path design."
+    }, {
+      "name" : "BuildDisciplineRules",
+      "type" : "thematic",
+      "title" : "The rules that hold builders to extend first, test before export, and cap output only as a breaker",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "The extend-first, design-before-export and output-cap positions each become a written rule for how sessions build."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_IndexPagesCarryContextNotLoneStatements",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It holds the index format and frame-reading rules."
+    }, {
+      "member" : "Narrative_SteeringStaysOursRecallComesFromAnEngine",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It holds the steering and recall split of the read path."
+    }, {
+      "member" : "Narrative_ProveDesignOnAnOracleBeforeItSpreads",
+      "strata" : [ "FrameIndexAndReadPathDesign", "BuildDisciplineRules" ],
+      "why" : "It concerns testing the read-path design on an oracle and is also a process rule for builders."
+    }, {
+      "member" : "Narrative_ExtendExistingWorkBeforeRollingOwn",
+      "strata" : [ "BuildDisciplineRules" ],
+      "why" : "It is the extend-first build rule."
+    }, {
+      "member" : "Narrative_OutputCapsAreRunawayBreakersNotLengthControl",
+      "strata" : [ "BuildDisciplineRules" ],
+      "why" : "It is a written rule for LLM calls."
+    }, {
+      "member" : "Position_IndexPageUnitOfExpand",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It sets the index page format."
+    }, {
+      "member" : "Position_FrameAsLensNotCarrier",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It sets how frames and statements carry meaning in the index."
+    }, {
+      "member" : "Position_SteeringOursRecallFromEngine",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It splits steering from recall in the read path."
+    }, {
+      "member" : "Position_RightReferenceForRecall",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "It sets the oracle the index recall is scored against."
+    }, {
+      "member" : "Position_ExtendBeforeBuildingNew",
+      "strata" : [ "BuildDisciplineRules" ],
+      "why" : "It is the general build-posture rule."
+    }, {
+      "member" : "Position_DesignBeforeExport",
+      "strata" : [ "BuildDisciplineRules" ],
+      "why" : "It is the process gate on handing rulings to other sessions."
+    }, {
+      "member" : "Position_OutputCapPolicy",
+      "strata" : [ "BuildDisciplineRules" ],
+      "why" : "It is the output-cap rule."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
