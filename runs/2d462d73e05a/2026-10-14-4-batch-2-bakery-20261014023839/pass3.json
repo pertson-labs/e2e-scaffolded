@@ -1,0 +1,12 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No resolved referent: pass 2 bound nothing and nothing in the envelope plausibly matches, so there is nothing to reconcile. It lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "No resolved referent: pass 2 bound nothing, so there is nothing to reconcile. It lands as fresh witnessed commentary, and a later conclusion may bind to it and to src-1."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
