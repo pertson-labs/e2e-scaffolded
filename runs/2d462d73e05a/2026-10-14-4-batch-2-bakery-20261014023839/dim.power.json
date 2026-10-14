@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "At close nobody is left to buy them.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proposes the two o'clock markdown and supports it with a causal argument that a close-time markdown reaches no buyers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Extends the proposal with a consequence-based argument: aligning the shelf card avoids a surprise price at checkout.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
