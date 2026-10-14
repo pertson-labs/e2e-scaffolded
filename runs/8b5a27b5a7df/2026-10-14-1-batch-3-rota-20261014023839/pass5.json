@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OpeningHoursFollowBorrowerDemand",
+    "title" : "Opening hours and shift cover follow where borrowers actually turn up",
+    "frame" : "What does the evidence of when borrowers actually come say about when the library should open and how its volunteer shifts should be staffed?",
+    "under" : null,
+    "supporting_positions" : [ "WinterRotaHoursAndSaturdayStaffing" ],
+    "why" : "The position pairs observed borrower attendance (four weekday-evening borrowers in six weeks) with the Saturday-only winter hours and the second returns volunteer. That is a recurring subject, matching hours and staffing to demand, which future rota envelopes will keep feeding, not a one-off fact. The graph is empty, so there is nothing to reuse and no hub or lineage target exists.",
+    "consulted" : [ "EXISTING GRAPH STRUCTURE (none yet)", "EXISTING STRATA (none yet)", "POSITIONS block (none surfaced)", "POSITION VERDICTS: WinterRotaHoursAndSaturdayStaffing" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "VolunteerToolLibraryRota",
+      "type" : "thematic",
+      "title" : "Everything said about the volunteer tool library's rota: opening hours, borrower attendance and shift staffing",
+      "why" : "The envelope is about the tool library's rota. Hours, attendance and staffing are one subject that later rota decisions will return to, so a thematic grouping is warranted."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_OpeningHoursFollowBorrowerDemand",
+      "strata" : [ "VolunteerToolLibraryRota" ],
+      "why" : "The leaf is about the rota's opening hours and staffing, the subject this stratum holds."
+    }, {
+      "member" : "Position_WinterRotaHoursAndSaturdayStaffing",
+      "strata" : [ "VolunteerToolLibraryRota" ],
+      "why" : "The position sets the winter hours and the Saturday returns staffing, both rota decisions."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
