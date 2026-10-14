@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Anouk Brennagh (Parks Officer)",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Anouk Brennagh (Parks Officer)",
+    "why" : "No existing actor matches Anouk Brennagh; mint under the fullest witnessed name.",
+    "ai" : false
+  }, {
+    "name" : "Sami Okonkwo-Hart (Cycling Club)",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Sami Okonkwo-Hart (Cycling Club)",
+    "why" : "No existing actor matches Sami Okonkwo-Hart; mint under the fullest witnessed name.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Exact match to existing actor Xena ExpertGH, also the envelope submitter.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "label" : null,
+    "why" : "Account email belongs to submitted_by Xena ExpertGH, who is an existing actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
