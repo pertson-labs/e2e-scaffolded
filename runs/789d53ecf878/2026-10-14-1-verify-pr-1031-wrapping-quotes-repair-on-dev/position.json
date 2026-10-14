@@ -1,0 +1,47 @@
+{
+  "positions" : [ {
+    "name" : "IndexPageUnitOfExpand",
+    "frame" : "What is the unit of expand in the frame index, and what must a page carry and weigh?",
+    "members" : [ "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-17", "src-41" ],
+    "why" : "These statements read the index format and page behaviour in one direction: multi-tiered hubs, calls and narratives as the expandable units with frames beneath them, a lone position never expanded, a document page showing the full package, and size and spill policy. The transaction-sibling question (src-41) probes the same unit-of-expand rule and raises the cost of too much data. Tension: the 15K page limit sits against a long call spilling whole, and src-17 is explicitly tentative."
+  }, {
+    "name" : "FrameAsLensNotCarrier",
+    "frame" : "How does a statement or frame carry meaning, and what must a reader see to judge relevance?",
+    "members" : [ "src-22", "src-23", "src-24", "src-25", "src-26" ],
+    "why" : "These read the relation of frame, statement, position, narrative and strata: statements are support for a direction, a frame is the lens its statements are read through, and a judge sees a position whole. src-24 files the cite-prompt question (task-767) that follows from it. Tension: whether the frame alone can locate relevance is left at 'maybe'."
+  }, {
+    "name" : "DesignBeforeExport",
+    "frame" : "When may a design ruling be handed to other sessions as a build input?",
+    "members" : [ "src-1", "src-2", "src-3", "src-4", "src-53" ],
+    "why" : "These read the process gate: the 10/08 ruling was passed on as ruling, Scarlet stopped it, and nothing is exported until the full design is done and tested. The prompt rewrite is parked on the same condition."
+  }, {
+    "name" : "RightReferenceForRecall",
+    "frame" : "What is the right reference to score index recall and relevance against?",
+    "members" : [ "src-27", "src-28", "src-29", "src-30", "src-32", "src-33", "src-35", "src-36", "src-45" ],
+    "why" : "These read the choice of scoring target. Production's own placements are rejected as the floor, and a judged set is built from exhaustive recall, then precision with ambiguous and near-miss rows kept. Multiple big and small models judge, and Scarlet reviews the rows. The completeness challenge and the 82–88 percent worry press on how to know the gap to full recall, and the figures show production's targets recover little of what judges agreed on."
+  }, {
+    "name" : "FrameRecallTestResults",
+    "frame" : "How well does frame-only reading recall relevant positions, and how does that vary by arm, unit and document shape?",
+    "members" : [ "src-42", "src-43", "src-44" ],
+    "why" : "These report the recall-test outcomes: scores by arm and by unit of expand, page cost by type, weak reads on some document shapes, and model behaviour. They are results read against the oracle, not rulings."
+  }, {
+    "name" : "SteeringOursRecallFromEngine",
+    "frame" : "Which parts of retrieval do we build ourselves, and which come from a mature engine?",
+    "members" : [ "src-21", "src-46", "src-47", "src-48", "src-49", "src-51" ],
+    "why" : "These read the split of steering from recall and precision. Steering is novel and stays ours. The hand-rolled recall layer was the weak link, built without an oracle. Mature engines supply primitives, not domain decisions or the oracle. The ruling composes steering from ours and recall from the engine. Tension: the hand-rolled stack retires only if the textbook stack ties or wins on the judged oracle."
+  }, {
+    "name" : "ExtendBeforeBuildingNew",
+    "frame" : "Is a step standing on existing work, and if it rolls something new, what is actually being added?",
+    "members" : [ "src-50", "src-52" ],
+    "why" : "These state the general build-posture rule (shoulders of giants, extend first, 'cowboyism') and its recording in a rules file. It is wider than the retrieval case that prompted it."
+  }, {
+    "name" : "OutputCapPolicy",
+    "frame" : "When is an output cap on an LLM call warranted?",
+    "members" : [ "src-38", "src-39", "src-44" ],
+    "why" : "These read output caps as a runaway circuit breaker rather than a length control, recorded as a rule in llm-calls.md. src-44 gives the lived case: an uncapped model ran away and lost calls while another never hit a limit. Tension: that runaway case shows why a breaker exists, while the rule says length belongs in the prompt."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-5", "src-9", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-31", "src-34", "src-37", "src-40", "src-54" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
