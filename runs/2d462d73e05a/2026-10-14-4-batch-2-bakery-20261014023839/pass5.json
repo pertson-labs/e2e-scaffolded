@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MarkdownsFollowWhenBuyersAreInTheShop",
+    "title" : "Day-old prices change when buyers are still there to act on them, and the shelf says so",
+    "frame" : "What do these expressions say about when a day-old price should change, and how does the posted price stay consistent with what the customer pays?",
+    "under" : null,
+    "supporting_positions" : [ "DayOldMarkdownTimingAndShelfCard" ],
+    "why" : "Ines places the half-price markdown at two in the afternoon because nobody is left to buy at close, and Caleb ties the shelf card change to the same moment so the till price is no surprise. Together they name a theme future bakery pricing talk can keep feeding: in-store price changes follow buyer presence and are made visible at the shelf. No existing leaf covers bakery or in-store pricing (they concern ferries, cycling kit and the tool library), so this is NEW with no lineage and no hub to sit under.",
+    "consulted" : [ "Narrative_LateSailingsFollowRidership", "Narrative_OpeningHoursFollowBorrowerDemand", "Narrative_PublicInfrastructureFollowsObservedUse" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "BakeryDayOldPricing",
+      "type" : "thematic",
+      "title" : "Everything said about bakery day-old pricing: when day-old loaves are marked down and how the shelf card shows the price",
+      "why" : "No existing stratum holds bakery pricing; existing strata cover only ferries, cycling infrastructure and the tool library rota. The markdown timing and shelf card decisions are one subject the bakery will return to."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_MarkdownsFollowWhenBuyersAreInTheShop",
+      "strata" : [ "BakeryDayOldPricing" ],
+      "why" : "The narrative is about when day-old prices change and how the shelf shows them, which is exactly this subject."
+    }, {
+      "member" : "Position_DayOldMarkdownTimingAndShelfCard",
+      "strata" : [ "BakeryDayOldPricing" ],
+      "why" : "The position holds Ines's two o'clock markdown and Caleb's shelf card change, the core of the stratum's subject."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
