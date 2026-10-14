@@ -1,0 +1,465 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the 2026-10-08 ruling",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Anchors the memory to a dated prior ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "until the design is tested",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Conditional gate on a future state of the design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "had been passed to other sessions as rulings",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Past-perfect account of settled prior events.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "before we start implementing it in ad hoc places around the codebase",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Prescribes a sequence of future steps; attention on what should come before implementation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "concrete" ],
+    "evidence" : [ {
+      "quote" : "She then set the format of the index in her own terms",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Narrates a completed act by a named person.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "An actor hub wouldn't include everything that that actor said.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "General structural principle; explicit modal suspends the modality axis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Expresses a desired design principle about the unit of expansion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "concrete" ],
+    "evidence" : [ {
+      "quote" : "If you list the call with its IRI",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Walks through a particular listing scenario with specific artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "States a desired standard for what a page should show.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the MCP page stays 15K",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the current constraint on a named artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Dumping the root to file breaks the structure of the navigator",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense general claim about how the structure works.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled present state; the modal 'may' suspends modality only for the spill clause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the sizing found",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports completed measurement results with specific counts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "If we fix strata and then do a full re-extraction",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Conditional speculation about a future re-extraction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "irrealis" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly marks what follows as possible rather than settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "narrative then shows calls as the unit of expansion",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Tentative:",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tentative proposal about the general structure of the index.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "irrealis" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing or something.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tentative naming suggestion, explicitly open.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "Still open.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Current status of an unresolved question.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You need steering first, and then you need the recall of the full set of things to consider",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sequenced planned approach stated as general principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the decision on how to frame, how to interpret a frame, is highly context dependent",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Quoted present-tense principle about judgment, relayed under principal footing.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The graph contextualizes meaning through strata, narrative, position.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present general principle about how meaning is structured.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a completed filing action with a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "unquestionably losing something",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present assertion about what the frame-only design loses, stated emphatically.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "sees a position whole, frame and every member statement, never a sample of three.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "General present-tense consequence stated as principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "past", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The first tests scored against the 41 positions",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Narrates completed test runs with specific counts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric to be running against",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Present evaluative stance on the metric's general validity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "then do a precision pass over it",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Directs a planned future process; relayed as principal's words.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "She reviews",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "a list of dozens of rows",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an ongoing review activity on a specific artifact.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "are you sure that everything that might be relevant is being included?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present-tense probing question about the general completeness of the pool; 'might' suspends modality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "a complement pass over every unpicked frame, judged whole, was added.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports a completed addition to the pipeline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present evaluative verdict on the reported numbers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "What are you actually missing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present-tense question about the general gap to full recall.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "present", "abstract", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "It's designed to never flip unless something bad happens.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present critique of a general practice, with a conditional design principle for the circuit-breaker case.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present action pointing to a specific rules file.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "present", "abstract", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "The danger there is probably too much data.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Present-tense question about the design, with a hedged possible danger.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Recall was re-scored at the unit of expand",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports a completed re-scoring with concrete cost figures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "recovered 26 to 27 of the 41 positions production had placed",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports completed test results with specific counts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "GLM 5.3 flash ran away when uncapped and lost calls",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports completed model behavior on a specific run.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The judged set on three documents found production's targets recover only 5 of 17",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports completed judged-set results and spend.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "past", "present" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "that same engine got used for recall",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present judgment about the steering portion and a past account of how the engine was used.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "present", "abstract", "past" ],
+    "evidence" : [ {
+      "quote" : "Re-implementing or creating a new database is a generally known stupid thing to do",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Storing RDF in the repo was never meant to implement",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "General present principle contrasted with the past intent of the RDF store.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-48",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the weak link, each built as a feature without an oracle",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Concedes a completed state of the hand-rolled layers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete, benchmark-tuned primitives",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "General present principle about what engines do and do not supply.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "present", "abstract", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I'd really like us to far more take a standing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present abstract diagnosis paired with a desired future practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11:",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "steering stays ours",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Ratifies a present settled ruling stated in abstract terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled present state of a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented, then done as one rewrite.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sequenced future plan conditioned on design completion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "present", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "all in flight against the judged oracle",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Whether a real store is needed.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Present status of work in flight alongside open possibilities.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-9", "src-18", "src-31", "src-34", "src-37", "src-40" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
