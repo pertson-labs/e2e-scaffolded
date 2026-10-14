@@ -1,0 +1,364 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority rests on an earlier ruling on record, extended by this entry.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-2"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Nothing here is exported to other sessions as a build input until the design is tested",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Binding process rule set on the speaker's own authority, pending a test.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-2"
+    }
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "it needs to do the full design and then test it",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Stops propagation of rulings by invoking the agreed design-then-test process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered, right?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tag question invites the other to confirm the proposed format.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directive stated as a design requirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "then you would list all of the positions underneath it as frames with no IRI",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescribes the listing structure as settled format.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive stating what the speaker requires of the page.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "On size: the MCP page stays 15K;",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Settles the size constraint by stated decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues against file dumps by their effect on the agent's understanding.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat ruling closing an option.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "wouldn't that change very substantially?",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Question opens the consequence to the other for weighing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "hedge"
+    } ],
+    "why" : "Offers the proposal tentatively, leaving room for response.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "You got a better name for it than that.",
+      "kind" : "address-form"
+    } ],
+    "why" : "Asks the other to supply a better name.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Argues an ordering from the logic of the pipeline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "should probably get ticketed and looked at as part of the read pass epic",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directs routing of the issue into the process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a process action within the epic structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Argues from reasoning about what a frame can carry.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Because isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues the metric is incoherent by pointing to the stance itself.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "a big model must also take an arm in the exhaustive pool",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directive setting the judged-set procedure, as the principal's stated process.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "agrees or disagrees with placements",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reviewer role grounds authority over placements in judgment.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "are you sure that everything that might be relevant is being included?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Questions the pool and asks for the mechanism, inviting an account.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "a complement pass over every unpicked frame, judged whole, was added.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplies the fact of the corrective pass to settle the question.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "pressure" ],
+    "evidence" : [ {
+      "quote" : "What are you actually missing",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Presses for the specific gap rather than the number.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues against output caps through an analogy to circuit breakers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes a written rule by stated action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Asks the other to confirm the shared approach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "recovered 26 to 27 of the 41 positions production had placed",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Controls the reference by supplying recall figures as the facts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "production's targets recover only 5 of 17",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplies figures that reframe production's floor as a poor reference.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "separating the two could give us continued steering",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Argues for separating steering from recall on stated benefit.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Claims authority from general knowledge about building databases.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Authority from knowing what engines do and do not supply.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "referent", "pressure" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach at every step",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Repeated demand to build on existing work, with pull toward the shoulders-of-giants standard.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declares binding consequences by ruling.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-2"
+    }
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into `.claude/rules/extend-first.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records the ruling as a written rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sets sequencing by process decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3", "src-5", "src-9", "src-14", "src-16", "src-18", "src-20", "src-22", "src-26", "src-27", "src-31", "src-34", "src-35", "src-37", "src-40", "src-42", "src-44", "src-48", "src-54" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ExistingPrecedentAsWarrant",
+    "title" : "standing on the shoulders of giants",
+    "frame" : "Does the case for this choice rest on existing work the system already has, or on what is being newly built?",
+    "regions" : [ "referent", "rational-persuasion" ]
+  }, {
+    "id" : "mint-2",
+    "name" : "RulingAsStanding",
+    "title" : "ruling consequences as standing, pending test",
+    "frame" : "Does the speaker close the question by ruling, or leave it open to be tested?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
