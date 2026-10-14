@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-38",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Exasperated incredulity at a recurring practice; the 'I do not understand why' frame and 'constantly' carry the heat.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sharp contempt for a practice, with 'stupid' as the marked evaluative word.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Pointed frustration at unconsidered rebuilding, carried by the pejorative 'cowboyism'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Low-key negative judgment, measured rather than heated; the register is restrained.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
