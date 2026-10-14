@@ -1,0 +1,120 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "it needs to do the full design",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Scarlet issues a binding instruction to hold the ruling back and require design and testing before implementation; rank-based command.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive setting the boundary on expansion units; the speaker prescribes the design constraint from position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Inclusive 'Let's' invites joint naming; the directive is softened into shared ownership of the label.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Sequencing command issued as a required order of operations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "isn't our entire stance here that production isn't doing it right?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Possessive 'our stance' and tag-question seek shared agreement on the position; we-ness carries the challenge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "do this set with the big models",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Principal's directive assigning which models judge the set; rank-based allocation of the task, witnessed through the session's rendering.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "If you're using one amp of electricity, the circuit breaker is at 15 amps.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proportional analogy: caps should sit far above normal use and trip only on abnormal consumption; cost-proportion framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Program spend $1.41 for the recall tests and $3.00 for the judged set.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Cost figures stated for the two test phases, proportioning spend against output.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Cost-benefit judgment against building a database: the cost of building one outweighs the value unless that is the goal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Collective standard framed as a shared practice; the 'us' carries the reuse norm as a joint commitment.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal ruling act issuing binding consequences; rank-based decision enacted by declaration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ExtendBeforeRollingOwn",
+    "title" : "shoulders of giants: extend the existing work before building a new one",
+    "frame" : "Is this step standing on prior work, and if it rolls something new, what is actually being added?",
+    "regions" : [ "communal-sharing" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
