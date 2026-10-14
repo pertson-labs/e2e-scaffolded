@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "WinterRotaHoursAndSaturdayStaffing",
+    "frame" : "Given where borrowers actually turn up, how should the tool library's winter opening hours and shift staffing be set?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements address the same winter rota question. src-1 gives the opening pattern (Saturdays only) and the demand evidence behind it (four weekday-evening borrowers in six weeks). src-2 gives the staffing that follows for the Saturday shift: a second volunteer on returns. Read together, the evidence, the hours and the staffing sit under one frame. The dimensional reads agree that src-1 is a past-anchored, factual claim and src-2 is a forward-looking directive. That makes the pair an evidence-then-consequence sequence, not two separate frames. No tension is held within the set.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
