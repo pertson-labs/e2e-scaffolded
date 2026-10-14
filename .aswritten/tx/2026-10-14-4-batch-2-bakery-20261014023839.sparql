@@ -1,0 +1,84 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261014T024038Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-14T02:40:38Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-14-4-batch-2-bakery-20261014023839.md" ;
+      dct:title "Multipass source extraction: Bakery day-old pricing — 2026-10-09" ;
+      prov:generated narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019, narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:Actor_CalebRuiz, narr:Actor_InesThorvald .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261014T024038Z {
+    narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 a narr:Sample ;
+        dct:title "Bakery day-old pricing — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-14-4-batch-2-bakery-20261014023839.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:Expression ;
+        narr:actor narr:Actor_InesThorvald ;
+        narr:act "assertive" ;
+        narr:context "Bakery day-old pricing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Ines: \"Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them.\"" ;
+                oa:prefix "er), Caleb Ruiz (Shift Lead)\n\n" ;
+                oa:suffix "\n\nCaleb: \"Then the shelf card " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "155"^^xsd:integer ;
+                oa:end "270"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-14T02:40:38Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:Expression ;
+        narr:actor narr:Actor_CalebRuiz ;
+        narr:act "assertive" ;
+        narr:context "Bakery day-old pricing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Caleb: \"Then the shelf card changes at two as well, so the price is never a surprise at the till.\"" ;
+                oa:prefix "nobody is left to buy them.\"\n\n" ;
+                oa:suffix "" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "272"^^xsd:integer ;
+                oa:end "370"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-14T02:40:38Z"^^xsd:dateTime .
+
+    narr:Actor_CalebRuiz a narr:Actor ;
+        skos:prefLabel "Caleb Ruiz" .
+
+    narr:Actor_InesThorvald a narr:Actor ;
+        skos:prefLabel "Ines Thorvald" .
+
+    narr:Actor_XenaExpertgh skos:prefLabel "Xena ExpertGH" .
+
+    aswr:Run_20261014T024038Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/actors.json" ;
+        prov:generated narr:Actor_CalebRuiz, narr:Actor_InesThorvald ;
+        dct:isPartOf aswr:Tx_20261014T024038Z ;
+        prov:generatedAtTime "2026-10-14T02:40:38Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024038Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "z-ai/glm-5.3-flash" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/pass1.json" ;
+        prov:generated narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019, narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024038Z ;
+        prov:generatedAtTime "2026-10-14T02:40:38Z"^^xsd:dateTime .
+  }
+}
