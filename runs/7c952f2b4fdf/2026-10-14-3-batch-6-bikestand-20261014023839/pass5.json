@@ -1,0 +1,37 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_PublicInfrastructureFollowsObservedUse",
+    "title" : "Public cycling kit goes where riders break down and is secured where kit goes missing",
+    "frame" : "Where does the evidence of actual rider need or past loss say this public cycling facility, or its equipment, should be placed or protected?",
+    "under" : null,
+    "supporting_positions" : [ "RepairStandSiteAndPumpSecurity" ],
+    "why" : "Nothing in the graph covers public cycling infrastructure. The position pairs two statements, both arguing that the repair stand's siting and security should follow observed local behaviour: where the flats happen, and where the last pump was stolen. This is a subject future envelopes about public facilities could keep feeding, not a one-time fact. The graph's two existing leaves, ferry sailings and tool-library hours, are structurally similar in shape but concern other subjects, so reusing either would be word-shape overlap only. It stands alone as a new region.",
+    "consulted" : [ "Narrative_LateSailingsFollowRidership", "Narrative_OpeningHoursFollowBorrowerDemand", "FerryTimetable", "VolunteerToolLibraryRota" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "PublicCyclingInfrastructure",
+      "type" : "thematic",
+      "title" : "Everything said about public cycling infrastructure: where the bike repair stand goes and how its equipment is kept from being stolen",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "No existing stratum holds cycling or public facility material. The document's content is about the river path repair stand and chaining its pump, a subject future documents on cycling facilities would keep returning to."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_PublicInfrastructureFollowsObservedUse",
+      "strata" : [ "PublicCyclingInfrastructure" ],
+      "why" : "The leaf is about siting and securing public cycling facilities, which is what this stratum groups."
+    }, {
+      "member" : "Position_RepairStandSiteAndPumpSecurity",
+      "strata" : [ "PublicCyclingInfrastructure" ],
+      "why" : "The position holds the stand-siting and pump-security statements, which are the core content of this stratum."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
