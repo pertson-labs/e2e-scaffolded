@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "Bay two gets the pilot unit first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Planned installation before a future frost, with specific named bays and units; the plan is irrealis, not yet actual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense settled claim about device behavior, generalized to any slower interval; the generalization makes it abstract.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
