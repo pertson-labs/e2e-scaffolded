@@ -1,0 +1,32 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_IndexPageUnitOfExpand> {
+  <https://aswritten.ai/narrative#Digest_Position_IndexPageUnitOfExpand> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ;
+    narr:childCount "9"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position holds that the frame index should expand at a coarse, context-bearing unit rather than a single position. [ScarletDame proposes multi-tiered hubs where an actor hub links down one level to calls, narratives and positions](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6), and argues [you should tightly control the unit of expand so a single position is never returned alone — always under a narrative, call, or another door, steering rather than retrieving](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7). The mechanics follow: [calls and narratives carry IRIs while everything beneath them lists as frames without IRIs](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8), and [a narrative shows calls as the unit of expansion with frames under them](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17). A document view differs: [inside a document everything renders fully expanded — narratives, positions, edges out to actors and strata — at navigational fidelity](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10). Size and file-dumping constraints qualify this: [the MCP page stays at 15K](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11), [dumping navigation to file breaks the navigator's sense of the whole while dumping a large document does not](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12), and [a long call is one expand result with no split, possibly spilling past the bell curve](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13). ScarletDame also probes [whether the unit of expand in the frame index is the transaction, where any transaction sibling returns the full set — with too much data as the danger](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8> ;
+    narr:keyPhrase [ narr:text "You want to tightly control the unit of expand." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7> ] ;
+    narr:keyPhrase [ narr:text "we don't want to just return a single position. We want to return the context around it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7> ] ;
+    narr:keyPhrase [ narr:text "I want to see the full package and its edges at the navigational fidelity." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10> ] ;
+    narr:keyPhrase [ narr:text "On size: the MCP page stays 15K;" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11> ] ;
+    narr:keyPhrase [ narr:text "A long call is one expand result and may spill whole past the bell curve; there is no split." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13> ] ;
+    narr:keyPhrase [ narr:text "The danger there is probably too much data." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41> ] ;
+    narr:variation [ narr:text "The unit of expand is contested in-place: calls/narratives as the door versus the transaction, where any sibling returns the full set at the risk of too much data." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_41> ] ;
+    narr:variation [ narr:text "Full expansion inside a document pulls against the tightly-controlled, frame-only listing proposed for hubs — two different expansion regimes in one position." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_8> ] ;
+    narr:variation [ narr:text "The no-split rule for long calls accepts size spillage, while the 15K page cap elsewhere holds the line on size." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

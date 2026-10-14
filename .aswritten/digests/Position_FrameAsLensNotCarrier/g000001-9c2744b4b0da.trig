@@ -1,0 +1,26 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_FrameAsLensNotCarrier> {
+  <https://aswritten.ai/narrative#Digest_Position_FrameAsLensNotCarrier> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position holds that a frame is read through, not carried by: [a frame is not the carrier of meaning — frame plus statements together produce it](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25), and [a statement is always support for a direction, never an end in itself](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23). The consequence drawn is that [a relevance judge sees a position whole — frame and every member statement, never a sample of three](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26). The same day, [Scarlet's framing-dependence judgment was applied to every consumer including the room agent, with a cite](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22), and [the cite-prompt mismatch was filed as task-767 under the read-path epic](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26> ;
+    narr:keyPhrase [ narr:text "A frame is not designed to be the carrier of meaning." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25> ] ;
+    narr:keyPhrase [ narr:text "A statement is always support for a direction, not an end in itself." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23> ] ;
+    narr:keyPhrase [ narr:text "a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26> ] ;
+    narr:keyPhrase [ narr:text "the decision on how to frame, how to interpret a frame, is highly context dependent" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22> ] ;
+    narr:keyPhrase [ narr:text "Filed as task-767 under the read-path epic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ] ;
+    narr:variation [ narr:text "The frame-only relevance question is left open — the position's own answer is \"maybe,\" not a settled yes." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25> ] ;
+    narr:variation [ narr:text "The cite prompt may not say what the position assumes — flagged for ticketing rather than treated as settled." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

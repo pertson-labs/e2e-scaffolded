@@ -1,0 +1,63 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_XenaExpertgh> {
+  <https://aswritten.ai/narrative#Digest_Actor_XenaExpertgh> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_XenaExpertgh> ;
+    narr:childCount "33"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This hub is the voice of a session-chronicler whose register runs editorial: most entries are [quote frames and lead-ins](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3) that carry another speaker's rulings rather than the speaker's own stances — several children are [signed by the quoted principal](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29), and the [context-dependent framing judgment](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22) is relayed, not owned. Where the voice is its own, it decides and files: [a task filed under the read-path epic](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24), [an export ban until design is tested](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2), and a [ruled division of labor between steering and engine recall](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51). It also measures: [frame-index recall numbers against production's placements](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43), and [a concession about the hand-rolled read layer](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48). The antithesis-plus-parallelism style shows in [what a mature engine adds and does not](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_9> ;
+    narr:keyPhrase [ narr:text "Nothing here is exported to other sessions as a build input until the design is tested; Scarlet's 2026-10-09 rule." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2> ] ;
+    narr:keyPhrase [ narr:text "Filed as task-767 under the read-path epic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ] ;
+    narr:keyPhrase [ narr:text "Ruled consequences, 2026-10-11: steering stays ours" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ] ;
+    narr:keyPhrase [ narr:text "every consumer composes steering from ours and recall from the engine, never recall from steering" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ] ;
+    narr:keyPhrase [ narr:text "Frames alone, read by a cheap model in one call over the whole frame index (about 49K tokens), recovered 26 to 27 of the 41 positions production had placed" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43> ] ;
+    narr:keyPhrase [ narr:text "The session's concession: the hand-rolled read layer" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ] ;
+    narr:keyPhrase [ narr:text "Still open." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20> ] ;
+    narr:variation [ narr:text "The voice that rules on engine-vs-steering also concedes its own hand-rolled read layer was the weak link — authority and self-indictment in the same arc." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ] ;
+    narr:variation [ narr:text "Decisions sit beside explicitly unresolved items — the index's name, the in-flight arms, whether a real store is needed — so the rulings do not close the picture." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_54> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_20> ] ;
+    narr:variation [ narr:text "The strongest stances here are relayed from the quoted principal, not the hub's own voice; the casual register appears only through that relay." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "decision-forward — when the voice speaks for itself it files, rules, and moves on, rarely hedging its own acts" ; narr:text "Filed as task-767 under the read-path epic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate-rule citing — enforcement is voiced as someone's standing rule and its scope, not as personal preference" ; narr:text "Nothing here is exported to other sessions as a build input until the design is tested; Scarlet's 2026-10-09 rule." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete-dated past for what happened, irrealis for what is parked — the future is always deferred to a tested design" ; narr:text "The prompt inventory across all surfaces is parked until the design is solid and implemented, then done as one rewrite." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking when ruling, market-pricing when reporting spend — the relation shifts with the speech act" ; narr:text "every consumer composes steering from ours and recall from the engine, never recall from steering" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis and parallelism — the sentence defines by what a thing is not, then balances the halves" ; narr:text "what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence — judgments turn on whether a thing is benchmark-tuned and complete rather than hand-rolled" ; narr:text "complete, benchmark-tuned primitives and a declarative query" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_OutputCapPolicy> {
+  <https://aswritten.ai/narrative#Digest_Position_OutputCapPolicy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_OutputCapPolicy> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position holds that an output cap is warranted only as a [circuit breaker for runaway behavior, never as a length-control tool](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38) — the argument runs that a shorter reply belongs in the prompt, and the cap should sit far above normal draw so it never trips unless something goes wrong. Two supporting expressions carry it into practice: [a decision to codify the rule in a repo rules file](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39), and [observed evidence that one model ran away and lost calls when uncapped while another never hit a limit](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44). The register is plain-spoken and analogy-driven, with the evaluative force leading.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ;
+    narr:keyPhrase [ narr:text "an output cap, if anything, should be solely for runaway behavior and it should be like a circuit breaker" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38> ] ;
+    narr:keyPhrase [ narr:text "If you're using one amp of electricity, the circuit breaker is at 15 amps. It's designed to never flip unless something bad happens." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38> ] ;
+    narr:keyPhrase [ narr:text "Now a rule in `.claude/rules/llm-calls.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39> ] ;
+    narr:keyPhrase [ narr:text "GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ] ;
+    narr:variation [ narr:text "The circuit-breaker principle is stated abstractly, but the supporting evidence is document-shape-specific — the runaway behavior was observed on call transcripts, not on memos or voice notes, leaving the rule's general reach untested." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ] ;
+    narr:variation [ narr:text "The rule was codified as a standing decision on the same day the evidence was gathered — the principle firmed to policy within a single exchange, with no recorded dissent or counter-position under this hub." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "analogy-first — the argument reaches for a physical-world parallel (electrical breakers) to carry the prescriptive point" ; narr:text "If you're using one amp of electricity, the circuit breaker is at 15 amps." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

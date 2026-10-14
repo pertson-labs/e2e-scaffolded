@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_IndexPagesCarryContextNotLoneStatements> {
+  <https://aswritten.ai/narrative#Digest_Narrative_IndexPagesCarryContextNotLoneStatements> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_IndexPagesCarryContextNotLoneStatements> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This narrative holds that context travels with the statement: [a statement is support for a direction, never an end in itself](narr:Position_FrameAsLensNotCarrier), and pulling one out of its strata strips the reader's ability to judge it — a concern the same position [flagged for the read pass and filed as task-767](narr:Position_FrameAsLensNotCarrier). The design consequence is [a tightly controlled, multi-tiered unit of expand](narr:Position_IndexPageUnitOfExpand): calls and narratives expand as units, positions appear only as frames beneath them, and an actor hub links down one level rather than surfacing everything said. The empirical leg is [recall re-scored at the unit of expand](narr:Position_FrameRecallTestResults), where frame-only reading by a cheap model over the frame index recovered most of the positions production placed, with gains when navigator picks were handed in as direction — though [a two-person call transcript read weakly and one model ran away uncapped](narr:Position_FrameRecallTestResults).""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ;
+    narr:covers <https://aswritten.ai/narrative#Position_FrameRecallTestResults> ;
+    narr:covers <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ;
+    narr:keyPhrase [ narr:text "A statement is always support for a direction, not an end in itself." ; narr:phraseSource <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ] ;
+    narr:keyPhrase [ narr:text "Filed as task-767 under the read-path epic." ; narr:phraseSource <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ] ;
+    narr:keyPhrase [ narr:text "You want to tightly control the unit of expand." ; narr:phraseSource <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ] ;
+    narr:keyPhrase [ narr:text "Frames alone, read by a cheap model in one call over the whole frame index (about 49K tokens), recovered 26 to 27 of the 41 positions production had placed" ; narr:phraseSource <https://aswritten.ai/narrative#Position_FrameRecallTestResults> ] ;
+    narr:keyPhrase [ narr:text "a two-person call transcript read weakly" ; narr:phraseSource <https://aswritten.ai/narrative#Position_FrameRecallTestResults> ] ;
+    narr:variation [ narr:text "The design principle (context must travel with the statement) and the test results pull in opposite directions on one point: frame-only reading performed well on memos and voice memos but weakly on call transcripts, so the frame-as-unit thesis is not uniformly supported by its own evidence." ; narr:over <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ; narr:over <https://aswritten.ai/narrative#Position_FrameRecallTestResults> ] ;
+    narr:variation [ narr:text "The expand-unit position goes further than the principle requires — it floats barring single-position expansion entirely, a stronger restriction than the context argument alone demands." ; narr:over <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

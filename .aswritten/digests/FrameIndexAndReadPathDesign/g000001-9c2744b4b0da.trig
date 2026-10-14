@@ -1,0 +1,29 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_FrameIndexAndReadPathDesign> {
+  <https://aswritten.ai/narrative#Digest_FrameIndexAndReadPathDesign> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#FrameIndexAndReadPathDesign> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This stratum holds the design of the frame index's shape and its split of labor. [Context travels with the statement, never alone](narr:Narrative_IndexPagesCarryContextNotLoneStatements), grounded in [the frame-as-lens reading of how statements carry direction](narr:Position_FrameAsLensNotCarrier). [The unit of expand is tightly controlled, tiered, and never a lone position](narr:Position_IndexPageUnitOfExpand). On retrieval, [steering stays ours while recall and precision come from a mature engine](narr:Position_SteeringOursRecallFromEngine), and [designs are proven on a judged oracle before spreading](narr:Narrative_ProveDesignOnAnOracleBeforeItSpreads) — with [the reference set itself contested](narr:Position_RightReferenceForRecall).""" ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_IndexPagesCarryContextNotLoneStatements> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ProveDesignOnAnOracleBeforeItSpreads> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ;
+    narr:covers <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ;
+    narr:covers <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ;
+    narr:covers <https://aswritten.ai/narrative#Position_RightReferenceForRecall> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ;
+    narr:keyPhrase [ narr:text "Filed as task-767 under the read-path epic." ; narr:phraseSource <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ] ;
+    narr:keyPhrase [ narr:text "You want to tightly control the unit of expand." ; narr:phraseSource <https://aswritten.ai/narrative#Position_IndexPageUnitOfExpand> ] ;
+    narr:keyPhrase [ narr:text "trusting the small models there is something we want to do by confirmation, not faith." ; narr:phraseSource <https://aswritten.ai/narrative#Position_RightReferenceForRecall> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:keyPhrase [ narr:text "Steering is novel and ours; recall and precision belong to a mature engine" ; narr:phraseSource <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ] ;
+    narr:variation [ narr:text "The recall reference itself is disputed: production's own placements were rejected as the scoring target, replaced by a judged multi-model set — the oracle standard is still being defined, not settled." ; narr:over <https://aswritten.ai/narrative#Position_RightReferenceForRecall> ; narr:over <https://aswritten.ai/narrative#Narrative_ProveDesignOnAnOracleBeforeItSpreads> ] ;
+    narr:variation [ narr:text "An admission cuts against the engine-split plan: the store was meant to sit under an existing database, and rolling a query engine happened 'by accident' — the split is a correction, not the original design." ; narr:over <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:variation [ narr:text "The cite prompt may not yet say what the frame-as-lens position claims it does — flagged for ticketing rather than asserted as implemented." ; narr:over <https://aswritten.ai/narrative#Position_FrameAsLensNotCarrier> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

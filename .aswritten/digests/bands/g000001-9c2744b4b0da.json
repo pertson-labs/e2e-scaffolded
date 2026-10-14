@@ -1,0 +1,144 @@
+{
+  "children" : {
+    "n:Actor_ScarletDame" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50" : 1
+    },
+    "n:Actor_XenaExpertgh" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53" : 1
+    },
+    "n:BuildDisciplineRules" : {
+      "n:Narrative_ExtendExistingWorkBeforeRollingOwn" : 1,
+      "n:Narrative_OutputCapsAreRunawayBreakersNotLengthControl" : 1,
+      "n:Narrative_ProveDesignOnAnOracleBeforeItSpreads" : 2,
+      "n:Position_DesignBeforeExport" : 2,
+      "n:Position_ExtendBeforeBuildingNew" : 1,
+      "n:Position_OutputCapPolicy" : 1
+    },
+    "n:FrameIndexAndReadPathDesign" : {
+      "n:Narrative_IndexPagesCarryContextNotLoneStatements" : 1,
+      "n:Narrative_ProveDesignOnAnOracleBeforeItSpreads" : 2,
+      "n:Narrative_SteeringStaysOursRecallComesFromAnEngine" : 1,
+      "n:Position_FrameAsLensNotCarrier" : 1,
+      "n:Position_IndexPageUnitOfExpand" : 2,
+      "n:Position_RightReferenceForRecall" : 1,
+      "n:Position_SteeringOursRecallFromEngine" : 1
+    },
+    "n:Position_DesignBeforeExport" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_3" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53" : 1
+    },
+    "n:Position_FrameAsLensNotCarrier" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_22" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26" : 1
+    },
+    "n:Position_IndexPageUnitOfExpand" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_17" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_7" : 1
+    },
+    "n:Position_RightReferenceForRecall" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35" : 1
+    },
+    "n:Position_SteeringOursRecallFromEngine" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51" : 2
+    },
+    "n:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14" : {
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_1" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_10" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_11" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_12" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_13" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_2" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_23" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_24" : 2,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_25" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_26" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_38" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_39" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_4" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52" : 1,
+      "n:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_53" : 1
+    }
+  },
+  "generated_from" : "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1",
+  "hubs" : {
+    "n:Actor_ScarletDame" : 1,
+    "n:Actor_XenaExpertgh" : 2,
+    "n:BuildDisciplineRules" : 1,
+    "n:FrameIndexAndReadPathDesign" : 2,
+    "n:Position_DesignBeforeExport" : 1,
+    "n:Position_FrameAsLensNotCarrier" : 1,
+    "n:Position_IndexPageUnitOfExpand" : 2,
+    "n:Position_RightReferenceForRecall" : 1,
+    "n:Position_SteeringOursRecallFromEngine" : 1,
+    "n:Sample_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14" : 2
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "0d35d8d542b6d198c381a2e31cbba7e51eb78b78",
+  "sittings" : 39,
+  "spec" : "fidelity-bands/1"
+}

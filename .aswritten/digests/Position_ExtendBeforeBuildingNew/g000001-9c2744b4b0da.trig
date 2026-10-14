@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ExtendBeforeBuildingNew> {
+  <https://aswritten.ai/narrative#Digest_Position_ExtendBeforeBuildingNew> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ExtendBeforeBuildingNew> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position holds that new work should extend existing features rather than roll something new within given constraints — [the standing-on-shoulders-of-giants critique, with an embedded directive to ask why and what is actually being added](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50), voiced as a general shortcoming of [AI](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50) development approaches. It is [backed by a concrete codification: the rule written into .claude/rules/extend-first.md](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52), same date.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52> ;
+    narr:keyPhrase [ narr:text "I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50> ] ;
+    narr:keyPhrase [ narr:text "The rule is written into `.claude/rules/extend-first.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52> ] ;
+    narr:variation [ narr:text "The two supports differ in register: one is an abstract, activated critique of cowboyism; the other is a flat, realis record that the rule already exists — critique and codification, not argument." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_50> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_52> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,28 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SteeringOursRecallFromEngine> {
+  <https://aswritten.ai/narrative#Digest_Position_SteeringOursRecallFromEngine> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ;
+    narr:childCount "6"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position splits retrieval into [steering kept in-house and recall/precision delegated to a mature engine](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21). The reasoning runs from [building only the novel steering layer while the same engine quietly served recall everywhere](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46), sharpened by [the warning that rolling a query engine by accident is the known mistake](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47). [The session's concession names the hand-rolled ranker, index, fusion and navigator as the weak link](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48), bounded by [what a mature engine adds versus the domain decisions and oracle it does not](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49), and lands in [the ruled consequences of 2026-10-11](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ;
+    narr:keyPhrase [ narr:text "You need steering first, and then you need the recall of the full set of things to consider" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_21> ] ;
+    narr:keyPhrase [ narr:text "separating the two could give us continued steering that we do and a query engine that does recall and precision" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_46> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47> ] ;
+    narr:keyPhrase [ narr:text "a token-rarity lexical ranker with no BM25, a vector index that embedded a frame plus three excerpts, a fusion rule chosen on five specimens" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ] ;
+    narr:keyPhrase [ narr:text "what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_49> ] ;
+    narr:keyPhrase [ narr:text "the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ] ;
+    narr:variation [ narr:text "The ruling is framed as a decision, but it is conditional — the hand-rolled stack retires only if the textbook stack ties or wins on the judged oracle, so the build-vs-engine question stays empirically open." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_51> ] ;
+    narr:variation [ narr:text "One voice treats the hand-rolled engine as an accident stumbled into; the concession reframes it as a deliberate feature-by-feature build that simply lacked an oracle — blame vs. diagnosis." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_47> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_48> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

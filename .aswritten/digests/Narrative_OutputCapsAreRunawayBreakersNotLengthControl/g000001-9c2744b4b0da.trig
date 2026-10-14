@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_OutputCapsAreRunawayBreakersNotLengthControl> {
+  <https://aswritten.ai/narrative#Digest_Narrative_OutputCapsAreRunawayBreakersNotLengthControl> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_OutputCapsAreRunawayBreakersNotLengthControl> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This narrative holds a single position: [the argument that output caps should function as circuit breakers for runaway behavior, never as a stand-in for asking for a shorter reply in the prompt](narr:Position_OutputCapPolicy). The same position records [a rule now written into `.claude/rules/llm-calls.md`](narr:Position_OutputCapPolicy) and [testing across document shapes — memos and a voice memo reading well, a two-person call transcript reading weakly, with one model running away uncapped and losing calls while another never hit a limit](narr:Position_OutputCapPolicy).""" ;
+    narr:reaction """The prior narration leaked the circuit-breaker analogy's specifics outside the anchor; those specifics now live inside the anchored gist for [the circuit-breaker position](narr:Position_OutputCapPolicy). Nothing else moved — this hub still carries a single position, so there is no trajectory or variation to restate.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_OutputCapPolicy> ;
+    narr:keyPhrase [ narr:text "If you want a shorter reply, put it in the prompt, but an output cap, if anything, should be solely for runaway behavior and it should be like a circuit breaker." ; narr:phraseSource <https://aswritten.ai/narrative#Position_OutputCapPolicy> ] ;
+    narr:keyPhrase [ narr:text "Now a rule in `.claude/rules/llm-calls.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Position_OutputCapPolicy> ] ;
+    narr:keyPhrase [ narr:text "GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit." ; narr:phraseSource <https://aswritten.ai/narrative#Position_OutputCapPolicy> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

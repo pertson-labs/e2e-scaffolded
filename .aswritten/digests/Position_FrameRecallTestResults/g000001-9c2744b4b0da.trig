@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_FrameRecallTestResults> {
+  <https://aswritten.ai/narrative#Digest_Position_FrameRecallTestResults> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_FrameRecallTestResults> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position gathers three supporting expressions from the frame-recall test. [Unit-of-expand rescoring shows every arm reaching more, with narrative pages costing 6 to 14K tokens per document](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42). [Frame-only reading by a cheap model recovered 26 to 27 of 41 positions, beating the navigator's 23, and reached 34 with direction hints](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43). [Document shape mattered: memos read well, a two-person call transcript read weakly, and GLM 5.3 flash ran away uncapped while Haiku 5.5 never hit a limit](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ;
+    narr:keyPhrase [ narr:text "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_42> ] ;
+    narr:keyPhrase [ narr:text "Frames alone, read by a cheap model in one call over the whole frame index (about 49K tokens), recovered 26 to 27 of the 41 positions production had placed; the navigator after full expansion recovered 23; with today's navigator's picks handed in as direction, Haiku reached 34, and three of its eight gains were not on the direction list. By unit of expand, 33 to 37 of 41." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43> ] ;
+    narr:keyPhrase [ narr:text "On other document shapes, memos and a voice memo read well and a two-person call transcript read weakly. GLM 5.3 flash ran away when uncapped and lost calls; Haiku 5.5 never hit a limit." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ] ;
+    narr:variation [ narr:text "Frame-only reading outperformed the fully-expanded navigator on raw recall (26-27 vs 23), complicating any assumption that expansion is the recall path." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_43> ] ;
+    narr:variation [ narr:text "Model behavior diverged sharply by document shape and cap: one model lost calls and ran away uncapped while another never hit a limit." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_44> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

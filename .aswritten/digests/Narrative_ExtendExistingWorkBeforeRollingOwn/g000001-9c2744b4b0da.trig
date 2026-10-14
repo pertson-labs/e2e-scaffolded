@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_ExtendExistingWorkBeforeRollingOwn> {
+  <https://aswritten.ai/narrative#Digest_Narrative_ExtendExistingWorkBeforeRollingOwn> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_ExtendExistingWorkBeforeRollingOwn> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This narrative holds a build-vs-extend frame. [The extend-first stance](narr:Position_ExtendBeforeBuildingNew) argues [AI](narr:Position_ExtendBeforeBuildingNew) development distrusts pre-made components and commits the rule to a repo file, asking at every step what is actually being added. [The steering/recall split](narr:Position_SteeringOursRecallFromEngine) applies it concretely: keep novel steering in-house, take recall and precision from a mature engine, and admits the team drifted into re-implementing a query engine by accident. [The narrative's broader claim](narr:Narrative_SteeringStaysOursRecallComesFromAnEngine) states that division of labor directly.""" ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ExtendBeforeBuildingNew> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ;
+    narr:keyPhrase [ narr:text "I'd really like us to far more take a standing on the shoulders of giants approach at every step over and over and over again." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ExtendBeforeBuildingNew> ] ;
+    narr:keyPhrase [ narr:text "The rule is written into `.claude/rules/extend-first.md`." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ExtendBeforeBuildingNew> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:keyPhrase [ narr:text "Storing RDF in the repo was never meant to implement a new query and recall engine, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:keyPhrase [ narr:text "Steering is novel and ours; recall and precision belong to a mature engine" ; narr:phraseSource <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ] ;
+    narr:variation [ narr:text "The extend-first principle is stated as settled, yet the same speaker concedes the team violated it by accident — rolling a query engine the rule should have prevented." ; narr:over <https://aswritten.ai/narrative#Position_ExtendBeforeBuildingNew> ; narr:over <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:variation [ narr:text "An open boundary question: what counts as 'novel and ours' versus what must come from the engine is asserted, not derived — the split could be drawn elsewhere." ; narr:over <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

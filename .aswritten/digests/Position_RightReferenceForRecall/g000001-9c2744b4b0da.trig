@@ -1,0 +1,31 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_RightReferenceForRecall> {
+  <https://aswritten.ai/narrative#Digest_Position_RightReferenceForRecall> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_RightReferenceForRecall> ;
+    narr:childCount "9"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This position holds that recall evaluation must be judged against an exhaustive reference set, not production's own targets. [The original tests scored against targets production itself had placed](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27), which [ScarletDame rejected as circular — if the stance is that production isn't doing it right, replicating it makes no sense](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28). The replacement, [relayed in her words: an exhaustive pool built by big models, then a precision pass with ambiguous and closely-rejected rows kept visible](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29), with [her review of a list of dozens of rows](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30) as the human marker. Her [challenge on the completeness mechanism](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32) drove [a complement pass over every unpicked frame](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33), and [the judged set then showed production's targets recover only a small fraction of agreed-relevant material](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45). The register throughout is [her pressing on what is actually missing and how the gap is understood](narr:Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36), carried in a rhetorical-question style.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_35> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45> ;
+    narr:keyPhrase [ narr:text "that seems like a pretty questionable metric to be running against, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_28> ] ;
+    narr:keyPhrase [ narr:text "then do a precision pass over it and throw out all the things that are obviously not relevant and make picks and say why" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ] ;
+    narr:keyPhrase [ narr:text "trusting the small models there is something we want to do by confirmation, not faith." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ] ;
+    narr:keyPhrase [ narr:text "are you sure that everything that might be relevant is being included? And what's the mechanism for that?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32> ] ;
+    narr:keyPhrase [ narr:text "The judged set on three documents found production's targets recover only 5 of 17, 1 of 34 and 2 of 16 of what two judges agreed was relevant" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45> ] ;
+    narr:variation [ narr:text "The position's force rests on a relayed stance — the exhaustive-pool method is voiced through Xena quoting Scarlet, not asserted in her own signature here." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_29> ] ;
+    narr:variation [ narr:text "The confirming numbers cut both ways: they vindicate the rejection of the production floor but also show the judged set itself is costly to run." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_45> ] ;
+    narr:variation [ narr:text "An open question remains inside the position — whether the completeness mechanism can ever be sure — answered only by a patch, not a proof." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_32> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_VerifyPr1031WrappingQuotesRepairOnDev_h2b4e6ba9fb14_33> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SteeringStaysOursRecallComesFromAnEngine> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SteeringStaysOursRecallComesFromAnEngine> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SteeringStaysOursRecallComesFromAnEngine> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "9c2744b4b0da61c95480afdc9a39c0b0a90f14e1" ;
+    narr:narration """This narrative holds a single position: [steering stays ours while recall and precision come from a mature engine](narr:Position_SteeringOursRecallFromEngine). Its argument runs that [rolling our own perspective load makes sense because it's novel, but the same engine drifted into recall duties across the consumers](narr:Position_SteeringOursRecallFromEngine), and that [storing RDF in the repo was meant as a plain store under something like Apache Jena, not an accidental query engine](narr:Position_SteeringOursRecallFromEngine).""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ;
+    narr:keyPhrase [ narr:text "You need steering first, and then you need the recall of the full set of things to consider, and then applying the result of steering, the navigated context, to the recalled choices becomes precision." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:keyPhrase [ narr:text "Re-implementing or creating a new database is a generally known stupid thing to do unless what you're trying to do is build a database." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:keyPhrase [ narr:text "It was just a store that we were gonna run an in-memory database over, i.e. Apache Jena or something related." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SteeringOursRecallFromEngine> ] ;
+    narr:run "789d53ecf878" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
