@@ -1,0 +1,146 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "I don't think",
+      "kind" : "hedge"
+    } ],
+    "why" : "Loose conversational directive with a hedged clause; the speaker's voice drops into everyday phrasing against the terse technical baseline of the envelope.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "right?",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Spoken tag question keeps conversational fillers in the rendering.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Colloquial emphasis ('really', loose syntax) in an otherwise technical instruction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "That actually might not be quite what the cite prompt says",
+      "kind" : "hedge"
+    } ],
+    "why" : "Self-corrective hedge in a loose spoken register while discussing a prompt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "frame plus a selection of statements is ever a good design",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "And our answer is maybe.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Native design vocabulary used with precision; the terse final verdict stays flat against it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "pretty questionable metric",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Conversational pushback ('right?', 'doesn't make any sense to me') in a loose spoken register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "throw out all the things that are obviously not relevant",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Principal's colloquial phrasing preserved through Xena's rendering; the rendering is reported, not first-hand.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Understated colloquial evaluation with an informal 'pretty' intensifier.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "the circuit breaker is at 15 amps",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "builders are constantly setting output caps",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberately jargon-free electrical analogy renders the rate-limit principle plainly, with an irritated edge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "probably too much data",
+      "kind" : "hedge"
+    } ],
+    "why" : "Thinking-aloud question with a loose hedge, against the document's terse technical ground.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I think part of our issue is that",
+      "kind" : "hedge"
+    } ],
+    "why" : "Conversational opinion framing ('I think part of our issue') in a loose spoken register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "irreverent", "casual" ],
+    "evidence" : [ {
+      "quote" : "stupid thing to do",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "And I feel like we've come to do that a bit by accident.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Deliberately puncturing a practice with blunt colloquial judgment, softened by a loose 'I feel like'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "irreverent", "enthusiastic" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Irreverent puncture of the field's habits paired with energetic, repeated exhortation directed at the audience.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
