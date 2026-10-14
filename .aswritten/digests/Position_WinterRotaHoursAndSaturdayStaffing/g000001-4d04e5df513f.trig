@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_WinterRotaHoursAndSaturdayStaffing> {
+  <https://aswritten.ai/narrative#Digest_Position_WinterRotaHoursAndSaturdayStaffing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_WinterRotaHoursAndSaturdayStaffing> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "4d04e5df513f61dd4c47734ce91a280a6da0203a" ;
+    narr:narration """This position holds that winter opening should contract to [Saturdays](narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1), resting on [the observed weekday turnout](narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1) and answered by [a second Saturday volunteer for returns](narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2> ;
+    narr:keyPhrase [ narr:text "\"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1> ] ;
+    narr:keyPhrase [ narr:text "\"Then the Saturday shift gets a second volunteer to run returns.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2> ] ;
+    narr:variation [ narr:text "One member states the observed pattern; the other moves straight to a staffing directive — evidence versus prescription, with no one weighing whether weekday evenings should be retried before being cut." ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1> ; narr:over <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat claim-stating — both speakers assert without hedging or argument" ; narr:text "Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate-authority framing — the directive is issued as settled arrangement, not proposal" ; narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "moves from concrete past record to concrete future plan — evidence then arrangement" ; narr:text "The tool library opens Saturdays only through winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1> ] ;
+    narr:run "8b5a27b5a7df" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
