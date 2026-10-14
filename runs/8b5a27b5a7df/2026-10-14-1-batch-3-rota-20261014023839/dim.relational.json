@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directive allocation of a second volunteer to a shift, issued by Jun Arceneaux; command-style resource assignment, not reciprocity or pricing.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
