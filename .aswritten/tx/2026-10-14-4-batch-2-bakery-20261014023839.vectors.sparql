@@ -1,0 +1,248 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261014T024039Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-14-4-batch-2-bakery-20261014023839.md" ;
+      dct:title "Multipass fragment: 20261014_4_Batch2Bakery20261014023839_h173c1b0dd019" ;
+      prov:generated narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:VecStyle_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:VecValue_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2, narr:Narrative_MarkdownsFollowWhenBuyersAreInTheShop, narr:BakeryDayOldPricing, narr:Position_DayOldMarkdownTimingAndShelfCard .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261014T024039Z {
+    narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Day-old loaves go to half price at two in the afternoon, not at close." ;
+        narr:reported false ;
+        skos:note "Flat, unhedged factual assertion of a pricing schedule with no ratification or performed settling; decision-grade not performed, so the lower claim region holds." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the shelf card changes at two as well" ;
+        narr:evidence "intensifier: never a surprise" ;
+        narr:reported false ;
+        skos:note "Plain assertion of a planned change; 'never' hints at an operational rule, but no explicit ratification is performed, so claim is held over decision by the boundary test." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: At close nobody is left to buy them." ;
+        narr:reported false ;
+        skos:note "Proposes the two o'clock markdown and supports it with a causal argument that a close-time markdown reaches no buyers." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: so the price is never a surprise at the till." ;
+        narr:reported false ;
+        skos:note "Extends the proposal with a consequence-based argument: aligning the shelf card avoids a surprise price at checkout." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: Day-old loaves go to half price at two in the afternoon" ;
+        narr:evidence "framing-move: At close nobody is left to buy them" ;
+        narr:reported false ;
+        skos:note "Enacts price timing as a consequence-for-choice calculation: the discount is tied to when buyers are still present to act on it." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: so the price is never a surprise at the till" ;
+        narr:reported false ;
+        skos:note "Frames the shelf-card change as price information that lets the customer weigh cost before choosing, a proportionality framing." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecStyle_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: half price at two in the afternoon, not at close" ;
+        narr:reported false ;
+        skos:note "Opposed time-points ('at two in the afternoon' vs 'at close') set in deliberate contrast within one frame, with 'not' marking the rejected option; the closing line re-uses 'at close' as a counter-beat." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Day-old loaves go to half price at two in the afternoon, not at close." ;
+        narr:evidence "plain-assertion: At close nobody is left to buy them." ;
+        narr:reported false ;
+        skos:note "Generic present-tense statement of an established pricing rule, framed as a general pattern rather than a specific event, so realis and abstract construal." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the shelf card changes at two as well" ;
+        narr:reported false ;
+        skos:note "Describes a planned change at a specific time to a named artifact (shelf card), so future focus on a planned, not yet actual, state." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:VecValue_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "framing-move: so the price is never a surprise at the till" ;
+        narr:reported false ;
+        skos:note "Caleb states the purpose of the aligned card change as sparing customers a surprise at the till, appealing to fairness toward buyers; no directional node is warranted from a single utterance." ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:Narrative_MarkdownsFollowWhenBuyersAreInTheShop a narr:Narrative ;
+        dct:source narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+        narr:frame "What do these expressions say about when a day-old price should change, and how does the posted price stay consistent with what the customer pays?" ;
+        skos:note "Day-old prices change when buyers are still there to act on them, and the shelf says so" ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:Position_DayOldMarkdownTimingAndShelfCard narr:supports narr:Narrative_MarkdownsFollowWhenBuyersAreInTheShop .
+
+    narr:BakeryDayOldPricing a narr:Strata ;
+        narr:stratumType "thematic" ;
+        skos:note "Everything said about bakery day-old pricing: when day-old loaves are marked down and how the shelf card shows the price" ;
+        dct:source narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:Narrative_MarkdownsFollowWhenBuyersAreInTheShop narr:inStratum narr:BakeryDayOldPricing .
+
+    narr:Position_DayOldMarkdownTimingAndShelfCard narr:inStratum narr:BakeryDayOldPricing .
+
+    narr:Position_DayOldMarkdownTimingAndShelfCard a narr:Position ;
+        narr:frame "When should day-old loaves be marked down, and what should the shelf card show so the price holds up at the till?" ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 narr:supports narr:Position_DayOldMarkdownTimingAndShelfCard .
+
+    narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 narr:supports narr:Position_DayOldMarkdownTimingAndShelfCard .
+
+    aswr:Miss_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Miss_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 2 segments marked" ;
+        aswr:missModel "anthropic/claude-haiku-5.5" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5.5" ;
+        aswr:missScope narr:Sample_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019 ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecConviction_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.power.json" ;
+        prov:generated narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecPower_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.relational.json" ;
+        prov:generated narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecRelational_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.style.json" ;
+        prov:generated narr:VecStyle_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1, narr:VecTemporal_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "anthropic/claude-haiku-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/dim.value.json" ;
+        prov:generated narr:VecValue_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2 ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/pass5.json" ;
+        prov:generated narr:Narrative_MarkdownsFollowWhenBuyersAreInTheShop, narr:BakeryDayOldPricing ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T024039Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/2d462d73e05a/2026-10-14-4-batch-2-bakery-20261014023839/position.json" ;
+        prov:generated narr:Position_DayOldMarkdownTimingAndShelfCard ;
+        dct:isPartOf aswr:Tx_20261014T024039Z ;
+        prov:generatedAtTime "2026-10-14T02:40:39Z"^^xsd:dateTime .
+  }
+}
