@@ -1,0 +1,107 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "to the point of steering, not retrieval",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed terms set in deliberate contrast ('steering, not retrieval') within one frame.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Dumping the root to file breaks the structure of the navigator, but I think dumping a large document to file doesn't.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched clauses with inverted outcomes (breaks / doesn't) set in contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "rule-of-three", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "You need steering first, and then you need the recall",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Three sequential beats (steering, recall, precision) in matched 'you need ... and then' clauses.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrast between 'support for a direction' and 'an end in itself' within one sentence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "The frame is designed to be the frame through which its statements are read",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Negated and affirmed clauses share the 'frame is designed' structure, opposing carrier to conduit.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A question posed for effect, its answer presumed by the asker.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "it should be like a circuit breaker",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Extended electrical comparison (output cap as circuit breaker) doing argumentative work.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two 'what ... adds / does not add' clauses matched in structure and opposed in content.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "stock-phrase", "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "'Shoulders of giants' recurs as a signature formula; the triple 'over and over and over again' is a deliberate triad.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "every consumer composes steering from ours and recall from the engine, never recall from steering",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed sourcing of steering and recall, closed by a negated reversal ('never recall from steering').",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-22", "src-24", "src-26", "src-27", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-52", "src-53", "src-54" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
