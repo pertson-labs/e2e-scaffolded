@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The tool library opens Saturdays only through winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, unhedged factual assertion with no ratification language; committed enough for claim, with no settling performed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "gets a second volunteer to run returns.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive with operational force, but no ratification or explicit settling language; torn between claim and decision, so the lower region is taken.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
