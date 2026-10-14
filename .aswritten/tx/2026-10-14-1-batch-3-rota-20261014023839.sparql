@@ -1,0 +1,86 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261014T023855Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-14T02:38:55Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-14-1-batch-3-rota-20261014023839.md" ;
+      dct:title "Multipass source extraction: Volunteer tool-library rota — 2026-10-09" ;
+      prov:generated narr:Sample_20261014_1_Batch3Rota20261014023839_h27ddd40e3549, narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1, narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2, narr:Actor_JunArceneaux, narr:Actor_WrenHalloway, narr:Actor_XenaExpertgh .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261014T023855Z {
+    narr:Sample_20261014_1_Batch3Rota20261014023839_h27ddd40e3549 a narr:Sample ;
+        dct:title "Volunteer tool-library rota — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-14-1-batch-3-rota-20261014023839.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1 a narr:Expression ;
+        narr:actor narr:Actor_WrenHalloway ;
+        narr:act "assertive" ;
+        narr:context "Volunteer tool-library rota discussion, 2026-10-09" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261014_1_Batch3Rota20261014023839_h27ddd40e3549 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "\"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\"" ;
+                oa:prefix " Arceneaux (Volunteer)\n\nWren: " ;
+                oa:suffix "\n\nJun: \"Then the Saturday shif" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "174"^^xsd:integer ;
+                oa:end "280"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-14T02:38:55Z"^^xsd:dateTime .
+
+    narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2 a narr:Expression ;
+        narr:actor narr:Actor_JunArceneaux ;
+        narr:act "directive" ;
+        narr:context "Volunteer tool-library rota discussion, 2026-10-09; responding to Wren's report" ;
+        skos:note "Directive phrased as outcome statement — proposes staffing the Saturday shift with a second volunteer" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261014_1_Batch3Rota20261014023839_h27ddd40e3549 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "\"Then the Saturday shift gets a second volunteer to run returns.\"" ;
+                oa:prefix "orrowers in six weeks.\"\n\nJun: " ;
+                oa:suffix "" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "287"^^xsd:integer ;
+                oa:end "352"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-14T02:38:55Z"^^xsd:dateTime .
+
+    narr:Actor_JunArceneaux a narr:Actor ;
+        skos:prefLabel "Jun Arceneaux" .
+
+    narr:Actor_WrenHalloway a narr:Actor ;
+        skos:prefLabel "Wren Halloway" .
+
+    narr:Actor_XenaExpertgh a narr:Actor ;
+        skos:prefLabel "Xena ExpertGH" .
+
+    aswr:Run_20261014T023855Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/8b5a27b5a7df/2026-10-14-1-batch-3-rota-20261014023839/actors.json" ;
+        prov:generated narr:Actor_JunArceneaux, narr:Actor_WrenHalloway, narr:Actor_XenaExpertgh ;
+        dct:isPartOf aswr:Tx_20261014T023855Z ;
+        prov:generatedAtTime "2026-10-14T02:38:55Z"^^xsd:dateTime .
+
+    aswr:Run_20261014T023855Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "z-ai/glm-5.3-flash" ;
+        aswr:artifact "aswritten/runs:runs/8b5a27b5a7df/2026-10-14-1-batch-3-rota-20261014023839/pass1.json" ;
+        prov:generated narr:Sample_20261014_1_Batch3Rota20261014023839_h27ddd40e3549, narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_1, narr:Expr_20261014_1_Batch3Rota20261014023839_h27ddd40e3549_2 ;
+        dct:isPartOf aswr:Tx_20261014T023855Z ;
+        prov:generatedAtTime "2026-10-14T02:38:55Z"^^xsd:dateTime .
+  }
+}
