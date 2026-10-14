@@ -1,0 +1,21 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The public repair stand goes by the river path entrance, not in the car park.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The graph holds only ferry timetable and volunteer tool-library rota material. Nothing on bike repair stands, cycling infrastructure or the river path matches at any grain.",
+    "consulted" : [ "Perspective focus: bike repair stand placement, river path entrance vs car park", "Coverage: Position_FerryLateSailingsFollowRidership, Position_WinterRotaHoursAndSaturdayStaffing", "Strata: FerryTimetable, VolunteerToolLibraryRota", "Doors: People roster (Anouk Brennagh is not listed), Documents (2, both unrelated)" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Put the pump on a chain; the last one walked off in a week.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior node concerns a repair-stand pump, theft or chaining. The 'last one' is an anecdotal event, not a bindable graph node. The only nearby material is the tool-library rota, which is a different topic.",
+    "consulted" : [ "Perspective focus: securing the pump on a chain against theft", "Coverage: active positions (ferry, tool-library rota)", "Strata: FerryTimetable, VolunteerToolLibraryRota", "Doors: People roster (Sami Okonkwo-Hart is not listed), Documents (2, both unrelated)" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
