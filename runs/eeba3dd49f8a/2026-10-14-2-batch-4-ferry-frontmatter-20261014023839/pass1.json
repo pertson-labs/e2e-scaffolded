@@ -1,0 +1,36 @@
+{
+  "doc" : {
+    "title" : "Ferry timetable change — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Tamsin Oduya", "Rolf Benedek" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tamsin: \"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\"",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change discussion, 2026-10-09; Tamsin Oduya (Operations)"
+    },
+    "note" : "Two sentences serving one assertion about the timetable change and its ridership rationale; kept as one move.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Rolf: \"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"",
+    "actor" : "Rolf Benedek",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Ferry timetable change discussion, 2026-10-09; Rolf Benedek (Dispatcher)"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (contact email, phone, reviewers) is document transport metadata, not a speech act; email and phone would require redaction and no record performs an illocutionary move.",
+    "span_hint" : "contact_email: tamsin.od"
+  }, {
+    "reason" : "Title heading and participants line are structural scaffolding.",
+    "span_hint" : "# Ferry timetable ch"
+  } ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
