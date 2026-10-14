@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "The weekend timetable stays as it is",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Friday and Saturday late sailings still fill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to keeping an arrangement that works as it stands, with stability as the stated good; no node fits, so region-only.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
