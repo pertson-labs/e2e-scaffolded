@@ -1,0 +1,66 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-50",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "leverage the previous work that exists",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to reusing existing work as the good, framed against rolling new constructions; the value is keeping what works rather than novelty.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Appeals to caution and stability before building, valuing a full design and test over ad hoc implementation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "It's designed to never flip unless something bad happens.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Values stability and security: an output cap should only act as a rarely triggered safeguard.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to quality of design craft: meaning is read through the frame and statements together, not carried by the frame alone.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete, benchmark-tuned primitives",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to mastery of established tooling as the mark of quality, separating what mature engines supply from domain decisions.",
+    "reported" : false
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ShouldersOfGiantsReuse",
+    "title" : "take a standing on the shoulders of giants",
+    "frame" : "Does this move reuse what prior work already built before adding a new construction?",
+    "regions" : [ "conservation" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
