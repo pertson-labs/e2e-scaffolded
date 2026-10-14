@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "where the flats happen",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial idiom in an otherwise official, distance-keeping statement; a mild departure from a formal parks-officer register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "the last one walked off in a week",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Loose, colloquial phrasing ('walked off') in a directive; plain and informal rather than technical or formal.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
