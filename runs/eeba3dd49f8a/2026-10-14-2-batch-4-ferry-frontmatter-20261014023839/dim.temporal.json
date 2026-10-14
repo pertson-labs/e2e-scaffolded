@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "on weekdays from November",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "The late sailing carried under ten passengers a night.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Future-dated change ('from November') is stated as settled fact in present-tense 'moves'; specific times and passenger counts keep attention concrete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "stays as it is",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "still fill",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Attention is on the current timetable state, stated as actual, with named days keeping it concrete.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
