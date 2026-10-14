@@ -1,0 +1,37 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1)",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective map, coverage and every door (areas, people, dimensions, documents, unplaced) are empty, so no node for this ruling, the memory, or task-766 exists to bind to. Binding would mean inventing an IRI.",
+    "consulted" : [ "perspective: map (empty)", "perspective: coverage (empty)", "doors: Thematic 0, People 0, Dimensions 0, Documents 0, Unplaced 0", "focus: no witness-depth match for frame index design" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Scarlet's 2026-10-09 rule",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The 2026-10-09 rule (nothing exported to other sessions as build input until the design is tested) has no matching node in the empty perspective.",
+    "consulted" : [ "perspective: map (empty)", "doors: all axes show 0 nodes", "focus: no witness-depth match" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The 10/08 ruling had been passed to other sessions as rulings.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "This refers back to the 2026-10-08 ruling, which has no node in the graph. Nothing exists at any grain to bind to.",
+    "consulted" : [ "perspective: map (empty)", "doors: Documents 0, Unplaced 0, Thematic 0", "focus: no witness-depth match" ]
+  }, {
+    "commentary_local_id" : "src-24",
+    "phrase" : "Filed as task-767 under the read-path epic.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The read-path epic and task-767 have no node in the empty perspective. The task is also being created in this same message.",
+    "consulted" : [ "perspective: map (empty)", "doors: Thematic 0, Documents 0", "focus: no witness-depth match for narration-context epic" ]
+  } ],
+  "unreferenced_commentary" : [ "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
