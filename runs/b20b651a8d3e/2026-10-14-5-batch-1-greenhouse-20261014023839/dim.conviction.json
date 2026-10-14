@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "We install humidity sensors in all four greenhouse bays before the first frost.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain, unhedged assertion of a plan with no explicit ratification language; the settling is not performed in this segment, so the lower region is taken.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "\"Agreed.\" performs assent that ratifies the preceding plan; the supporting claim about the reporting interval is stated flatly. Claim was the alternative, but the explicit ratification is decision-grade.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
