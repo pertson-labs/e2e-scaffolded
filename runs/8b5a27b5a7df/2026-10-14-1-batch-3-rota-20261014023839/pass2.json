@@ -1,0 +1,21 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The perspective's map and coverage are empty and every door (Thematic, People, Dimensions, Documents, Unplaced) shows 0 entries, so there is no prior node on the tool-library rota, Saturday-only hours, or weekday evening attendance. The statement lands as fresh narrative.",
+    "consulted" : [ "perspective map (empty)", "perspective coverage (empty)", "focus section: no direct match at witness depth", "doors: Thematic 0, People 0, Dimensions 0, Documents 0, Unplaced 0" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Then the Saturday shift gets a second volunteer to run returns.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior node on Saturday shift staffing or returns exists; every door in the graph is empty. The 'Then' ties it to the preceding segment in the same envelope, which binds structurally and is not a graph reference.",
+    "consulted" : [ "perspective map (empty)", "perspective coverage (empty)", "focus section: no direct match at witness depth", "doors: Thematic 0, People 0, Dimensions 0, Documents 0, Unplaced 0" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
