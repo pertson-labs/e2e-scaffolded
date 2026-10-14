@@ -1,0 +1,25 @@
+{
+  "bindings" : [ {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "No existing actors; submitted_by names a person, so mint under the full name.",
+    "ai" : false
+  }, {
+    "name" : "Scarlet Dame",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Scarlet Dame",
+    "why" : "No existing actors; a distinct person name witnessed in the names list, so mint.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email belongs to submitted_by Xena ExpertGH; mint under that person's name with the identical label so both land on one node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
