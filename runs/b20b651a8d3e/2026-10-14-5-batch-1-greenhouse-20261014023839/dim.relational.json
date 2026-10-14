@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "because it lost the most seedlings last winter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Priority allocation to bay two is justified by proportional loss (cost/consequence), not by rank or pooling; the rollout directive itself carries no clear hierarchy or we-ness signal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A one-word reciprocal reply that answers the prior turn in kind; the thin signal is turn-taking. The later clause about the reporting interval is propositional and not relational.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
