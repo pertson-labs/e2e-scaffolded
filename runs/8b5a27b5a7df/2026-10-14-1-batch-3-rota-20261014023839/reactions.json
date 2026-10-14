@@ -1,0 +1,185 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-920c4241",
+  "live_run_id" : "8b5a27b5a7df",
+  "stream" : "e2e-662-batch-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Directive with operational force, but no ratification or explicit settling language; torn between claim and decision, so the lower region is taken.", "Directive phrased as outcome statement — proposes staffing the Saturday shift with a second volunteer" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "8b5a27b5a7df:aswritten/review-message:u17592186058512",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160759",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Wren said on 9 October, in the tool-library rota discussion: \"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\" Jun answered in the same conversation: \"Then the Saturday shift gets a second volunteer to run returns.\"",
+        "that_changes" : "Omitted. Nothing earlier was touched.",
+        "so_now" : "The library opens on Saturdays only through winter, and Saturday returns are to be run by two volunteers. The hours rest on borrower counts from weekday evenings, and the Saturday staffing follows from the hours.",
+        "which_means" : "I read that as weekday evenings coming off the schedule for the winter, with no one needed to staff them. I read the second Saturday volunteer as a new need: someone has to be found before returns can be covered by two people. My read is also that the case rests on four borrowers in six weeks, which is a thin base, and nothing in the conversation weighs those counts against a different reading.",
+        "where_does_it_end" : [ "Does four borrowers in six weeks match what you see at the desk?", "Who would the second Saturday volunteer be, and is anyone already on the rota?", "Does the winter schedule have an end date, or does it run until the hours are reviewed?" ]
+      },
+      "email" : {
+        "subject" : "Re: Tool-library Saturday rota, from 9 October",
+        "body" : "Wren said on 9 October, in the tool-library rota discussion: \"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\" Jun answered in the same conversation: \"Then the Saturday shift gets a second volunteer to run returns.\"\n\nWhere things stand now: the library opens on Saturdays only through winter, and Saturday returns are to be run by two volunteers. The hours rest on borrower counts from weekday evenings, and the Saturday staffing follows from the hours.\n\nI read that as weekday evenings coming off the schedule for the winter, with no one needed to staff them. I read the second Saturday volunteer as a new need: someone has to be found before returns can be covered by two people. My read is also that the case rests on four borrowers in six weeks, which is a thin base, and nothing in the conversation weighs those counts against a different reading.\n\nDoes four borrowers in six weeks match what you see at the desk? Who would the second Saturday volunteer be, and is anyone already on the rota? Does the winter schedule have an end date, or does it run until the hours are reviewed?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-1-batch-3-rota-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:8b5a27b5a7df:review-message:82c4433dfc40",
+    "pass" : "reaction:review-message",
+    "ms" : 85576,
+    "cite" : {
+      "email" : {
+        "claims" : 6,
+        "citations" : 4
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.021987,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00323865,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.008192370000000001,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01055627,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "xena+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Xena ExpertGH",
+      "h" : "e099da2f28:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:41:39.770713787Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 2259
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 33116,
+      "content_chars" : 658
+    } ]
+  }
+}
