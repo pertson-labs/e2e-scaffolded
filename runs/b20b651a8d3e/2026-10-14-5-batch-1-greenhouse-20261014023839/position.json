@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "GreenhouseSensorRolloutSequenceAndReporting",
+    "frame" : "How should humidity sensors be rolled out across the four greenhouse bays before first frost, where should the pilot start, and what reporting interval is needed to catch the overnight humidity drop?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both segments serve one rollout frame. Odile sets the plan: all four bays before first frost, with the bay-two pilot first because it lost the most seedlings. Pell agrees and adds the technical condition, a fifteen-minute report interval, because anything slower misses the overnight drop. One speaker supplies the sequencing rationale and the other the monitoring rationale, and the two do not conflict. No existing position or stratum covers greenhouse monitoring, so none is proposed for `under`."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
