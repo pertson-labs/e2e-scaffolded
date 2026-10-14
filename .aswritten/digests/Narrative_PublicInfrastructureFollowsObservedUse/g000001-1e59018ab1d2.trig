@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_PublicInfrastructureFollowsObservedUse> {
+  <https://aswritten.ai/narrative#Digest_Narrative_PublicInfrastructureFollowsObservedUse> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_PublicInfrastructureFollowsObservedUse> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "1e59018ab1d2cc578d50010ca9832e543fcf8f6d" ;
+    narr:narration """This narrative holds a single position: [placing the repair stand by the river path entrance where flats actually happen, and chaining the pump because the last one vanished](narr:Position_RepairStandSiteAndPumpSecurity). The frame asks where observed rider need and past loss should dictate placement and protection of public cycling equipment, and the position answers both halves — siting by where breakdowns occur, securing kit against prior theft.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_RepairStandSiteAndPumpSecurity> ;
+    narr:keyPhrase [ narr:text "The public repair stand goes by the river path entrance, not in the car park. The river path is where the flats happen." ; narr:phraseSource <https://aswritten.ai/narrative#Position_RepairStandSiteAndPumpSecurity> ] ;
+    narr:keyPhrase [ narr:text "Put the pump on a chain; the last one walked off in a week." ; narr:phraseSource <https://aswritten.ai/narrative#Position_RepairStandSiteAndPumpSecurity> ] ;
+    narr:run "7c952f2b4fdf" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

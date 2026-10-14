@@ -1,6 +1,6 @@
 {
   "children" : { },
-  "generated_from" : "e234d3fab357d0a099dff5b17d028da470ba5367",
+  "generated_from" : "1e59018ab1d2cc578d50010ca9832e543fcf8f6d",
   "hubs" : { },
   "params" : {
     "conviction-floor" : 2,
@@ -15,7 +15,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "307307c323d2c8d5f1b4d740cf42edb4c9f5cf7a",
+  "runs_sha" : "eea855241569119c56f078f23643c03a50c29058",
   "sittings" : 33,
   "spec" : "fidelity-bands/1"
 }
