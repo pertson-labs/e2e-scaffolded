@@ -1,0 +1,36 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OpeningHoursFollowBorrowerDemand",
+    "supporting_positions" : [ "BranchLibraryTuesdayThursdayHoursAndStaffing", "Position_WinterRotaHoursAndSaturdayStaffing" ],
+    "why" : "The Tuesday/Thursday hours position sets an eight o'clock opening around when commuters bring books back, and sets the close by what staffing can cover. That is the theme this leaf already holds: opening hours and shift cover follow where borrowers actually turn up. The winter-rota position gives the same theme in a different venue, so adopting it widens the leaf's support rather than changing its meaning.",
+    "consulted" : [ "Narrative_OpeningHoursFollowBorrowerDemand", "Narrative_LateSailingsFollowRidership", "Narrative_MarkdownsFollowWhenBuyersAreInTheShop", "Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens", "Narrative_PublicInfrastructureFollowsObservedUse" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ {
+    "position" : "Position_WinterRotaHoursAndSaturdayStaffing",
+    "verdict" : "adopt",
+    "leaves" : [ "Narrative_OpeningHoursFollowBorrowerDemand" ],
+    "why" : "It already sits under this leaf. Its borrower-turnout count and second Saturday volunteer for returns are the same kind of opening-hours-and-staffing-follow-demand reasoning the branch library hours now add to."
+  } ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "BranchLibraryOpeningHours",
+      "type" : "thematic",
+      "title" : "Everything said about the branch library's opening hours: when it opens and closes on Tuesdays and Thursdays, commuter returns and what staffing can cover",
+      "why" : "The existing VolunteerToolLibraryRota stratum is about the volunteer tool library's rota and borrower attendance. The branch library is a different venue with its own Tuesday/Thursday hours, so it needs its own grouping."
+    } ],
+    "connections" : [ {
+      "member" : "Position_BranchLibraryTuesdayThursdayHoursAndStaffing",
+      "strata" : [ "BranchLibraryOpeningHours" ],
+      "why" : "This position holds both the eight o'clock opening for commuter returns and the earlier close that keeps staffing flat."
+    }, {
+      "member" : "Narrative_OpeningHoursFollowBorrowerDemand",
+      "strata" : [ "BranchLibraryOpeningHours" ],
+      "why" : "The leaf now also rests on the branch library's hours position, so it connects to this stratum as well as the tool library one it already has."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
