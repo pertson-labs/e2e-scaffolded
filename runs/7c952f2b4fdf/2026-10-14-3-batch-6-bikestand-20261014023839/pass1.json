@@ -1,0 +1,31 @@
+{
+  "doc" : {
+    "title" : "Bike repair stand placement — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Anouk Brennagh (Parks Officer)", "Sami Okonkwo-Hart (Cycling Club)" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Anouk: \"The public repair stand goes by the river path entrance, not in the car park. The river path is where the flats happen.\"",
+    "actor" : "Anouk Brennagh (Parks Officer)",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Discussion of bike repair stand placement, 2026-10-09"
+    },
+    "note" : "Two sentences, one move: asserting the stand's placement and its rationale.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Sami: \"Put the pump on a chain; the last one walked off in a week.\"",
+    "actor" : "Sami Okonkwo-Hart (Cycling Club)",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Discussion of bike repair stand placement, 2026-10-09"
+    },
+    "note" : "Directive (put the pump on a chain) with supporting rationale.",
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
