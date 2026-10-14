@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Caleb states the purpose of the aligned card change as sparing customers a surprise at the till, appealing to fairness toward buyers; no directional node is warranted from a single utterance.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
