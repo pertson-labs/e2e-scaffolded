@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "half price at two in the afternoon, not at close",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Opposed time-points ('at two in the afternoon' vs 'at close') set in deliberate contrast within one frame, with 'not' marking the rejected option; the closing line re-uses 'at close' as a counter-beat.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
