@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "We open at eight on Tuesdays and Thursdays",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "can return books",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Habitual present describing a recurring weekly pattern (Tuesdays and Thursdays), so attention is on the present schedule at a pattern level; the explicit modal 'can' suspends the realis sub-axis, so modality is omitted.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we close an hour earlier those days",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "to keep the staffing flat",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Present-tense recurring practice ('those days') framed by a general staffing principle; focus is the standing current arrangement and construal is the pattern rather than a single event.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
