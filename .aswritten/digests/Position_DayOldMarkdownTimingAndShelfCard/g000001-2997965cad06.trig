@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_DayOldMarkdownTimingAndShelfCard> {
+  <https://aswritten.ai/narrative#Digest_Position_DayOldMarkdownTimingAndShelfCard> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_DayOldMarkdownTimingAndShelfCard> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "2997965cad069cef5391ae48aaddaddd5f971361" ;
+    narr:narration """This position holds that day-old markdowns happen [mid-afternoon rather than at close, so buyers are still in the shop](narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1), and that [the shelf card changes at the same moment so the till price is never a surprise](narr:Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2). The two members align: timing and card display move together, voiced in a market-pricing register with antithesis framing on the timing argument.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_1> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_4_Batch2Bakery20261014023839_h173c1b0dd019_2> ] ;
+    narr:run "2d462d73e05a" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

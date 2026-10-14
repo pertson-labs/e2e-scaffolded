@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_MarkdownsFollowWhenBuyersAreInTheShop> {
+  <https://aswritten.ai/narrative#Digest_Narrative_MarkdownsFollowWhenBuyersAreInTheShop> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_MarkdownsFollowWhenBuyersAreInTheShop> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "2997965cad069cef5391ae48aaddaddd5f971361" ;
+    narr:narration """This narrative holds a single position: [day-old markdowns at two in the afternoon rather than at close, with the shelf card changing at the same hour so the till price is never a surprise](narr:Position_DayOldMarkdownTimingAndShelfCard). Both the timing rationale and the shelf-card consistency answer sit inside that one position, voiced on the same day.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_DayOldMarkdownTimingAndShelfCard> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Position_DayOldMarkdownTimingAndShelfCard> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Position_DayOldMarkdownTimingAndShelfCard> ] ;
+    narr:run "2d462d73e05a" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
