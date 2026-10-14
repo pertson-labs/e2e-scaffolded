@@ -1,0 +1,70 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-ab2ce791",
+  "live_run_id" : "45e615cc1ee3",
+  "stream" : "e2e-662-04-quotes-20261013220043",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.373775,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.01788635,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.1376723,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.192363,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 4,
+      "cost_usd" : 0.02585301,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "audience" : null,
+    "recipients" : 1,
+    "sent" : [ {
+      "h" : "e099da2f28:aswritten/review-message",
+      "channel" : "email",
+      "status" : "skipped: test identity",
+      "from_log" : true,
+      "handle" : "xena+staging@aswritten.ai"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T00:06:38.990687588Z",
+  "reconciliation" : [ {
+    "source" : "event log",
+    "claim_token" : null,
+    "sent" : [ ],
+    "uncertain" : [ ],
+    "claimed_at" : "2026-10-13T22:05:53.953Z",
+    "skipped" : [ "e099da2f28:aswritten/review-message" ]
+  } ],
+  "healed" : {
+    "healed" : true,
+    "window_h" : 2.0,
+    "never_covered" : true
+  },
+  "reason" : "recorded from the run's log: an earlier dispatch finished and its record never landed",
+  "reason_class" : "final"
+}
