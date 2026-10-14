@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_GreenhouseSensorRolloutSequenceAndReporting> {
+  <https://aswritten.ai/narrative#Digest_Position_GreenhouseSensorRolloutSequenceAndReporting> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_GreenhouseSensorRolloutSequenceAndReporting> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "63588dd87c7596834bae8621acc17b00293fc94e" ;
+    narr:narration """This position holds a two-part rollout plan: [sensors in all four bays before first frost, with bay two piloting first because it lost the most seedlings last winter](narr:Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_1), and [agreement on a fifteen-minute reporting interval as the threshold for catching the overnight drop](narr:Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_2).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_2> ;
+    narr:keyPhrase [ narr:text "We install humidity sensors in all four greenhouse bays before the first frost. Bay two gets the pilot unit first, because it lost the most seedlings last winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_1> ] ;
+    narr:keyPhrase [ narr:text "Agreed. The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261014_5_Batch1Greenhouse20261014023839_h5aba624434d1_2> ] ;
+    narr:run "b20b651a8d3e" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens> {
+  <https://aswritten.ai/narrative#Digest_Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_MonitoringFollowsWhereLossHappensAndWhenItHappens> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "63588dd87c7596834bae8621acc17b00293fc94e" ;
+    narr:narration """This narrative holds a single supporting position: [the sensor rollout plan](narr:Position_GreenhouseSensorRolloutSequenceAndReporting), which sequences installation across the bays before first frost, starts the pilot where seedling losses were worst last winter, and sets a reporting interval tight enough to catch the overnight humidity drop.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_GreenhouseSensorRolloutSequenceAndReporting> ;
+    narr:keyPhrase [ narr:text "Bay two gets the pilot unit first, because it lost the most seedlings last winter." ; narr:phraseSource <https://aswritten.ai/narrative#Position_GreenhouseSensorRolloutSequenceAndReporting> ] ;
+    narr:keyPhrase [ narr:text "The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Position_GreenhouseSensorRolloutSequenceAndReporting> ] ;
+    narr:run "b20b651a8d3e" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
