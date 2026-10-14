@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Wren Halloway",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Wren Halloway",
+    "why" : "No existing actors; new person witnessed in the document.",
+    "ai" : false
+  }, {
+    "name" : "Jun Arceneaux",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Jun Arceneaux",
+    "why" : "No existing actors; new person witnessed in the document.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "No existing actors; submitted_by is a person's name, minted under that name.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email belongs to the person-named submitted_by Xena ExpertGH; same label so both land on one node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
