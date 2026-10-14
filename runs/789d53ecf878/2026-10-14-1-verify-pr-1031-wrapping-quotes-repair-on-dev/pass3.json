@@ -1,0 +1,222 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-20" ],
+    "note" : "Still open.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-19",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-26" ],
+    "note" : "Consequence: a judge, or any reader deciding relevance, sees a position whole, frame and every member statement, never a sample of three.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-25",
+      "relation" : "extends"
+    } ],
+    "principal" : "Scarlet Dame"
+  }, {
+    "segment_ids" : [ "src-33" ],
+    "note" : "It was not; a complement pass over every unpicked frame, judged whole, was added.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-32",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-39" ],
+    "note" : "Now a rule in `.claude/rules/llm-calls.md`.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-38",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-42" ],
+    "note" : "Recall was re-scored at the unit of expand: every arm reaches more, and narrative pages alone cost 6 to 14K tokens per document while call pages are 90 percent of the weight.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-41",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-48", "src-49" ],
+    "note" : "The session's concession: the hand-rolled read layer, a token-rarity lexical ranker with no BM25, a vector index that embedded a frame plus three excerpts, a fusion rule chosen on five specimens, and a navigator doing recall by reading pages, was the weak link, each built as a feature without an oracle. What a mature engine adds is complete, benchmark-tuned primitives and a declarative query; what it does not add is the domain decisions (what a node's text is, the unit of expand, what a frame is for) and the oracle.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-46",
+      "relation" : "extends"
+    }, {
+      "ref" : "src-47",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-51" ],
+    "note" : "Ruled consequences, 2026-10-11: steering stays ours (the perspective load, the frame index pages, the fuzzy edges, the navigator as orientation); recall and precision come from engine primitives, in process first (Lucene BM25 and HNSW over whole positions with parent context, reciprocal rank fusion, SPARQL traversal by unit of expand) and a real RDF store if in-process is not enough; every consumer composes steering from ours and recall from the engine, never recall from steering; the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-46",
+      "relation" : "extends"
+    }, {
+      "ref" : "src-47",
+      "relation" : "extends"
+    }, {
+      "ref" : "src-50",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  }, {
+    "segment_ids" : [ "src-52" ],
+    "note" : "The rule is written into `.claude/rules/extend-first.md`.",
+    "targets" : [ "src-1" ],
+    "referents" : [ {
+      "ref" : "src-50",
+      "relation" : "extends"
+    } ],
+    "principal" : "session"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Verdict new; nothing to reconcile."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Verdict new; nothing to reconcile."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Verdict new; nothing to reconcile."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Quoted statement from Scarlet Dame; no referent beyond its own framing line, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Framing line with no referent; fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-6",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-7",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-8",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-9",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-10",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-11",
+    "why" : "Standalone statement of page size; no referent."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-13",
+    "why" : "Standalone statement; no referent."
+  }, {
+    "segment_id" : "src-14",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-15",
+    "why" : "Scarlet's question; no referent."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "Framing label with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-17",
+    "why" : "Scarlet's tentative statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-18",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-19",
+    "why" : "Scarlet's own statement on naming; fresh commentary."
+  }, {
+    "segment_id" : "src-21",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-22",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-23",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-24",
+    "why" : "Verdict new for task-767 filing; nothing to reconcile."
+  }, {
+    "segment_id" : "src-25",
+    "why" : "Scarlet's own statement with no prior referent; fresh commentary."
+  }, {
+    "segment_id" : "src-27",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-28",
+    "why" : "Scarlet's own statement; fresh commentary."
+  }, {
+    "segment_id" : "src-29",
+    "why" : "Report of Scarlet's method; no referent."
+  }, {
+    "segment_id" : "src-30",
+    "why" : "Report of Scarlet's review process; no referent."
+  }, {
+    "segment_id" : "src-31",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-32",
+    "why" : "Scarlet's question; fresh commentary, bound to by src-33."
+  }, {
+    "segment_id" : "src-34",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-35",
+    "why" : "Scarlet's own statement; fresh commentary."
+  }, {
+    "segment_id" : "src-36",
+    "why" : "Scarlet's question; no referent."
+  }, {
+    "segment_id" : "src-37",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-38",
+    "why" : "Scarlet's own statement; fresh commentary, bound to by src-39."
+  }, {
+    "segment_id" : "src-40",
+    "why" : "Framing line with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-41",
+    "why" : "Scarlet's question; fresh commentary, bound to by src-42."
+  }, {
+    "segment_id" : "src-43",
+    "why" : "Reported test results with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-44",
+    "why" : "Reported test results with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-45",
+    "why" : "Reported test results and spend with no referent; fresh commentary."
+  }, {
+    "segment_id" : "src-46",
+    "why" : "Scarlet's own statement; fresh commentary, bound to by later conclusions."
+  }, {
+    "segment_id" : "src-47",
+    "why" : "Scarlet's own statement; fresh commentary, bound to by later conclusions."
+  }, {
+    "segment_id" : "src-50",
+    "why" : "Scarlet's own statement; fresh commentary, bound to by later conclusions."
+  }, {
+    "segment_id" : "src-53",
+    "why" : "Standalone parking decision; no referent."
+  }, {
+    "segment_id" : "src-54",
+    "why" : "Standalone list of open items; no referent."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
