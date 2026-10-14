@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The public repair stand goes by the river path entrance",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense assertion about the actual, specific placement of a named artifact; no hedging or hypothetical framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the last one walked off in a week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Imperative directive aims at a future action on a particular pump (irrealis, concrete); the past-tense clause supplies the warrant, so past focus is present but subordinate to the forward-looking instruction.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
