@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "drew four borrowers in six weeks",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "The tool library opens Saturdays only through winter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-tense attention on observed borrower counts, plus a settled schedule stated as fact; specific figures and named service keep it concrete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directive attention on a proposed future staffing change, sequenced by 'Then'; present-tense grammar carries a planned, not actual, state, anchored to a specific shift and task.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
