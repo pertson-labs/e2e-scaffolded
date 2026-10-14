@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "the Saturday shift gets a second volunteer to run returns",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive assigns staffing as settled fact from the rota-setting position; no consultation or argument offered, so authority rests on position rather than knowledge.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
