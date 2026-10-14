@@ -1,0 +1,32 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_OpeningHoursFollowBorrowerDemand> {
+  <https://aswritten.ai/narrative#Digest_Narrative_OpeningHoursFollowBorrowerDemand> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_OpeningHoursFollowBorrowerDemand> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "ef1ec1705a396605d9a2a611b33e2fb45423f375" ;
+    narr:narration """This narrative now holds two positions. The original carries [winter Saturdays-only opening, with a second volunteer added to the Saturday shift for returns](narr:Position_WinterRotaHoursAndSaturdayStaffing); a second position extends the same demand-driven logic to a different site, arguing for [opening on two weekday mornings timed to commuter returns, offset by closing earlier to keep staffing flat](narr:Position_BranchLibraryTuesdayThursdayHoursAndStaffing). Both were voiced the same day. The evidence base remains thin — each position carries its own observed demand pattern and the staffing response built on it, so the causal step from sparse attendance to reshaped hours is asserted, not argued. No counter-proposal or dissenting reading of the attendance data is recorded here.""" ;
+    narr:reaction """The single-position framing no longer holds: a [second position extending the demand-driven logic to weekday commuter hours](narr:Position_BranchLibraryTuesdayThursdayHoursAndStaffing) arrived, so the old sentence describing this narrative as holding one position had to go. What's newly interesting is the tension the old narration couldn't see — the two positions reach [opposite conclusions about weekday opening](narr:Position_WinterRotaHoursAndSaturdayStaffing) from the same kind of thin attendance evidence, which sharpens rather than settles the causal question you flagged.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_BranchLibraryTuesdayThursdayHoursAndStaffing> ;
+    narr:covers <https://aswritten.ai/narrative#Position_WinterRotaHoursAndSaturdayStaffing> ;
+    narr:keyPhrase [ narr:text "\"The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Position_WinterRotaHoursAndSaturdayStaffing> ] ;
+    narr:keyPhrase [ narr:text "\"Then the Saturday shift gets a second volunteer to run returns.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Position_WinterRotaHoursAndSaturdayStaffing> ] ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchLibraryTuesdayThursdayHoursAndStaffing> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Position_BranchLibraryTuesdayThursdayHoursAndStaffing> ] ;
+    narr:variation [ narr:text "The two positions apply the same demand-observed logic to opposite schedules — one closes weekdays entirely, the other adds weekday mornings — without either reconciling with the other's evidence." ; narr:over <https://aswritten.ai/narrative#Position_WinterRotaHoursAndSaturdayStaffing> ; narr:over <https://aswritten.ai/narrative#Position_BranchLibraryTuesdayThursdayHoursAndStaffing> ] ;
+    narr:run "9c20f3e88b10" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:previousGeneration ".aswritten/digests/Narrative_OpeningHoursFollowBorrowerDemand/g000001-4d04e5df513f.trig" ;
+    narr:sentences (
+      [ narr:op "removed" ; narr:text """This narrative holds a single position: [winter Saturdays-only opening, with a second volunteer added to the Saturday shift for returns](narr:Position_WinterRotaHoursAndSaturdayStaffing).""" ]
+      [ narr:op "removed" ; narr:text """The evidence base is thin — the same position carries both the observed demand pattern and the staffing response built on it, so the causal step from four borrowers to closing weekdays is asserted, not argued.""" ]
+      [ narr:op "removed" ; narr:text """Nothing here records a counter-proposal or a dissenting reading of the attendance data.""" ]
+      [ narr:op "added" ; narr:text """This narrative now holds two positions.""" ]
+      [ narr:op "added" ; narr:text """The original carries [winter Saturdays-only opening, with a second volunteer added to the Saturday shift for returns](narr:Position_WinterRotaHoursAndSaturdayStaffing); a second position extends the same demand-driven logic to a different site, arguing for [opening on two weekday mornings timed to commuter returns, offset by closing earlier to keep staffing flat](narr:Position_BranchLibraryTuesdayThursdayHoursAndStaffing).""" ]
+      [ narr:op "added" ; narr:text """Both were voiced the same day.""" ]
+      [ narr:op "added" ; narr:text """The evidence base remains thin — each position carries its own observed demand pattern and the staffing response built on it, so the causal step from sparse attendance to reshaped hours is asserted, not argued.""" ]
+      [ narr:op "added" ; narr:text """No counter-proposal or dissenting reading of the attendance data is recorded here.""" ]
+    ) ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
