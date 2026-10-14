@@ -1,0 +1,185 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-2cb739ea",
+  "live_run_id" : "9c20f3e88b10",
+  "stream" : "e2e-662-batch-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: We open at eight on Tuesdays and Thursdays", "Plain assertive statement of the counterpart schedule with no hedging and no performed settling", "Habitual present describing a recurring weekly pattern (Tuesdays and Thursdays), so attention is on the present schedule at a pattern level" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "9c20f3e88b10:aswritten/review-message:u17592186058512",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160833",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Moira Easterbrook said on October 9, in the branch library opening hours discussion: \"We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in.\" Teo Lindahl said in the same discussion: \"And we close an hour earlier those days to keep the staffing flat.\"",
+        "that_changes" : "Beat 2 is left out: nothing earlier was touched, so the email has four paragraphs.",
+        "so_now" : "Together the two statements describe one arrangement: an early start on Tuesdays and Thursdays for commuters bringing books back, paid for by an earlier close on those same days so staffing stays level. The discussion treats it as a plan, and nothing in it says the hours are running yet.",
+        "which_means" : "My read is that the early opening is a bet that commuter returns are worth more than the last evening hour, and that the staffing trade is what makes the bet affordable. If that holds, the closing hour is the part to watch. The volunteer tool library's winter rota, a different organisation, also rests on a small attendance count, but it lands on the opposite answer for weekdays. I'd read that as a reason to check both counts before either is copied across to the other.",
+        "where_does_it_end" : [ "How many commuters do you expect to bring returns on those mornings, and how will you count them?", "Is the evening hour you're giving up quiet enough that losing it costs nothing?", "Does the same count hold for Thursdays as well as Tuesdays?" ]
+      },
+      "email" : {
+        "subject" : "Re: Branch library hours, from October 9",
+        "body" : "Moira Easterbrook said on October 9, in the branch library opening hours discussion: \"We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in.\" Teo Lindahl said in the same discussion: \"And we close an hour earlier those days to keep the staffing flat.\"\n\nTogether the two statements describe one arrangement: an early start on Tuesdays and Thursdays for commuters bringing books back, paid for by an earlier close on those same days so staffing stays level. The discussion treats it as a plan, and nothing in it says the hours are running yet.\n\nMy read is that the early opening is a bet that commuter returns are worth more than the last evening hour, and that the staffing trade is what makes the bet affordable. If that holds, the closing hour is the part to watch: if returns don't come in, the cut costs something with nothing to show for it. The volunteer tool library's winter rota, a different organisation, also rests on a small attendance count, but it lands on the opposite answer for weekdays. I'd read that as a reason to check both counts before either is copied across to the other.\n\nHow many commuters do you expect to bring returns on those mornings, and how will you count them? Is the evening hour you're giving up quiet enough that losing it costs nothing? Does the same count hold for Thursdays as well as Tuesdays?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-6-batch-5-library-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:9c20f3e88b10:review-message:ae3b6eecdefa",
+    "pass" : "reaction:review-message",
+    "ms" : 213890,
+    "cite" : {
+      "email" : {
+        "claims" : 6,
+        "citations" : 4
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.045308,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00245865,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01411443,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 7,
+      "cost_usd" : 0.028734430000000002,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "xena+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Xena ExpertGH",
+      "h" : "e099da2f28:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:46:34.844108455Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 16137
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 17771,
+      "content_chars" : 663
+    } ]
+  }
+}
