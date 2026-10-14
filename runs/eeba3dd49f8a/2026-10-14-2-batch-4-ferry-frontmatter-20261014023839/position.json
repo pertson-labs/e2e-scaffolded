@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "FerryLateSailingsFollowRidership",
+    "frame" : "Given how many passengers each late sailing actually carries, which late sailings should the ferry timetable keep, move, or leave alone?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements read the late ferry timetable against observed ridership. Tamsin cites under ten passengers a night to move the weekday last sailing from 22:40 to 21:55 from November. Rolf cites Friday and Saturday late sailings still filling to leave the weekend timetable unchanged. The two sit together as complementary cases under one demand-based frame, not as a conflict. No existing position or narrative covers ferry operations, so no `under` is proposed.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
