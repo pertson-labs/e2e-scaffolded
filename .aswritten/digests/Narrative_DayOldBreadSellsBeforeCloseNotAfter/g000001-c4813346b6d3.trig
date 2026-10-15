@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DayOldBreadSellsBeforeCloseNotAfter> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DayOldBreadSellsBeforeCloseNotAfter> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DayOldBreadSellsBeforeCloseNotAfter> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "c4813346b6d3a4dc5e11036fb816844573b6357f" ;
+    narr:narration """This narrative holds a single position on markdown timing: [the two-o'clock markdown, set before close rather than at it](narr:Position_DayOldMarkdownTiming), with the paired point that [the shelf card changes with the price so the till never surprises a buyer](narr:Position_DayOldMarkdownTiming). The frame asks what else on the shop floor has to move with the markdown — the shelf-card answer is the only child that speaks to it so far.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_DayOldMarkdownTiming> ;
+    narr:keyPhrase [ narr:text "Day-old loaves go to half price at two in the afternoon, not at close. At close nobody is left to buy them." ; narr:phraseSource <https://aswritten.ai/narrative#Position_DayOldMarkdownTiming> ] ;
+    narr:keyPhrase [ narr:text "Then the shelf card changes at two as well, so the price is never a surprise at the till." ; narr:phraseSource <https://aswritten.ai/narrative#Position_DayOldMarkdownTiming> ] ;
+    narr:run "4817fc6e03c2" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
