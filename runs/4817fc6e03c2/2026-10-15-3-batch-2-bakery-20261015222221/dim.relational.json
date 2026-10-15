@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Allocates the day-old stock by price and time window, framing the discount as a proportional consequence of timing rather than rank or reciprocity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames the price change as a transparency and cost-of-choice matter for the customer; the 'as well' mirrors Ines's timing but the price framing carries the model.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
