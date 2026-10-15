@@ -1,0 +1,134 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-14",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "at the navigational fidelity",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Native pipeline vocabulary ('navigational fidelity') used without gloss, a jargon departure from the memo's plainer baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "or something",
+      "kind" : "hedge"
+    } ],
+    "why" : "Loose naming hedge, thinking-aloud register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I don't know.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Conversational aside inviting a suggestion, loose and unpolished.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Compressed maxim in native pipeline terms; the document's signature register.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrast-paired maxim stating a design rule, same signature as the document's maxims.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "right?",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tag question and loose phrasing in an otherwise terse exchange.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "confirmation, not faith",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Terse contrast maxim carrying a method rule.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "pretty bad",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Blunt colloquial evaluation, informal tone.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "playful" ],
+    "evidence" : [ {
+      "quote" : "If you're using one amp of electricity, the circuit breaker is at 15 amps.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Extended electrical analogy delighting in its own phrasing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "irreverent" ],
+    "evidence" : [ {
+      "quote" : "a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberate deflation of the practice of building a custom query engine.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "enthusiastic" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Energy aimed at the audience through emphatic repetition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "irreverent" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Slang self-critique that punctures the team's own posture on purpose.",
+    "reported" : false
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "CompressedMaximCadence",
+    "title" : "rules stated as compressed, contrast-paired maxims in native pipeline vocabulary",
+    "frame" : "Is the claim compressed into a contrast the reader can carry out of the document as a usable rule?",
+    "regions" : [ "technical" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
