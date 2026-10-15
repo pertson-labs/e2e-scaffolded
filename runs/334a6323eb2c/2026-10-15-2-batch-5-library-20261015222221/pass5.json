@@ -1,0 +1,35 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_BranchHoursServeCommutersWithinFlatStaffing",
+    "title" : "Branch hours are shifted to serve commuters, with staffing held flat",
+    "frame" : "What does each change to the branch's opening or closing time say it is meant to serve, and what is traded off to keep staffing steady?",
+    "under" : null,
+    "supporting_positions" : [ "TuesdayThursdayHoursTradeoff" ],
+    "why" : "The position holds both statements about the Tuesday/Thursday schedule: opening earlier so commuters can return books, and closing earlier to keep staffing flat. The theme is how branch hours are set, and future documents about hours or staffing can keep feeding it. Nothing in the existing graph covers library hours; the only leaf is about greenhouse sensing.",
+    "consulted" : [ "Narrative_MonitoringProtectsWhatLastWinterLost" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "BranchLibraryHours",
+      "type" : "thematic",
+      "title" : "Everything said about when the branch library opens and closes, and why",
+      "coordinate" : null,
+      "why" : "No existing stratum holds library hours. The existing GreenhouseSensorRollout stratum is about a different subject. Branch hours are a subject future documents will return to."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_BranchHoursServeCommutersWithinFlatStaffing",
+      "strata" : [ "BranchLibraryHours" ],
+      "why" : "The leaf is about how branch hours are set and what they serve."
+    }, {
+      "member" : "Position_TuesdayThursdayHoursTradeoff",
+      "strata" : [ "BranchLibraryHours" ],
+      "why" : "The position gives the Tuesday and Thursday opening and closing hours and the reason for each."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
