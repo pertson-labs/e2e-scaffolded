@@ -1,0 +1,12 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Verdict new: pass 2 bound no referents, so there is nothing to reconcile. It lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Verdict new: pass 2 bound no referents, and I will not manufacture a local binding to src-1. It lands as fresh witnessed commentary that a later conclusion may bind to."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
