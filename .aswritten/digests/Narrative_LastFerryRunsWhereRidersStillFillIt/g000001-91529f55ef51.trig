@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_LastFerryRunsWhereRidersStillFillIt> {
+  <https://aswritten.ai/narrative#Digest_Narrative_LastFerryRunsWhereRidersStillFillIt> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_LastFerryRunsWhereRidersStillFillIt> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "91529f55ef5192c08e273b733e36529813e11b41" ;
+    narr:narration """The narrative's frame asks what ridership evidence justifies moving a late sailing and which days it separates. Its single supporting position, [the weekday cut with the weekend timetable left alone](narr:Position_FerryLateSailingWeekdayVsWeekend), carries both halves: the reduction on weekdays from [November](narr:Position_FerryLateSailingWeekdayVsWeekend), and the claim that [Friday](narr:Position_FerryLateSailingWeekdayVsWeekend) and [Saturday](narr:Position_FerryLateSailingWeekdayVsWeekend) late sailings still fill. With one position beneath it, the narrative holds no recorded tension yet — the frame's question about which days the evidence separates remains open rather than concluded.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_FerryLateSailingWeekdayVsWeekend> ;
+    narr:keyPhrase [ narr:text "The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night." ; narr:phraseSource <https://aswritten.ai/narrative#Position_FerryLateSailingWeekdayVsWeekend> ] ;
+    narr:keyPhrase [ narr:text "The weekend timetable stays as it is; Friday and Saturday late sailings still fill." ; narr:phraseSource <https://aswritten.ai/narrative#Position_FerryLateSailingWeekdayVsWeekend> ] ;
+    narr:run "358dc8292077" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
