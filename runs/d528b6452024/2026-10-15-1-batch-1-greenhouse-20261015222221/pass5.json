@@ -1,0 +1,37 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MonitoringProtectsWhatLastWinterLost",
+    "title" : "Sensing is set up around the conditions that cost us seedlings before",
+    "frame" : "What past loss or failure condition is this monitoring choice (where it goes first, how often it reports) meant to guard against, and does the choice actually cover that condition?",
+    "under" : null,
+    "supporting_positions" : [ "SensorRolloutPlanAndCadence" ],
+    "why" : "The position ties the install order (bay two first, before frost) and the fifteen-minute interval to the winter seedling loss and the overnight drop. Future greenhouse and monitoring decisions can keep feeding this subject of protecting against a known loss. The graph is empty, so this is a new standalone leaf.",
+    "consulted" : [ ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "GreenhouseSensorRollout",
+      "type" : "thematic",
+      "title" : "Everything said about rolling out humidity sensors across the greenhouse bays",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "The document is about one subject, the humidity sensor rollout, and later calls on installation, pilots and reporting will return to it."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_MonitoringProtectsWhatLastWinterLost",
+      "strata" : [ "GreenhouseSensorRollout" ],
+      "why" : "The leaf's theme is the rollout's purpose and design, which the stratum groups."
+    }, {
+      "member" : "Position_SensorRolloutPlanAndCadence",
+      "strata" : [ "GreenhouseSensorRollout" ],
+      "why" : "The position carries the rollout plan and reporting cadence."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
