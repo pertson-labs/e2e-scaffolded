@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Exact match to existing actor Xena ExpertGH, also the submitter.",
+    "ai" : false
+  }, {
+    "name" : "Tamsin Oduya",
+    "verdict" : "mint",
+    "label" : "Tamsin Oduya",
+    "why" : "No existing actor named Tamsin Oduya.",
+    "ai" : false
+  }, {
+    "name" : "Rolf Benedek",
+    "verdict" : "mint",
+    "label" : "Rolf Benedek",
+    "why" : "No existing actor named Rolf Benedek.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Account email belongs to submitted_by Xena ExpertGH, a person-named submitter bound to this actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
