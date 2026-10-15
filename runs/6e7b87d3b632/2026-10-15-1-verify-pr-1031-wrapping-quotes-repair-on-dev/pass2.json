@@ -1,0 +1,59 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "epic parent for task-766 (The Frame Index)",
+    "verdict" : "new",
+    "why" : "The perspective's map, coverage and every door are empty (0 areas, 0 documents), so there is no task-766 node to bind. It lands as fresh narrative.",
+    "consulted" : [ "perspective: map", "perspective: coverage", "perspective: doors (Thematic 0, People 0, Dimensions 0, Documents 0, Unplaced 0)" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "the 2026-10-08 ruling that frames are the index and narrated digests retire (memory 2026-10-09-1)",
+    "verdict" : "new",
+    "why" : "The ruling and memory 2026-10-09-1 are named, but the graph holds no nodes at any grain and every door is empty. A binding would need an invented IRI.",
+    "consulted" : [ "perspective: map", "perspective: coverage", "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "Scarlet's 2026-10-09 rule",
+    "verdict" : "new",
+    "why" : "No prior node exists in the empty graph for a 2026-10-09 not-exported-until-tested rule.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-5",
+    "phrase" : "The 10/08 ruling had been passed to other sessions as rulings.",
+    "verdict" : "new",
+    "why" : "The 10/08 ruling has no resolvable node in the empty graph. The commentary lands as fresh narrative.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-7",
+    "phrase" : "this ruling on 766",
+    "verdict" : "new",
+    "why" : "Neither a ruling on task-766 nor a task-766 node is present in the graph, which has no nodes at any grain.",
+    "consulted" : [ "perspective: map", "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-19",
+    "phrase" : "a 355 re-extraction",
+    "verdict" : "new",
+    "why" : "Task 355 and any re-extraction work have no matching node. The graph is empty.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-28",
+    "phrase" : "the read pass epic",
+    "verdict" : "new",
+    "why" : "No read-pass epic node exists in the empty graph. The cite-prompt issue lands as fresh narrative.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-29",
+    "phrase" : "Filed as task-767 under the read-path epic.",
+    "verdict" : "new",
+    "why" : "The read-path epic has no resolvable node. task-767 is newly filed in this envelope, so there is nothing prior to bind.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  }, {
+    "commentary_local_id" : "src-68",
+    "phrase" : "the option zero idea",
+    "verdict" : "new",
+    "why" : "No 'option zero' node exists in the graph, which is empty at every door.",
+    "consulted" : [ "perspective: doors (all axes empty)" ]
+  } ],
+  "unreferenced_commentary" : [ "src-2", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
