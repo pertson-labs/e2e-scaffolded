@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The tool library opens Saturdays only through winter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat factual assertions with no hedges, reporting a schedule and a count. Asserted and defensible, but no settling is performed, so claim rather than decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the Saturday shift gets a second volunteer to run returns",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A firm directive that responds to Wren's data, but it proposes a consequence rather than recording a ratified decision (no ratification language). Torn between claim and decision; the lower level wins.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
