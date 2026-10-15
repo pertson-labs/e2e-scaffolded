@@ -1,0 +1,317 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directive from the session owner, carried by 'need to' and grounded in her standing over the process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design and then test it",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Process rule set by the owner for how the session must proceed; authority rests on the agreed process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered, right?",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tag question seeks the other's agreement on the proposed structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive stating the required design constraint without offering reasons.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Stated requirement framed as the speaker's own want, setting the specification for the page.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Prohibition emphasized with 'really', asserting the correct design boundary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "sounds like a 355 re-extraction would fix almost all of it.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Argues from the breakdown's pattern toward a re-extraction, softened by 'sounds like'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "wouldn't that change very substantially?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Question invites the other to reason through the consequence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Tentative delivery leaves the proposed unit of expansion open for the other to weigh.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing or something.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directs the naming decision while leaving it loosely open.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "I don't know. You got a better name for it than that.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Disclaims the answer and hands the naming decision to the other.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Sequencing authority grounded in the speaker's grasp of how the design must be built.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Design judgment asserted from domain knowledge, hedged by 'I don't think'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I think that the frame only is unquestionably losing something.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Assertive domain judgment strengthened by 'unquestionably'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "can you use the frame only to locate whether something is relevant?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Question frames the open problem and invites the other's answer.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric to be running against, right?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Argues against the metric on grounds of its fitness, seeking agreement via tag.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Because isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Reasons from the stated stance to reject the target.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "So saying that we're trying to replicate production doesn't make any sense to me.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects the rationale by arguing its internal inconsistency.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "produce exhaustive recall",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directive instructing the process to follow, given as the method to use.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "trusting the small models there is something we want to do by confirmation, not faith.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Argues for a verification method over trust, as a reasoned position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "are you sure that everything that might be relevant is being included?",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Challenge posed as a question, inviting the other to show the mechanism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "What are you actually missing and how do we understand what the gap between that number is and full recall?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Open question asks the other to account for the gap.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "It's designed to never flip unless something bad happens.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Authority from engineering knowledge, carried by a circuit-breaker analogy that argues the design point.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Question checks the shared approach with the other rather than asserting it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The danger there is probably too much data.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Reasons about the risk of the expansion unit, hedged by 'probably'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-62",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "so the floor was a poor reference.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplies a factual conclusion about the reference baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-64",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "But I think part of our issue is that that same engine got used for recall",
+      "kind" : "hedge"
+    } ],
+    "why" : "Argues the diagnosis from the shared-engine problem, qualified by 'I think'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "Re-implementing or creating a new database is a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Authority from database knowledge, invoking common understanding to settle the question.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Diagnostic claim asserted from broad domain observation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "inspirational-appeal", "pressure" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach at every step",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "over and over and over again",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Appeals to a value of building on prior work, with repetition pressing the point.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-70",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ask why and really what's different and what we're actually adding.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive setting the required check for departures from prior work.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Ratifies the consequences as a formal ruling binding on the process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-73",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes the decision as an agreed rule in the repository's process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-74",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sets the sequencing of the work as a process decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
