@@ -1,0 +1,103 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261015T222513Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "xena+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      aswr:originPath ".aswritten/memories/2026-10-15-5-batch-4-ferry-frontmatter-20261015222221.md" ;
+      dct:title "Multipass source extraction: Ferry timetable change — 2026-10-09" ;
+      prov:generated narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_1, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_2, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_3, narr:Actor_RolfBenedek, narr:Actor_TamsinOduya .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261015T222513Z {
+    narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26 a narr:Sample ;
+        dct:title "Ferry timetable change — 2026-10-09" ;
+        dct:created "2026-10-09"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-10-15-5-batch-4-ferry-frontmatter-20261015222221.md" ;
+        aswr:submittedBy narr:Actor_XenaExpertgh ;
+        aswr:account narr:Actor_XenaExpertgh .
+
+    narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_1 a narr:Expression ;
+        narr:actor narr:Actor_XenaExpertgh ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_XenaExpertgh ;
+        narr:author narr:Actor_XenaExpertgh ;
+        narr:context "Editorial header of the ferry timetable change note" ;
+        skos:note "Editorial record of who took part; composer not settled by envelope." ;
+        aswr:qualityFlag "principal:unresolved" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "**Participants:** Tamsin Oduya (Operations), Rolf Benedek (Dispatcher)" ;
+                oa:prefix "imetable change — 2026-10-09\n\n" ;
+                oa:suffix "\n\nTamsin: \"The last ferry move" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "162"^^xsd:integer ;
+                oa:end "232"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime .
+
+    narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_2 a narr:Expression ;
+        narr:actor narr:Actor_TamsinOduya ;
+        narr:act "assertive" ;
+        narr:context "Exchange with Rolf Benedek about the ferry timetable change" ;
+        skos:note "Direct quoted speech; two sentences serving one report of the change and its ridership." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "\"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\"" ;
+                oa:prefix "Benedek (Dispatcher)\n\nTamsin: " ;
+                oa:suffix "\n\nRolf: \"The weekend timetable" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "242"^^xsd:integer ;
+                oa:end "366"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime .
+
+    narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_3 a narr:Expression ;
+        narr:actor narr:Actor_RolfBenedek ;
+        narr:act "assertive" ;
+        narr:context "Exchange with Tamsin Oduya about the ferry timetable change" ;
+        skos:note "Direct quoted speech." ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "\"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"" ;
+                oa:prefix "n passengers a night.\"\n\nRolf: " ;
+                oa:suffix "" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "374"^^xsd:integer ;
+                oa:end "459"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime .
+
+    narr:Actor_RolfBenedek a narr:Actor ;
+        skos:prefLabel "Rolf Benedek" .
+
+    narr:Actor_TamsinOduya a narr:Actor ;
+        skos:prefLabel "Tamsin Oduya" .
+
+    aswr:Run_20261015T222513Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5.5" ;
+        aswr:artifact "aswritten/runs:runs/358dc8292077/2026-10-15-5-batch-4-ferry-frontmatter-20261015222221/actors.json" ;
+        prov:generated narr:Actor_RolfBenedek, narr:Actor_TamsinOduya ;
+        dct:isPartOf aswr:Tx_20261015T222513Z ;
+        prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime .
+
+    aswr:Run_20261015T222513Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "z-ai/glm-5.3-flash" ;
+        aswr:artifact "aswritten/runs:runs/358dc8292077/2026-10-15-5-batch-4-ferry-frontmatter-20261015222221/pass1.json" ;
+        prov:generated narr:Sample_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_1, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_2, narr:Expr_20261015_5_Batch4FerryFrontmatter20261015222221_hf9f06b1e6a26_3 ;
+        dct:isPartOf aswr:Tx_20261015T222513Z ;
+        prov:generatedAtTime "2026-10-15T22:25:13Z"^^xsd:dateTime .
+  }
+}
