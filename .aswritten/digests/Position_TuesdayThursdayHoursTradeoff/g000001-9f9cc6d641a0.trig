@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_TuesdayThursdayHoursTradeoff> {
+  <https://aswritten.ai/narrative#Digest_Position_TuesdayThursdayHoursTradeoff> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_TuesdayThursdayHoursTradeoff> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "9f9cc6d641a05ded229eea668ee0408b2dc4ea00" ;
+    narr:narration """This position holds that the branch's [Tuesday](narr:Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1) and [Thursday](narr:Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1) hours trade an early open against an early close. [Moira frames the early open as serving commuters who return books before work](narr:Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1), while [Teo pairs it with closing an hour earlier those days so staffing stays flat](narr:Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_2). The two statements are complementary halves of one arrangement rather than competing claims.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_2> ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_2> ] ;
+    narr:variation [ narr:text "The arrangement's beneficiaries differ in kind: the early open serves an external commuter public, while the early close is justified by internal staffing balance — a tension between service reach and cost containment left unaddressed here." ; narr:over <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_1> ; narr:over <https://aswritten.ai/narrative#Expr_20261015_2_Batch5Library20261015222221_h8764b1b628fa_2> ] ;
+    narr:run "334a6323eb2c" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

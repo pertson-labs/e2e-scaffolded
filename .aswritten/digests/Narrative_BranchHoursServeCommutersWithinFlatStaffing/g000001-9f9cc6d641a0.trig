@@ -1,0 +1,18 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_BranchHoursServeCommutersWithinFlatStaffing> {
+  <https://aswritten.ai/narrative#Digest_Narrative_BranchHoursServeCommutersWithinFlatStaffing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_BranchHoursServeCommutersWithinFlatStaffing> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "9f9cc6d641a05ded229eea668ee0408b2dc4ea00" ;
+    narr:narration """This narrative holds a single position: [the Tuesday/Thursday early-open-for-commuters tradeoff](narr:Position_TuesdayThursdayHoursTradeoff), where [opening at eight so commuters can return books on the way in](narr:Position_TuesdayThursdayHoursTradeoff) is paired with [closing an hour earlier those days to keep staffing flat](narr:Position_TuesdayThursdayHoursTradeoff). The frame asks what each hours change is meant to serve and what it trades off; this position answers with one concrete instance, voiced by [Moira](narr:Position_TuesdayThursdayHoursTradeoff) and [Teo](narr:Position_TuesdayThursdayHoursTradeoff) together.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_TuesdayThursdayHoursTradeoff> ;
+    narr:keyPhrase [ narr:text "We open at eight on Tuesdays and Thursdays so the commuter crowd can return books on the way in." ; narr:phraseSource <https://aswritten.ai/narrative#Position_TuesdayThursdayHoursTradeoff> ] ;
+    narr:keyPhrase [ narr:text "And we close an hour earlier those days to keep the staffing flat." ; narr:phraseSource <https://aswritten.ai/narrative#Position_TuesdayThursdayHoursTradeoff> ] ;
+    narr:variation [ narr:text "The position itself carries the tension: the hours serve commuters only by shortening the same days' service window to hold staffing steady — no alternative arrangement (later close, shifted shifts) appears in the graph yet." ; narr:over <https://aswritten.ai/narrative#Position_TuesdayThursdayHoursTradeoff> ] ;
+    narr:run "334a6323eb2c" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
