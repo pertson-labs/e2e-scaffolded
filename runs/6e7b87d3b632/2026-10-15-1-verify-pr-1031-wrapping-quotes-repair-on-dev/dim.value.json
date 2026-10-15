@@ -1,0 +1,83 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "it needs to do the full design and then test it",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Appeals to craft quality: design fully and test before implementing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "trusting the small models there is something we want to do by confirmation, not faith.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Values verification over trust as the mark of sound craft.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "an output cap, if anything, should be solely for runaway behavior",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Criticizes a common practice against a standard of correct design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-64",
+    "regions" : [ "openness-to-change" ],
+    "evidence" : [ {
+      "quote" : "makes sense because that's novel",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to novelty as the justification for building in-house.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Judges hand-rolled engine work against a standard of sound engineering.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "leverage the previous work that exists",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Values keeping and building on existing work over rebuilding.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "take a standing on the shoulders of giants approach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicitly prefers building on established work at every step.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "the textbook stack ties or wins on the judged oracle",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sets quality as the test: proven primitives retire the hand-rolled work if they perform as well or better.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-66", "src-67", "src-70", "src-71", "src-73", "src-74", "src-75" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
