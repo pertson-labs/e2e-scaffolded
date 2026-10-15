@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Pell argues for the fifteen-minute reporting interval by stating its evidential consequence, a case from logic rather than from position or rank.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
