@@ -1,0 +1,48 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_BranchHoursServeCommutersWithinFlatStaffing"
+    },
+    "under" : null,
+    "supporting_positions" : [ "ToolLibraryWinterHoursAndSaturdayStaffing" ],
+    "why" : "The existing branch-hours leaf is specific to a different venue and tradeoff: commuter-driven early opening with staffing held flat. This position cuts low-turnout weekday evenings and adds a second volunteer to the surviving Saturday shift, so staffing moves rather than stays flat. The two leaves are related, since both set hours against demand and staffing, but the commuter leaf does not hold this one, so I minted with a 'see' lineage.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains",
+    "title" : "Opening hours follow where borrowers turn up, and the shift that stays open gets the volunteers",
+    "frame" : "What does the observed borrower turnout say about when the library should open, and what does the shift that remains need in volunteers?",
+    "consulted" : [ "Narrative_BranchHoursServeCommutersWithinFlatStaffing", "Narrative_DayOldBreadSellsBeforeCloseNotAfter", "Narrative_MonitoringProtectsWhatLastWinterLost" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ {
+    "position" : "Position_TuesdayThursdayHoursTradeoff",
+    "verdict" : "decline",
+    "why" : "Nearest placed leaf is the tool-library hours leaf. This position holds commuter-driven early opening with an earlier close to keep staffing flat. The new leaf is about trimming low-turnout hours and adding a volunteer to the remaining shift, so it does not support that theme and already sits under its own branch-hours leaf."
+  } ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ToolLibraryRota",
+      "type" : "thematic",
+      "title" : "When the volunteer tool library opens and who staffs each shift",
+      "coordinate" : null,
+      "lineage" : {
+        "relation" : "see",
+        "target" : "BranchLibraryHours"
+      },
+      "nests_in" : null,
+      "why" : "BranchLibraryHours is about the branch library. The tool library is a separate volunteer-run venue whose rota (opening days, volunteers per shift) is a subject that later documents will probably keep returning to."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains",
+      "strata" : [ "ToolLibraryRota" ],
+      "why" : "The leaf is about the tool library's winter opening hours and shift staffing."
+    }, {
+      "member" : "Position_ToolLibraryWinterHoursAndSaturdayStaffing",
+      "strata" : [ "ToolLibraryRota" ],
+      "why" : "The position carries the Saturday-only winter schedule and the second volunteer for returns."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
