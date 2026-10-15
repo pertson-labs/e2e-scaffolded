@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_PublicRepairProvisionGoesWhereRidersBreakDownAndSurvivesTheirUse",
+    "title" : "Public repair provision is sited where riders actually break down and built to stay put",
+    "frame" : "Where do the problems this provision exists to solve actually happen, and what has to be true of the equipment for it to still be there when riders need it?",
+    "under" : null,
+    "supporting_positions" : [ "RepairStandSitingAndPumpSecurity" ],
+    "why" : "No existing leaf covers public bike repair infrastructure. The ferry, library, bakery and greenhouse leaves are all about other subjects. The position holds two conditions on one provision: sited where flats happen, and the pump chained after the last one walked off. Future envelopes on public amenities can keep feeding this theme of siting by observed need and hardening against loss, so it is a theme rather than a one-off fact.",
+    "consulted" : [ "Narrative_BranchHoursServeCommutersWithinFlatStaffing", "Narrative_DayOldBreadSellsBeforeCloseNotAfter", "Narrative_LastFerryRunsWhereRidersStillFillIt", "Narrative_MonitoringProtectsWhatLastWinterLost", "Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "RiverPathRepairStand",
+      "type" : "thematic",
+      "title" : "Everything said about siting the public bike repair stand and keeping its pump from walking off",
+      "why" : "The siting and pump-security statements are about one public repair stand, and no existing stratum holds bike repair provision."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_PublicRepairProvisionGoesWhereRidersBreakDownAndSurvivesTheirUse",
+      "strata" : [ "RiverPathRepairStand" ],
+      "why" : "The leaf is the narrative home of the repair stand subject."
+    }, {
+      "member" : "Position_RepairStandSitingAndPumpSecurity",
+      "strata" : [ "RiverPathRepairStand" ],
+      "why" : "The position carries both the siting and the pump-chain statements about the stand."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
