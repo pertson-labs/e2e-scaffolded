@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains> {
+  <https://aswritten.ai/narrative#Digest_Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "2322ad843ae0269f7274de015a1de02c20847bf0" ;
+    narr:narration """This narrative holds a single position: [winter hours set to Saturdays only, with a second volunteer added for returns](narr:Position_ToolLibraryWinterHoursAndSaturdayStaffing). Wren reports the turnout observation — weekday evenings drew four borrowers in six weeks — and [Jun](narr:Position_ToolLibraryWinterHoursAndSaturdayStaffing) draws the staffing consequence. The frame asks what the observed turnout says about when the library should open and what the remaining shift needs; both parts are answered within this one position.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_ToolLibraryWinterHoursAndSaturdayStaffing> ;
+    narr:keyPhrase [ narr:text "The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ToolLibraryWinterHoursAndSaturdayStaffing> ] ;
+    narr:keyPhrase [ narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ToolLibraryWinterHoursAndSaturdayStaffing> ] ;
+    narr:run "b398700e5497" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

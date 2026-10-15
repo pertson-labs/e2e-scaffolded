@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ToolLibraryWinterHoursAndSaturdayStaffing> {
+  <https://aswritten.ai/narrative#Digest_Position_ToolLibraryWinterHoursAndSaturdayStaffing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ToolLibraryWinterHoursAndSaturdayStaffing> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "2322ad843ae0269f7274de015a1de02c20847bf0" ;
+    narr:narration """This position holds that the tool library's winter schedule rests on [observed Saturday-only turnout, with weekday evenings drawing four borrowers across six weeks](narr:Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_1), and that [the Saturday shift should carry a second volunteer to run returns](narr:Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_2). The staffing ask is phrased as a conclusion but performs a directive, so the position's support is one factual report plus one forward-looking proposal.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_2> ;
+    narr:keyPhrase [ narr:text "The tool library opens Saturdays only through winter. Weekday evenings drew four borrowers in six weeks." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_1> ] ;
+    narr:keyPhrase [ narr:text "Then the Saturday shift gets a second volunteer to run returns." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_2> ] ;
+    narr:variation [ narr:text "The staffing move is voiced as a settled conclusion while its only support is a single six-week turnout report — the proposal outruns its evidence." ; narr:over <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_2> ; narr:over <https://aswritten.ai/narrative#Expr_20261015_4_Batch3Rota20261015222221_h6755674a1f17_1> ] ;
+    narr:run "b398700e5497" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
