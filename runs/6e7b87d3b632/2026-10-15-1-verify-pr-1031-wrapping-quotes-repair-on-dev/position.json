@@ -1,0 +1,43 @@
+{
+  "positions" : [ {
+    "name" : "UnitOfExpandAndPageForm",
+    "frame" : "what is the unit of expand in the frame index, and what must a page carry so the reader keeps the context around a position?",
+    "members" : [ "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-21", "src-55", "src-56", "src-57" ],
+    "why" : "These statements all ask what an expand returns and what a page shows. Tiering and actor hubs, call and narrative as the unit, a document page shown whole with its edges, the 15K page limit, and the question of whether a transaction's siblings arrive together all read this way. The tension is between context-preserving whole units and the cost of too much data, which the re-scored page weights make concrete.",
+    "lineage" : null
+  }, {
+    "name" : "FrameAloneVersusFrameWithStatements",
+    "frame" : "can a frame alone be used to locate relevance, or does meaning need the frame read together with its statements?",
+    "members" : [ "src-27", "src-28", "src-30", "src-31", "src-32", "src-33", "src-34", "src-58", "src-59", "src-60" ],
+    "why" : "The group holds the design stance that statements are support for a direction and that a frame is a lens, not the carrier of meaning. It sets that stance beside the open 'maybe' answer and the measured frames-only recoveries. Both sides stay in tension: frames-only is admitted to lose something, yet frames-only recall is tested as a locator.",
+    "lineage" : null
+  }, {
+    "name" : "RecallReferenceAndJudgedOracle",
+    "frame" : "what is the right reference for scoring recall, and how is exhaustiveness and precision confirmed rather than assumed?",
+    "members" : [ "src-35", "src-37", "src-38", "src-39", "src-41", "src-42", "src-43", "src-44", "src-46", "src-47", "src-49", "src-50", "src-62" ],
+    "why" : "Scoring against production's placements is rejected as a target. A judged set is built from exhaustive recall, big-model arms, small-model overlays, her review, and a complement pass. The measured gaps, including 82 to 88 percent and production recovering 5 of 17, 1 of 34 and 2 of 16, are weighed against the question of what full recall is.",
+    "lineage" : null
+  }, {
+    "name" : "BuildVersusTakeEngineForRead",
+    "frame" : "which parts of the read path are ours to build (steering) and which should come from mature engine primitives (recall and precision)?",
+    "members" : [ "src-25", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73" ],
+    "why" : "The group separates novel steering from recall and precision. It concedes the hand-rolled read layer as the weak link, argues for shoulders-of-giants over cowboyism, and records the ruled consequences and the extend-first rule. Steering is kept as ours while recall goes to textbook engines, retiring the hand-rolled parts only if the engines tie or win on the oracle.",
+    "lineage" : null
+  }, {
+    "name" : "WhatAnOutputCapIsFor",
+    "frame" : "what is an output cap for, and when should a builder set one rather than ask for brevity in the prompt?",
+    "members" : [ "src-52", "src-53", "src-61" ],
+    "why" : "The circuit-breaker view says a cap guards runaway behaviour and is not a length control. The rule is written into the llm-calls rules file, and the model that ran away uncapped sits beside it as evidence.",
+    "lineage" : null
+  }, {
+    "name" : "WhenADesignMayBeExported",
+    "frame" : "when may a design leave the session that is building it and be passed to other sessions as a build input?",
+    "members" : [ "src-4", "src-5", "src-6", "src-7", "src-74" ],
+    "why" : "Nothing is exported until the design is tested. The earlier ruling had already been passed on as rulings, which prompts the call to slow down: design fully, then test, then implement. The prompt rewrite is parked on the same ordering, so the group is about sequencing.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-8", "src-13", "src-18", "src-19", "src-20", "src-22", "src-23", "src-24", "src-26", "src-29", "src-36", "src-40", "src-45", "src-48", "src-51", "src-54", "src-63", "src-75" ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
