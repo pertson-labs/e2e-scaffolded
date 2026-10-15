@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "ToolLibraryWinterHoursAndSaturdayStaffing",
+    "frame" : "how should the tool library's winter opening hours be set against observed borrower turnout, and what staffing does the shift that stays open need?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Wren reports the schedule and the weekday-evening turnout figure. Jun's 'Then' draws the staffing consequence for the one remaining shift from that figure, so the two statements read as one evidence-to-allocation arc. Jun's line is a proposal rather than a ratified decision, which the frame leaves open. The existing branch-hours positions concern a different venue and a different tradeoff (Tuesday/Thursday commuter hours), so none of them reads this group. I left `under` off because neither the narrative leaves nor the strata name the tool library's rota; the narrative pass can place it."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
