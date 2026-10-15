@@ -1,0 +1,12 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-2",
+    "why" : "No bound referent (pass 2 resolutions empty), so there is nothing to reconcile; it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "No bound referent (pass 2 resolutions empty), so there is nothing to reconcile; it lands as fresh witnessed commentary."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
