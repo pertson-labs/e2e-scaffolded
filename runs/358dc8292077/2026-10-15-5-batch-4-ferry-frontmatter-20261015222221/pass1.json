@@ -1,0 +1,62 @@
+{
+  "doc" : {
+    "title" : "Ferry timetable change — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Tamsin Oduya", "Rolf Benedek", "Xena ExpertGH" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "**Participants:** Tamsin Oduya (Operations), Rolf Benedek (Dispatcher)",
+    "actor" : "Xena ExpertGH",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Editorial header of the ferry timetable change note"
+    },
+    "footing_case" : "fc-1",
+    "note" : "Editorial record of who took part; composer not settled by envelope.",
+    "footing" : {
+      "animator" : "Xena ExpertGH",
+      "author" : "Xena ExpertGH",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "\"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\"",
+    "actor" : "Tamsin Oduya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Exchange with Rolf Benedek about the ferry timetable change"
+    },
+    "footing_case" : null,
+    "note" : "Direct quoted speech; two sentences serving one report of the change and its ridership."
+  }, {
+    "local_id" : "src-3",
+    "exact" : "\"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"",
+    "actor" : "Rolf Benedek",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Exchange with Tamsin Oduya about the ferry timetable change"
+    },
+    "footing_case" : null,
+    "note" : "Direct quoted speech."
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (contact/reviewer metadata) — structural scaffolding, not a speech act.",
+    "span_hint" : "contact_email: tamsin.oduya@e"
+  }, {
+    "reason" : "Document heading — structural scaffolding.",
+    "span_hint" : "# Ferry timetable change"
+  }, {
+    "reason" : "Speaker name labels ('Tamsin:', 'Rolf:') — quote frames attributing the adjacent quoted segments, which carry the attribution in their actor field.",
+    "span_hint" : "Tamsin: \"The last ferry"
+  } ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Xena ExpertGH",
+    "author" : "Xena ExpertGH",
+    "principal" : null,
+    "unresolved" : "The envelope names Xena ExpertGH as submitter and participant but does not state who composed the note's editorial prose, so no principal is witnessed for it.",
+    "when" : "The note's own editorial prose (participants line, framing) — not quoted speech."
+  } ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
