@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_DayOldBreadSellsBeforeCloseNotAfter",
+    "title" : "Day-old bread is marked down while buyers are still in the shop",
+    "frame" : "What does this say about when a day-old markdown has to land to reach buyers, and what else on the shop floor has to move with it?",
+    "under" : null,
+    "supporting_positions" : [ "DayOldMarkdownTiming" ],
+    "why" : "No existing leaf touches bakery pricing; the branch-hours and greenhouse-sensor leaves are unrelated. DayOldMarkdownTiming carries the theme: the markdown moves from close to two in the afternoon because nobody is left to buy at close, and the shelf card changes at the same hour so the price holds no surprise at the till. Future pricing and signage calls can keep feeding this theme.",
+    "consulted" : [ "Narrative_BranchHoursServeCommutersWithinFlatStaffing", "Narrative_MonitoringProtectsWhatLastWinterLost" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "BakeryDayOldPricing",
+      "type" : "thematic",
+      "title" : "Everything said about pricing day-old bread, when the markdown lands and how the shelf shows it",
+      "why" : "No existing stratum holds bakery pricing. The two statements in this document are about the day-old markdown timing and shelf signage, and later pricing calls will return to the subject."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_DayOldBreadSellsBeforeCloseNotAfter",
+      "strata" : [ "BakeryDayOldPricing" ],
+      "why" : "The leaf is about day-old pricing timing, which is the stratum's subject."
+    }, {
+      "member" : "Position_DayOldMarkdownTiming",
+      "strata" : [ "BakeryDayOldPricing" ],
+      "why" : "The position holds the markdown moment and the shelf card change, both about day-old pricing."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
