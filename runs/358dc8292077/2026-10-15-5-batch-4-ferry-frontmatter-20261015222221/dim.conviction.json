@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The last ferry moves from 22:40 to 21:55 on weekdays from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, unhedged schedule assertion with no ratification or operational-rule language, so it stays at claim rather than decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The weekend timetable stays as it is",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion about the weekend timetable with no settling language; claim, not decision.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
