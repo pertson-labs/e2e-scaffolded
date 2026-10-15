@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "We open at eight on Tuesdays and Thursdays",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "so the commuter crowd can return books",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Present-tense standing schedule framed as a recurring pattern (present focus, abstract construal). The explicit modal 'can' in the purpose clause suspends the realis sub-axis, so realis is omitted rather than guessed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we close an hour earlier those days",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "to keep the staffing flat",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present-tense recurring practice ('those days') stated as settled fact, with no explicit modal, so realis is carried alongside present focus and abstract construal.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
