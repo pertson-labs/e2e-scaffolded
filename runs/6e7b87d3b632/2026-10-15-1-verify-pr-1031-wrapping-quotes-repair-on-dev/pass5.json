@@ -1,0 +1,117 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_MeaningTravelsWithItsContext",
+    "title" : "A statement or frame is read rightly only inside the context that gives it direction",
+    "frame" : "Does this expression keep the narrative, call or position context that tells a reader which direction it supports, or has it been lifted out and made to carry meaning alone?",
+    "under" : null,
+    "supporting_positions" : [ "UnitOfExpandAndPageForm", "FrameAloneVersusFrameWithStatements" ],
+    "why" : "The unit-of-expand position and the frame-versus-statements position make the same claim. A single position or frame alone loses what it means, so expands return the whole call or narrative and judges see a position whole. The theme will keep accruing as read and cite passes are examined.",
+    "consulted" : [ "graph structure: empty, no leaf to reuse", "POSITION VERDICTS: UnitOfExpandAndPageForm", "POSITION VERDICTS: FrameAloneVersusFrameWithStatements" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_RecallConfirmedByJudgedOracle",
+    "title" : "Recall is confirmed against a judged reference, never assumed or copied from production",
+    "frame" : "What reference is this recall or precision claim measured against, and what confirms that the pool was exhaustive and the small-model judgments are right?",
+    "under" : null,
+    "supporting_positions" : [ "RecallReferenceAndJudgedOracle" ],
+    "why" : "The position rejects replicating production as the target. It sets up a judged oracle with big-model arms, small-model overlays, her review and a complement pass, and it presses on what the remaining gap to full recall is. The measured recoveries are evidence inside that position, so the leaf stays a subject and not a fact.",
+    "consulted" : [ "graph structure: empty, no leaf to reuse", "POSITION VERDICTS: RecallReferenceAndJudgedOracle" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SteeringIsOursRecallComesFromGiants",
+    "title" : "Build only what is novel and stand on mature components for everything else",
+    "frame" : "What is genuinely new in this piece of work, and if it is not, why is it not taking an existing engine or primitive instead?",
+    "under" : null,
+    "supporting_positions" : [ "BuildVersusTakeEngineForRead" ],
+    "why" : "The position separates novel steering from recall and precision, concedes the hand-rolled read layer was the weak link, and sets a shoulders-of-giants standing rule. It records the ruled consequences and the extend-first rule. The theme will recur whenever a session proposes to roll its own.",
+    "consulted" : [ "graph structure: empty, no leaf to reuse", "POSITION VERDICTS: BuildVersusTakeEngineForRead" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_GuardrailsGuardFailureNotRoutineBehavior",
+    "title" : "A limit exists to catch runaway behavior, and everyday shaping belongs in the prompt",
+    "frame" : "Is this limit a circuit breaker set far above normal use, or is it being used to shape ordinary output that the prompt should ask for?",
+    "under" : null,
+    "supporting_positions" : [ "WhatAnOutputCapIsFor" ],
+    "why" : "The position states the circuit-breaker view of output caps, writes it into the llm-calls rules file, and sets beside it the model that ran away uncapped. The principle of a guardrail sized for failure applies beyond caps and will accrue support.",
+    "consulted" : [ "graph structure: empty, no leaf to reuse", "POSITION VERDICTS: WhatAnOutputCapIsFor" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_DesignIsTestedBeforeItLeavesTheSession",
+    "title" : "Design fully and test before anything is exported or implemented elsewhere",
+    "frame" : "Has this design been fully worked and tested in the session that owns it, before other sessions or surfaces are asked to build on it?",
+    "under" : null,
+    "supporting_positions" : [ "WhenADesignMayBeExported" ],
+    "why" : "The position holds the sequencing rule: nothing is exported as a build input until tested, the earlier ruling had been passed on prematurely, and the prompt rewrite is parked until the design is solid. It is a standing process stance that future sessions will keep feeding.",
+    "consulted" : [ "graph structure: empty, no leaf to reuse", "POSITION VERDICTS: WhenADesignMayBeExported" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-3", "src-8", "src-13", "src-18", "src-19", "src-20", "src-22", "src-23", "src-24", "src-26", "src-29", "src-36", "src-40", "src-45", "src-48", "src-51", "src-54", "src-63", "src-75" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "FrameIndexAndReadPathDesign",
+      "type" : "thematic",
+      "title" : "The frame index and the read path: how pages steer, how recall is engineered, and how it is judged",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "Every position about the frame index, units of expand, recall oracle and the build-versus-engine choice is part of one body of thinking this organization keeps returning to."
+    }, {
+      "name" : "BuildingWithDisciplineNotCowboyism",
+      "type" : "thematic",
+      "title" : "How builders should work: slow down and test, trust pre-made parts, and size guardrails for failure",
+      "coordinate" : null,
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "The export rule, the circuit-breaker output cap and the standing-on-giants rule share one concern, the builder's working practice, which the document calls out as cowboyism."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_MeaningTravelsWithItsContext",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "Core design principle of the frame index pages and units of expand."
+    }, {
+      "member" : "Narrative_RecallConfirmedByJudgedOracle",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "The judged oracle is how the read path's recall is tested."
+    }, {
+      "member" : "Narrative_SteeringIsOursRecallComesFromGiants",
+      "strata" : [ "FrameIndexAndReadPathDesign", "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "Splits the read path into steering and recall, and is also a general rule of building practice."
+    }, {
+      "member" : "Narrative_GuardrailsGuardFailureNotRoutineBehavior",
+      "strata" : [ "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "A rule about how builders set limits on LLM calls."
+    }, {
+      "member" : "Narrative_DesignIsTestedBeforeItLeavesTheSession",
+      "strata" : [ "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "A sequencing rule for how work moves between sessions."
+    }, {
+      "member" : "Position_UnitOfExpandAndPageForm",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "Defines what an expand returns and what a page carries."
+    }, {
+      "member" : "Position_FrameAloneVersusFrameWithStatements",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "Tests whether frames alone can locate relevance."
+    }, {
+      "member" : "Position_RecallReferenceAndJudgedOracle",
+      "strata" : [ "FrameIndexAndReadPathDesign" ],
+      "why" : "Sets the scoring reference for recall tests."
+    }, {
+      "member" : "Position_BuildVersusTakeEngineForRead",
+      "strata" : [ "FrameIndexAndReadPathDesign", "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "Decides what is built and what is taken from engines, and states the shoulders-of-giants rule."
+    }, {
+      "member" : "Position_WhatAnOutputCapIsFor",
+      "strata" : [ "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "States the circuit-breaker rule for caps."
+    }, {
+      "member" : "Position_WhenADesignMayBeExported",
+      "strata" : [ "BuildingWithDisciplineNotCowboyism" ],
+      "why" : "States the test-before-export rule."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
