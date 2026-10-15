@@ -1,0 +1,89 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directive to halt and slow the session's pace; the speaker commands rather than negotiates.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "tightly control the unit of expand",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Prescriptive control over how other work must be done, asserted from rank over the design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directive naming that settles the label by decision rather than by discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "do this set with the big models",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Prescribes which models run which pass, allocating work by tier.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-70",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ask why",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Directive that obligates the reader to justify deviations from the standing approach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "It's designed to never flip unless something bad happens.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proportionality framing: output caps should match a consequence-bearing circuit rating, not routine use.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declarative ruling by the memo author that binds consumers to a sanctioned order of recall and steering.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a rule by Scarlet that withholds exports until testing; the governance act is reported, not performed here.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Event report of a governance act assigning work to an epic.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
