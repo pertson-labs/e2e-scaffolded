@@ -1,0 +1,35 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Bay two gets the pilot unit first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Speaker allocates the pilot unit by decision rather than by shared process; the 'we' is an institutional voice, not pooled identity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Short ratifying turn that reciprocates the prior proposal; weak signal, chosen as turn-taking reciprocity over other models.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues the choice of reporting interval by its consequence for outcomes, a proportionality framing.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
