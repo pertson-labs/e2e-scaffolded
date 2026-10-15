@@ -1,0 +1,185 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-e21b74f8",
+  "live_run_id" : "358dc8292077",
+  "stream" : "e2e-662-batch-20261015222221",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.65 < threshold 0.7",
+    "score" : 0.65,
+    "evidence" : [ "Editorial record of who took part; composer not settled by envelope.", "principal:unresolved", "**Participants:** Tamsin Oduya (Operations), Rolf Benedek (Dispatcher)", "narr:author narr:Actor_XenaExpertgh" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "358dc8292077:aswritten/review-message:u17592186058512",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162281",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Tamsin Oduya said on October 9, in the ferry timetable change session: \"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\" Rolf Benedek answered in the same session: \"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"",
+        "that_changes" : null,
+        "so_now" : "So now the last weekday ferry leaves at 21:55 from November, and the weekend late sailings stay where they are. The weekday cut rests on ridership: under ten passengers a night on the 22:40 sailing. The weekend keeps its place because Friday and Saturday still fill it.",
+        "which_means" : "My read is that the weekday change is settled, and the weekend is being kept on demand rather than on habit. That suggests to me the Friday and Saturday fill claim should be checked against the same sailing and the same window as the under-ten count, so both halves stand on matching numbers. If that holds, nothing on the weekend side has to be re-timed.",
+        "where_does_it_end" : [ "Does the under-ten figure cover the whole autumn or only a few weeks?", "Is the Friday and Saturday fill count taken from that same 22:40 sailing?", "Does the late-hour test you used here also apply to the tool library's winter hours?" ]
+      },
+      "email" : {
+        "subject" : "Re: Ferry timetable change, from October 9",
+        "body" : "Tamsin Oduya said on October 9, in the ferry timetable change session: \"The last ferry moves from 22:40 to 21:55 on weekdays from November. The late sailing carried under ten passengers a night.\" Rolf Benedek answered in the same session: \"The weekend timetable stays as it is; Friday and Saturday late sailings still fill.\"\n\nSo now the last weekday ferry leaves at 21:55 from November, and the weekend late sailings stay where they are. The weekday cut rests on ridership: under ten passengers a night on the 22:40 sailing. The weekend keeps its place because Friday and Saturday still fill it. Nothing said so far gives a fill figure for the weekend, only that the sailings still fill, and both halves are still unreviewed.\n\nMy read is that the weekday change is settled, and the weekend is being kept on demand rather than on habit. That suggests to me the Friday and Saturday fill claim should be checked against the same sailing and the same window as the under-ten count, so both halves stand on matching numbers. If that holds, nothing on the weekend side has to be re-timed, and the weekday cut can be planned without reopening the weekend.\n\nDoes the under-ten figure cover the whole autumn or only a few weeks? Is the Friday and Saturday fill count taken from that same 22:40 sailing? Does the late-hour test you used here also apply to the tool library's winter hours?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-15-5-batch-4-ferry-frontmatter-20261015222221"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:358dc8292077:review-message:5159a3d06d5f",
+    "pass" : "reaction:review-message",
+    "ms" : 238719,
+    "cite" : {
+      "email" : {
+        "claims" : 11,
+        "citations" : 2
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.057311,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0045106,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 4,
+      "cost_usd" : 0.014271800000000001,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 32,
+      "cost_usd" : 0.038528230000000004,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "xena+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Xena ExpertGH",
+      "h" : "e099da2f28:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T22:31:19.555901930Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Xena ExpertGH",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 3,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 2799
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 74270,
+      "content_chars" : 666
+    } ]
+  }
+}
