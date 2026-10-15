@@ -1,0 +1,594 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a settled prior ruling as an established fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "future" ],
+    "evidence" : [ {
+      "quote" : "until the design is tested",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Attention on a conditional future gate before any export.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "had been passed to other sessions as rulings",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past event, stated as actual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Present-focused directive toward a desired, not yet actual, state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "If this session is going to do the core",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Conditional future plan for the design and testing sequence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Explicit modal 'would' suspends realis; the expectation is about the index design in general.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It is one level down",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present structural description of the index pattern stated as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You want to tightly control the unit of expand",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescriptive design desire about the unit of expansion in general.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "you list the narratives with IRI",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense description of a general listing pattern.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Desire for a future document-view design, stated abstractly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the MCP page stays 15K",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Specific current size fact about a named artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "dumping a large document to file doesn't",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-state claim about how file dumps behave.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present fact; the 'may spill' clause is modal and is not counted as realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the sizing found",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past finding with specific counts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "future" ],
+    "evidence" : [ {
+      "quote" : "sounds like a 355 re-extraction would fix almost all of it",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged projection of what a future re-extraction would do; modal suspends realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "future" ],
+    "evidence" : [ {
+      "quote" : "wouldn't that change very substantially?",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Question about a possible future change; modal suspends realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Delivered as tentative, framing a general design pattern as provisional.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "Let's call it frame-based indexing or something.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directive proposal for a name that does not yet exist.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "You got a better name for it than that.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Open question seeking a possible alternative name.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sequenced prescription for future design steps, stated generally.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Applied to every consumer, including the room agent",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Forward-looking general rule for all consumers; the principal's stance is rendered by the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present general principle about how statements function.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "future" ],
+    "evidence" : [ {
+      "quote" : "should probably get ticketed",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged future action on the cite prompt; 'might' suspends realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Completed concrete act, recorded as done.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "past", "abstract" ],
+    "evidence" : [ {
+      "quote" : "was ever a good design",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-focused judgment about design categories in general.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "the frame only is unquestionably losing something",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present assertion with intensifier, stated as actual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "can you use the frame only to locate whether something is relevant?",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Open question about a possible capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "present", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "And our answer is maybe.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Present answer, but hedged into the possible.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "sees a position whole, frame and every member statement",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present general consequence about how a reader sees a position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The first tests scored against the 41 positions",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past test event with a specific count.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "She rejected that as the target:",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Completed past rejection, stated as fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "present" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric to be running against",
+      "kind" : "hedge"
+    } ],
+    "why" : "Present evaluation softened by a hedge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "production isn't doing it right",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present stance on production, rendered as question-framed fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present firm judgment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "then do a precision pass over it",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Directive for a future judged-set process, described generally.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "a big model must also take an arm in the exhaustive pool",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Deontic future requirement for the pool; the principal's stance is reported by the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "we want to do by confirmation, not faith",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Stated desire for a future verification approach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "agrees or disagrees with placements",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present concrete review activity; the principal's stance is rendered by the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "everything that might be relevant is being included",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Question about possible inclusion; 'might' suspends realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "It was not; a complement pass over every unpicked frame, judged whole, was added.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past correction, stated as actual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present firm evaluation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "What are you actually missing",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Present question about the gap, framed as an open inquiry.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present general stance on a pattern of practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Concrete present artifact being written.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "isn't our approach in the frame index that the unit of expand is the transaction?",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Present question about the current approach's general structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "present", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "probably too much data",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged present risk assessment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-57",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Recall was re-scored at the unit of expand",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past re-scoring with specific page costs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "recovered 26 to 27 of the 41 positions production had placed",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past measured result.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "By unit of expand, 33 to 37 of 41.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past measured result.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "a two-person call transcript read weakly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present observed state of document types.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "ran away when uncapped and lost calls",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past model behavior.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-62",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "The judged set on three documents found production's targets recover only 5 of 17",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past measured result.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Program spend $1.41 for the recall tests and $3.00 for the judged set.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concrete past spend figures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-64",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "Rolling our own perspective load, the steering portion, makes sense because that's novel.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present judgment; the later continuation is conditional and not counted.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Re-implementing or creating a new database is a generally known stupid thing to do",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present general principle about engineering practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-66",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "was the weak link, each built as a feature without an oracle.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-focused concession about the built system, stated as fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-67",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is complete, benchmark-tuned primitives",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present general claim about engines.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present general diagnosis of a development pattern.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing on the shoulders of giants approach",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Expressed desire for a standing approach over future steps.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-70",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "ask why and really what's different and what we're actually adding",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Directive for future questioning of approaches.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Present assessment of current practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "future", "realis" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the hand-rolled ranker, index and fusion retire if the textbook stack ties or wins on the judged oracle",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Ruled, settled decision whose retirement clause projects a future condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-73",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into `.claude/rules/extend-first.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Completed concrete act, recorded as done.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-74",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Future-deferred plan for the prompt inventory.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-75",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "Whether a real store is needed",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Open future question listed as an item to resolve.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-8", "src-13", "src-22", "src-40", "src-45", "src-48", "src-51", "src-54" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
