@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "target" : null,
+    "label" : null,
+    "why" : "Generic role descriptor, not a person's name; nothing identifies a specific person.",
+    "ai" : false
+  }, {
+    "name" : "Scarlet Dame",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Scarlet Dame",
+    "why" : "No existing actors; a distinct person name not matching the submitter.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "No existing actors; submitted_by person name, minted under the full name.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xena ExpertGH",
+    "why" : "Account email belongs to the person-named submitted_by; minted under the same label as Xena ExpertGH so they land on one node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
