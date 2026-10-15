@@ -1,0 +1,382 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "This memory extends the 2026-10-08 ruling",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a ruling extension as settled; performed ratification-style act.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Scarlet's 2026-10-09 rule",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Cites an operational rule as in force, not as a proposal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "we need to slow down",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive stated firmly, but a call to act rather than a recorded settling; lower of claim/decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think are something that we should be passing off to other sessions yet",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Firm position hedged by an epistemic opener; no ratification performed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I would expect it to be multi-tiered",
+      "kind" : "hedge"
+    } ],
+    "why" : "Question form performing a tentative expectation; exploratory.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "An actor hub wouldn't include everything that that actor said",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged design assertion, moveable with argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I might even go so far as to say",
+      "kind" : "hedge"
+    } ],
+    "why" : "Committed core with hedged edge; claim not notion since the directive is firm.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I want to see the full package and its edges at the navigational fidelity",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Stated preference asserted plainly, not ratified.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what you really don't want to have is dump navigation to file",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Intensified assertion of a design position; firm but argued, not settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "there is no split",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat design fact stated without ratification language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "sounds like a 355 re-extraction would fix almost all of it",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged suggestion about a likely cause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Tentative:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Document marks the proposal as tentative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "or something",
+      "kind" : "hedge"
+    } ],
+    "why" : "Naming suggestion offered loosely and open to replacement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You need steering first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Ordering claim stated plainly with argument following.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Principled assertion with an intensifier; argued, not performed as settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "should probably get ticketed",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged proposal about a follow-up.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Filed as task-767 under the read-path epic.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Recording a filing act; operational settling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I don't think frame plus a selection of statements is ever a good design",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Firm critique framed by an epistemic verb; claim, not decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think that the frame only is unquestionably losing something",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong assertion with intensifier and epistemic opener; lower of claim and decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "our answer is maybe",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly tentative answer to an open question.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "never a sample of three",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Operational never-rule stated as consequence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "that seems like a pretty questionable metric",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged reaction seeking agreement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain first-person judgment, moveable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "do this set with the big models",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive quoted as method; firm but not ratified in this document.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "a big model must also take an arm in the exhaustive pool",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Principal's position rendered by memo author; modal stance reported through another.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "trusting the small models there is something we want to do by confirmation, not faith",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain contrastive assertion, not a performed settling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain evaluative assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I do not understand why builders are constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong critique of a practice; argued, not settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Now a rule in `.claude/rules/llm-calls.md`.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a rule being written; settled act.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "The danger there is probably too much data.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged risk floated.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-64",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think part of our issue",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "makes sense because that's novel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Two-part position with epistemic opener; claim level.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is a generally known stupid thing to do",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Strongly worded but argued position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-66",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the weak link",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Concession stated plainly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-67",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat assertion of scope with reasoning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One of the big shortcomings of AI's development approach generally is the lack of trust of pre-made components",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Strong diagnosis stated plainly; argued.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "over and over and over again",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Repetition signals emphasis, but a wish is expressed; lower of claim and principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-70",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "ask why and really what's different and what we're actually adding",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive stated as a practice to apply, not a ratified rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Blunt critique, plainly asserted.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Ruled consequences, 2026-10-11",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "never recall from steering",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit ruling with operational never-rule; decision-grade.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-73",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The rule is written into",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a rule being committed to the repo.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-74",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "is parked until the design is solid and implemented",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational sequencing decision recorded as in effect.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
