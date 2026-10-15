@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SensorRolloutPlanAndCadence> {
+  <https://aswritten.ai/narrative#Digest_Position_SensorRolloutPlanAndCadence> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SensorRolloutPlanAndCadence> ;
+    narr:childCount "3"^^xsd:integer ;
+    narr:generatedFrom "4a314a6ffabd2feee53e658aaaa3c91ba5956d7a" ;
+    narr:narration """This position holds a single-session rollout plan for the humidity sensors. [Odile's plan](narr:Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_1) sequences all four bays before first frost, with bay two piloting first because it took the worst seedling losses last winter. [Pell's agreement](narr:Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_2) seconds it, and [Pell's cadence spec](narr:Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_3) adds a reporting-interval constraint the plan itself didn't state.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_3> ;
+    narr:keyPhrase [ narr:text "We install humidity sensors in all four greenhouse bays before the first frost. Bay two gets the pilot unit first, because it lost the most seedlings last winter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_1> ] ;
+    narr:keyPhrase [ narr:text "The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_3> ] ;
+    narr:variation [ narr:text "The cadence requirement arrives as an add-on from Pell, not from the plan's author — an unstated constraint the rollout now implicitly carries." ; narr:over <https://aswritten.ai/narrative#Expr_20261015_1_Batch1Greenhouse20261015222221_hfc4263f04bdc_3> ] ;
+    narr:run "d528b6452024" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

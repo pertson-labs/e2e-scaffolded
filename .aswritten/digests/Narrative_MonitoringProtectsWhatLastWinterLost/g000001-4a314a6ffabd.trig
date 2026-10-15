@@ -1,0 +1,17 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_MonitoringProtectsWhatLastWinterLost> {
+  <https://aswritten.ai/narrative#Digest_Narrative_MonitoringProtectsWhatLastWinterLost> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_MonitoringProtectsWhatLastWinterLost> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "4a314a6ffabd2feee53e658aaaa3c91ba5956d7a" ;
+    narr:narration """This narrative holds a single position: [the sensor rollout plan](narr:Position_SensorRolloutPlanAndCadence), which sequences installation of humidity sensors across all four greenhouse bays ahead of the first frost, prioritizes the bay that lost the most seedlings last winter for the pilot unit, and sets a fifteen-minute reporting cadence on the grounds that anything slower misses the overnight drop. The frame asks whether this placement and cadence actually guard against the loss condition that motivated them — the position states the plan but does not yet test it against that condition.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_SensorRolloutPlanAndCadence> ;
+    narr:keyPhrase [ narr:text "Bay two gets the pilot unit first, because it lost the most seedlings last winter." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SensorRolloutPlanAndCadence> ] ;
+    narr:keyPhrase [ narr:text "The sensors report every fifteen minutes; anything slower misses the overnight drop." ; narr:phraseSource <https://aswritten.ai/narrative#Position_SensorRolloutPlanAndCadence> ] ;
+    narr:run "d528b6452024" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
