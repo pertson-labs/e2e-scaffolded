@@ -1,0 +1,158 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-11",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "to the point of steering, not retrieval",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrast set as 'steering, not retrieval' inside a repeated 'we don't want...' / 'We want...' structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "If you list the call with its IRI",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "you list the narratives with IRI",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Two matched clauses ('you list the X with IRI') carry the same structure across call and narrative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "You need steering first, and then you need the recall of the full set of things to consider, and then applying",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Three sequenced beats (steering, recall, applying) built on repeated 'and then' clauses.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "A statement is always support for a direction, not an end in itself.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed roles set in deliberate contrast ('support for a direction, not an end in itself').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "A frame is not designed to be the carrier of meaning.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Negated role contrasted with the affirmed role of the frame in the following sentence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "can you use the frame only to locate whether something is relevant?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A question framed as the thesis to be answered, with the answer presumed by the framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "isn't our entire stance here that production isn't doing it right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Question posed for effect; the asker supplies the answer that the stance is already settled.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "anaphora" ],
+    "evidence" : [ {
+      "quote" : "and have some ambiguous ones noted and have other ones",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Successive 'and have' clauses open the run of directives.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "by confirmation, not faith.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Method set against belief in a deliberate 'X, not Y' contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "If you're using one amp of electricity, the circuit breaker is at 15 amps.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Extended circuit-breaker comparison does the argumentative work of defining output caps as a circuit breaker.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-67",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "What a mature engine adds is",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "what it does not add is the domain decisions",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched 'what it adds / what it does not add' clauses opposing engine scope to domain scope.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "instead of taking the constraints that are proposed to a design task and rolling something new within it",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "a better system would be to slightly change what is specified and leverage the previous work that exists.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Rejected practice ('instead of rolling something new') set against the preferred one ('leverage the previous work') in an 'instead of... when in fact' frame.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "shoulders of giants approach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Recurring signature formula for the standing-on-prior-work rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-72",
+    "regions" : [ "rule-of-three", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "steering stays ours",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "never recall from steering",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Ruled consequences enumerated as semicolon-separated clauses, with the closing 'never recall from steering' as a sharp contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-75",
+    "regions" : [ "short-punchy-cadence" ],
+    "evidence" : [ {
+      "quote" : "The name of the index.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Whether a real store is needed.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Run of clipped fragments listing open items as a terse agenda.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-26", "src-28", "src-29", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-39", "src-40", "src-42", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-70", "src-71", "src-73", "src-74" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
