@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "At close nobody is left to buy them.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues for the two o'clock markdown by reasoning from the closing-time shortfall of buyers, not by authority of position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supports the shelf-card change with a stated purpose rationale; a reasoned justification rather than an appeal to rank or benefit.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
