@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "FerryLateSailingWeekdayVsWeekend",
+    "frame" : "how should the last ferry's departure time be set on weekdays versus weekends, given how many passengers each late sailing actually carries?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Both statements read the same timetable question through observed late-sailing ridership. The weekday statement moves the last sailing earlier because it carries under ten passengers a night. The weekend statement leaves the timetable alone because Friday and Saturday sailings still fill. The two pull in different directions (cut versus keep) but rest on the same demand evidence, so the frame holds both sides without resolving them.",
+    "under" : [ "BranchLibraryHours" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
