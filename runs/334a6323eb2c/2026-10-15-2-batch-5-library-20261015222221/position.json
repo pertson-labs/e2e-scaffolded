@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "TuesdayThursdayHoursTradeoff",
+    "frame" : "how should the branch's Tuesday and Thursday opening hours be set, and what is each shift in the hours meant to serve?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements describe one schedule for the same two days. The earlier opening serves commuters returning books, and the earlier closing keeps staffing flat. Read together, the two shifts balance each other, and each states its own reason. The frame asks how the hours should be set, so it does not assert either answer.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
