@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The river path is where the flats happen.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The public repair stand goes by the river path entrance",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense placement stated as settled fact about named locations; the actual state of the river path and the stand's location is asserted, not proposed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Put the pump on a chain",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Imperative directive aims at a future action on a specific artifact (the pump); the clause 'the last one walked off in a week' is a past realis reason, but the segment's stance is the forward-directed instruction.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
