@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Weekday evenings drew four borrowers in six weeks.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Wren argues from a stated usage count to the schedule's shape, a tactic of evidence-based argument rather than rank or insistence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Then the Saturday shift gets a second volunteer to run returns.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Jun's 'Then' draws the staffing conclusion from Wren's evidence, though the line is also a directive; the inferential link is the more direct witness.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e973b31affd21c709dbe1ec6f1cbbc3e463105e490e2a666d6d70333fbb7332f"
+}
