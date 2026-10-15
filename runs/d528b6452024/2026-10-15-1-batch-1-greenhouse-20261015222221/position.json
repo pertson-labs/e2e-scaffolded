@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SensorRolloutPlanAndCadence",
+    "frame" : "How should the greenhouse humidity sensor rollout be sequenced and timed so it catches the conditions that cost seedlings last winter?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Odile's plan (install in all four bays before first frost, pilot in bay two because of last winter's losses) and Pell's reporting-interval claim (fifteen minutes, to catch the overnight drop) both answer one question: how to set up the rollout so it protects against the earlier loss. Pell's 'Agreed.' ratifies the install plan. The set holds no real tension. The install-and-pilot decision is argued from past loss, and the cadence is argued from its consequence for what the sensors can see."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
