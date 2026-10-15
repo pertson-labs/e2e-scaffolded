@@ -1,0 +1,89 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-37",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "pretty questionable metric",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Mild disapproval, hedged by the tag question; low arousal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "doesn't make any sense to me",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Flat rejection of the premise, delivered without heightened arousal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "that to me is pretty bad.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Negative evaluation stated with restraint; discouragement more than alarm.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "constantly setting output caps",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Exasperation at a recurring practice, marked by 'constantly' and 'I do not understand'.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-65",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "generally known stupid thing to do",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sharp contempt for a practice, with 'stupid' as the marked evaluative word.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-69",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "I'd really like us to far more take a standing",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Energized, positive wish for a method, stressed by 'really' and 'far more'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "We're taking a lot of cowboyism.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Pointed criticism of a pattern, with irritation carried by the word 'cowboyism'.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ExasperationAtReceivedPractice",
+    "title" : "pointed impatience with a practice repeated without a reason",
+    "frame" : "Is the displeasure aimed at a practice the team keeps repeating without checking what it is for?",
+    "regions" : [ "activated-negative" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-6" ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
