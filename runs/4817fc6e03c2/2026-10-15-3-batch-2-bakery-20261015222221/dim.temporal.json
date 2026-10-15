@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Day-old loaves go to half price at two in the afternoon",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "At close nobody is left to buy them",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Future-directed pricing rule stated as settled practice in present-tense generic form; the timing contrast with close reads as an abstract principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the shelf card changes at two as well",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "so the price is never a surprise at the till",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Proposed future change to the shelf card, framed as a planned consequence; the 'never a surprise' clause generalizes to an abstract principle.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "44993c2edcf3815783c6cf8136b73f008c1d3b573756121eae54a387a35bb8cb"
+}
