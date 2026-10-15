@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "RepairStandSitingAndPumpSecurity",
+    "frame" : "where should the public bike repair stand be sited, and what has to be true of its pump for the stand to keep serving the cyclists it is for?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both statements are about making the public repair stand work for riders. src-1 settles the siting question by pointing to where flat tyres actually happen (the river path entrance rather than the car park). src-2 takes the pump as the stand's vulnerable part and asks for it to be chained, citing the last pump disappearing within a week. Read together, the siting and the pump security are two conditions on one provision. They are not in tension, and they come from different speakers: a Parks Officer speaking from position, and a Cycling Club member arguing from precedent. No existing narrative leaf or stratum covers bike repair infrastructure, so no `under` target is proposed.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "3071e6279e044024cd854663c150e6c52d6c19eec38da05858b2652288fa23e9"
+}
