@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Moira Easterbrook",
+    "verdict" : "mint",
+    "label" : "Moira Easterbrook",
+    "why" : "No existing actor named Moira Easterbrook; nothing in the envelope links her to an existing actor.",
+    "ai" : false
+  }, {
+    "name" : "Teo Lindahl",
+    "verdict" : "mint",
+    "label" : "Teo Lindahl",
+    "why" : "No existing actor named Teo Lindahl; nothing in the envelope links him to an existing actor.",
+    "ai" : false
+  }, {
+    "name" : "Xena ExpertGH",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Exact name match with existing actor Xena ExpertGH, who is also the envelope submitter.",
+    "ai" : false
+  }, {
+    "name" : "xena+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_XenaExpertgh",
+    "why" : "Account email belongs to the person-named submitted_by Xena ExpertGH, who is an existing actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "b6bca7a1f4b3361d77fe79339dfa07f4af0b2ebd54c922990bfb7ff5c7d1d134"
+}
