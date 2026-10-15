@@ -1,0 +1,39 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "before the first frost",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Bay two gets the pilot unit first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Installation is a planned future action in present-tense grammar, so the stance is irrealis; the bays and pilot unit are particular referents, so construal is concrete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A bare ratification that settles the present exchange; attention is on the current state of agreement, which is actual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The sensors report every fifteen minutes",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "anything slower misses the overnight drop",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Habitual present describes the actual device behavior, and the second clause states a general principle about any slower interval, so construal is abstract.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "092fe7464cdb821c0c963c7759f1337f6a0e9a78706bdca2c41ac08a12ab44d0"
+}
