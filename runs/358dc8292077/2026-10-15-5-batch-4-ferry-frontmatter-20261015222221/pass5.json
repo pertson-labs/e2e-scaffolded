@@ -1,0 +1,44 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains"
+    },
+    "under" : null,
+    "supporting_positions" : [ "FerryLateSailingWeekdayVsWeekend" ],
+    "why" : "No existing leaf covers ferry service times. The tool library leaf is the nearest, since hours there also follow where users turn up, but it is about a different service and carries a staffing clause. The weekday cut (under ten passengers a night) and the weekend hold (Friday and Saturday still fill) both rest on the same demand evidence, so they form a theme future timetable envelopes can keep feeding. The ridership figures are position-grain evidence, not the leaf itself.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_LastFerryRunsWhereRidersStillFillIt",
+    "title" : "The late sailing is kept where passengers still fill it and pulled earlier where they don't",
+    "frame" : "When the timetable moves a late sailing, what ridership evidence is offered for cutting it or keeping it, and which days does it separate?",
+    "consulted" : [ "Narrative_ToolLibraryHoursFollowBorrowersAndStaffTheShiftThatRemains", "Narrative_BranchHoursServeCommutersWithinFlatStaffing", "Narrative_DayOldBreadSellsBeforeCloseNotAfter", "Narrative_MonitoringProtectsWhatLastWinterLost" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "FerryLastSailing",
+      "type" : "thematic",
+      "title" : "Everything said about when the last ferry leaves on weekdays and weekends, and what ridership says about it",
+      "coordinate" : null,
+      "lineage" : {
+        "relation" : "see",
+        "target" : "BranchLibraryHours"
+      },
+      "nests_in" : null,
+      "why" : "No existing stratum holds ferry timetable content. BranchLibraryHours is the nearest, as it also concerns closing times, but it is about the branch library, so a new thematic stratum is needed."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_LastFerryRunsWhereRidersStillFillIt",
+      "strata" : [ "FerryLastSailing" ],
+      "why" : "The narrative is about the last ferry's timing and the ridership behind it."
+    }, {
+      "member" : "Position_FerryLateSailingWeekdayVsWeekend",
+      "strata" : [ "FerryLastSailing" ],
+      "why" : "The position holds the weekday cut and the weekend hold of the last ferry."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ceed7fdedde730492914ded587840b17f8ea20bc88a1c02d7245890854889917"
+}
