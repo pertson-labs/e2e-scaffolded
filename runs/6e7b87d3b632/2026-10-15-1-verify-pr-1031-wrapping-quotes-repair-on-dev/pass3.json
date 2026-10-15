@@ -1,0 +1,231 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Verdict new: no task-766 node exists in the empty graph, so there is nothing to reconcile."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Verdict new: the 2026-10-08 ruling and memory 2026-10-09-1 have no graph nodes, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Verdict new: no prior node exists for the 2026-10-09 rule, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Verdict new: the 10/08 ruling has no resolvable node, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-6",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-7",
+    "why" : "Verdict new: no node exists for the task-766 ruling, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-8",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-9",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-10",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-11",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-13",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-14",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-15",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-17",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-18",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-19",
+    "why" : "Verdict new: task 355 and its re-extraction have no matching node, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-20",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-21",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-22",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-23",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-24",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-25",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-26",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-27",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-28",
+    "why" : "Verdict new: the read-pass epic has no node, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-29",
+    "why" : "Verdict new: the read-path epic has no resolvable node, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-30",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-31",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-32",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-33",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-34",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-35",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-36",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-37",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-38",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-39",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-40",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-41",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-42",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-43",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-44",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-45",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-46",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-47",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-48",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-49",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-50",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-51",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-52",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-53",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-54",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-55",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-56",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-57",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-58",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-59",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-60",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-61",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-62",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-63",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-64",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-65",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-66",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-67",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-68",
+    "why" : "Verdict new: no 'option zero' node exists, so nothing to reconcile."
+  }, {
+    "segment_id" : "src-69",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-70",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-71",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-72",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-73",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-74",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  }, {
+    "segment_id" : "src-75",
+    "why" : "No referent bound upstream; nothing to reconcile, so it lands as fresh witnessed commentary."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "534a7b3192d82d17764450fd400d49c8896b9bef6919b9804ca0c2db21dbee5d"
+}
